@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="22ac4872-6f49-f3a0-8c06-60e9ad204df5" revision="2" battleScribeVersion="1.13b" name="Deadzone" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="22ac4872-6f49-f3a0-8c06-60e9ad204df5" revision="2" battleScribeVersion="1.14b" name="Deadzone" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
-    <forceType id="b88ebb84-fac3-f836-2a41-21ae61e87b14" name="Strike Team" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+    <forceType id="b88ebb84-fac3-f836-2a41-21ae61e87b14" name="Strike Team" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
-        <category id="1860b4a4-67d9-45c1-fb2f-1a81968aa2a3" name="Leaders" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="1860b4a4-67d9-45c1-fb2f-1a81968aa2a3" name="Leaders" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="142e6dfa-ad15-e928-1a1d-92ebd308c097" name="Troopers" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="142e6dfa-ad15-e928-1a1d-92ebd308c097" name="Troopers" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="5712cd21-599a-d9af-b752-92d30f45d459" name="Specialists" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="5712cd21-599a-d9af-b752-92d30f45d459" name="Specialists" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="142e6dfa-ad15-e928-1a1d-92ebd308c097" incrementField="selections" incrementValue="1.0">
               <conditions/>
@@ -29,7 +29,7 @@
             </modifier>
           </modifiers>
         </category>
-        <category id="ce113886-bad2-1319-59d2-4bfe9c100668" name="Rares" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="ce113886-bad2-1319-59d2-4bfe9c100668" name="Rares" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="142e6dfa-ad15-e928-1a1d-92ebd308c097" incrementField="selections" incrementValue="1.0">
               <conditions/>
@@ -49,7 +49,7 @@
             </modifier>
           </modifiers>
         </category>
-        <category id="91f90674-15b1-a679-63fa-b5654cef5dd2" name="Uniques" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="91f90674-15b1-a679-63fa-b5654cef5dd2" name="Uniques" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="142e6dfa-ad15-e928-1a1d-92ebd308c097" incrementField="selections" incrementValue="1.0">
               <conditions/>
@@ -69,7 +69,7 @@
             </modifier>
           </modifiers>
         </category>
-        <category id="0647f4eb-86b4-632a-017f-ee4961bb33a3" name="Mercenaries" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="0647f4eb-86b4-632a-017f-ee4961bb33a3" name="Mercenaries" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="set" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="142e6dfa-ad15-e928-1a1d-92ebd308c097" incrementField="selections" incrementValue="1.0">
               <conditions/>
@@ -77,13 +77,14 @@
             </modifier>
           </modifiers>
         </category>
-        <category id="382ac68d-930c-494c-ee7a-b92256c34598" name="Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="382ac68d-930c-494c-ee7a-b92256c34598" name="Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="e2f4c446-1241-37d0-ac2d-aab14bcbfef1" name="Battle Cards" minSelections="0" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="e2f4c446-1241-37d0-ac2d-aab14bcbfef1" name="Battle Cards" minSelections="0" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
+      <forceTypes/>
     </forceType>
   </forceTypes>
   <profileTypes>

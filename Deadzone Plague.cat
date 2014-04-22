@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c3177da3-74de-38a2-96f8-c2e177aee3dd" revision="2" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Plague" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c3177da3-74de-38a2-96f8-c2e177aee3dd" revision="3" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Plague" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="23dfee62-716a-599a-8b4e-41837e5656a7" name="Ammo" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -52,6 +52,239 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="9b52965c-2b81-4b02-e4df-677c2537b99b" name="Blaine" points="19.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries>
+        <entry id="4325c6d3-23db-d6e6-0137-9cbc13473d01" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="26b73c9d-c247-cffd-1e91-0003f2b18d77" targetId="e0ef354d-20e1-c1f0-2ac5-437f4c39829f" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="f679878e-3b81-f450-d862-80a81385acfb" targetId="c0a9356d-8cbe-4c97-df47-a2f31bba2816" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d0960416-4677-dbed-e8f8-dac3d8cdc39d" name="Raskan Punch-Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="585d99bc-0055-e4fe-042c-eae953dbb4dc" targetId="8c12d77d-8e4f-f62a-1eb1-564d143dc254" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0098e8dd-d679-0bb5-dc99-6aa5dd5a5b53" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Blaine" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="6+"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="3+"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Sprint"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9234b7f5-9d85-8e2f-1c44-5757735a0eed" targetId="fa325839-62a7-51d4-b6da-50b6d280eec6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4f59bb99-3279-97bf-7c00-50fcaa01a9bb" targetId="9a1b84e0-e594-ce15-6b2c-7c4b7445f99a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2968e14d-4acf-657a-7ca9-b264f02e3390" targetId="fb9996eb-440a-d6ef-3519-2f7b708acd98" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a76e689a-1ba3-5764-30c5-e3db528e8c28" name="Boomer the Grenadier" points="10.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries>
+        <entry id="542cb7d1-e8ed-071a-3360-157ffef67e50" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="90caf4b9-c699-9e2e-fe95-ba6ee203d70e" targetId="e0ef354d-20e1-c1f0-2ac5-437f4c39829f" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="a67e8db2-1ba5-6da5-bf6c-c8a2044a09ae" targetId="c0a9356d-8cbe-4c97-df47-a2f31bba2816" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4616e5c5-cafb-7b74-d969-deaab4d9ba3c" name="Frag Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="e6653220-ce81-7d9e-e833-965cbb8641e0" name="Frag Grenade" hidden="false" page="77">
+              <description>Use Throw Grenade action and Frag ability to determine damage.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="9fa69c8c-1f21-6a4d-de42-bc9378316839" targetId="24b978a9-3a6c-6e86-a14d-187c79af697a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="03ef2aed-69d2-1ceb-c087-edea6f15d1b4" name="Glue Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="7495ebb8-11a4-9040-7f15-1873c20fa2e8" name="Glue Grenade" hidden="false" page="77">
+              <description>Use the Throw Grenade action to determine which cube the Glue Grenade ends up in.
+All models in that cube are marked as activated.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="7498e76d-fec7-2d86-6acf-627216ead8ef" name="Smoke Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="780c5712-ba9a-b088-c80b-f6186aa4d6c2" name="Smoke Grenade" hidden="false" page="78">
+              <description>Use the Throw Grenade action to determine which cube the Smoke Grenade ends up in. The cube is blocked for all LOS. Blaze Away actions targeting the cube are modified by -2. Any adjacent cube on the same or higher level has Shoot and Blaze Away actions targeting it modified by -1. Roll a dice at the end of each Round, on a 5+ the smoke dissipates.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="b0859fae-58b0-20b9-fe43-323c51bda790" targetId="a4c02149-333f-4f7c-9315-60d0d8649d02" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="21a296d6-eea5-4d62-5f65-edddcd1c660c" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Boomer the Grenadier" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="4"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="4+"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="6+"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="6+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Throw Grenade"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="06e94a96-9678-ac93-6d22-6ef06e478269" targetId="07dcc39e-29e1-e9e9-bf95-c08a3c65ccde" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="54140bc9-dcca-f250-2536-c69553d8ebd8" targetId="d335d010-3a7f-9973-13ad-6dc5dbd4475f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="77653106-caca-36b9-c31a-7cd30b885901" targetId="0173f7c3-7462-677c-8e10-892f8dcac1d4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d75ab668-fd68-4a6c-9ac4-937a88bd7b37" targetId="ee0a232a-90e2-bef2-e320-f0b39542cd80" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b2e9ff0d-c822-a00a-1cbd-28ab037955f8" name="Chovar Psychic" points="13.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5c9f3a1a-eb1f-22c3-a236-33b0c1e6f7ed" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Chovar Psychic" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="3"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="-"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="3+-"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="6+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="-"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Any Short Action"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="03c89506-d374-7a20-e8f9-2d10f79c05a1" targetId="e589fbff-26e1-6c17-d08a-625fb4b469e4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="79894524-5d70-cbad-8e31-62b1ed551570" name="Dr. Simmonds" points="11.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries>
+        <entry id="3cd86a9e-ffcd-9713-7906-b19e2488a3ef" name="Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0155366a-081e-daa5-37ac-98863fa95d20" targetId="4b76134a-d6ac-d371-b11d-21cf31b65213" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b922eefe-da72-17f0-823c-bdaf66d21818" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Dr. Simmonds" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="6+"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="5+-"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="-"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="2-1"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Move"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a25b473b-5322-13e1-feef-2ffd38ce8b07" targetId="0b58abf4-54e3-9e92-6f1e-176a2b4d594e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="127d4044-31a5-5ea4-c4b6-67abe9de6e2c" targetId="741a2dc6-fa9f-0d00-d0a1-92db73db1dd4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f929047c-7975-9963-28b7-4aba443baaef" targetId="ed2bc4a9-d4a8-f8a9-7ac2-275b3350f853" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5cbc99af-6868-baa8-b29b-80a6f698fb14" targetId="0173f7c3-7462-677c-8e10-892f8dcac1d4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8d72eba5-b93e-26b4-8860-e2a4d2da880f" name="Frag Grenade" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
         <entry id="ccd2b8bb-b255-3a99-49df-57038012e42e" name="Frag Grenade" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
@@ -72,6 +305,93 @@
       <rules/>
       <profiles/>
       <links/>
+    </entry>
+    <entry id="0a79b86e-a0be-a00d-ad28-23fa86094392" name="Freya" points="9.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries>
+        <entry id="72bc5227-e6dc-e465-e74e-27d1c298969f" name="Hailstorm Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1b0c9016-7d0e-935b-dad6-da4cb511a2e3" targetId="86a35aff-df52-1ae7-6c54-93f1c1ef7a61" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="d3ea2819-d08f-bc62-f460-00459606320b" targetId="db63d024-7c5e-d433-7046-e6ed6a45985d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2894d654-1716-ec81-c486-0509f779864f" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Freya" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="6+"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="6+"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Move"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5492f7e3-5284-f35f-dc44-aa83dcb00d1f" targetId="7689d0d2-dc8b-e792-03d5-daea26df6ea3" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0b1258fd-f763-0a2c-1e66-4d3d67d0ad40" name="Nastanza" points="16.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries>
+        <entry id="5f943f6b-7c19-cb70-fd27-6098dfdc3d5e" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7340f0d3-1fde-91a0-c603-5db7eefc8732" targetId="b0780ccc-a288-1322-730c-1d0a146131b0" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="1d4527b8-3864-0d51-c7ee-9bf9b6b81005" targetId="c0a9356d-8cbe-4c97-df47-a2f31bba2816" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4e57b5fb-1e5c-d705-07cb-0a0f9a7e0b56" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Nastanza" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="3+"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="6+"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="5+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Shoot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e1212f7f-6937-49c1-5f2c-dcce99f39a6f" targetId="4fc97224-3a1d-da2a-1b41-0208773c4851" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aaf423d6-fd59-e0c8-daf1-345b525f4dd8" targetId="b4886658-314a-a366-5832-997d2333f51d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="d0808598-29c8-ed3b-1919-bf91dbb621a3" name="Plague Stage 1A" points="22.0" categoryId="1860b4a4-67d9-45c1-fb2f-1a81968aa2a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -541,278 +861,6 @@
         </link>
       </links>
     </entry>
-    <entry id="9b52965c-2b81-4b02-e4df-677c2537b99b" name="Blaine" points="19.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries>
-        <entry id="4325c6d3-23db-d6e6-0137-9cbc13473d01" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="26b73c9d-c247-cffd-1e91-0003f2b18d77" targetId="e0ef354d-20e1-c1f0-2ac5-437f4c39829f" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="f679878e-3b81-f450-d862-80a81385acfb" targetId="c0a9356d-8cbe-4c97-df47-a2f31bba2816" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d0960416-4677-dbed-e8f8-dac3d8cdc39d" name="Raskan Punch-Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="585d99bc-0055-e4fe-042c-eae953dbb4dc" targetId="8c12d77d-8e4f-f62a-1eb1-564d143dc254" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="0098e8dd-d679-0bb5-dc99-6aa5dd5a5b53" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Blaine" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
-            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
-            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="6+"/>
-            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="3+"/>
-            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
-            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
-            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
-            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Sprint"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="9234b7f5-9d85-8e2f-1c44-5757735a0eed" targetId="fa325839-62a7-51d4-b6da-50b6d280eec6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4f59bb99-3279-97bf-7c00-50fcaa01a9bb" targetId="9a1b84e0-e594-ce15-6b2c-7c4b7445f99a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2968e14d-4acf-657a-7ca9-b264f02e3390" targetId="fb9996eb-440a-d6ef-3519-2f7b708acd98" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a76e689a-1ba3-5764-30c5-e3db528e8c28" name="Boomer the Grenadier" points="10.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries>
-        <entry id="542cb7d1-e8ed-071a-3360-157ffef67e50" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="90caf4b9-c699-9e2e-fe95-ba6ee203d70e" targetId="e0ef354d-20e1-c1f0-2ac5-437f4c39829f" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="a67e8db2-1ba5-6da5-bf6c-c8a2044a09ae" targetId="c0a9356d-8cbe-4c97-df47-a2f31bba2816" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4616e5c5-cafb-7b74-d969-deaab4d9ba3c" name="Frag Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="e6653220-ce81-7d9e-e833-965cbb8641e0" name="Frag Grenade" hidden="false" page="77">
-              <description>Use Throw Grenade action and Frag ability to determine damage.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links>
-            <link id="9fa69c8c-1f21-6a4d-de42-bc9378316839" targetId="24b978a9-3a6c-6e86-a14d-187c79af697a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="03ef2aed-69d2-1ceb-c087-edea6f15d1b4" name="Glue Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="7495ebb8-11a4-9040-7f15-1873c20fa2e8" name="Glue Grenade" hidden="false" page="77">
-              <description>Use the Throw Grenade action to determine which cube the Glue Grenade ends up in.
-All models in that cube are marked as activated.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="7498e76d-fec7-2d86-6acf-627216ead8ef" name="Smoke Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="780c5712-ba9a-b088-c80b-f6186aa4d6c2" name="Smoke Grenade" hidden="false" page="78">
-              <description>Use the Throw Grenade action to determine which cube the Smoke Grenade ends up in. The cube is blocked for all LOS. Blaze Away actions targeting the cube are modified by -2. Any adjacent cube on the same or higher level has Shoot and Blaze Away actions targeting it modified by -1. Roll a dice at the end of each Round, on a 5+ the smoke dissipates.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links>
-            <link id="b0859fae-58b0-20b9-fe43-323c51bda790" targetId="a4c02149-333f-4f7c-9315-60d0d8649d02" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="21a296d6-eea5-4d62-5f65-edddcd1c660c" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Boomer the Grenadier" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
-            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="4"/>
-            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="4+"/>
-            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="6+"/>
-            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="6+"/>
-            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
-            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
-            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Throw Grenade"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="06e94a96-9678-ac93-6d22-6ef06e478269" targetId="07dcc39e-29e1-e9e9-bf95-c08a3c65ccde" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="54140bc9-dcca-f250-2536-c69553d8ebd8" targetId="d335d010-3a7f-9973-13ad-6dc5dbd4475f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="77653106-caca-36b9-c31a-7cd30b885901" targetId="0173f7c3-7462-677c-8e10-892f8dcac1d4" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d75ab668-fd68-4a6c-9ac4-937a88bd7b37" targetId="ee0a232a-90e2-bef2-e320-f0b39542cd80" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b2e9ff0d-c822-a00a-1cbd-28ab037955f8" name="Chovar Psychic" points="13.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="5c9f3a1a-eb1f-22c3-a236-33b0c1e6f7ed" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Chovar Psychic" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
-            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="3"/>
-            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="-"/>
-            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="3+-"/>
-            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="6+"/>
-            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="-"/>
-            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
-            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Any Short Action"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="03c89506-d374-7a20-e8f9-2d10f79c05a1" targetId="e589fbff-26e1-6c17-d08a-625fb4b469e4" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="0a79b86e-a0be-a00d-ad28-23fa86094392" name="Freya" points="9.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries>
-        <entry id="72bc5227-e6dc-e465-e74e-27d1c298969f" name="Hailstorm Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1b0c9016-7d0e-935b-dad6-da4cb511a2e3" targetId="86a35aff-df52-1ae7-6c54-93f1c1ef7a61" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="d3ea2819-d08f-bc62-f460-00459606320b" targetId="db63d024-7c5e-d433-7046-e6ed6a45985d" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2894d654-1716-ec81-c486-0509f779864f" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Freya" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
-            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
-            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="6+"/>
-            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="6+"/>
-            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
-            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
-            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
-            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Move"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="5492f7e3-5284-f35f-dc44-aa83dcb00d1f" targetId="7689d0d2-dc8b-e792-03d5-daea26df6ea3" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="0b1258fd-f763-0a2c-1e66-4d3d67d0ad40" name="Nastanza" points="16.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries>
-        <entry id="5f943f6b-7c19-cb70-fd27-6098dfdc3d5e" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7340f0d3-1fde-91a0-c603-5db7eefc8732" targetId="b0780ccc-a288-1322-730c-1d0a146131b0" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="1d4527b8-3864-0d51-c7ee-9bf9b6b81005" targetId="c0a9356d-8cbe-4c97-df47-a2f31bba2816" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="4e57b5fb-1e5c-d705-07cb-0a0f9a7e0b56" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Nastanza" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
-            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
-            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="3+"/>
-            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="6+"/>
-            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="5+"/>
-            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
-            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
-            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Shoot"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e1212f7f-6937-49c1-5f2c-dcce99f39a6f" targetId="4fc97224-3a1d-da2a-1b41-0208773c4851" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="aaf423d6-fd59-e0c8-daf1-345b525f4dd8" targetId="b4886658-314a-a366-5832-997d2333f51d" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="03cc1a21-f763-e903-ec21-7f43e7f6cccb" name="Project Oberon" points="18.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries>
         <entry id="d19d48ff-21ec-6714-34c1-3990eaa2b914" name="Needler" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
@@ -927,7 +975,7 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="4cdeb702-8620-7b53-0e6b-b2c76626a92d" name="The Survivor" points="19.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="4cdeb702-8620-7b53-0e6b-b2c76626a92d" name="The Survivor" points="14.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries>
         <entry id="2fa05f1a-a31e-efa4-543e-b8fc0d4061fd" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
           <entries/>
@@ -1061,54 +1109,6 @@ All models in that cube are marked as activated.</description>
           <modifiers/>
         </link>
         <link id="4c90f8ad-b014-d23a-ceb2-2d74e3ed9b88" targetId="9e95f3ff-c40e-b86e-e678-32c03b214f54" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="79894524-5d70-cbad-8e31-62b1ed551570" name="Dr. Simmonds" points="11.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries>
-        <entry id="3cd86a9e-ffcd-9713-7906-b19e2488a3ef" name="Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0155366a-081e-daa5-37ac-98863fa95d20" targetId="4b76134a-d6ac-d371-b11d-21cf31b65213" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="b922eefe-da72-17f0-823c-bdaf66d21818" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Dr. Simmonds" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
-            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
-            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="6+"/>
-            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="5+-"/>
-            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
-            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="-"/>
-            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="2-1"/>
-            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Move"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a25b473b-5322-13e1-feef-2ffd38ce8b07" targetId="0b58abf4-54e3-9e92-6f1e-176a2b4d594e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="127d4044-31a5-5ea4-c4b6-67abe9de6e2c" targetId="741a2dc6-fa9f-0d00-d0a1-92db73db1dd4" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f929047c-7975-9963-28b7-4aba443baaef" targetId="ed2bc4a9-d4a8-f8a9-7ac2-275b3350f853" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5cbc99af-6868-baa8-b29b-80a6f698fb14" targetId="0173f7c3-7462-677c-8e10-892f8dcac1d4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1560,6 +1560,15 @@ Opposing models cannot Overwatch against this action.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="c514d809-05dc-8767-f505-4e90a1bb70a5" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Fusion Gauntlet" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Fusion Gauntlet"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="4"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Limited Range, Single Shot, Frag"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="36cb1bf0-0b72-17d8-6834-fb4fd26638f8" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Glue Grenade" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Glue Grenade"/>
@@ -1575,6 +1584,15 @@ Opposing models cannot Overwatch against this action.</description>
         <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="6"/>
         <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
         <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Indirect, Frag, Single Shot"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="86a35aff-df52-1ae7-6c54-93f1c1ef7a61" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Hailstorm Pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Hailstorm Pistol"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="3"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Weight of Fire"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1605,12 +1623,66 @@ Opposing models cannot Overwatch against this action.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="b0780ccc-a288-1322-730c-1d0a146131b0" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Nastanza&apos;s Sniper Rifle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Nastanza&apos;s Sniper Rifle"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="14"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="1"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="66953791-1828-36c8-36a2-2bc50191924a" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Needler" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Needler"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="4"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e0ef354d-20e1-c1f0-2ac5-437f4c39829f" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Pistol"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="3"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="647fc05e-7e4f-7c74-f3f3-82add16ecbf5" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Praetorian Pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Praetorian Pistol"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="4"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="1"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot, It Burns!"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8c12d77d-8e4f-f62a-1eb1-564d143dc254" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Raskan Punch-Blade" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Raskan Punch-Blade"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="F"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="4b76134a-d6ac-d371-b11d-21cf31b65213" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Rifle" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Rifle"/>
         <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="6"/>
         <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
         <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="bd8d744e-a736-e0aa-6515-ba2790e10dbb" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Sawn-Off" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Sawn-Off"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="2"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot, Knockback"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1638,78 +1710,6 @@ Opposing models cannot Overwatch against this action.</description>
         <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="F"/>
         <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="1"/>
         <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="-"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="c514d809-05dc-8767-f505-4e90a1bb70a5" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Fusion Gauntlet" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Fusion Gauntlet"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="4"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Limited Range, Single Shot, Frag"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="e0ef354d-20e1-c1f0-2ac5-437f4c39829f" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Pistol" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Pistol"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="3"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="86a35aff-df52-1ae7-6c54-93f1c1ef7a61" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Hailstorm Pistol" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Hailstorm Pistol"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="3"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Weight of Fire"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="b0780ccc-a288-1322-730c-1d0a146131b0" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Nastanza&apos;s Sniper Rifle" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Nastanza&apos;s Sniper Rifle"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="14"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="1"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="66953791-1828-36c8-36a2-2bc50191924a" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Needler" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Needler"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="4"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="647fc05e-7e4f-7c74-f3f3-82add16ecbf5" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Praetorian Pistol" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Praetorian Pistol"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="4"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="1"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot, It Burns!"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="8c12d77d-8e4f-f62a-1eb1-564d143dc254" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Raskan Punch-Blade" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Raskan Punch-Blade"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="F"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="-"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="bd8d744e-a736-e0aa-6515-ba2790e10dbb" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Sawn-Off" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Sawn-Off"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="2"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot, Knockback"/>
       </characteristics>
       <modifiers/>
     </profile>

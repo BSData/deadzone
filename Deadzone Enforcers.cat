@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80784f6e-e299-0337-e18a-7dac04b0da5c" revision="3" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Enforcers" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80784f6e-e299-0337-e18a-7dac04b0da5c" revision="4" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Enforcers" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ba457c9a-a942-bdf9-b143-f27b3f648cda" name="Ammo" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>
@@ -1836,7 +1836,7 @@ If a model explodes as a result of this ability then they cannot be revived by a
       <modifiers/>
     </rule>
     <rule id="4ffc24f1-29b1-8841-a624-4a17436ff77b" name="Construct" hidden="false" page="68">
-      <description>The model’s Aggression stat is Alert and cannot be changed.</description>
+      <description>The model’s Aggression state is Alert and cannot be changed.</description>
       <modifiers/>
     </rule>
     <rule id="9a009789-1cb2-07e5-e6d7-875b22e6ad2e" name="Defender Shield" hidden="false" page="0">
@@ -1931,7 +1931,7 @@ Survival roll gets +1 per friendly model in the same cube.</description>
       <modifiers/>
     </rule>
     <rule id="e589f6e3-3837-4036-1e76-c585267ba58d" name="Medic" hidden="false" page="71">
-      <description>Long action. Remove one level of damage from a living model in the same cube as long as there are no enemy models in that cube.</description>
+      <description>Long action. Remove one level of damage from a living model in the same cube as long as there are no enemy models in that cube. Doesn&apos;t work on Constructs or Vehicles.</description>
       <modifiers/>
     </rule>
     <rule id="23970546-2fde-eb94-5a6f-ae123297e104" name="Mutant" hidden="false" page="71">
@@ -2055,6 +2055,27 @@ Opposing models cannot Overwatch against this action.</description>
     </rule>
     <rule id="7ef37aff-21d6-84bd-e3cc-c693d3d28335" name="Weight of Fire" hidden="false" page="75">
       <description>Model gains +1 dice to Blaze Away actions.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a112c860-9d7f-3191-d2a6-5e5a533bc982" name="CSW" hidden="false" page="0">
+      <description>Cannot pick up, carry or use items. Both gunner and loader have identical stats, but are treated as seperate models. One activation activates both models, both can make seperate actions. Onlty gunner can fire the weapon, if the loader is pinned/suppressed/dead the weapon gets the Long Reload and Slow rules. Reload counters are not removed by the loader moving back into base contact. If the gunner is killled with the loader in base-to base, the loader picks up the weapon.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7c3fdfca-35f0-13c6-d747-cf5798c2687d" name="Indirect" hidden="false" page="0">
+      <description>If the model has Vehicle or CSW, this weapon may only be fired indirectly.
+Indirect action is identical to a Throw Grenade action, but cannot be used on the first Turn, can be used to attack models out of LoS (as long as they are viisble from directly above their cube), cannot Aim, and cannot target anything under half of the listed Range.</description>
+      <modifiers/>
+    </rule>
+    <rule id="93e830da-1c5c-89c6-e68f-090d13764e04" name="Long Reload" hidden="false" page="0">
+      <description>After the weapon fires, add a Reload counter. Model cannot fire while counter is in place, reload counter takes a long action to remove.</description>
+      <modifiers/>
+    </rule>
+    <rule id="afb7cb1a-3224-836b-9243-53093772739a" name="Non-Combatant" hidden="false" page="0">
+      <description>Model cannot use any weapon, and can only choose to use Survive when attacked with a Fight action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1cfe4216-bccf-c166-3cc1-fd62c7278eb6" name="Vehicle" hidden="false" page="0">
+      <description>The model’s Aggression state is Alert and cannot be changed. Cannot pick up, carry or use items. Number in brackets indicates how much damage the model can take before destruction. Can only move up or down levels via ramps. Cannot be moved into another cube by any attack. When destroyed, leave the wreck on the table as cover-providing terrain.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -2217,7 +2238,7 @@ Opposing models cannot Overwatch against this action.</description>
         <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Sentry Gun"/>
         <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="8"/>
         <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Rapid Fire, Weight of Fire, Deployable, Sentry"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Rapid Fire, Weight of Fire, Deployable, Sentry, Shoot 5+"/>
       </characteristics>
       <modifiers/>
     </profile>

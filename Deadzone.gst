@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="22ac4872-6f49-f3a0-8c06-60e9ad204df5" revision="2" battleScribeVersion="1.14b" name="Deadzone" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="22ac4872-6f49-f3a0-8c06-60e9ad204df5" revision="3" battleScribeVersion="1.14b" name="Deadzone" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="b88ebb84-fac3-f836-2a41-21ae61e87b14" name="Strike Team" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -98,6 +98,19 @@
         <characteristic id="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour"/>
         <characteristic id="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command"/>
         <characteristic id="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch"/>
+      </characteristics>
+    </profileType>
+    <profileType id="6dd0e601-f1a8-3c20-6cd0-49c1b2afaf6e" name="Vehicle">
+      <characteristics>
+        <characteristic id="6dd0e601-f1a8-3c20-6cd0-49c1b2afaf6e" name="Type"/>
+        <characteristic id="f757c6b0-4d14-dbd4-b998-f6ee28b2b173" name="HP"/>
+        <characteristic id="0eb64d72-9aa9-08b2-2e5e-1d2c3954d359" name="Size"/>
+        <characteristic id="ba3eb6b2-c72a-6b97-63b8-82a3fdee5513" name="Shoot"/>
+        <characteristic id="e587826d-deb1-9284-d6fb-bffea1c1b2fa" name="Fight"/>
+        <characteristic id="a07be8e2-cc06-05dc-e841-7200d9701094" name="Survive"/>
+        <characteristic id="552ff6a1-1d69-3015-dd19-8becc2c94096" name="Armour"/>
+        <characteristic id="5e32f65c-c30a-5e06-d571-2acd22c9d010" name="Command"/>
+        <characteristic id="1e14491d-bfcd-fcc7-c8ad-4a918314cd47" name="Overwatch"/>
       </characteristics>
     </profileType>
     <profileType id="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Weapon">

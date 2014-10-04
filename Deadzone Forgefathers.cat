@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88de4b64-fab6-bb26-eb57-666bd550bb7f" revision="7" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Forgefathers" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="88de4b64-fab6-bb26-eb57-666bd550bb7f" revision="9" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Forgefathers" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0d4efd09-ac9d-be7a-8a40-8691779b99b6" name="&apos;Nutcracker&apos; Inferno Drill" points="10.0" categoryId="ce113886-bad2-1319-59d2-4bfe9c100668" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -365,7 +365,30 @@ All models in that cube are marked as activated.</description>
       </links>
     </entry>
     <entry id="9531e557-e04a-9dc2-b47b-a891ce678318" name="Forge Guard with Autocannon" points="19.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
+      <entries>
+        <entry id="db9f0d95-1aa2-a654-428d-8464a45cc4d3" name="Autocannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="fce706b3-67d3-89a8-8924-78bda7dc5edd" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Autocannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Autocannon"/>
+                <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="8"/>
+                <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
+                <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Firestorm"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="ef217370-47b8-fad4-1c6c-bca549f6a24a" targetId="b3c615a2-a356-b814-2b87-1e93325ae9c3" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -384,7 +407,20 @@ All models in that cube are marked as activated.</description>
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="6e66b936-86b0-ccd5-3ac9-42ef981fcacc" targetId="b650a852-4e80-6ece-c63b-64de107a26c6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="904c8456-c922-431e-aac9-4548ac260c3c" targetId="3e405e36-943c-b0b0-2da1-e3476fad8a8d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5cfad9c7-bee3-86ca-b251-daf53c32d51e" targetId="b9e2fd86-442f-6e3c-66af-397af990a3ec" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aab58af6-bb1c-8a55-b4ef-5add016fab8c" targetId="02e06295-bcb7-28ca-c601-6b4c354944ef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="cf6f1bb3-83c6-34ba-bbd9-3ea79f1f4a7f" name="Forge Guard with Hailstorm Rifle" points="18.0" categoryId="142e6dfa-ad15-e928-1a1d-92ebd308c097" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -406,10 +442,52 @@ All models in that cube are marked as activated.</description>
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="60d86780-ac59-ed86-9282-fea48ec4247f" targetId="02e06295-bcb7-28ca-c601-6b4c354944ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6bef3c52-958a-e13e-eede-d7bae23242c2" targetId="3e405e36-943c-b0b0-2da1-e3476fad8a8d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e2e62ba-d2f7-85c8-0f6e-f569ca5b53dd" targetId="b9e2fd86-442f-6e3c-66af-397af990a3ec" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d42c754d-0528-e5a6-4af1-a74f9878f232" targetId="b650a852-4e80-6ece-c63b-64de107a26c6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="58cffab0-80a9-15bd-4573-c552001d560d" targetId="24313b92-8a6e-2292-45b4-f884e694073d" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="0c80f65a-6137-995a-e5b5-78538772d4fa" name="Forge Guard with Magma Cannon" points="20.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
+      <entries>
+        <entry id="cdd6d8f6-31a1-347f-f4f7-bb8239535bdd" name="Magma Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="fc0f4fec-40ba-d3d6-eb40-0b6443770c8c" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Magma Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Magma Cannon"/>
+                <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="5"/>
+                <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="4"/>
+                <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot, It Burns!"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="835a7e04-13f1-331b-765c-ab9e6a722bec" targetId="636ec965-8902-c151-b76e-b1c53ea2332a" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="f1889631-0119-9410-efd1-2cdd0fae36aa" targetId="85ff960c-b2c5-3ff6-d08e-579e71b7bd29" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -428,10 +506,49 @@ All models in that cube are marked as activated.</description>
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="1b7928af-c4d6-4a8f-31f4-71d420e88c78" targetId="b650a852-4e80-6ece-c63b-64de107a26c6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cdb1eb77-ae40-a8dc-b593-59e2bbf05fcc" targetId="3e405e36-943c-b0b0-2da1-e3476fad8a8d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0589fee3-68a2-8236-2ba9-9dfcd30434ad" targetId="b9e2fd86-442f-6e3c-66af-397af990a3ec" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="51d42cd0-eb79-f491-86c1-d761af357b99" targetId="02e06295-bcb7-28ca-c601-6b4c354944ef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="e4ad56d0-3dab-cde3-f2a2-72ff5c884652" name="Forge Guard with Missile Launcher" points="21.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
+      <entries>
+        <entry id="b24159e2-9844-3d85-45cd-b20025bc0a9a" name="Missile Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d048d1cb-6da3-7dad-3a86-4d9eefa7907f" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Missile Launcher" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Missile Launcher"/>
+                <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="10"/>
+                <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="4"/>
+                <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Deliberate, Irresitible"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="16f8204f-1f3a-f8f4-b761-711b9d52ceac" targetId="7d929d73-55a3-c048-a04c-81acb764027e" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="6a2f2396-a887-6a82-9847-c76addaebfe6" targetId="32fc334c-c943-b01c-88b8-324185f4fe23" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -450,7 +567,23 @@ All models in that cube are marked as activated.</description>
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="5fb78b4d-5cf2-47e3-6257-f3d032fa5104" targetId="b650a852-4e80-6ece-c63b-64de107a26c6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="eb48c801-8de8-f524-1685-e1935dad17ca" targetId="3e405e36-943c-b0b0-2da1-e3476fad8a8d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fe0442dd-f69b-dc14-ac72-824442b129f4" targetId="b9e2fd86-442f-6e3c-66af-397af990a3ec" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9b541869-b03f-8b0b-1b91-38aae2cbf23e" targetId="02e06295-bcb7-28ca-c601-6b4c354944ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e2e5fb0-b65a-6538-36ff-f9ec1f11d41b" targetId="24313b92-8a6e-2292-45b4-f884e694073d" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="c97e01c5-9225-e2e7-f91b-3fe53a87caa0" name="Frag Grenade" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
@@ -961,7 +1094,7 @@ All models in that cube are marked as activated.</description>
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="c4232530-1419-6230-ef4b-331f9fb4afd4" name="Burst Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c4232530-1419-6230-ef4b-331f9fb4afd4" name="Burst Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -996,6 +1129,28 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
+    <entry id="b650a852-4e80-6ece-c63b-64de107a26c6" name="Forge Hammer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="17fd2c24-4cb0-0151-2460-ebc1423fcdef" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Forge Hammer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Forge Hammer"/>
+            <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="F"/>
+            <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
+            <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Knockback"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0d3188e5-bcb7-c7b8-817b-8c607c48b237" targetId="727eba88-761b-c0fe-47df-ea9b3bf2884d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="25288a72-f280-2993-e7fb-29c4393c53d9" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="77">
       <entries/>
       <entryGroups/>
@@ -1027,6 +1182,28 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links>
         <link id="6ea99d93-a91b-2110-d09d-12c6faf3182b" targetId="d7095e54-86ac-07a7-cca4-338c60975b7b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="24313b92-8a6e-2292-45b4-f884e694073d" name="Hailstorm Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cf04d230-4de6-79e2-13e2-185b74496c72" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Hailstorm Rifle" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Hailstorm Rifle"/>
+            <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="6"/>
+            <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
+            <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Weight of Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="04657682-5abb-bddd-c62e-63c3fc4023ee" targetId="2ad89929-c012-70e7-01ab-a4c9c56625d3" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1253,6 +1430,12 @@ Survival roll gets +1 per friendly model in the same cube.</description>
     </rule>
     <rule id="727eba88-761b-c0fe-47df-ea9b3bf2884d" name="Knockback" hidden="false" page="71">
       <description>Resolve the attack as normal. Then, if the target did not double the attacker the target is moved one cube directly away from the attacker. Target loses 1 Aggression.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3e405e36-943c-b0b0-2da1-e3476fad8a8d" name="Life Support" hidden="false">
+      <description>The individual has an in-built automated Life Support system designed to keep them alive even when gravely wounded . If the model is injured, but not killed, by an attack then the Life Support automatically kicks into overdrive . The model is immediately returned to an undamaged state . This happens automatically and does not cost an action . This works once per battle.
+
+Life Support cannot be used to resurrect models that have been killed outright by a single attack . Also note that Life Support only works on the model itself and cannot be used on nearby models (unlike a medi-pack) .</description>
       <modifiers/>
     </rule>
     <rule id="e050b9ce-cac1-c98c-c52d-e4297603562d" name="Limited Range" hidden="false" page="71">

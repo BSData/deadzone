@@ -1014,6 +1014,64 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
+    <entry id="2e8384f0-2332-1afa-70de-0073b8fa875f" name="Recon Drone" points="4.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="a5c41a90-0955-aeca-f77d-e4687c103b44" name="Electro Shock" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="42b079b4-eca1-5b35-4327-419d4d55c838" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Electro Shock" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Electro-Shock"/>
+                <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="F"/>
+                <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
+                <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Knockback"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="ab7fbb9d-1d1f-c38b-8474-042538557ef4" targetId="e38c3c76-74f6-eaed-fe77-b70ad6d81866" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d8d944ac-8e33-6c71-7564-503c0cbf1404" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Recon Drone" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Specialist"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="-"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="6+"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="-"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="-"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Move"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c71565e3-f948-9d67-6943-45f9edb1db80" targetId="45e6f1b7-db05-8e69-6e7c-4f7e6e3003dc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fcdc0508-caaf-5159-e1fc-b471c61d65d8" targetId="ce60b34e-6719-693c-192e-c592089580ca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="26bb80ba-1772-5fc5-19f0-d3ebda8b0e39" targetId="f8104c2f-bb8f-ade0-9387-dda3978edebd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e2620962-1e3c-91d8-9610-08b047f97083" targetId="c38d700e-5bde-2a0b-b489-5be68e134073" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="96d733fd-53fa-4623-97fa-766a27bebede" name="Recon Unit N32-19" points="12.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
         <entry id="6f382f50-3801-2a2e-8970-da49e0516291" name="Tag Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -1096,7 +1154,7 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="b7cf6013-f4ad-c5fb-4b1c-e6023455fca7" name="Sergeant Howlett" points="17.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b7cf6013-f4ad-c5fb-4b1c-e6023455fca7" name="Sergeant Howlett" points="17.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="24a7cebf-3936-bb1c-f4f5-f0670551a8da" name="Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1120,7 +1178,21 @@ All models in that cube are marked as activated.</description>
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="f344df8b-2d5e-66e8-5bef-3f49a8ec1a22" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Sergeant Howlett" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Unique"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="5+"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="4+"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="3+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="2"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="2-1"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Move"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="9eeefccd-b822-becd-3b05-b994ac29f1b6" targetId="836a48e9-29f4-b66b-4c40-e4254ffa42be" linkType="rule">
           <modifiers/>
@@ -1689,6 +1761,10 @@ Any attacks that trace a LOS across that side of the cube count the model holdin
       <description>Shoot, Blaze Away and Throw are long actions for this weapon.</description>
       <modifiers/>
     </rule>
+    <rule id="45e6f1b7-db05-8e69-6e7c-4f7e6e3003dc" name="Difficult Target" hidden="false" book="Incursion" page="38">
+      <description>The model is very small, agile and hard to hit . The model gets +2 dice to Survive tests in addition to any other modifiers that apply.</description>
+      <modifiers/>
+    </rule>
     <rule id="f94fc681-b085-0afd-653b-6685dbdc5ebf" name="Discipline" hidden="false" page="68">
       <description>When this model takes a Get Mean! action it may choose to raise or lower its Aggression by one step.</description>
       <modifiers/>
@@ -1790,6 +1866,10 @@ Survival roll gets +1 per friendly model in the same cube.</description>
     </rule>
     <rule id="afb7cb1a-3224-836b-9243-53093772739a" name="Non-Combatant" hidden="false" page="0">
       <description>Model cannot use any weapon, and can only choose to use Survive when attacked with a Fight action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ce60b34e-6719-693c-192e-c592089580ca" name="Observer" hidden="false" book="Incursion" page="39">
+      <description>An Observer scans items rather than picking them up and so will not trigger Booby Traps. Instead it treats objectives and items the same way, secretly looking at the hidden side of any such counters in any cube it moves through and then replacing them face down. This allows the owner to use the Observer in a recon role.</description>
       <modifiers/>
     </rule>
     <rule id="0bd05445-18a2-8996-0323-cc9ef2fdd113" name="One-use" hidden="false" page="71">

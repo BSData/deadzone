@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80784f6e-e299-0337-e18a-7dac04b0da5c" revision="4" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Enforcers" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80784f6e-e299-0337-e18a-7dac04b0da5c" revision="5" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Enforcers" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="ba457c9a-a942-bdf9-b143-f27b3f648cda" name="Ammo" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="ba457c9a-a942-bdf9-b143-f27b3f648cda" name="Ammo" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="068ecf70-351a-e61f-828a-28320a23e236" name="Ammo" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="068ecf70-351a-e61f-828a-28320a23e236" name="Ammo" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -18,9 +18,9 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="ab870d00-2c75-829c-55da-89aeeddc0062" name="AP Ammo" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="ab870d00-2c75-829c-55da-89aeeddc0062" name="AP Ammo" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="ff3a5885-f3b8-711e-1c08-16ba46380079" name="Ammo" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="ff3a5885-f3b8-711e-1c08-16ba46380079" name="Ammo" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -35,48 +35,8 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="2f5ac381-2917-4d38-8697-deef7a5ba72c" name="Assault Enforcer" points="10.0" categoryId="142e6dfa-ad15-e928-1a1d-92ebd308c097" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-      <entries>
-        <entry id="9d4a0875-cbdd-e787-6a70-64d4362d2432" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f6bebcca-6a9a-d62b-0075-75f3b8cbaeb1" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="5709d864-2947-e765-55e3-9d78382f941c" name="Wristblade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="955d15c2-ecbb-0a49-3e58-990e0f5496f5" targetId="6aea3b68-fcf8-1b59-80c6-86948427e354" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="90a2e9c1-c8d3-622e-f82c-86862eb9fe19" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="89c9f1bd-3d59-454a-7aa1-de7c3b288a7f" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="b89c87b3-36fe-fb05-4d64-47e4d7745e87" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entry id="2f5ac381-2917-4d38-8697-deef7a5ba72c" name="Assault Enforcer" points="10.0" categoryId="142e6dfa-ad15-e928-1a1d-92ebd308c097" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -102,11 +62,20 @@
         <link id="f656f399-341d-62e2-7902-aff861023337" targetId="3e75c41d-b330-eae2-4716-638111c80d1d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="2b416204-b095-447c-38dc-efba07da585e" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="53c28f14-c816-42dc-2193-f6974692a8e2" targetId="9b0131f6-39a4-50ac-4b2d-f451ef884cc0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9953d053-306d-9a42-7ac5-a546dd25dbe6" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="834b06a1-74f3-a5f7-1cbd-3d79cd64ddb5" name="Battle Card" points="0.0" categoryId="e2f4c446-1241-37d0-ac2d-aab14bcbfef1" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="834b06a1-74f3-a5f7-1cbd-3d79cd64ddb5" name="Battle Card" points="0.0" categoryId="e2f4c446-1241-37d0-ac2d-aab14bcbfef1" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="d9a30778-20c9-3a13-b90f-aa85bdde4053" name="Battle Card" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="d9a30778-20c9-3a13-b90f-aa85bdde4053" name="Battle Card" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -121,24 +90,9 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="0f2559fe-c0b8-bd84-d28b-c3dd43f6744e" name="Blaine" points="19.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="0f2559fe-c0b8-bd84-d28b-c3dd43f6744e" name="Blaine" points="19.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="09a48fe6-401b-7624-4cb1-2f505b5ed870" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e235bc0e-1107-394f-1fec-9daa13420baa" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="03579330-1506-969c-e73b-5396fcef5183" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="760436f3-a43f-b31b-596f-f366b1534676" name="Raskan Punch-Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="760436f3-a43f-b31b-596f-f366b1534676" name="Raskan Punch-Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -179,26 +133,14 @@
         <link id="3984b14e-4813-91d6-bc97-b6d2e9593096" targetId="3e75c41d-b330-eae2-4716-638111c80d1d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="7f59f6e6-cb05-d9c7-4d0d-848ec01a09f1" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="c651f678-9801-c44e-6f60-6a374be0360e" name="Boomer the Grenadier" points="10.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="c651f678-9801-c44e-6f60-6a374be0360e" name="Boomer the Grenadier" points="10.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="029b7f8f-d2b5-e5fb-7545-28485ac45ac7" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9e2c68df-432a-53e4-9830-fe9eeb7496a8" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="0813db93-9d29-aeea-8447-ff4c05658790" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="5961f627-bbd1-c336-cddd-356c95f6222d" name="Frag Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="5961f627-bbd1-c336-cddd-356c95f6222d" name="Frag Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -215,7 +157,7 @@
             </link>
           </links>
         </entry>
-        <entry id="1d3278c2-75c7-acc5-8a8f-4622c6054ad9" name="Glue Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="1d3278c2-75c7-acc5-8a8f-4622c6054ad9" name="Glue Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -229,7 +171,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="860e6de0-6390-bd3b-3456-f78cdfb19110" name="Smoke Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="860e6de0-6390-bd3b-3456-f78cdfb19110" name="Smoke Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -278,9 +220,12 @@ All models in that cube are marked as activated.</description>
         <link id="17fc798c-f6e0-59eb-5c45-156ab29decc5" targetId="11fcd74d-a317-c982-f496-ae6f68010d48" linkType="rule">
           <modifiers/>
         </link>
+        <link id="cbe138ec-bbd2-bb98-a90e-76f457fa3104" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="ffae3626-f064-43e5-49f5-ff751b407b49" name="Chovar Psychic" points="13.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="ffae3626-f064-43e5-49f5-ff751b407b49" name="Chovar Psychic" points="13.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -306,9 +251,9 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="18962dd1-69b7-730a-df32-c86c66e84566" name="Enforcer" points="10.0" categoryId="142e6dfa-ad15-e928-1a1d-92ebd308c097" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="18962dd1-69b7-730a-df32-c86c66e84566" name="Enforcer" points="10.0" categoryId="142e6dfa-ad15-e928-1a1d-92ebd308c097" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="9d67316c-8c80-c55f-ee9d-2389527fc720" name="Heavy Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="9d67316c-8c80-c55f-ee9d-2389527fc720" name="Heavy Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -319,18 +264,6 @@ All models in that cube are marked as activated.</description>
               <modifiers/>
             </link>
             <link id="1a700962-754e-3f6b-a454-5ad94eb09f60" targetId="7ef37aff-21d6-84bd-e3cc-c693d3d28335" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="42f68dd8-85a6-8bd3-0cf5-c694addc9719" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="375315e4-e956-4909-c669-2a33f0e7fbae" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -358,11 +291,14 @@ All models in that cube are marked as activated.</description>
         <link id="125d66db-a0c5-05e7-132f-776559463dc5" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="4ad76d40-fb54-5bba-10e5-82b4c4b75b43" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="ff1d1bc9-cbe7-e8ea-c08f-8a37315fa6c4" name="Enforcer Defender" points="12.0" categoryId="142e6dfa-ad15-e928-1a1d-92ebd308c097" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="ff1d1bc9-cbe7-e8ea-c08f-8a37315fa6c4" name="Enforcer Defender" points="12.0" categoryId="142e6dfa-ad15-e928-1a1d-92ebd308c097" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="302369af-5bf2-bc1c-ebf7-e292f8cf01ee" name="Combat Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="302369af-5bf2-bc1c-ebf7-e292f8cf01ee" name="Combat Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -380,19 +316,7 @@ All models in that cube are marked as activated.</description>
             </link>
           </links>
         </entry>
-        <entry id="f3ab1ff8-95b1-a86d-2fb3-4574e2b9cf51" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7f95956c-9e2b-fd02-8796-7a5d5bc4bb73" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="8702e64d-11f7-bdc2-4858-c890a07eceac" name="Defender Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="8702e64d-11f7-bdc2-4858-c890a07eceac" name="Defender Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -427,11 +351,14 @@ All models in that cube are marked as activated.</description>
         <link id="d2787cf5-40be-589e-356d-1866e0852e0f" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="4ec20b18-5287-e022-1b15-416685a32b94" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="80f51ff8-03ec-92a6-dcfd-e87068f94960" name="Enforcer Engineer" points="10.0" categoryId="ce113886-bad2-1319-59d2-4bfe9c100668" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="80f51ff8-03ec-92a6-dcfd-e87068f94960" name="Enforcer Engineer" points="10.0" categoryId="ce113886-bad2-1319-59d2-4bfe9c100668" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="67d68aff-7a7b-1799-8c0a-40118fba5602" name="Heavy Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="67d68aff-7a7b-1799-8c0a-40118fba5602" name="Heavy Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -442,18 +369,6 @@ All models in that cube are marked as activated.</description>
               <modifiers/>
             </link>
             <link id="e1900c47-fe43-fdc4-99a3-dbb8afce866f" targetId="7ef37aff-21d6-84bd-e3cc-c693d3d28335" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4491e59c-cfa4-e08e-2bda-f1966f898248" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a6ae8cbc-b880-8e89-895a-bff8f815021b" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -484,11 +399,14 @@ All models in that cube are marked as activated.</description>
         <link id="c5ce9741-7de9-d332-d8a4-c0a2a907938a" targetId="e484f1f5-5224-e078-bdcf-4d3f21a2e22b" linkType="rule">
           <modifiers/>
         </link>
+        <link id="be95342a-3702-1ea1-224b-6cbb3495ef0d" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="1431a7ff-501d-d68b-5050-22c2a3e72c1a" name="Enforcer Incinerator" points="11.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="1431a7ff-501d-d68b-5050-22c2a3e72c1a" name="Enforcer Incinerator" points="11.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="1e746b8a-44e3-ea6d-ff51-29190832f9f8" name="Incinerator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="1e746b8a-44e3-ea6d-ff51-29190832f9f8" name="Incinerator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -505,33 +423,6 @@ All models in that cube are marked as activated.</description>
               <modifiers/>
             </link>
             <link id="7c787be7-4fe2-4565-6ba7-3c7918ea2257" targetId="37722ee6-1d7a-8a47-a869-eb694301b386" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="b5897ac5-4eec-aa23-45af-a88480e285b6" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="42f4b0f2-cf30-d456-a5e6-7fa8e2bbd9b9" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="b0fa936e-c1fe-b194-fcfc-7ffff80f3810" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="36d3417a-d29e-aab4-1ff9-3244aa42dac1" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="078596bf-7ca3-5653-1615-fcb13cf674bd" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -559,38 +450,16 @@ All models in that cube are marked as activated.</description>
         <link id="6645d46e-82e3-b2f0-342a-261a52097a44" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="e14839bd-6b99-61a5-9a61-555c04285696" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a5ff817b-da65-4ee7-3d52-668df8b97c46" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="ffb75f0f-3223-9129-e605-f8700cd8920a" name="Enforcer Medic" points="13.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-      <entries>
-        <entry id="ab56cac2-87e9-d599-9c90-6807a82733bc" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d5c9576a-9f1f-5f0f-7668-5a2c090c155a" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4277b055-ccf4-9c05-10a6-d03d5ba2d12e" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5c0745e6-7bb8-233a-dd3d-0c12ece810de" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="d1407e02-c289-beb8-811d-b4b06f8f7c9a" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entry id="ffb75f0f-3223-9129-e605-f8700cd8920a" name="Enforcer Medic" points="13.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -616,38 +485,17 @@ All models in that cube are marked as activated.</description>
         <link id="f1173437-55b5-463f-b472-07f0a54a593d" targetId="e589f6e3-3837-4036-1e76-c585267ba58d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="05845320-248b-b4fa-b202-2a8587f70e88" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4ec6b56e-2e1b-c844-c576-93ee4738d952" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="0f4b7aa4-4c61-ebfe-7e29-b4ab81f2db4d" name="Enforcer Sergeant" points="15.0" categoryId="1860b4a4-67d9-45c1-fb2f-1a81968aa2a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="0f4b7aa4-4c61-ebfe-7e29-b4ab81f2db4d" name="Enforcer Sergeant" points="15.0" categoryId="1860b4a4-67d9-45c1-fb2f-1a81968aa2a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="f6dbe2dc-fe39-45c1-d7ac-1ccb9c0a4355" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d0039145-bbd9-c1ca-d8d0-64ab4c828abc" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="44277bdb-e285-7171-cc24-7513e0c0e339" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="ea43ae2b-1821-c3dd-36ae-bf33fa7c7081" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="786104c0-0658-7c6a-605c-4fe74d340066" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="f7507312-ba01-38b3-ebd5-2d57b8c5bc50" name="Energy Gauntlet" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="f7507312-ba01-38b3-ebd5-2d57b8c5bc50" name="Energy Gauntlet" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -685,11 +533,17 @@ All models in that cube are marked as activated.</description>
         <link id="6a150272-a8cd-5e90-4517-8d6005e6e5de" targetId="ae171539-5c81-4a83-9a09-1843ba542aa7" linkType="rule">
           <modifiers/>
         </link>
+        <link id="e6e449a6-e713-b40b-9ac2-2f0f61e2f6bc" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="bc515a12-f216-399e-9205-7161ab26de8e" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="c7d17f68-968d-a2d7-5a85-bc0e784688b9" name="Enforcer Sniper" points="13.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="c7d17f68-968d-a2d7-5a85-bc0e784688b9" name="Enforcer Sniper" points="13.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="f61c30e7-21b4-3fb2-c893-c6288b6ae9f8" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="f61c30e7-21b4-3fb2-c893-c6288b6ae9f8" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -703,33 +557,6 @@ All models in that cube are marked as activated.</description>
               <modifiers/>
             </link>
             <link id="4fd83bd3-a5f9-f841-c423-845870e026ec" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d9b8266b-158a-ac26-6ba0-600141a5f5d5" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="478ffdb2-dccf-ba69-39d1-287979e083f5" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="fe9cc569-06ad-479a-2e24-a662772513f6" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c22f6e3d-1b20-fbf0-ba3c-eeb30cf3695d" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="13629ac6-200f-a1b1-5d6f-c6ce9a562895" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -760,11 +587,17 @@ All models in that cube are marked as activated.</description>
         <link id="c609d76f-15ec-bbf6-8bf2-5e8f7a3d2ef3" targetId="2f0def74-0d9d-da24-e850-cd988e9778fd" linkType="rule">
           <modifiers/>
         </link>
+        <link id="c60544b1-d33e-d202-b1a6-ddca184ece47" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="01d2b9b2-a497-e4ff-9b25-08b37f239d09" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="19c0468c-b46b-5d56-d2b6-b5aa5e97db49" name="Enforcer with Burst Laser" points="10.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="19c0468c-b46b-5d56-d2b6-b5aa5e97db49" name="Enforcer with Burst Laser" points="10.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="1145f498-af52-c5ff-7809-2f5ba6cefebe" name="Burst Laser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="1145f498-af52-c5ff-7809-2f5ba6cefebe" name="Burst Laser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -784,33 +617,6 @@ All models in that cube are marked as activated.</description>
               <modifiers/>
             </link>
             <link id="927554b4-83c9-5662-2125-b253385f6d49" targetId="dc9c27b7-c888-ce90-642f-59f0ae5eeccc" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="3b14866f-02c4-01e8-e782-7d41579aa4f3" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="99388e0e-c1ea-85cb-b215-3f5406d1b9cd" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="b1ffffd9-6b36-27a3-93cc-4ae64d5e7899" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="31397634-5edf-b518-0383-3382c10de971" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="7f85a387-805d-55ae-3ec9-cc3cf65258e4" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -838,11 +644,17 @@ All models in that cube are marked as activated.</description>
         <link id="3cbc9f5a-408f-07da-a10f-19e87b5383ab" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="8bd9bc47-ea13-5d1a-f491-336080536321" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="00fc6c62-80b1-4653-9644-381e4daac0df" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="71720a90-1f20-ae1e-77e2-23b29911f638" name="Enforcer with Fusion Gun" points="10.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="71720a90-1f20-ae1e-77e2-23b29911f638" name="Enforcer with Fusion Gun" points="10.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="dc4a1b3c-0704-8dfc-b71f-69db09fb9918" name="Fusion Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="dc4a1b3c-0704-8dfc-b71f-69db09fb9918" name="Fusion Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -862,18 +674,6 @@ All models in that cube are marked as activated.</description>
               <modifiers/>
             </link>
             <link id="caf3a13c-3d4b-66d2-d840-90b3e0e99204" targetId="37722ee6-1d7a-8a47-a869-eb694301b386" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="65e312fa-feee-ba70-bdf0-b6d5888fe6e7" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a31266db-322f-525b-f1d5-cbe4f8b8457a" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -901,11 +701,14 @@ All models in that cube are marked as activated.</description>
         <link id="10bb3f82-7c10-eab8-ea48-350881e55213" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="766478c0-f080-9032-0dc9-4e465298b9a0" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="710ac5cc-c8c0-d08c-eb78-82ba03cb92ed" name="Enforcer with Missile Launcher" points="11.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="710ac5cc-c8c0-d08c-eb78-82ba03cb92ed" name="Enforcer with Missile Launcher" points="11.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="6a991834-311c-8839-da95-a2a8c3f40fb2" name="Missile Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="6a991834-311c-8839-da95-a2a8c3f40fb2" name="Missile Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -922,33 +725,6 @@ All models in that cube are marked as activated.</description>
               <modifiers/>
             </link>
             <link id="6a7c098f-f5a5-bb17-d1f8-383f99e8d90f" targetId="d165f149-5d44-3c7c-28b0-2a8c0bdc14e4" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="502e56b2-ceb5-cb93-86f4-bf983be568dd" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8427e39e-b180-a6b5-a922-d54c2a086b65" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="968bb2af-104a-139a-a5b0-eb571c831101" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ad4dfd6d-7613-1c6c-d411-22c4cbd29f49" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="58cb8405-1e51-2934-ea97-02017ee7127f" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -976,11 +752,17 @@ All models in that cube are marked as activated.</description>
         <link id="ce0423ff-58df-ee89-de17-6003bc76d6d8" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="99295dd8-8ffe-f5d8-86ee-cc3c86fc9894" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8ce3862b-aa75-0378-d868-902d23cd67b8" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="0644cfeb-d2c6-39c9-c653-845cd2108857" name="Enforcer with Thermal Rifle" points="13.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="13">
+    <entry id="0644cfeb-d2c6-39c9-c653-845cd2108857" name="Enforcer with Thermal Rifle" points="13.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="13">
       <entries>
-        <entry id="732a5475-2b7a-ad85-b87d-3539a999ac33" name="Thermal Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="732a5475-2b7a-ad85-b87d-3539a999ac33" name="Thermal Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -994,18 +776,6 @@ All models in that cube are marked as activated.</description>
               <modifiers/>
             </link>
             <link id="cd547574-5cee-ba20-59f0-b3be8f9a2f72" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="95c526e2-1c51-d407-cfec-c385f956c87b" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4c8e653c-5f21-db0a-2f70-6e8ff522fe8b" targetId="943865f7-e662-d7b3-8748-b2999186a2f6" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -1033,11 +803,14 @@ All models in that cube are marked as activated.</description>
         <link id="d178bab0-fe53-1943-cc7d-ff3533c436e2" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="15e7f8d2-3b3e-f8c7-d385-3daef6525cf1" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="2901382e-d82e-bdba-87d7-fb12c0cb6742" name="Frag Grenade" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="2901382e-d82e-bdba-87d7-fb12c0cb6742" name="Frag Grenade" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="c7dab52b-3693-665e-6efd-791d1e51b464" name="Frag Grenade" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="c7dab52b-3693-665e-6efd-791d1e51b464" name="Frag Grenade" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1056,9 +829,9 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="4b94fdb9-ab24-9542-0212-74c3ac27a0ac" name="Freya" points="9.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="4b94fdb9-ab24-9542-0212-74c3ac27a0ac" name="Freya" points="9.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="0552f7ae-bbfb-0669-4d95-f4e9481d9518" name="Hailstorm Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="0552f7ae-bbfb-0669-4d95-f4e9481d9518" name="Hailstorm Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1098,9 +871,9 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="6f147ce8-0852-0477-6d26-d8638b9cf359" name="Nastanza" points="16.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="6f147ce8-0852-0477-6d26-d8638b9cf359" name="Nastanza" points="16.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="b9f942a4-c345-99e1-c1ca-949ed8593a0c" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="b9f942a4-c345-99e1-c1ca-949ed8593a0c" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1143,36 +916,8 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="b79dfb37-931b-af1e-26a3-605d07ae2ebe" name="Peacekeeper Captain" points="29.0" categoryId="1860b4a4-67d9-45c1-fb2f-1a81968aa2a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-      <entries>
-        <entry id="ce22ffad-54bc-0230-526e-de05b3fadf2a" name="Dominator Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="13f9a279-99f5-06ed-7f23-b2045793d68d" targetId="cee518f8-1911-c129-336e-b30ba8c6bca4" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="ad6fe1fd-29be-cf27-0932-c6dc5b98f1a7" targetId="a1810a3e-ffa1-d1a2-76b1-654893926538" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="aa0dd5c2-b15e-8e99-ca20-581b6bef6481" name="Wristblade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f7c5c9a5-8840-6deb-df3b-a8a42e6dbc46" targetId="6aea3b68-fcf8-1b59-80c6-86948427e354" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entry id="b79dfb37-931b-af1e-26a3-605d07ae2ebe" name="Peacekeeper Captain" points="29.0" categoryId="1860b4a4-67d9-45c1-fb2f-1a81968aa2a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -1201,11 +946,17 @@ All models in that cube are marked as activated.</description>
         <link id="9f0c7fd8-da55-d3a2-54aa-4e49dee1dc4b" targetId="2d9b08f7-8a68-f5b9-9752-540d66a2455c" linkType="rule">
           <modifiers/>
         </link>
+        <link id="c07132c0-9990-eccd-7f4f-30c3899e7438" targetId="9b0131f6-39a4-50ac-4b2d-f451ef884cc0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fc32cec8-e3d0-34a6-786e-a937943a40a3" targetId="dae2ae54-ec70-1236-51f5-efd5f829fe21" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="55ec0bfa-fb0d-722e-1ab9-d2fd484752a1" name="Project Oberon" points="18.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="55ec0bfa-fb0d-722e-1ab9-d2fd484752a1" name="Project Oberon" points="18.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="1eda058c-ca72-c947-7e9b-4e1ab1a1a895" name="Needler" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="1eda058c-ca72-c947-7e9b-4e1ab1a1a895" name="Needler" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1220,7 +971,7 @@ All models in that cube are marked as activated.</description>
             </link>
           </links>
         </entry>
-        <entry id="9ed217cd-6e33-abd8-1cff-fe68d222aa72" name="Toxic Shards" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="9ed217cd-6e33-abd8-1cff-fe68d222aa72" name="Toxic Shards" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1263,9 +1014,9 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="96d733fd-53fa-4623-97fa-766a27bebede" name="Recon Unit N32-19" points="12.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="96d733fd-53fa-4623-97fa-766a27bebede" name="Recon Unit N32-19" points="12.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="6f382f50-3801-2a2e-8970-da49e0516291" name="Tag Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="6f382f50-3801-2a2e-8970-da49e0516291" name="Tag Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1280,7 +1031,7 @@ All models in that cube are marked as activated.</description>
             </link>
           </links>
         </entry>
-        <entry id="d604b186-134b-0704-0919-4c864242aed9" name="Holo-Sight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="d604b186-134b-0704-0919-4c864242aed9" name="Holo-Sight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1324,9 +1075,9 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="5e431006-217c-ff24-1b8e-a04da77e24e5" name="Sentry Gun" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="5e431006-217c-ff24-1b8e-a04da77e24e5" name="Sentry Gun" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="414625ce-6321-ae47-94f9-354d40eb869a" name="Sentry Gun" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="414625ce-6321-ae47-94f9-354d40eb869a" name="Sentry Gun" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1345,9 +1096,52 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="92d12e3b-775a-d2fa-6c16-800742e1f667" name="The Helfather" points="14.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="b7cf6013-f4ad-c5fb-4b1c-e6023455fca7" name="Sergeant Howlett" points="17.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="bdbc217e-a83b-743a-d908-3e4cc9eee36d" name="Xerxes Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="24a7cebf-3936-bb1c-f4f5-f0670551a8da" name="Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b8fad742-4321-51a0-1119-40e821e4af91" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Claws" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Claws"/>
+                <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="F"/>
+                <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
+                <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9eeefccd-b822-becd-3b05-b994ac29f1b6" targetId="836a48e9-29f4-b66b-4c40-e4254ffa42be" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d793d444-0e62-fb66-9669-25d6af4462d5" targetId="cb34d511-9cc8-b599-82c6-44697f9f4bbb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="20226f28-5f2b-10ec-0ced-f7c4f13cc653" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ce5d46ac-6246-525f-a41a-ae982e7439e5" targetId="3e75c41d-b330-eae2-4716-638111c80d1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4d0e86fa-3eee-8b22-0c30-c64787d18625" targetId="557603bf-f0bb-6c65-6622-f9996557eb77" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="92d12e3b-775a-d2fa-6c16-800742e1f667" name="The Helfather" points="14.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="bdbc217e-a83b-743a-d908-3e4cc9eee36d" name="Xerxes Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1399,24 +1193,9 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="2f9fed95-6755-517e-28a1-b89ed065ae4b" name="The Survivor" points="14.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="2f9fed95-6755-517e-28a1-b89ed065ae4b" name="The Survivor" points="14.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
-        <entry id="f2e3ad62-9cda-ebff-5b65-3aeb7ea6eeca" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="843cf0fb-03e9-d483-8982-f6c8a1ff031c" targetId="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="f78fde31-f745-0b11-4e5a-d08a3cd350d4" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="a339e87a-9c88-a41f-946a-c0487b0e0d59" name="Sawn-Off" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="a339e87a-9c88-a41f-946a-c0487b0e0d59" name="Sawn-Off" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1460,13 +1239,31 @@ All models in that cube are marked as activated.</description>
         <link id="1434a026-24b8-b5ff-8346-35ebe55fb390" targetId="e989395c-4c32-900e-932c-f412b18a4770" linkType="rule">
           <modifiers/>
         </link>
+        <link id="54b53a0c-290c-f2b5-71e0-99d60d8d1c63" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
   </entries>
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="cd2efbeb-d9b4-2114-6b0c-d7209fe37c53" name="Energy Shield (X)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="77">
+    <entry id="dae2ae54-ec70-1236-51f5-efd5f829fe21" name="Dominator Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c140134e-82c9-dc63-dcdf-e09f895107ec" targetId="cee518f8-1911-c129-336e-b30ba8c6bca4" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0d1387b4-2589-70aa-8207-6697e2414ccb" targetId="a1810a3e-ffa1-d1a2-76b1-654893926538" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="cd2efbeb-d9b4-2114-6b0c-d7209fe37c53" name="Energy Shield (X)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="77">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1479,7 +1276,7 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="2ca7f40c-3d39-4125-c07a-41ad200b4ae3" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="77">
+    <entry id="2ca7f40c-3d39-4125-c07a-41ad200b4ae3" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="77">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1496,7 +1293,7 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="72a5c599-6718-6645-b519-a28b74aaaea5" name="Glue Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="77">
+    <entry id="72a5c599-6718-6645-b519-a28b74aaaea5" name="Glue Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="77">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1510,7 +1307,7 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="0f48510a-df9a-89f7-6de0-f79ce96e172f" name="Holo-Sight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="77">
+    <entry id="0f48510a-df9a-89f7-6de0-f79ce96e172f" name="Holo-Sight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="77">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1523,7 +1320,7 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="557603bf-f0bb-6c65-6622-f9996557eb77" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="557603bf-f0bb-6c65-6622-f9996557eb77" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1536,7 +1333,7 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="ff88e1e8-92c8-7144-415c-02e02cf9abe7" name="Medi-Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="78">
+    <entry id="ff88e1e8-92c8-7144-415c-02e02cf9abe7" name="Medi-Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="78">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1549,7 +1346,29 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="c562af55-617c-cf16-e7b2-dc1ef53af962" name="Sentry Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="78">
+    <entry id="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="02bca880-533a-4af5-7d4f-91298bcc2c90" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Pistol" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Pistol"/>
+            <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="3"/>
+            <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
+            <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="35225923-724f-2ca3-bba9-bea730124494" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c562af55-617c-cf16-e7b2-dc1ef53af962" name="Sentry Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="78">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1566,7 +1385,7 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="19584dd3-1616-703e-444c-a9b04275d1d9" name="Smoke Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="78">
+    <entry id="19584dd3-1616-703e-444c-a9b04275d1d9" name="Smoke Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="78">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1583,7 +1402,7 @@ All models in that cube are marked as activated.</description>
         </link>
       </links>
     </entry>
-    <entry id="d87baa3d-2613-a91e-799a-21f2b5abf909" name="Stealth Cloak" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="78">
+    <entry id="d87baa3d-2613-a91e-799a-21f2b5abf909" name="Stealth Cloak" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="78">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1596,7 +1415,7 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="fcf75290-3abc-492c-1060-cbed17ea468b" name="Targeter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="78">
+    <entry id="fcf75290-3abc-492c-1060-cbed17ea468b" name="Targeter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="78">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1609,11 +1428,29 @@ All models in that cube are marked as activated.</description>
       <profiles/>
       <links/>
     </entry>
+    <entry id="9b0131f6-39a4-50ac-4b2d-f451ef884cc0" name="Wristblade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e8195f5f-79c1-ec87-27b3-b1fea8da2afd" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Wristblade" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Wristblade"/>
+            <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="F"/>
+            <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="1"/>
+            <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
-    <entryGroup id="d457d77f-3ac2-8b63-395d-cd2a96cfed71" name="New Abilities" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+    <entryGroup id="d457d77f-3ac2-8b63-395d-cd2a96cfed71" name="New Abilities" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="fc92d072-135d-ff87-1a2f-1cd4a83d84e9" name="Spotter" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="fc92d072-135d-ff87-1a2f-1cd4a83d84e9" name="Spotter" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1621,7 +1458,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="d3da0600-5960-7f96-26b7-3bfaa7694042" name="Solid" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="d3da0600-5960-7f96-26b7-3bfaa7694042" name="Solid" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1629,7 +1466,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="5cdc8dec-15ee-1848-a074-e1ab2408fd76" name="BOOM!" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="5cdc8dec-15ee-1848-a074-e1ab2408fd76" name="BOOM!" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1637,7 +1474,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="ee028f33-4092-5fc9-a9dc-bb6033dd5c08" name="AP1" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="ee028f33-4092-5fc9-a9dc-bb6033dd5c08" name="AP1" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1645,7 +1482,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="5b6b3bc4-2c6a-af52-ff93-b76e55ab6a08" name="Irresistable" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="5b6b3bc4-2c6a-af52-ff93-b76e55ab6a08" name="Irresistable" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1653,7 +1490,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="b208b91a-342b-8a17-a400-6e40a36557c5" name="Glide" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="b208b91a-342b-8a17-a400-6e40a36557c5" name="Glide" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1661,7 +1498,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="3c7a71c6-625f-2f15-bac4-d46b3d0f5dbf" name="Medic + Beast" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="3c7a71c6-625f-2f15-bac4-d46b3d0f5dbf" name="Medic + Beast" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1669,7 +1506,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="df5b407b-eeb8-2efa-7899-1218e146aa4f" name="Engineer + Beast" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="df5b407b-eeb8-2efa-7899-1218e146aa4f" name="Engineer + Beast" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1677,7 +1514,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="3d30062f-13cd-9aec-ea00-8542b7fa041a" name="Discipline" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="3d30062f-13cd-9aec-ea00-8542b7fa041a" name="Discipline" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1685,7 +1522,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="40a9ac2e-7c91-7819-fc73-efc356f894f7" name="Fast" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="40a9ac2e-7c91-7819-fc73-efc356f894f7" name="Fast" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1693,7 +1530,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="42d38e98-5112-be87-93c9-f3a4f3c34b14" name="Brawler" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="42d38e98-5112-be87-93c9-f3a4f3c34b14" name="Brawler" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1701,7 +1538,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="ae8d1d4e-7eff-abb2-199c-e386a434bb56" name="Marksman" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="ae8d1d4e-7eff-abb2-199c-e386a434bb56" name="Marksman" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1709,7 +1546,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="84e2fd8c-6c5a-e437-8ac4-f9d623394075" name="Sniper" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="84e2fd8c-6c5a-e437-8ac4-f9d623394075" name="Sniper" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1717,7 +1554,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="7401e83e-6da1-ab4d-4db3-1fa2f9aa34b7" name="Knockback" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="7401e83e-6da1-ab4d-4db3-1fa2f9aa34b7" name="Knockback" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1725,7 +1562,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="2578347e-7df9-39df-e54d-d1d64013f7f1" name="Scout" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="2578347e-7df9-39df-e54d-d1d64013f7f1" name="Scout" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1733,7 +1570,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="208b7f2a-ec7a-4952-b262-75dd807e1cd6" name="Sentry" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="208b7f2a-ec7a-4952-b262-75dd807e1cd6" name="Sentry" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1741,7 +1578,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="67fa8a2d-ae69-9248-c445-f85d57c42723" name="Scavenger" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="67fa8a2d-ae69-9248-c445-f85d57c42723" name="Scavenger" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1749,7 +1586,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="1b6fb99b-a5b2-54eb-65b6-b321e9e3e7da" name="Agile" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="1b6fb99b-a5b2-54eb-65b6-b321e9e3e7da" name="Agile" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1757,7 +1594,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="e760d4b9-1fbc-23ec-e1f0-a9465337b97b" name="Resourceful" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="e760d4b9-1fbc-23ec-e1f0-a9465337b97b" name="Resourceful" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1765,7 +1602,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="f53e2c53-5633-dd78-043c-13141694d106" name="Really Tough" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="f53e2c53-5633-dd78-043c-13141694d106" name="Really Tough" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1773,7 +1610,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="db001c21-5ff7-309b-a985-e8d8cea45bfb" name="Strategist" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="db001c21-5ff7-309b-a985-e8d8cea45bfb" name="Strategist" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1781,7 +1618,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="1c8f715d-dab2-eb92-56a4-afc1a1c25421" name="Tough" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="1c8f715d-dab2-eb92-56a4-afc1a1c25421" name="Tough" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1789,7 +1626,7 @@ All models in that cube are marked as activated.</description>
           <profiles/>
           <links/>
         </entry>
-        <entry id="a577cac7-f542-34a8-4450-399af41566f9" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+        <entry id="a577cac7-f542-34a8-4450-399af41566f9" name="Tactician" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1837,6 +1674,10 @@ If a model explodes as a result of this ability then they cannot be revived by a
     </rule>
     <rule id="4ffc24f1-29b1-8841-a624-4a17436ff77b" name="Construct" hidden="false" page="68">
       <description>The model’s Aggression state is Alert and cannot be changed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a112c860-9d7f-3191-d2a6-5e5a533bc982" name="CSW" hidden="false" page="0">
+      <description>Cannot pick up, carry or use items. Both gunner and loader have identical stats, but are treated as seperate models. One activation activates both models, both can make seperate actions. Onlty gunner can fire the weapon, if the loader is pinned/suppressed/dead the weapon gets the Long Reload and Slow rules. Reload counters are not removed by the loader moving back into base contact. If the gunner is killled with the loader in base-to base, the loader picks up the weapon.</description>
       <modifiers/>
     </rule>
     <rule id="9a009789-1cb2-07e5-e6d7-875b22e6ad2e" name="Defender Shield" hidden="false" page="0">
@@ -1892,6 +1733,11 @@ Continue rolling until no weapons or targets are left or a 1-4 is rolled.</descr
 Vulnerable to Blasts, will roll -1 dice when resisting their effects.</description>
       <modifiers/>
     </rule>
+    <rule id="7c3fdfca-35f0-13c6-d747-cf5798c2687d" name="Indirect" hidden="false" page="0">
+      <description>If the model has Vehicle or CSW, this weapon may only be fired indirectly.
+Indirect action is identical to a Throw Grenade action, but cannot be used on the first Turn, can be used to attack models out of LoS (as long as they are viisble from directly above their cube), cannot Aim, and cannot target anything under half of the listed Range.</description>
+      <modifiers/>
+    </rule>
     <rule id="dc9bbb99-f3c7-5602-cbfb-0d79c3786a1d" name="Irresistible" hidden="false" page="70">
       <description>If the target of this weapon has the Tough ability then it is treated as having +1 Armour instead. 
 If it has the Really Tough ability then it is treated as having +2 Armour instead.
@@ -1922,6 +1768,10 @@ Survival roll gets +1 per friendly model in the same cube.</description>
       <description>The weapon cannot be used beyond combat range.</description>
       <modifiers/>
     </rule>
+    <rule id="93e830da-1c5c-89c6-e68f-090d13764e04" name="Long Reload" hidden="false" page="0">
+      <description>After the weapon fires, add a Reload counter. Model cannot fire while counter is in place, reload counter takes a long action to remove.</description>
+      <modifiers/>
+    </rule>
     <rule id="4ae0610e-0e00-ddde-620b-0d9a35d15c38" name="Marksman" hidden="false" page="71">
       <description>The model gets +1 dice to Shoot actions.</description>
       <modifiers/>
@@ -1936,6 +1786,10 @@ Survival roll gets +1 per friendly model in the same cube.</description>
     </rule>
     <rule id="23970546-2fde-eb94-5a6f-ae123297e104" name="Mutant" hidden="false" page="71">
       <description>Model can have Mutant Battle Cards played on it.</description>
+      <modifiers/>
+    </rule>
+    <rule id="afb7cb1a-3224-836b-9243-53093772739a" name="Non-Combatant" hidden="false" page="0">
+      <description>Model cannot use any weapon, and can only choose to use Survive when attacked with a Fight action.</description>
       <modifiers/>
     </rule>
     <rule id="0bd05445-18a2-8996-0323-cc9ef2fdd113" name="One-use" hidden="false" page="71">
@@ -2045,6 +1899,10 @@ Opposing models cannot Overwatch against this action.</description>
       <description>Model struck by this weapon treated as Vulnerable. No effect on Constructs.</description>
       <modifiers/>
     </rule>
+    <rule id="1cfe4216-bccf-c166-3cc1-fd62c7278eb6" name="Vehicle" hidden="false" page="0">
+      <description>The model’s Aggression state is Alert and cannot be changed. Cannot pick up, carry or use items. Number in brackets indicates how much damage the model can take before destruction. Can only move up or down levels via ramps. Cannot be moved into another cube by any attack. When destroyed, leave the wreck on the table as cover-providing terrain.</description>
+      <modifiers/>
+    </rule>
     <rule id="11fcd74d-a317-c982-f496-ae6f68010d48" name="Volatile" hidden="false" page="75">
       <description>If a model carrying this weapon is saved by its armour, roll a dice. On a 1 the weapon is destroyed and the model is set on fire (see It Burns! p71).</description>
       <modifiers/>
@@ -2055,27 +1913,6 @@ Opposing models cannot Overwatch against this action.</description>
     </rule>
     <rule id="7ef37aff-21d6-84bd-e3cc-c693d3d28335" name="Weight of Fire" hidden="false" page="75">
       <description>Model gains +1 dice to Blaze Away actions.</description>
-      <modifiers/>
-    </rule>
-    <rule id="a112c860-9d7f-3191-d2a6-5e5a533bc982" name="CSW" hidden="false" page="0">
-      <description>Cannot pick up, carry or use items. Both gunner and loader have identical stats, but are treated as seperate models. One activation activates both models, both can make seperate actions. Onlty gunner can fire the weapon, if the loader is pinned/suppressed/dead the weapon gets the Long Reload and Slow rules. Reload counters are not removed by the loader moving back into base contact. If the gunner is killled with the loader in base-to base, the loader picks up the weapon.</description>
-      <modifiers/>
-    </rule>
-    <rule id="7c3fdfca-35f0-13c6-d747-cf5798c2687d" name="Indirect" hidden="false" page="0">
-      <description>If the model has Vehicle or CSW, this weapon may only be fired indirectly.
-Indirect action is identical to a Throw Grenade action, but cannot be used on the first Turn, can be used to attack models out of LoS (as long as they are viisble from directly above their cube), cannot Aim, and cannot target anything under half of the listed Range.</description>
-      <modifiers/>
-    </rule>
-    <rule id="93e830da-1c5c-89c6-e68f-090d13764e04" name="Long Reload" hidden="false" page="0">
-      <description>After the weapon fires, add a Reload counter. Model cannot fire while counter is in place, reload counter takes a long action to remove.</description>
-      <modifiers/>
-    </rule>
-    <rule id="afb7cb1a-3224-836b-9243-53093772739a" name="Non-Combatant" hidden="false" page="0">
-      <description>Model cannot use any weapon, and can only choose to use Survive when attacked with a Fight action.</description>
-      <modifiers/>
-    </rule>
-    <rule id="1cfe4216-bccf-c166-3cc1-fd62c7278eb6" name="Vehicle" hidden="false" page="0">
-      <description>The model’s Aggression state is Alert and cannot be changed. Cannot pick up, carry or use items. Number in brackets indicates how much damage the model can take before destruction. Can only move up or down levels via ramps. Cannot be moved into another cube by any attack. When destroyed, leave the wreck on the table as cover-providing terrain.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -2193,15 +2030,6 @@ Indirect action is identical to a Throw Grenade action, but cannot be used on th
         <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Needler"/>
         <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="4"/>
         <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="cebed056-3c3f-3df2-b8f6-f9c4f35c24e1" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Pistol" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Pistol"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="3"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
         <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot"/>
       </characteristics>
       <modifiers/>

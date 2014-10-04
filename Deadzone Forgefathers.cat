@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88de4b64-fab6-bb26-eb57-666bd550bb7f" revision="10" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Forgefathers" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="88de4b64-fab6-bb26-eb57-666bd550bb7f" revision="11" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Forgefathers" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0d4efd09-ac9d-be7a-8a40-8691779b99b6" name="&apos;Nutcracker&apos; Inferno Drill" points="10.0" categoryId="ce113886-bad2-1319-59d2-4bfe9c100668" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
@@ -1611,15 +1611,19 @@ If it has the Really Tough ability then it is treated as having +2 Armour instea
 The AP of the weapon’s attack will reduce this total target AP as usual.</description>
       <modifiers/>
     </rule>
-    <rule id="85ff960c-b2c5-3ff6-d08e-579e71b7bd29" name="It Burns!" hidden="false" page="71">
-      <description>If a model survives an attack from this weapon it is also set on fire. 
+    <rule id="85ff960c-b2c5-3ff6-d08e-579e71b7bd29" name="It Burns!" hidden="false" book="Core Rules" page="71">
+      <description>If a model survives an attack from this weapon it is also set on fire.
+ 
 Roll a new opposed test immediately for fire damage. 
 The fire rolls a 3 dice 4+ test (X). 
 The target rolls a 3 dice Survival test (X).
+
 Draw or survival wins: No effect.
+
 Fire win: Target suffers damage equal to the difference in total successes +1. 
-Fire double: Target remains on fire. Damage as above.
-Roll again at the start of the model’s next Turn at a -1 modifier to Survival. Model that starts their Turn on fire can do nothing except try to put out the flames (long action). 
+
+Fire double: Target remains on fire. Damage as above. Roll again at the start of the model’s next Turn at a -1 modifier to Survival. Model that starts their Turn on fire can do nothing except try to put out the flames (long action).
+
 Survival roll gets +1 per friendly model in the same cube.</description>
       <modifiers/>
     </rule>
@@ -1783,32 +1787,18 @@ Opposing models cannot Overwatch against this action.</description>
       <description>Model struck by this weapon treated as Vulnerable. No effect on Constructs.</description>
       <modifiers/>
     </rule>
-    <rule id="9a14a176-24e2-95cb-11a3-4e05440a5716" name="Vehicle (X)" hidden="false">
-      <description>The model is a Vehicle. The Vehicle ability includes the 
-Construct and Beast abilities. 
+    <rule id="9a14a176-24e2-95cb-11a3-4e05440a5716" name="Vehicle (X)" hidden="false" book="Nexus Psi" page="12">
+      <description>The model is a Vehicle. The Vehicle ability includes the Construct and Beast abilities. 
 
-If the vehicle comes with separate crew figures, either attach 
-them to the main chassis or leave them loose; they have no 
-specific game function.
+If the vehicle comes with separate crew figures, either attach them to the main chassis or leave them loose; they have no specific game function.
 
-Vehicle take damage as normal, but when they suffer 2 or 
-more points of damage they suffer the amount of actual 
-damage caused by each attack, accumulating this until they 
-reach the total listed in brackets and are destroyed. 
+Vehicle take damage as normal, but when they suffer 2 or more points of damage they suffer the amount of actual damage caused by each attack, accumulating this until they reach the total listed in brackets and are destroyed. 
 
-A vehicle can only change level by moving up or down a ramp. 
-They may not climb up or down walls. They cannot usually 
-use the CLIMB action, though the final limitation will be 
-based on the terrain.
+A vehicle can only change level by moving up or down a ramp. They may not climb up or down walls. They cannot usually use the CLIMB action, though the final limitation will be based on the terrain.
 
-A vehicle is not affected by the movement portion of attacks 
-such as Knockback, Blasts or Frags of any type or size. It 
-cannot be moved into another cube by an attack. However, it 
-still suffers damage from these types of attack as normal.
+A vehicle is not affected by the movement portion of attacks such as Knockback, Blasts or Frags of any type or size. It cannot be moved into another cube by an attack. However, it still suffers damage from these types of attack as normal.
 
-When a vehicle is destroyed it is left in place on the 
-battlefield and is treated as part of the terrain, making that 
-cube count as cover.</description>
+When a vehicle is destroyed it is left in place on the battlefield and is treated as part of the terrain, making that cube count as cover.</description>
       <modifiers/>
     </rule>
     <rule id="12306f5e-0a2e-af58-b3c7-bac13c043ffd" name="Volatile" hidden="false" page="75">

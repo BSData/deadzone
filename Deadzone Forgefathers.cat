@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88de4b64-fab6-bb26-eb57-666bd550bb7f" revision="6" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Forgefathers" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="88de4b64-fab6-bb26-eb57-666bd550bb7f" revision="7" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Forgefathers" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0d4efd09-ac9d-be7a-8a40-8691779b99b6" name="&apos;Nutcracker&apos; Inferno Drill" points="10.0" categoryId="ce113886-bad2-1319-59d2-4bfe9c100668" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -276,7 +276,23 @@ All models in that cube are marked as activated.</description>
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="bfb668ed-7533-2a58-6d93-15aa516b22a7" targetId="b878e858-7c05-d0e7-61d5-f926eabd64de" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1464fc0e-6451-5163-b451-7e7fe5241180" targetId="3f71afc4-2b01-bf60-a15b-9f803533e29c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="95a4586b-e546-4789-8e11-042d1706a88b" targetId="02e06295-bcb7-28ca-c601-6b4c354944ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="36904d20-f3d2-55cb-5fd9-1bd0dce7cd9e" targetId="47cb5770-9921-90d8-bfb0-051ec20fe95b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7b7e15f9-f97a-7c69-a48c-44cd6c77d50c" targetId="c4232530-1419-6230-ef4b-331f9fb4afd4" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="d8f7f86b-feb4-06ae-419e-cb6eb86b8932" name="Brokkr with Magma Rifle" points="11.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -813,8 +829,7 @@ All models in that cube are marked as activated.</description>
             <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Punisher"/>
             <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="10"/>
             <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
-            <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Firestorm
-"/>
+            <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Firestorm "/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -946,6 +961,28 @@ All models in that cube are marked as activated.</description>
   <rules/>
   <links/>
   <sharedEntries>
+    <entry id="c4232530-1419-6230-ef4b-331f9fb4afd4" name="Burst Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0ce6f368-535f-ae36-c5dd-672f213ca877" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Burst Pistol" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Burst Pistol"/>
+            <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="3"/>
+            <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="-"/>
+            <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Weight of Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d2913044-2b02-27d0-bf95-b435fab06117" targetId="2ad89929-c012-70e7-01ab-a4c9c56625d3" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8f563175-16c5-003c-dec5-4cf0221daa8a" name="Energy Shield (X)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="77">
       <entries/>
       <entryGroups/>
@@ -1183,6 +1220,10 @@ blasted out of a position. For every level they drop they may move one cube side
 Continue rolling until no weapons or targets are left or a 1-4 is rolled.</description>
       <modifiers/>
     </rule>
+    <rule id="d70be70a-45f5-af9a-5ed8-75795fc8eb88" name="Gunshield" hidden="false">
+      <description>When a model with a Gunshield is moved to a new position, always align the shield with one of the four sides of the cube on the level you are on (ie, not the top or the bottom) . Any attacks that trace a LOS across that side of the cube count the model with the Gunshield as having +1 Armour .</description>
+      <modifiers/>
+    </rule>
     <rule id="b3cbc445-827e-490d-b877-28def9fc087e" name="Hover" hidden="false" page="70">
       <description>The model may rise or fall by one level when performing a Sprint.
 Vulnerable to Blasts, will roll -1 dice when resisting their effects.</description>
@@ -1239,6 +1280,16 @@ Survival roll gets +1 per friendly model in the same cube.</description>
     </rule>
     <rule id="b7a091ea-62cc-c743-5bee-0daa1d7187a0" name="One-use" hidden="false" page="71">
       <description>Item can only be used once per game.</description>
+      <modifiers/>
+    </rule>
+    <rule id="47cb5770-9921-90d8-bfb0-051ec20fe95b" name="Operator" hidden="false">
+      <description>When an Operator model is activated they must choose between taking actions as normal, or controlling one unactivated Remote from their own Strike Team. 
+
+If they decide to control a Remote then the Operator does not act this Turn. Instead, their activation is transferred to the Remote which may take actions this Turn as if it was a normal model . The only limitation is that a Remote model cannot set Overwatch.
+
+If an Operator uses a Remote then both models are marked as activated and both count towards the number of models that may be activated that Turn.
+
+An Operator may choose to control the same or different Remote models in each Turn.</description>
       <modifiers/>
     </rule>
     <rule id="b2eab6f9-59c1-3e5f-2d1a-a96e33b97cda" name="Own Agenda" hidden="false" page="71">
@@ -1344,18 +1395,6 @@ Opposing models cannot Overwatch against this action.</description>
       <description>Model struck by this weapon treated as Vulnerable. No effect on Constructs.</description>
       <modifiers/>
     </rule>
-    <rule id="12306f5e-0a2e-af58-b3c7-bac13c043ffd" name="Volatile" hidden="false" page="75">
-      <description>If a model carrying this weapon is saved by its armour, roll a dice. On a 1 the weapon is destroyed and the model is set on fire (see It Burns! p71).</description>
-      <modifiers/>
-    </rule>
-    <rule id="35ac0d65-c9f5-9e14-7b3f-d4d1b1cbbbd7" name="Vulnerable" hidden="false" page="0">
-      <description>Any damage to this model will kill, not injure them.</description>
-      <modifiers/>
-    </rule>
-    <rule id="2ad89929-c012-70e7-01ab-a4c9c56625d3" name="Weight of Fire" hidden="false" page="75">
-      <description>Model gains +1 dice to Blaze Away actions.</description>
-      <modifiers/>
-    </rule>
     <rule id="9a14a176-24e2-95cb-11a3-4e05440a5716" name="Vehicle (X)" hidden="false">
       <description>The model is a Vehicle. The Vehicle ability includes the 
 Construct and Beast abilities. 
@@ -1384,8 +1423,16 @@ battlefield and is treated as part of the terrain, making that
 cube count as cover.</description>
       <modifiers/>
     </rule>
-    <rule id="d70be70a-45f5-af9a-5ed8-75795fc8eb88" name="Gunshield" hidden="false">
-      <description>When a model with a Gunshield is moved to a new position, always align the shield with one of the four sides of the cube on the level you are on (ie, not the top or the bottom) . Any attacks that trace a LOS across that side of the cube count the model with the Gunshield as having +1 Armour .</description>
+    <rule id="12306f5e-0a2e-af58-b3c7-bac13c043ffd" name="Volatile" hidden="false" page="75">
+      <description>If a model carrying this weapon is saved by its armour, roll a dice. On a 1 the weapon is destroyed and the model is set on fire (see It Burns! p71).</description>
+      <modifiers/>
+    </rule>
+    <rule id="35ac0d65-c9f5-9e14-7b3f-d4d1b1cbbbd7" name="Vulnerable" hidden="false" page="0">
+      <description>Any damage to this model will kill, not injure them.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2ad89929-c012-70e7-01ab-a4c9c56625d3" name="Weight of Fire" hidden="false" page="75">
+      <description>Model gains +1 dice to Blaze Away actions.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -1597,6 +1644,15 @@ cube count as cover.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="264f56e4-02a7-f522-2697-12b7e4f83a47" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Twin Hailstorm Rifles" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Twin Hailstorm Rifles"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="6"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Firestorm"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="aa7543e7-f56b-ef5a-24aa-2a00efb121a4" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Wrist Blaster" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Wrist Blaster"/>
@@ -1612,15 +1668,6 @@ cube count as cover.</description>
         <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="6"/>
         <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="4"/>
         <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Deliberate, Support, Irresistable, Single Shot, It Burns!"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="264f56e4-02a7-f522-2697-12b7e4f83a47" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Twin Hailstorm Rifles" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Twin Hailstorm Rifles"/>
-        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="6"/>
-        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
-        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Firestorm"/>
       </characteristics>
       <modifiers/>
     </profile>

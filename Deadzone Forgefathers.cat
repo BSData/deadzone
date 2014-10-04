@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88de4b64-fab6-bb26-eb57-666bd550bb7f" revision="5" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Forgefathers" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="88de4b64-fab6-bb26-eb57-666bd550bb7f" revision="6" gameSystemId="22ac4872-6f49-f3a0-8c06-60e9ad204df5" gameSystemRevision="1" battleScribeVersion="1.14b" name="Forgefathers" authorName="" authorUrl="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0d4efd09-ac9d-be7a-8a40-8691779b99b6" name="&apos;Nutcracker&apos; Inferno Drill" points="10.0" categoryId="ce113886-bad2-1319-59d2-4bfe9c100668" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -808,8 +808,31 @@ All models in that cube are marked as activated.</description>
           </characteristics>
           <modifiers/>
         </profile>
+        <profile id="ab9213e3-f359-d321-8edf-4902cc477a48" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Punisher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Punisher"/>
+            <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="10"/>
+            <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
+            <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Firestorm
+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="dc65e746-d66b-b0ef-7a64-780e2550a7c6" targetId="9a14a176-24e2-95cb-11a3-4e05440a5716" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bdfd1bc9-d6c1-d510-56cd-093ba3f3763e" targetId="b9e2fd86-442f-6e3c-66af-397af990a3ec" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f5fac0a9-61ab-2a8c-7af6-3b363910b9d5" targetId="02e06295-bcb7-28ca-c601-6b4c354944ef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ad871a55-ff2c-9afb-8f7f-8f84e32f53b3" targetId="d70be70a-45f5-af9a-5ed8-75795fc8eb88" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="22e8b27f-db6c-21b1-3b31-e0947badc083" name="Valkyr" points="15.0" categoryId="5712cd21-599a-d9af-b752-92d30f45d459" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -832,7 +855,17 @@ All models in that cube are marked as activated.</description>
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="7dbab6ed-71be-fb4c-15d5-76b7d7e56df3" targetId="264f56e4-02a7-f522-2697-12b7e4f83a47" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="caa814b6-2cba-46c0-137d-506c88e118cc" targetId="4d17bc8d-aa50-277f-d0c9-dd20b4e1eb21" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7a0d1486-a270-4c19-709c-b2f47a78f655" targetId="9a14a176-24e2-95cb-11a3-4e05440a5716" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="8c1f0885-a3a7-baff-973d-9a5ac80ed18e" name="Wrath" points="12.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries>
@@ -1323,6 +1356,38 @@ Opposing models cannot Overwatch against this action.</description>
       <description>Model gains +1 dice to Blaze Away actions.</description>
       <modifiers/>
     </rule>
+    <rule id="9a14a176-24e2-95cb-11a3-4e05440a5716" name="Vehicle (X)" hidden="false">
+      <description>The model is a Vehicle. The Vehicle ability includes the 
+Construct and Beast abilities. 
+
+If the vehicle comes with separate crew figures, either attach 
+them to the main chassis or leave them loose; they have no 
+specific game function.
+
+Vehicle take damage as normal, but when they suffer 2 or 
+more points of damage they suffer the amount of actual 
+damage caused by each attack, accumulating this until they 
+reach the total listed in brackets and are destroyed. 
+
+A vehicle can only change level by moving up or down a ramp. 
+They may not climb up or down walls. They cannot usually 
+use the CLIMB action, though the final limitation will be 
+based on the terrain.
+
+A vehicle is not affected by the movement portion of attacks 
+such as Knockback, Blasts or Frags of any type or size. It 
+cannot be moved into another cube by an attack. However, it 
+still suffers damage from these types of attack as normal.
+
+When a vehicle is destroyed it is left in place on the 
+battlefield and is treated as part of the terrain, making that 
+cube count as cover.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d70be70a-45f5-af9a-5ed8-75795fc8eb88" name="Gunshield" hidden="false">
+      <description>When a model with a Gunshield is moved to a new position, always align the shield with one of the four sides of the cube on the level you are on (ie, not the top or the bottom) . Any attacks that trace a LOS across that side of the cube count the model with the Gunshield as having +1 Armour .</description>
+      <modifiers/>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="b6192ab8-3dd0-bc65-0ffd-b264d8039f46" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Blaster" hidden="false" page="0">
@@ -1547,6 +1612,15 @@ Opposing models cannot Overwatch against this action.</description>
         <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="6"/>
         <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="4"/>
         <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Deliberate, Support, Irresistable, Single Shot, It Burns!"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="264f56e4-02a7-f522-2697-12b7e4f83a47" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Twin Hailstorm Rifles" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Twin Hailstorm Rifles"/>
+        <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="6"/>
+        <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="2"/>
+        <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Firestorm"/>
       </characteristics>
       <modifiers/>
     </profile>

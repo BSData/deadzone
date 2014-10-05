@@ -1073,36 +1073,7 @@ All models in that cube are marked as activated.</description>
       </links>
     </entry>
     <entry id="96d733fd-53fa-4623-97fa-766a27bebede" name="Recon Unit N32-19" points="12.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries>
-        <entry id="6f382f50-3801-2a2e-8970-da49e0516291" name="Tag Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7f874faf-6a08-0a83-44b8-a4694e0b3523" targetId="1cddc0f4-c6c9-7a7b-26b9-77e0e50ac320" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="c684b54d-0225-1cb8-237d-d43e1261c79d" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d604b186-134b-0704-0919-4c864242aed9" name="Holo-Sight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="8ac13e30-a952-88a2-b235-bab7f1e805af" name="Holo-Sight" hidden="false" page="77">
-              <description>Aim actions are +2 to Shoot instead of +1.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -1131,6 +1102,12 @@ All models in that cube are marked as activated.</description>
         <link id="5781a653-bf4a-9841-d536-b223b3189a45" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="f53756cf-2e3b-858e-3636-78d7f43f47b2" targetId="2a63db00-4f73-4849-20d1-0c4da6e09eb0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e3d2447c-6ea7-f37d-4921-42bbb3367612" targetId="0f48510a-df9a-89f7-6de0-f79ce96e172f" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="5e431006-217c-ff24-1b8e-a04da77e24e5" name="Sentry Gun" points="0.0" categoryId="382ac68d-930c-494c-ee7a-b92256c34598" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -1156,7 +1133,7 @@ All models in that cube are marked as activated.</description>
     </entry>
     <entry id="b7cf6013-f4ad-c5fb-4b1c-e6023455fca7" name="Sergeant Howlett" points="17.0" categoryId="0647f4eb-86b4-632a-017f-ee4961bb33a3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="24a7cebf-3936-bb1c-f4f5-f0670551a8da" name="Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="24a7cebf-3936-bb1c-f4f5-f0670551a8da" name="Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1312,6 +1289,140 @@ All models in that cube are marked as activated.</description>
           <modifiers/>
         </link>
         <link id="54b53a0c-290c-f2b5-71e0-99d60d8d1c63" targetId="9ed8c91a-5705-ece7-1c0a-14e7fe3eee82" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2a7513e3-0483-23a3-9214-170c42f03b46" name="GR77 Strider" points="26.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="33d69a72-3c42-fdef-0b96-4e38d987e90f" name="Genling 88 HLS-X" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d24ea848-3201-747a-cfa1-7cf5c6ca83b8" profileTypeId="5501d180-bdca-c36c-d301-1b96fd1de74f" name="Genling 88 HLS-X" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="e9adfb3f-a2a5-9457-4cb7-c1a9a9cb2417" name="Name" value="Genling 88 HLS-X"/>
+                <characteristic characteristicId="ec03030f-4f15-c546-621d-4e3aaa98b718" name="Range" value="12"/>
+                <characteristic characteristicId="8d141145-8184-208c-be54-033410e6137d" name="AP" value="4"/>
+                <characteristic characteristicId="49ce77e8-d9af-a336-3ee3-c1d11e99d4fc" name="Special" value="Single Shot, Irresitable, Long Reload"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="8b51dc8c-8ba0-d358-ca81-092523788e7a" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9a58d65f-f599-b8df-cda7-6f02227fd9fc" targetId="dc9bbb99-f3c7-5602-cbfb-0d79c3786a1d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fee580c3-4a41-f95b-e944-2689c3237c07" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="GR77 Strider" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Rare"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="4"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="4+"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="5+"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="3"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="1-1"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Shoot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0b5e3b86-41a4-5678-befe-df314b5f7a4a" targetId="ebeca702-571a-9e32-04a0-ff62ec424995" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e1639fbf-b1ad-0979-ddb0-d017e1eb2a27" targetId="42658982-ac8c-9299-5614-4a682fbda36c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="705fa3d0-3ac5-587d-a78f-57ce62793638" name="Pathfinder" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="77a219cf-cc47-35d7-a34e-a14244a3201a" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Pathfinder" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Trooper"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="1"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="4+"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="6+"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="1-1"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Move or Shoot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0fd1fc05-9e42-131e-f521-b584726919ce" targetId="2a63db00-4f73-4849-20d1-0c4da6e09eb0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c6957842-905c-b5a5-ca0a-e382c560ea3c" targetId="0f48510a-df9a-89f7-6de0-f79ce96e172f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8428d7c8-1f69-2653-e1fa-753c43cc981f" targetId="aaf0c05b-6d43-dc69-7fde-6c48837b7deb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="283c485d-5718-26d2-60f4-7a00cde70e66" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="676b38a3-e930-1bf3-3bc8-dd2144067fec" name="Pathfinder Bike" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b14c1088-f64f-e1f3-d741-e6dc95fa7839" profileTypeId="bfe86330-7a03-6155-27dc-75108365f0dd" name="Pathfinder Bike" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="27b2e61d-d63b-a453-f20d-dff86993f44c" name="Type" value="Specialist"/>
+            <characteristic characteristicId="da37763d-16f0-104e-36f6-745ea6cc6ffb" name="Size" value="2"/>
+            <characteristic characteristicId="50796fdb-df08-1e4e-8bb7-774812849f1c" name="Shoot" value="4+"/>
+            <characteristic characteristicId="0e91f78f-6730-95b1-dabd-1a416ebe8a77" name="Fight" value="-"/>
+            <characteristic characteristicId="5bb6a80c-5055-39ee-ea3e-0aa56be92b53" name="Survive" value="4+"/>
+            <characteristic characteristicId="d62361ba-1219-e9ad-1d5a-bebea5b01e39" name="Armour" value="1"/>
+            <characteristic characteristicId="15a8839d-3e37-f761-f45b-90b0ad2bbbae" name="Command" value="1-1"/>
+            <characteristic characteristicId="20f03354-4d59-e7c8-2472-b3a01798eae3" name="Overwatch" value="Move or Shoot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="26b66ea6-4fa7-fb90-1511-a23b97790a93" targetId="2a63db00-4f73-4849-20d1-0c4da6e09eb0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="77752fba-f07b-e605-b3b3-070ad9b124f3" targetId="0f48510a-df9a-89f7-6de0-f79ce96e172f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fedf3b8e-f1da-471c-cee8-75b6924b76de" targetId="aaf0c05b-6d43-dc69-7fde-6c48837b7deb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="88278ac1-05d1-f62a-ce53-ca55d7b65144" targetId="f94fc681-b085-0afd-653b-6685dbdc5ebf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f9e9c35e-b9d7-e9cd-daaf-243abf0cb283" targetId="ebeca702-571a-9e32-04a0-ff62ec424995" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5868b0d6-1f95-4c69-1462-80a7b19c57c5" targetId="49b95761-e555-9432-3088-3ebc560ee9dc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7a879332-3aa5-d0e0-3797-76cf07ec9f7e" targetId="07428366-b751-af8a-b1ed-f7d55db7db7a" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1517,6 +1628,21 @@ All models in that cube are marked as activated.</description>
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="2a63db00-4f73-4849-20d1-0c4da6e09eb0" name="Tag Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e474d15a-19b3-37dd-ae83-3373bf7c4781" targetId="1cddc0f4-c6c9-7a7b-26b9-77e0e50ac320" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="1036db92-3741-62e5-4879-483242503ce2" targetId="43865730-8762-50fb-fd26-6f0019632d0b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -1993,6 +2119,15 @@ Opposing models cannot Overwatch against this action.</description>
     </rule>
     <rule id="7ef37aff-21d6-84bd-e3cc-c693d3d28335" name="Weight of Fire" hidden="false" page="75">
       <description>Model gains +1 dice to Blaze Away actions.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ebeca702-571a-9e32-04a0-ff62ec424995" name="Vehicle (X)" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="42658982-ac8c-9299-5614-4a682fbda36c" name="Unflinching" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="49b95761-e555-9432-3088-3ebc560ee9dc" name="Bike" hidden="false" book="Incursion">
       <modifiers/>
     </rule>
   </sharedRules>

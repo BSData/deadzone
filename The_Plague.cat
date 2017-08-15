@@ -174,7 +174,13 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cec-edeb-7157-b035" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f5-301f-b69a-7d07" type="min"/>

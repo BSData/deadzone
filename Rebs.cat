@@ -2288,108 +2288,71 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0881-64b1-4a4f-8bbe" name="Hardpoint 1" hidden="false" collective="false">
+        <selectionEntryGroup id="929a-017f-c4da-004f" name="Hardpoints" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="4fc6-3d09-2081-5bdb" value="0.0">
+            <modifier type="set" field="4728-a019-25e6-ef89" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="d3b8-4c34-b2a1-a841" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f2e-8c9c-e21a-1490" type="equalTo"/>
+                <condition field="selections" scope="d3b8-4c34-b2a1-a841" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4748-1d22-8d42-3b9f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="4728-a019-25e6-ef89" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="d3b8-4c34-b2a1-a841" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="35bb-5a90-cf9a-c07d" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fc6-3d09-2081-5bdb" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4728-a019-25e6-ef89" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="45fc-1376-c203-e506" name="Assault Flamer" hidden="false" targetId="d19e-4522-f8cb-41df" type="selectionEntry">
+            <entryLink id="2f2f-02d0-e804-77b8" name="Assault Flamer" hidden="false" targetId="d19e-4522-f8cb-41df" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="732a-53ac-47e8-36c7" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="670e-305a-8a43-e3b5" name="Chainsaw" hidden="false" targetId="9c72-df29-717f-92f8" type="selectionEntry">
+            <entryLink id="95ad-c333-73d3-f04b" name="Chainsaw" hidden="false" targetId="9c72-df29-717f-92f8" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0236-d792-cd42-bbd1" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="9281-8631-87cb-103b" name="Hardpoint 2" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="25b0-c5c6-adc9-fba5" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="d3b8-4c34-b2a1-a841" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f2e-8c9c-e21a-1490" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25b0-c5c6-adc9-fba5" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="1c04-42df-5646-1485" name="Assault Flamer" hidden="false" targetId="d19e-4522-f8cb-41df" type="selectionEntry">
+            <entryLink id="4748-1d22-8d42-3b9f" name="Heavy Burst Laser **" hidden="false" targetId="6a98-9528-0087-ea51" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d25-9eeb-f570-3956" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="74b0-6dd4-6fac-dbf9" name="Chainsaw" hidden="false" targetId="9c72-df29-717f-92f8" type="selectionEntry">
+            <entryLink id="35bb-5a90-cf9a-c07d" name="Polaris Cannon (Genling 88) **" hidden="false" targetId="5f6d-723b-7064-92a1" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="9f2e-8c9c-e21a-1490" name="Double Hardpoint" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f26b-d75e-2640-561e" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="6b00-bc92-6144-48f8" name="Polaris Cannon (Genling 88) **" hidden="false" targetId="5f6d-723b-7064-92a1" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="4fab-56a9-da6e-55bf" name="Heavy Burst Laser **" hidden="false" targetId="6a98-9528-0087-ea51" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23af-9dc9-a3a0-dcfe" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
           </entryLinks>

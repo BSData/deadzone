@@ -1512,132 +1512,98 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="231a-33fe-0b06-4795" name="Hardpoint 1" hidden="false" collective="false">
+        <selectionEntryGroup id="d174-63bb-c9f6-0628" name="Hardpoints" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="4de6-1c77-4b37-3159" value="0.0">
+            <modifier type="set" field="56a1-a5b3-eb21-d045" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="34d4-fefd-9bbf-48cf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f80e-3c37-610d-8340" type="equalTo"/>
+                <condition field="selections" scope="34d4-fefd-9bbf-48cf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e533-1a47-6c1b-9d45" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="56a1-a5b3-eb21-d045" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="34d4-fefd-9bbf-48cf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1b0e-d8db-dd64-b3d5" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="56a1-a5b3-eb21-d045" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="34d4-fefd-9bbf-48cf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9ac1-9d44-c746-252c" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de6-1c77-4b37-3159" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a1-a5b3-eb21-d045" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="6e51-edf1-86d3-31a0" name="Ray Gun" hidden="false" targetId="4bde-1f0c-eca1-026c" type="selectionEntry">
+            <entryLink id="0657-3bb6-4ac4-7a8f" name="Big Drill" hidden="false" targetId="8796-6ff8-3f9d-e5ac" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4f7-5765-778f-d3c8" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="d9a8-bbd9-d935-b9d5" name="Big Drill" hidden="false" targetId="8796-6ff8-3f9d-e5ac" type="selectionEntry">
+            <entryLink id="2ebf-5c6a-7b69-d040" name="Chem Thrower" hidden="false" targetId="e5c1-a3c9-6635-dd56" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="549d-1da4-e067-63d0" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="b5ae-a230-1db3-73ae" name="Chem Thrower" hidden="false" targetId="e5c1-a3c9-6635-dd56" type="selectionEntry">
+            <entryLink id="dd07-d21f-23c6-8469" name="Ray Gun" hidden="false" targetId="4bde-1f0c-eca1-026c" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1431-6f8c-1331-4ffd" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="f80e-3c37-610d-8340" name="Double Hardpoint" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e46f-4e5b-e46b-5914" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="cbc2-3d07-c99a-ec1e" name="Heavy Chem Thrower**" hidden="false" targetId="6ee5-6a82-c433-c2cb" type="selectionEntry">
+            <entryLink id="e533-1a47-6c1b-9d45" name="Heavy Chem Thrower**" hidden="false" targetId="6ee5-6a82-c433-c2cb" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e6-3cc9-c9c8-1f86" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="836b-112f-150c-d751" name="Pair of Drills **" hidden="false" targetId="6998-9ac0-10ab-f46b" type="selectionEntry">
+            <entryLink id="1b0e-d8db-dd64-b3d5" name="Pair of Drills **" hidden="false" targetId="6998-9ac0-10ab-f46b" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adf4-a668-ee2b-aae9" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="3735-ac4c-c585-25f5" name="Two-Handed Drill **" hidden="false" targetId="b024-272d-6f87-b655" type="selectionEntry">
+            <entryLink id="9ac1-9d44-c746-252c" name="Two-Handed Drill **" hidden="false" targetId="b024-272d-6f87-b655" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="f3b1-245c-cfd2-e0a0" name="Hardpoint 2" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="1f5a-e60a-d87a-14b8" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="34d4-fefd-9bbf-48cf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f80e-3c37-610d-8340" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f5a-e60a-d87a-14b8" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="93cf-a321-af8d-1a45" name="Ray Gun" hidden="false" targetId="4bde-1f0c-eca1-026c" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="0777-a176-2bfc-e976" name="Big Drill" hidden="false" targetId="8796-6ff8-3f9d-e5ac" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="7990-9300-ccd0-187e" name="Chem Thrower" hidden="false" targetId="e5c1-a3c9-6635-dd56" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b05-ed36-b05d-3010" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -2049,7 +2015,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a008-3c67-5813-0f7e" name="Blaine" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2089,7 +2058,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1957-3e06-ff87-1ef8" name="Blaine on Jetbike" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2129,7 +2101,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5dea-578b-43a6-dd45" name="Boomer, Grenadier" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2169,7 +2144,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6aab-f021-3c96-a766" name="Chief Radgrad" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2209,7 +2187,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a442-ce6a-703a-fd36" name="Chovar Psychic" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2249,7 +2230,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9b1f-4d74-5b20-646f" name="Freya" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2289,7 +2273,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2d25-03aa-b80f-e4ac" name="Hund Rebel Bounty Hunter" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2329,7 +2316,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f8a4-f0d9-44b2-9e75" name="Nastanza" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2369,7 +2359,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5392-b69d-32ec-b79e" name="Ogre Terminator" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2409,7 +2402,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="312f-64c9-9fbc-e775" name="Project Oberon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2449,7 +2445,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8f89-01a6-49c7-558d" name="The Helfather" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2489,7 +2488,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2d80-2c1b-5af4-3e29" name="The Piper" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2529,7 +2531,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6945-0417-69a1-e78f" name="The Survivor" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2569,7 +2574,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>

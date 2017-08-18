@@ -445,140 +445,91 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a988-d30d-3490-ddda" name="Hardpoint 1" hidden="false" collective="false">
+        <selectionEntryGroup id="dc45-d400-e459-2ad0" name="Hardpoints" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="7e14-aef6-2ead-daf1" value="0">
+            <modifier type="set" field="fb84-d5f4-01c4-9eed" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="5fe4-0d09-f2ea-e644" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cbc9-1d89-761b-c4a2" type="equalTo"/>
+                <condition field="selections" scope="5fe4-0d09-f2ea-e644" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38ec-1a08-8ea2-4912" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="fb84-d5f4-01c4-9eed" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5fe4-0d09-f2ea-e644" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6061-0dfe-0d9d-8f28" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e14-aef6-2ead-daf1" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb84-d5f4-01c4-9eed" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="0ea6-1e21-9c78-ebab" name="Chainsaw" hidden="false" targetId="69bd-2c2e-c432-f32b" type="selectionEntry">
+            <entryLink id="63fb-d9c8-9040-8c20" name="Assault Flamer" hidden="false" targetId="b183-caf5-35d6-ec82" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc4c-aaea-a4a6-565d" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="fff4-3916-7934-d24a" name="Assault Flamer" hidden="false" targetId="b183-caf5-35d6-ec82" type="selectionEntry">
+            <entryLink id="3a96-c2ab-b0e5-813c" name="Chainsaw" hidden="false" targetId="69bd-2c2e-c432-f32b" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc30-a5d0-7b1c-7f2c" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="a218-4ae8-a456-0f3e" name="Strider Aggressor Shield" hidden="false" targetId="b93d-6faf-4be1-d606" type="selectionEntry">
+            <entryLink id="79dc-bbc0-d1f7-7f52" name="Strider Aggressor Shield" hidden="false" targetId="b93d-6faf-4be1-d606" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa62-0bae-c4fc-dc3d" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="ebbd-e495-fb55-d4c4" name="Strider Grav-ram Spear" hidden="false" targetId="6db8-1444-6df8-4b7f" type="selectionEntry">
+            <entryLink id="dd04-1db7-a0db-9a3d" name="Strider Grav-ram Spear" hidden="false" targetId="6db8-1444-6df8-4b7f" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f2f-e730-0c23-45db" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="3aa2-9845-7acc-75c3" name="Hardpoint 2" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="186d-0999-fc9f-9293" value="0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="5fe4-0d09-f2ea-e644" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cbc9-1d89-761b-c4a2" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="186d-0999-fc9f-9293" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="fff8-b611-4dbe-d868" name="Chainsaw" hidden="false" targetId="69bd-2c2e-c432-f32b" type="selectionEntry">
+            <entryLink id="38ec-1a08-8ea2-4912" name="Equalizer (Gerling 88) **" hidden="false" targetId="7b89-9a4d-7b73-c208" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfaa-6457-7e71-3f18" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="c4f0-5b68-63ee-557c" name="Assault Flamer" hidden="false" targetId="b183-caf5-35d6-ec82" type="selectionEntry">
+            <entryLink id="6061-0dfe-0d9d-8f28" name="Heavy Burst Laser **" hidden="false" targetId="d3e3-30d3-9d31-3aa4" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="a0b6-8fc1-6727-5acd" name="Strider Grav-ram Spear" hidden="false" targetId="6db8-1444-6df8-4b7f" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="1129-231b-57f7-1ccd" name="Strider Aggressor Shield" hidden="false" targetId="b93d-6faf-4be1-d606" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="cbc9-1d89-761b-c4a2" name="Double Hardpoint" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5116-1e99-d12e-3559" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="841e-fc0c-963c-0591" name="Equalizer (Gerling 88) **" hidden="false" targetId="7b89-9a4d-7b73-c208" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="214a-d6d4-eb5d-f710" name="Heavy Burst Laser **" hidden="false" targetId="d3e3-30d3-9d31-3aa4" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e6a-8d2c-888e-9b32" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
           </entryLinks>

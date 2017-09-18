@@ -910,9 +910,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="407f-7f94-08ae-a323" name="Drone" book="Deadzone 2nd Ed Rulebook" page="75" hidden="false" collective="false" type="unit">
+    <selectionEntry id="407f-7f94-08ae-a323" name="Weapon Drone" book="Deadzone 2nd Ed Rulebook" page="75" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="6ae2-3dc6-8941-c513" name="Drone" book="Deadzone 2nd Ed Rulebook" page="74" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="6ae2-3dc6-8941-c513" name="Weapon Drone" book="Deadzone 2nd Ed Rulebook" page="74" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2081,6 +2081,612 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a23a-0caa-a762-9cba" name="Support Drone" book="Asterian Faction Booklet" page="5" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e6a5-fa49-7da4-9d5f" name="Support Drone" book="Asterian Faction Booklet" page="5" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="-"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="6+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="102d-0243-280b-d0f9" name="Construct" hidden="false" targetId="f0c6-e746-f152-933c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e6c1-4f24-013b-99ad" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bde7-9b68-da0a-90ea" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0828-2d19-1cb2-1eef" name="Hardpoint" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c63-1646-f974-cf77" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e2d3-f368-2531-1bfd" name="Cloaking Device" hidden="false" targetId="fb4a-b4ee-438e-f513" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="425c-8950-87d3-4baf" name="Comms Relay" hidden="false" targetId="51d5-a16d-b8ad-9661" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1c3e-2eb5-9294-da8d" name="Twin Noh Pistols" hidden="false" targetId="d669-ef30-b5c6-f94b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de66-1248-9ef4-16da" name="Cypher Warden" book="Asterian Faction Booklet" page="4" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ef77-e9de-cb59-cc8e" name="Cypher Warden" book="Asterian Faction Booklet" page="4" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="1"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="4+"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0cc8-5aa3-b1c5-4a86" name="Construct" hidden="false" targetId="f0c6-e746-f152-933c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4fb5-4d31-7c40-cb05" name="Vulnerable" hidden="false" targetId="07eb-3d1e-7d8b-9dc6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6fb3-376c-2b6f-c7ea" name="Toxic Smokescreen" hidden="false" targetId="95ec-04ae-0dd4-4f28" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d310-b2e0-08d8-beaf" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3081-79f8-4668-7104" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="e647-ca54-7548-b65a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bab9-a2e2-4e08-bf18" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154b-8b8f-6772-d6d2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e647-ca54-7548-b65a" name="Charge Glove" hidden="false" targetId="37d6-b5b0-f4eb-31e2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3a93-38e9-ee28-6f0d" name="Lightblade" hidden="false" targetId="74ab-a12b-4782-0ecf" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="deda-45b3-af73-cad6" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="c392-11cf-7008-18fd">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c86-89a8-55fe-1085" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="379d-48bd-f1cb-5f97" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2574-5a8c-a24c-767d" name="Noh Rifle" hidden="false" targetId="dac5-e9ca-7ddc-ee4b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c392-11cf-7008-18fd" name="Charge Glove (Energy Pulse)" hidden="false" targetId="c857-07d1-5309-3537" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6e4d-50de-cf50-39cd" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0e84-34f1-0832-6a03" name="Noh Pistol *" hidden="false" targetId="1518-e627-4322-730f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8190-b5c5-9287-1cfb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b721-ddb3-7cb1-97b8" name="Black Talon Prime" book="Asterian Faction Booklet" page="3" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a5ff-3aef-b76a-880c" name="Black Talon Prime" book="Asterian Faction Booklet" page="3" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="1"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="3+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="5+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="40bc-4140-ab6c-9eea" name="Stealth" book="Asterian Faction Booklet" page="3" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend an Army Special result on a model with Cypher or Black Talon in their type name who is the target of a Shoot action to give a +1 dice to a survive roll. You may spend more than 1 Army Special result on the same dice roll but must declare how many before rolling.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="75c3-4515-cf80-726f" name="Construct" hidden="false" targetId="f0c6-e746-f152-933c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="94b1-e95b-d84e-7f7b" name="Glide" hidden="false" targetId="c78a-7e20-2ad4-9c09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d542-43b0-4f70-bd33" name="Vulnerable" hidden="false" targetId="07eb-3d1e-7d8b-9dc6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4b5c-ad4b-6243-a00b" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="899a-4e6f-113d-c4d2" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3b31-5867-8dad-c5cf" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="9273-e70c-f775-f80a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92e2-bb54-a99b-8261" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c34-cd93-8953-d1f6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="dec5-9a31-e219-d370" name="Charge Glove (Energy Pulse)" hidden="false" targetId="c857-07d1-5309-3537" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ada2-ad86-a6cc-0425" name="Noh Rifle" hidden="false" targetId="dac5-e9ca-7ddc-ee4b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9273-e70c-f775-f80a" name="Noh Pistol *" hidden="false" targetId="1518-e627-4322-730f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Noh Pistol">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="bdc0-e836-872a-de18" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="ad3f-0a04-22f5-3e4d">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c137-42f1-81ca-9598" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77a2-1ff8-877d-c4ef" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="bfec-a25f-552f-e447" name="Charge Glove" hidden="false" targetId="37d6-b5b0-f4eb-31e2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ad3f-0a04-22f5-3e4d" name="Lightblade" hidden="false" targetId="74ab-a12b-4782-0ecf" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7125-6faa-683f-3e3f" name="Jump Pack" hidden="false" targetId="fc30-1c8d-ef65-7ba9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9534-d63b-3052-f751" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a4b-7336-bb25-ba5f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="828b-bacf-2fae-2408" name="Energy Shield (n) (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Energy Shield (4)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="956b-5d0a-824a-fc4c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a95-f12b-a38b-eda0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ed15-025d-4e63-0105" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56f0-1ee6-94a9-9f35" name="Kalyshi Dervish" book="Asterian Faction Booklet " page="2" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2369-0d05-4bfb-8d05" name="Kalyshi Dervish" book="Asterian Faction Booklet" page="2" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="2-3"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="0"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="3+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="5+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="aafb-cc09-b931-cade" name="Dance of Death" book="Asterian Faction Booklet" page="2" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>After the active model performs a Fight action use an Army Special result on a Command Dice to allow the model to move as if it had a Move Command Dice played on it, with the exception that the model does not need to make a Break Away test to leave a cube containing an enemy model. Maximum once per activation.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1811-2ed2-430f-23fe" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ece9-32cc-7a38-16e2" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ddc3-ccf5-4ced-efe5" name="Melee Weapons" hidden="false" collective="false" defaultSelectionEntryId="22a9-4c51-0401-f7ce">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9cb-85f1-8589-36d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d46-6035-5dcb-7237" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2ec5-9322-23d4-f08f" name="Lightblade" hidden="false" targetId="74ab-a12b-4782-0ecf" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d558-dea7-8561-b54f" name="Charge Glove" hidden="false" targetId="37d6-b5b0-f4eb-31e2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2b82-7337-cf2f-23e6" name="Glaive" hidden="false" targetId="7a3e-4c20-52df-b9f1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="22a9-4c51-0401-f7ce" name="Razor Flails" hidden="false" targetId="3adf-d869-8ad2-f6d2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="07ee-7ead-88da-fa83" name="Ranged Weapon" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52a6-9c69-b730-3454" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d31-56e0-c347-1f10" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b17e-3190-e659-8755" name="Charge Glove (Energy Pulse)" hidden="false" targetId="c857-07d1-5309-3537" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="841f-9961-88fc-d285" name="Noh Rifle" hidden="false" targetId="dac5-e9ca-7ddc-ee4b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c11f-f1db-ba1d-fe3e" name="Energy Bow" hidden="false" targetId="fdb4-6e4d-c9aa-b409" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6d84-4584-eda4-fc66" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="22.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -2570,6 +3176,18 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="865d-742a-8c30-5fc2" name="Shield Generator (n)" hidden="false" targetId="5456-ad39-c563-ae61" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Shield Generator (4)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -2580,6 +3198,124 @@
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb4a-b4ee-438e-f513" name="Cloaking Device" book="Asterian Faction Booklet" page="8" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1996-aae7-4764-9e6b" name="Cloaking Device" book="Asterian Faction Booklet" page="8" hidden="false" targetId="5324-e0dd-f240-ec0c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="97a4-944a-2116-d740" name="Cloaking Device" book="Asterian Faction Booklet" page="8" hidden="false" targetId="3dac-feac-1ba4-4e63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="160b-c679-4567-e511" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="51d5-a16d-b8ad-9661" name="Comms Relay" book="Asterian Faction Booklet" page="8" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c997-55a4-d0d0-99fc" name="Communications Relay" book="Asterian Faction Booklet" page="8" hidden="false" targetId="c780-800f-e2ba-95bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1acf-744c-c0f5-6ed2" name="Communications Relay" book="Asterian Faction Booklet" page="8" hidden="false" targetId="c5a8-a0a5-e036-f448" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5cd3-ee1d-d85b-f043" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bc94-6394-7f21-2307" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3adf-d869-8ad2-f6d2" name="Razor Flails" book="Asterian Faction Booklet" page="2" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8bc8-59cb-31d8-f14b" name="Razor Flails" hidden="false" targetId="39b9-7e0e-de27-fd39" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a742-64ca-b5da-c957" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2798,7 +3534,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="3">
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="5">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2820,7 +3556,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="5">
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="3">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2862,7 +3598,22 @@
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="3dac-feac-1ba4-4e63" name="Cloaking Device" book="Asterian Faction Booklet" page="8" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This device disrupts the visual appearance of troops. All models (friend or foe) in a cube or adjacent to a cubecontaining a model with a Cloaking Device will suffer a -1 dice modifier to target them with Shoot or Fire for Effect actions. No additional effectwill be gained from smoke or another Cloaking Device. You may still gain the +2 dice for a clear shot, although with the additional -1 modifier mentioned above.</description>
+    </rule>
+    <rule id="c780-800f-e2ba-95bd" name="Communications Relay" book="Asterian Faction Booklet" page="8" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with this ability grants a free extar activation Command Dice per round. You may not reroll this Command Dice and if the model granting Communications Relay is killed you lose the extar activtion from all subsequent rounds.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="19dd-1ca3-9511-9bd5" name="Energy Bow" book="Deadzone 2nd Ed Rulebook" page="76" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
@@ -3078,6 +3829,42 @@
         <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
         <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Shield Generator (4)"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Platform (Shield)"/>
+      </characteristics>
+    </profile>
+    <profile id="5324-e0dd-f240-ec0c" name="Cloaking Device" book="Asterian Faction Booklet" page="8" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="-"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Cloaking Device"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Platform (Camouflage)"/>
+      </characteristics>
+    </profile>
+    <profile id="c5a8-a0a5-e036-f448" name="Comms Relay" book="Asterian Faction Booklet" page="8" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="-"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Comms Relay"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Platform (Communications)"/>
+      </characteristics>
+    </profile>
+    <profile id="39b9-7e0e-de27-fd39" name="Razor Flails" book="Asterian Faction Booklet" page="2" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frenzy (1)"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Kalyshi"/>
       </characteristics>
     </profile>
   </sharedProfiles>

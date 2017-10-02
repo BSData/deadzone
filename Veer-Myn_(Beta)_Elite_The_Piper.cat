@@ -1920,63 +1920,7 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad0-0eb6-4537-e818" type="max"/>
       </constraints>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="a5dc-0487-4712-e90f" name="Toxic Grenade (+)" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="6eb4-b2df-4ece-0743" name="Toxic Grenade" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
-                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
-                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Grenade, Toxic Smokescreen, One Use"/>
-                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="d9b6-6275-4a9e-7562" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="9871-8af0-9913-4f42" name="Grenade" hidden="false" targetId="336e-9dc4-7706-61d6" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="b6d3-783e-0930-260b" name="Toxic Smokescreen" hidden="false" targetId="95ec-04ae-0dd4-4f28" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks>
-            <categoryLink id="05dc-5796-21ef-5157" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
-            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="669e-3df4-bdd5-da8f" name="Ammo (+)" hidden="false" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
@@ -2067,12 +2011,12 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
             </categoryLink>
           </categoryLinks>
         </entryLink>
-        <entryLink id="bc6a-a610-ab24-d6e6" name="Stun Grenade (+)" hidden="false" targetId="2ee6-1157-6672-3508" type="selectionEntry">
+        <entryLink id="fbcf-6756-a732-40d5" name="Medi-Pack (+)" hidden="false" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="6">
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="5">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2080,7 +2024,7 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
           </modifiers>
           <constraints/>
           <categoryLinks>
-            <categoryLink id="9ee1-a92a-3b9c-9c9b" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
+            <categoryLink id="1ebf-bdd0-1434-cda6" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>

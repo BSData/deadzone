@@ -301,6 +301,18 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="23d4-30c4-aba9-6247" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Energy Shield (4)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -342,20 +354,7 @@
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks>
-                <infoLink id="6cea-8ab2-837a-53c8" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="name" value="Energy Shield (4)">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
               <constraints/>
               <categoryLinks/>

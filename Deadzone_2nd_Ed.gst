@@ -3471,7 +3471,10 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aced-2e8d-9bd0-2832" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8660-4b8d-527d-28a2" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -3606,21 +3609,44 @@
             <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="534a-2b0d-c7d3-9793" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
-          <profiles/>
+        <selectionEntry id="e242-70bf-8906-550c" name="Energy Gauntlet" book="Deadzone Errata v2.1" page="3" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="75ac-c94d-56d2-6a70" name="Energy Gauntlet" book="Deadzone Errata v2.1" page="3" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Knockback"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="8ade-e2c7-5bb8-7dc8" name="Knockback" hidden="false" targetId="9b4e-17bd-61ab-7feb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abfd-4abe-6c4e-ba22" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7077-72e4-ca8d-c841" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53e9-3778-b5be-656c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db36-0947-08d5-b85f" type="max"/>
           </constraints>
           <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="5.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="34.0"/>

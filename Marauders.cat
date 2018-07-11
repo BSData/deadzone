@@ -2513,14 +2513,6 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="4bd9-4a01-fd51-8163" name="Rifle" hidden="false" targetId="05a5-a9d7-1b74-3dc9" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
                   <repeats/>
@@ -2528,6 +2520,14 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4bd9-4a01-fd51-8163" name="Rifle" hidden="false" targetId="05a5-a9d7-1b74-3dc9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -2543,6 +2543,14 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb59-9837-d586-aac0" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e611-e2df-930c-3fa4" name="Items" hidden="false" targetId="cf26-a906-9892-1afd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2635,6 +2643,43 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="2507-768e-7196-a3b3" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="c45b-a8bd-0e59-3811">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcfa-e605-c1ec-7de5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c32-5014-2871-3611" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c45b-a8bd-0e59-3811" name="Heavy Pistol" hidden="false" targetId="fc04-7d7b-5f0c-4ad3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3564-6b5b-4cf3-230d" name="Rifle" hidden="false" targetId="05a5-a9d7-1b74-3dc9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5bf5-49ae-1f54-250f" name="Stun Grenade (+)" hidden="false" targetId="2ee6-1157-6672-3508" type="selectionEntry">
@@ -2648,6 +2693,14 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1a51-8c0f-27af-3808" name="Items" hidden="false" targetId="cf26-a906-9892-1afd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>

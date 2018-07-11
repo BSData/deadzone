@@ -2692,8 +2692,16 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="name" value="Stun Grenade">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12e6-e256-e23a-9c81" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5339-1bf3-cea2-3132" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="1a51-8c0f-27af-3808" name="Items" hidden="false" targetId="cf26-a906-9892-1afd" type="selectionEntryGroup">

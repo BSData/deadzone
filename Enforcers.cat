@@ -195,7 +195,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Spend an Army Special result at the beginning of a model&apos;s activation. If the active model is equipped with a Jump Pack, and does not have the Vehicle ability, it may make a free Sprint action. The model may not take a second Sprint action or a Move action this activation.</description>
+          <description>Spend an Army Special result at the beginning of a model’s activation. If the active model is equipped with a Jump Pack, and does not have the Vehicle ability, it may make a free Sprint action. The model may not take a second Sprint action or a Move action this activation.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -358,7 +358,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Spend an Army Special result on your Command Dice to mark an enemy model as a target for the rest of the Round. The model is treated as though it had been marked as a target by a model using the Tag ability. This does not count as an action.</description>
+          <description>Target Acquisition: Spend an Army Special result on your Command Dice to mark an enemy model as a target for the rest of the Round. The model is treated as though it had been marked as a target by a model using the Tag ability. This does not require Line of Sight and does not count as an action.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -425,9 +425,17 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="2dee-f685-ab83-b1fa" name="Chainsaw" hidden="false" targetId="5558-4fcb-d140-defa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="80b8-2b6d-d50c-124c" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="194d-2aca-2010-2db5">
+        <selectionEntryGroup id="80b8-2b6d-d50c-124c" name="Ranged Weapon 1" hidden="false" collective="false" defaultSelectionEntryId="194d-2aca-2010-2db5">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -472,6 +480,59 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="d4f6-f857-0fe5-dfd3" name="Ranged Weapon 2" hidden="false" collective="false" defaultSelectionEntryId="2a05-22c3-22bc-71ff">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32a4-848b-1c7d-10a2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62ea-615b-f70e-1750" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="68e5-7dfd-2920-aaf4" name="Laser Rifle" hidden="false" targetId="c81b-c88d-447b-ebd5" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="dc3f-00eb-c80f-f594" name="Combat Shotgun" hidden="false" targetId="7b11-473f-cb99-f262" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="37d4-90c4-9788-e0a2" name="Tag Rifle" hidden="false" targetId="7f90-f100-39bb-e706" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2a05-22c3-22bc-71ff" name="Pistol *" hidden="false" targetId="9af0-500e-d612-a0f8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Pistol">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7a57-738d-3b89-7ac2" name="Items" hidden="false" targetId="7ea9-9a33-0ff2-6760" type="selectionEntryGroup">
@@ -480,16 +541,6 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="90c1-179f-62fa-db25" name="Pistol *" hidden="false" targetId="9af0-500e-d612-a0f8" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dc6-f7b5-1a15-b183" type="max"/>
-          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -522,7 +573,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>You may spend a Special result on your Command Dice to add +1 Armour to a model for a single attack. You must decide to spend this Command Dice before the attack is rolled, and only one dice can be spent per attack.</description>
+          <description>You may spend a Special Result on a Command Dice to add +1 Armour to a
+model for a single attack. You must decide to use this dice before the attack is rolled.
+A maximum of one dice can be used per attack.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -591,7 +644,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d4c4-3284-e8ba-28ce" name="Double-Barrelled Laser Rifle (Dominator)" hidden="false" targetId="0dde-f7db-085e-9a4c" type="selectionEntry">
+        <entryLink id="d4c4-3284-e8ba-28ce" name="Double-Barrelled Laser Rifle" hidden="false" targetId="0dde-f7db-085e-9a4c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1692,7 +1745,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="14.0"/>
       </costs>
     </selectionEntry>
@@ -1708,7 +1761,7 @@
             <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
             <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
             <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="6+"/>
-            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="7+"/>
             <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="6+"/>
           </characteristics>
         </profile>
@@ -1796,6 +1849,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="0fb5-c348-234a-ecc7" name="Evade" hidden="false" targetId="f256-c9e1-fd94-2578" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1808,7 +1867,25 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="817c-6141-3a44-2b8d" name="Stealth Device" book="Deadzone: Outbreak" page="32" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8889-30bd-d430-94c9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="4.0"/>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3ece-3454-c47a-0a16" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="0b9e-20df-748e-c039">
           <profiles/>
@@ -2960,7 +3037,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0dde-f7db-085e-9a4c" name="Double-Barrelled Laser Rifle (Dominator)" book="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0dde-f7db-085e-9a4c" name="Double-Barrelled Laser Rifle" book="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3028,7 +3105,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7f90-f100-39bb-e706" name="Tag Rifle" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7f90-f100-39bb-e706" name="TAG Rifle" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3106,7 +3183,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92dc-cad1-e24c-8711" name="Equalizer (Genling 88) **" book="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="92dc-cad1-e24c-8711" name="Polaris Cannon **" book="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3186,8 +3263,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5558-4fcb-d140-defa" name="Chainsaw" book="" hidden="false" collective="false" type="upgrade">
@@ -3200,6 +3277,18 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="6a2a-3acc-9933-c15d" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -3208,11 +3297,11 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="5.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2966-df41-606b-b695" name="Strider Aggressor Shield" book="" page="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2966-df41-606b-b695" name="Aggressor Shield" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3236,15 +3325,15 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="10.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8534-fc76-04f7-050d" name="Strider Grav-ram Spear" book="" page="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8534-fc76-04f7-050d" name="Grav-ram Spear" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="ff89-5c75-48fc-b0ab" name="Strider Grav-ram Spear" hidden="false" targetId="1875-98cf-692d-1c4d" type="profile">
+        <infoLink id="ff89-5c75-48fc-b0ab" name="Grav-ram Spear" hidden="false" targetId="1875-98cf-692d-1c4d" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3271,7 +3360,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="15.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a46-dab5-bf21-6719" name="Heavy Burst Laser **" hidden="false" collective="false" type="upgrade">
@@ -3654,7 +3743,7 @@
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Sniper)"/>
       </characteristics>
     </profile>
-    <profile id="14e3-68ae-5de1-6755" name="Double-Barrelled Laser Rifle (Dominator)" book="Deadzone 2nd Ed Rulebook" page="59" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="14e3-68ae-5de1-6755" name="Double-Barrelled Laser Rifle" book="Deadzone 2nd Ed Rulebook" page="59" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3678,7 +3767,7 @@
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Melee)"/>
       </characteristics>
     </profile>
-    <profile id="662d-622e-baaa-fd45" name="Tag Rifle" book="Deadzone 2nd Ed Rulebook" page="59" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="662d-622e-baaa-fd45" name="TAG Rifle" book="Deadzone 2nd Ed Rulebook" page="59" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3720,7 +3809,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R12"/>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R10"/>
         <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP4"/>
         <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Lance)"/>
@@ -3745,7 +3834,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R2"/>
-        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
         <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Volatile, It Burns!"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Assault)"/>
       </characteristics>
@@ -3757,12 +3846,12 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
-        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
-        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frenzy (1)"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Melee)"/>
       </characteristics>
     </profile>
-    <profile id="1875-98cf-692d-1c4d" name="Strider Grav-ram Spear" book="Deadzone: Nexus Psi" page="10" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="1875-98cf-692d-1c4d" name="Grav-ram Spear" book="Deadzone: Nexus Psi" page="10" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3786,7 +3875,7 @@
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Automatic)"/>
       </characteristics>
     </profile>
-    <profile id="474c-c0a3-2259-0242" name="Strider Aggressor Shield" book="Deadzone: Nexus Psi" page="10" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="474c-c0a3-2259-0242" name="Aggressor Shield" book="Deadzone: Nexus Psi" page="10" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -32,7 +32,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>You may spend an Army Special result on your Command Dice to discard any one of your opponent’s Command Dice. This does not count as an action.</description>
+          <description>You may spend an Army Special result on your Command Dice to discard any one of your opponent’s Command Dice. This does not count as an action. You may do this a maximum of once per activation.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -171,20 +171,7 @@
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks>
-                <infoLink id="16f0-bfc2-31ef-23ea" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="name" value="Energy Shield (3)">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
@@ -235,6 +222,23 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3e03-c44c-76eb-c6d2" name="Energy Shield (n) (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Energy Shield (3) (+)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c0-58a2-f300-cb00" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb2-897b-c7aa-dcca" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -301,18 +305,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="23d4-30c4-aba9-6247" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Energy Shield (4)">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -355,7 +347,18 @@
               </profiles>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
               <selectionEntries/>
@@ -389,10 +392,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3323-8209-261c-6fe0" name="Energy Shield (n) (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Energy Shield (4) (+)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e0-6c7c-f24f-37c3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9542-a92d-76ba-989a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="24.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a250-1e3a-cdd8-3fa6" name="Cypher" book="Deadzone 2nd Ed Rulebook" page="74" hidden="false" collective="false" type="unit">
@@ -720,7 +740,50 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0ecc-65df-712b-b39b" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="31d1-ed78-7233-295f">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="31d1-ed78-7233-295f" name="Glaive" hidden="false" targetId="7a3e-4c20-52df-b9f1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87da-055c-c46d-2442" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcba-92c6-0eec-d842" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5529-cbc6-3750-bc76" name="Razor Flails" hidden="false" targetId="3adf-d869-8ad2-f6d2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="66b5-53d3-85e7-7c35" name="Energy Bow" hidden="false" targetId="fdb4-6e4d-c9aa-b409" type="selectionEntry">
           <profiles/>
@@ -736,23 +799,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba74-cbf9-550c-d8e7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7914-23d0-c25a-ff28" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="35c7-78ba-151d-3615" name="Glaive" hidden="false" targetId="7a3e-4c20-52df-b9f1" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8c-6fde-ea85-5110" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b68e-ade9-cc3c-4e0b" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -1003,7 +1049,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
@@ -1375,10 +1421,10 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="2-4"/>
-            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="1"/>
             <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="2"/>
             <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="4+"/>
-            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="6+"/>
             <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
           </characteristics>
         </profile>
@@ -1392,6 +1438,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="828a-9bab-84a9-781f" name="Flight" hidden="false" targetId="1dd9-cb24-7a75-5b0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="efde-590e-1f67-ceb0" name="Evade" hidden="false" targetId="f256-c9e1-fd94-2578" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1432,7 +1484,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ea4-edcf-6e8f-3d10" name="Wrath" hidden="false" collective="false" type="upgrade">
@@ -2624,13 +2676,24 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="07ee-7ead-88da-fa83" name="Ranged Weapon" hidden="false" collective="false">
+        <selectionEntryGroup id="07ee-7ead-88da-fa83" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="c11f-f1db-ba1d-fe3e">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2747,7 +2810,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="7.0"/>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c857-07d1-5309-3537" name="Charge Glove (Energy Pulse)" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
@@ -3065,10 +3128,10 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d669-ef30-b5c6-f94b" name="Twin Noh Pistols" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d669-ef30-b5c6-f94b" name="Twin Noh Rifles" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3285,7 +3348,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3adf-d869-8ad2-f6d2" name="Razor Flails" book="Asterian Faction Booklet" page="2" hidden="false" collective="false" type="upgrade">
@@ -3318,8 +3381,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3787,7 +3850,7 @@
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Small Arms"/>
       </characteristics>
     </profile>
-    <profile id="5bfc-fcd1-7fcf-ffaf" name="Twin Noh Pistols" book="Deadzone 2nd Ed Rulebook" page="76" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="5bfc-fcd1-7fcf-ffaf" name="Twin Noh Rifles" book="Deadzone 2nd Ed Rulebook" page="76" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f2ba-94c0-9329-1080" name="The GCPS" book="Deadzone Errata v2.2" revision="1" battleScribeVersion="2.01" authorName="Ben Edwards" authorContact="BAE2 (Github)" gameSystemId="3476-f239-cf73-2f89" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f2ba-94c0-9329-1080" name="GCPS" book="Deadzone Errata v2.2" revision="1" battleScribeVersion="2.01" authorName="Ben Edwards" authorContact="BAE2 (Github)" gameSystemId="3476-f239-cf73-2f89" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,9 +8,9 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="a421-4ad8-5e21-c42e" name="Corporation Major-General" book="Deadzone Errata v2.2" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a421-4ad8-5e21-c42e" name="Major-General" book="Deadzone Errata v2.2" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="9ce3-6f40-bd13-dc42" name="Corporation Major-General" book="Deadzone Errata v2.2" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+        <profile id="9ce3-6f40-bd13-dc42" name="Major-General" book="Deadzone Errata v2.2" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -32,7 +32,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Spend an Army Special result. The active model may take a Special Action to perform an R8, Indirect (2) attack.</description>
+          <description>Spend an Army Special result on a Command Dice to allow the active model to take a Special Action to perform an R8, Indirect (2) attack.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -224,7 +224,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3465-3a94-6ea5-5445" name="Corporation Sgt." book="Deadzone Errata v2.2" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3465-3a94-6ea5-5445" name="Corporation Marine Sergeant" book="Deadzone Errata v2.2" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="5ae7-c6cb-26f0-532a" name="Corporation Sgt." book="Deadzone Errata v2.2" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
           <profiles/>
@@ -388,11 +388,11 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef64-d725-6341-fcda" name="Ranger Sgt." book="Deadzone Errata v2.2" hidden="false" collective="false" type="unit">
+    <selectionEntry id="ef64-d725-6341-fcda" name="Ranger Sergeant" book="Deadzone Errata v2.2" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="620d-5bc0-b4d0-190e" name="Ranger Sgt." book="Deadzone Errata v2.2" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
           <profiles/>
@@ -416,7 +416,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Spend an Army Special result to reroll any number of dice when rolling to hit the target cube with an indirect weapon or grenade during a Shoot action. You may only use 1 Army Special result per Shoot action.</description>
+          <description>Spend an Army Special result on a Command Dice to reroll any number of dice when rolling to hit the target cube with an Indirect weapon or grenade during a Shoot action. You may only use one Army Special result per Shoot action..</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2378,7 +2378,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="300e-7914-ee40-3e1c" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" type="upgrade">
@@ -2527,7 +2527,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed1b-a6b3-c000-283f" name="Accutek LR-32 Laser Carbine" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ed1b-a6b3-c000-283f" name="Laser Carbine (Accutek LR-32)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2567,11 +2567,17 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6620-2cb8-6c9c-9948" name="Accutek LR-45 DMR" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6620-2cb8-6c9c-9948" name="Marksman Rifle (Accutek LR-45 DMR)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
         <infoLink id="53c9-2285-a506-3ef7" name="Accutek LR-45 DMR" hidden="false" targetId="9c77-0a5f-102a-32c4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2406-3ad6-a20d-861e" name="Holo Sight" hidden="false" targetId="0657-6185-3ad2-0886" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2583,31 +2589,13 @@
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="7f93-82eb-3cc2-4606" name="Holo Sight (+)" hidden="false" targetId="4c27-12b2-2903-804b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc4-ed63-b2d1-04c3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7429-6cb5-77b7-295f" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e671-2c75-86d3-cbd1" name="Accutek LR-AM Heavy Rifle" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e671-2c75-86d3-cbd1" name="Heavy Laser Rifle (Accutek LR-AM)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2855,6 +2843,18 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="a204-398c-b4a9-a953" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -2864,7 +2864,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="5.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ae6-d9b7-fb3e-83cc" name="Assault Flamer" hidden="false" collective="false" type="upgrade">
@@ -2897,7 +2897,6 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
       </costs>
     </selectionEntry>
@@ -2991,7 +2990,7 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5314-054e-3444-ac93" name="Genling 340 Frontiersman" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5314-054e-3444-ac93" name="Genling 340 &apos;Frontiersman&apos;" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3342,7 +3341,7 @@
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Assault)"/>
       </characteristics>
     </profile>
-    <profile id="d5e5-44b9-df5c-4ffe" name="Accutek LR-32 Laser Carbine" book="Deadzone Errata v2.2" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="d5e5-44b9-df5c-4ffe" name="Laser Carbine (Accutek LR-32)" book="Deadzone Errata v2.2" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3366,7 +3365,7 @@
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Marksman)"/>
       </characteristics>
     </profile>
-    <profile id="9b33-3ca7-8da3-ee0e" name="Accutek LR-AM Heavy Rifle" book="Deadzone Errata v2.2" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="9b33-3ca7-8da3-ee0e" name="Heavy Laser Rifle (Accutek LR-AM)" book="Deadzone Errata v2.2" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3457,8 +3456,8 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
-        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
-        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frenzy (1)"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Melee)"/>
       </characteristics>
     </profile>
@@ -3469,7 +3468,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R2"/>
-        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
         <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Volatile, It Burns!"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Assault)"/>
       </characteristics>
@@ -3510,7 +3509,7 @@
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Leader"/>
       </characteristics>
     </profile>
-    <profile id="5b4b-ff8c-8e82-4f3e" name="Genling 340 Frontiersman" book="Deadzone Errata v2.2" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="5b4b-ff8c-8e82-4f3e" name="Genling 340 &apos;Frontiersman&apos;" book="Deadzone Errata v2.2" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>

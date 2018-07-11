@@ -540,7 +540,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4c27-12b2-2903-804b" name="Holo Sight (+)" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4c27-12b2-2903-804b" name="Holo Sight" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1272,76 +1272,147 @@
             <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="05b8-9640-b106-53fd" name="Frag Grenades" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f1c1-6e09-061c-183e" name="Frag Grenades" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frag (3), Grenade"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9db1-bee9-9dae-88b7" name="Frag (n)" hidden="false" targetId="f7aa-fbc1-3217-1be0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Frag (3)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="6325-20b2-12cb-d1aa" name="Grenade" hidden="false" targetId="336e-9dc4-7706-61d6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="602d-d52e-d1c6-edc9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d50-639d-af7d-562b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d7cc-0531-e065-3dd2" name="Smoke Grenades" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="16e2-debf-419b-89f3" name="Smoke Grenades" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Smoke Grenade, Grenade"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="97b0-4036-a5c3-809d" name="Smoke Grenade" hidden="false" targetId="2ce0-7255-fa00-5648" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="bb35-f545-d036-da22" name="Grenade" hidden="false" targetId="336e-9dc4-7706-61d6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23d0-2fda-ecce-26d0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5473-5afd-264c-c384" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2686-d7da-55fa-8079" name="Stun Grenades" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8ae2-488d-acc1-a8ca" name="Smoke Grenades" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Smoke Grenade, Grenade"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2831-71f9-f4c1-3eab" name="Stun Grenade" hidden="false" targetId="d55e-f779-beb8-0071" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4bd9-d0a3-72e6-2a92" name="Grenade" hidden="false" targetId="336e-9dc4-7706-61d6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3492-f98a-1600-6aa7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d23-98c3-1d32-5677" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="d1b6-5a31-346c-c743" name="Frag Grenade (+)" hidden="false" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Frag Grenade">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6755-f58c-55a3-2a22" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="669e-2df0-0580-23d9" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b603-06a9-0ba2-250d" name="Smoke Grenade (+)" hidden="false" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Smoke Grenade">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f45e-38da-264c-3afc" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85a6-767a-7cab-bfd4" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6b7e-5584-80d9-b61a" name="Stun Grenade (+)" hidden="false" targetId="2ee6-1157-6672-3508" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Stun Grenade">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf49-09ed-f295-8fef" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e93-46d1-82c4-7fcc" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="18.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
@@ -3642,7 +3713,10 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -4364,9 +4438,9 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af0c-5df6-5f3a-3754" name="Tripmine" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="af0c-5df6-5f3a-3754" name="Trip Mine" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="85a0-4f0c-3e6b-16f9" name="Tripmine" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+        <profile id="85a0-4f0c-3e6b-16f9" name="Trip Mine" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4393,7 +4467,7 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8cd2-5f76-65ab-86d2" name="Trap (n)" hidden="false" targetId="0619-45db-fd26-fe4c" type="rule">
+        <infoLink id="8cd2-5f76-65ab-86d2" name="Trap" hidden="false" targetId="0619-45db-fd26-fe4c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4537,6 +4611,62 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d6e8-f111-121c-ffdb" name="Stimulant Shot (+)" book="Deadzone: Outbreak" page="16" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2100-3b40-5eb0-5b47" name="Stimulant Shot" hidden="false" targetId="b420-8549-5e84-74a0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="05f8-84fa-759c-c461" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="029d-78ec-0cde-2c56" name="Adrenaline Shot (+)" book="Deadzone: Outbreak" page="16" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6dc0-3edf-eda4-a778" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3f35-44da-3d61-2067" name="Adrenaline Shot" hidden="false" targetId="139f-05c7-3940-9f1d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -4622,12 +4752,12 @@ In addition, some items can only be used by Engineers.</description>
 7: AP3
 8: Ominous Hum: The owning model gains the BOOM! (1) ability until the end of the game, and rolls again on this table. This effect is cumulative: The value of BOOM! increases by 1 each time an 8 is rolled.</description>
     </rule>
-    <rule id="a620-dc42-f93b-b270" name="Fire Control" book="Deadzone 2nd Ed Rulebook" page="29" hidden="false">
+    <rule id="a620-dc42-f93b-b270" name="Fire Control" book="Deadzone: Outbreak" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When the model takes a Shoot action it can use two weapons instead of one. Each weapon may choose the same or a different target. Declare the targets of both weapons before rolling any attack dice.</description>
+      <description>When the model takes a Shoot action it can use two weapons instead of one. Each weapon may choose the same or a different target. Declare the targets of both weapons before rolling any attack dice. A model with Fire Control that uses a Shoot symbol on a Command Dice only benefits from a single extra shot from only one of the available weapons.</description>
     </rule>
     <rule id="f7aa-fbc1-3217-1be0" name="Frag (n)" book="Deadzone 2nd Ed Rulebook" page="29" hidden="false">
       <profiles/>
@@ -4672,13 +4802,11 @@ The effect the Grenade has varies by type.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model with Hammerfist Drop Armour starts the battle off the table. It is called in using a Special action by a model in the same Strike Team already on the table.
-When called in, place the Hammerfist model in any empty cube on the table. If there is a stack, place it at the top level. The force of the model’s entry may send nearby models flying - the Hammerfist model rolls a 3 dice 4+ test (X) for the strength of the attack. Models in all adjacent cubes must roll a 3 dice Survive test (X). Roll once for the attack and separately for each target model’s survival roll.
+      <description>A model with Hammerfist Drop Armour starts the battle off the table. It is called in using a Special action by a model in the same Strike Team already on the table. When called in, place the Hammerfist model in any empty cube on the table. If there is a stack, place it at the top level. The force of the model’s entry may send nearby models flying - the Hammerfist model rolls a 3 dice 4+ test (X) for the strength of the attack. Models in all adjacent cubes must roll a 3 dice Survive test (X). Roll once for the attack and separately for each target model’s survival roll.
 Draw or Survive has more successes:
 Attack misses or fails to cause any harm.
 Hammerfist has more successes:
-The target model is thrown one cube directly away from the Hammerfist model and is Pinned.
-The Hammerfist model is then marked as activated.
+The target model is thrown one cube directly away from the Hammerfist model and is Pinned. The Hammerfist model is then marked as activated. 
 For the rest of the game, the model equipped with Hammerfist Drop Armour counts as having a Jump Pack.</description>
     </rule>
     <rule id="20eb-5380-3d00-044b" name="Heavy" book="Deadzone 2nd Ed Rulebook" page="30" hidden="false">
@@ -4740,12 +4868,12 @@ The target puts out the ames before they do any real Damage. The model may conti
 Fire/flames has more successes:
 The target manages to put out the ames and is no longer on re, but suffers Damage in the process. The Potential Damage is equal to the difference in total successes and is resolved at AP1. The model’s activation ends immediately.</description>
     </rule>
-    <rule id="9b4e-17bd-61ab-7feb" name="Knockback" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="32" hidden="false">
+    <rule id="9b4e-17bd-61ab-7feb" name="Knockback" book="Deadzone: Outbreak" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a weapon or model with this ability hits and causes potential damage it will knock the target model back into a different cube. Resolve the attack as normal, then move the target one cube directly away from the attacker (see page 27). If the knocked-back model’s route is blocked by a wall, the model is slammed into it (see page 27).</description>
+      <description>When a weapon or model with this ability hits and causes potential damage it will knock it back into a different cube. Resolve the attack as normal, then move the target one cube directly away from the attacker (see page 27 of the Deadzone 2.0 rulebook). If the knocked-back model’s route is blocked by a wall, the model is slammed into it (see page 27 of the Deadzone 2.0 rulebook).</description>
     </rule>
     <rule id="2945-b85d-72f0-9f72" name="Life Support" book="Deadzone 2nd Ed Rulebook" page="32" hidden="false">
       <profiles/>
@@ -4933,14 +5061,14 @@ Vehicles have an amount of Damage they can sustain based on their Size, just lik
 A Vehicle is not affected by the movement effects of explosions or attacks such as Knockback or Blast. It cannot be moved into another cube by any attack. However, it still suffers Damage from these types of attack as normal.
 When a Vehicle is destroyed it is left in place on the battle eld. It is now treated as part of the battle eld’s terrain. For the sake of appearance you might like to remove any crew models and add a small piece of cotton wool to make it look like a smoking wreck.</description>
     </rule>
-    <rule id="3409-b3c6-b6c4-b3c5" name="Teleport" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="34" hidden="false">
+    <rule id="3409-b3c6-b6c4-b3c5" name="Teleport" book="Deadzone: Outbreak" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A model with this ability may Teleport as a Long Action.
- Teleport allows the model to move up to 3 cubes in any direction without the need for there to be an unobstructed route between them. A model using Teleport must end its move in a cube where it can be physically placed on the table (not mid-air or inside an inaccessible cube surrounded by 6 solid walls). If a teleporting model ends this move in the same cube as an enemy model then they will Fight as if it had moved into the cube normally.
-You may Teleport out of a cube containing an enemy model but will be subject to the ‘breaking away’ rule on page 17 of the Deadzone 2.0 rulebook.</description>
+Teleport allows the model to move up to 3 cubes in any direction without the need for there to be an unobstructed route between them. A model using Teleport must end its move in a cube where it can be physically placed on the table (not midair or inside an inaccessible cube surrounded by 6 solid walls). If a teleporting model ends this move in the same cube as an enemy model then they will Fight as if it had moved into the cube normally.
+You may Teleport out of a cube containing an enemy model but will be subject to the ‘breaking away’ rule (see page 17 of the Deadzone 2.0 rulebook).</description>
     </rule>
     <rule id="95ec-04ae-0dd4-4f28" name="Toxic Smokescreen" book="Deadzone 2nd Ed Rulebook" page="35" hidden="false">
       <profiles/>
@@ -5092,28 +5220,28 @@ All models in the affected cube are marked as activated.</description>
       <modifiers/>
       <description>Thermal mines are One-Use, RF, AP3 weapons.</description>
     </rule>
-    <rule id="e4f8-1ba5-29a4-65f4" name="Weapons Team" book="Deadzone Errata v2.1" hidden="false">
+    <rule id="e4f8-1ba5-29a4-65f4" name="Weapons Team" book="Deadzone: Outbreak" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Models with this rule are typically armed with a heavy machine gun, mortar, missile launcher or laser cannon, and consist of two or more models mounted on a single base. Treat these models as a single model with the listed size for purposes of movement, cube size limits, and damage it can take before being removed as a casualty. Models with this rule must be equipped with a crew served weapon when added to your army list; they cannot be deployed unarmed. While models with this rule are injured, weapons they are equipped with are considered to have the Slow Reload rule. Weapons Teams should be based on a 60mm base. As an alternative models based on 25mm bases can be used as long as each model (weapon, specialist and loader) are placed in base to base contact at all times. They cannot be moved, targeted or removed individually and are treated as a weapons team as above.</description>
+      <description>Models with this rule are typically armed with a heavy machine gun, mortar, missile launcher or laser cannon, and consist of two or more models mounted on a single base.
+Treat these models as a single model with the listed size for purposes of movement, cube size limits, and damage it can take before being removed as a casualty. Models with this rule must be equipped with a weapon when added to your army list; they cannot be deployed unarmed. Whilst models with this rule are injured, any equipped weapons are considered to have the Slow Reload rule.
+Weapons Teams should be based on a 60mm base. As an alternative models based on 25mm bases can be used as long as each model (weapon, specialist and loader) are placed in base to base contact at all times. They cannot be moved, targeted or removed individually and are treated as a weapons team as above.</description>
     </rule>
     <rule id="1dd9-cb24-7a75-5b0a" name="Flight" book="Deadzone: Nexus Psi" page="11" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model with this ability does not require a wall or ramp to change levels. It may move over gaps
-of any size on the same level. The model must end its move in a cube (and position) that allows it
-to be physically placed on the gaming table.</description>
+      <description>A model with this ability does not require a wall or ramp to change levels. It may move over gaps of any size on the same level. The model must end its move in a cube (and position) that allows it to be physically placed on the gaming table.</description>
     </rule>
-    <rule id="bc2d-7c5f-2587-2e78" name="Walker Shield" book="Deadzone: Nexus Psi" page="10" hidden="false">
+    <rule id="bc2d-7c5f-2587-2e78" name="Walker Shield" book="Deadzone: Outbreak" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model equipped with this gains +1 Armour</description>
+      <description>A model equipped with a Walker Shield gains +1 Armour</description>
     </rule>
     <rule id="13ea-7da7-0039-e8ad" name="Recon Drone" book="Deadzone: Nexus Psi" page="16" hidden="false">
       <profiles/>
@@ -5129,13 +5257,12 @@ to be physically placed on the gaming table.</description>
       <modifiers/>
       <description>The weapon does no direct Damage. If the attack is a HIT, other effects of the weapon occur as normal.</description>
     </rule>
-    <rule id="64db-79a6-a8f3-a2cb" name="Aerial Deployment" book="Deadzone Errata v2.2" hidden="false">
+    <rule id="64db-79a6-a8f3-a2cb" name="Aerial Deployment" book="Deadzone: Outbreak" page="17" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>This model may choose to make an aerial deployment. If it does so, do not deploy it with the rest of your Strike Team. Once both players have deployed their teams, but before any Scout or Recon moves, a model using aerial deployment may be deployed in any cube not containing an objective and provided it is at least two cubes away from the nearest enemy model. If there are multiple cubes in a stack, it must deploy on the top level cube in that stack. A model may always aerially deploy into the owning player’s deployment zone (cube size limits willing) but may never aerially deploy in the enemy’s deployment zone.
-
 If both players have models with aerial deployment then alternate aerial deployments starting with the player with the initiative. If this means that a model cannot be deployed due to lack of a 2 cube distance then that model will have to instead be deployed within your deployment zone.
 </description>
     </rule>
@@ -5148,14 +5275,97 @@ If both players have models with aerial deployment then alternate aerial deploym
 
 Note that this does not allow models to target cubes outside of their weapon’s range, or to otherwise target cubes that are not valid targets.</description>
     </rule>
-    <rule id="0619-45db-fd26-fe4c" name="Trap" book="Deadzone Errata v2.2" hidden="false">
+    <rule id="0619-45db-fd26-fe4c" name="Trap" book="Deadzone: Outbreak" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a weapon with the Trap rule is used, place a Trap token in the targeted cube. Whenever an enemy model enters a cube with a Trap token, the player who placed the token may choose to detonate it; if they do so, immediately resolve the effect in parentheses following the Trap ability (i.e. If a weapon is listed as Trap-(Frag(3)), resolve a Frag (3) attack in the cube.) This ends the active model’s activation, and the token is removed from play.
-
-The only exception to this rule is if the enemy model entering the cube has the Engineer ability. In this case, the owner of the Trap token may not detonate it, as the Engineer knows how to avoid its triggering mechanism. A Trap token may be disarmed by any model with the Engineer ability, spending a Special action to do so. Remove the Trap token from play.</description>
+      <description>When a weapon with the Trap rule is used, place a Trap token in the targeted cube. Whenever an enemy model enters a cube with a Trap token, the player who placed the token may choose to detonate it; if they do so, immediately resolve the effect in parentheses following the Trap ability (i.e. If a weapon is listed as Trap [Frag(3)], resolve a Frag (3) attack in the cube.) This ends the active model’s activation, and the token is removed from play.
+The only exception to this rule is if the enemy model entering the cube has the Engineer ability. In this case, the owner of the Trap token may not detonate it, as the Engineer knows how to avoid its triggering mechanism. A Trap token may be disarmed by any model with the Engineer ability by spending a Special action to do so, then remove the Trap token from play.</description>
+    </rule>
+    <rule id="0da5-cfad-9f03-0186" name="Communications Relay" book="Deadzone: Outbreak" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with this ability grants a free extra activation Command Dice per round. You may not reroll this Command Dice and if the model granting Communications Relay is killed you lose the extra activation from all subsequent rounds.</description>
+    </rule>
+    <rule id="a2cc-0f18-4a04-a7e8" name="Dismantle" book="Deadzone: Outbreak" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model has a special knack for finding the weak spots of mechanical objects. Whenever this model deals potential damage to a model with the Vehicle or Construct ability, add 1 to the potential damage caused.</description>
+    </rule>
+    <rule id="f256-c9e1-fd94-2578" name="Evade" book="Deadzone: Outbreak" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this model is hit but not killed or Pinned by a Shoot action it may make an immediate 1 cube move in any direction. This may generate a Fight as normal.</description>
+    </rule>
+    <rule id="f384-1564-895b-429b" name="Triclinic Shard" book="Deadzone: Outbreak" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this weapon causes potential damage, place a Triclinic Shard token on the target model. Nameless models targeting a model with a Triclinic Shard token receive +1 dice to Fight tests. This effect is not cumulative.</description>
+    </rule>
+    <rule id="f2aa-7b2f-d14c-a5be" name="Inc Sac" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this model is killed place a Smokescreen in its cube, as if the cube was hit by a Smoke Grenade. In addition once per game a model with this ability can deploy a smokescreen in its cube at the beginning or end of its activation.</description>
+    </rule>
+    <rule id="0d44-4c12-cfcf-00cf" name="Resilient (n)" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model may re-roll n dice when making Survive tests.</description>
+    </rule>
+    <rule id="40d5-d002-c340-39c1" name="Stealthy" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this model is the target of a Shoot action, the attacking model may not benefit from the Clear Shot modifier.</description>
+    </rule>
+    <rule id="67c8-806c-990e-042d" name="Smash!" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After the damage is resolved the attacking player may move the target model up to one cube in any direction. The target model is then pinned. Models with the Solid or Vehicle abilities are still affected by Smash! This may result in falling or wall damage and may generate Fights if the model enters a cube containing an enemy model.</description>
+    </rule>
+    <rule id="6913-af21-328d-d34d" name="Combat Team Training" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>As long as a model with this ability remains in the game their strike team may re-roll command dice, even if it has lost more than 50% of its models.</description>
+    </rule>
+    <rule id="890a-cbd0-663e-119f" name="Tenacious" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model is able to entangle and restrict a model as it moves away. A model leaving a cube containing a model with this ability rolls one less dice for Break Away actions.</description>
+    </rule>
+    <rule id="b420-8549-5e84-74a0" name="Stimulant Shot" book="Deadzone: Outbreak" page="16" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>One-Use, gain +1 dice for a single roll (Fight or Shoot).</description>
+    </rule>
+    <rule id="139f-05c7-3940-9f1d" name="Adrenaline Shot" book="Deadzone: Outbreak" page="16" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>One-use, increase Speed by +1/+1 for this round.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4c93-ab3d-bb7c-511f" name="Veer-Myn (Beta)" book="BETA LIST" revision="1" battleScribeVersion="2.01" authorName="Ben Edwards" authorContact="BAE2 (Github)" gameSystemId="3476-f239-cf73-2f89" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4c93-ab3d-bb7c-511f" name="Veer-Myn" book="Deadzone: Outbreak" page="74" revision="1" battleScribeVersion="2.01" authorName="Ben Edwards" authorContact="BAE2 (Github)" gameSystemId="3476-f239-cf73-2f89" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,9 +8,9 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="d271-b0ee-5ae3-b438" name="Brood Mother" book="" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d271-b0ee-5ae3-b438" name="Brood Mother" book="Deadzone: Outbreak" page="74" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="c1d0-06aa-05cf-04c4" name="Brood Mother" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+        <profile id="c1d0-06aa-05cf-04c4" name="Brood Mother" book="Deadzone: Outbreak" page="74" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -47,6 +47,12 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </infoLink>
+        <infoLink id="4de1-98db-9da2-e18f" name="Tough" hidden="false" targetId="df54-2d71-8800-b15f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -233,9 +239,9 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6883-61f2-bcc4-c9dc" name="Progenitor" book="" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6883-61f2-bcc4-c9dc" name="Progenitor" book="Deadzone: Outbreak" page="75" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="18f7-5ce3-c9f2-3ce8" name="Progenitor" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+        <profile id="18f7-5ce3-c9f2-3ce8" name="Progenitor" book="Deadzone: Outbreak" page="75" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -445,9 +451,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be63-eada-d3b5-0835" name="Crawler" book="" hidden="false" collective="false" type="unit">
+    <selectionEntry id="be63-eada-d3b5-0835" name="Crawler" book="Deadzone: Outbreak" page="75" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="7a86-d891-5819-b9cc" name="Crawler" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="7a86-d891-5819-b9cc" name="Crawler" book="Deadzone: Outbreak" page="75" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -530,9 +536,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1d49-05b9-c9ca-77e2" name="Master Creeper" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1d49-05b9-c9ca-77e2" name="Master Creeper" book="Deadzone: Outbreak" page="74" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="e3c6-3330-aedd-05ae" name="Master Creeper" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+        <profile id="e3c6-3330-aedd-05ae" name="Master Creeper" book="Deadzone: Outbreak" page="74" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -627,7 +633,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fc1d-b6c2-f0a1-cdae" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="43ed-1041-735d-e579">
+        <selectionEntryGroup id="fc1d-b6c2-f0a1-cdae" name="Ranged Weapon 1" hidden="false" collective="false" defaultSelectionEntryId="43ed-1041-735d-e579">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -720,18 +726,114 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="87bb-baa4-3d97-cab7" name="Ray Pistol *" hidden="false" targetId="789c-e6f2-7a34-7e42" type="selectionEntry">
+        <selectionEntryGroup id="f405-4cc7-1b7a-a085" name="Ranged Weapon 2" hidden="false" collective="false" defaultSelectionEntryId="65f9-f5fd-623e-e6f5">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="206d-2163-2aa4-a7c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de9a-5d82-610d-690a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0865-684f-254e-3ef8" type="min"/>
           </constraints>
           <categoryLinks/>
-        </entryLink>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="44ae-0fbf-162b-769e" name="Chem Staff" hidden="false" targetId="74d8-4939-681a-de1c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5bad-8609-dd45-8797" name="Spitter Rifle" hidden="false" targetId="8573-ad7f-4083-375a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="06fe-891b-9a03-412c" name="Toxic Grenade Launcher" hidden="false" targetId="80b4-ddd0-ad93-a063" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="31fb-8b71-3daf-594c" name="Smoke Grenade Launcher" hidden="false" targetId="849c-65f2-82e2-fdf9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="796d-3478-8419-d71f" name="Ray Gun" hidden="false" targetId="4bde-1f0c-eca1-026c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3be7-b96c-4f6c-16a3" name="Chem Thrower" hidden="false" targetId="e5c1-a3c9-6635-dd56" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ed31-308d-272f-b16f" name="Chem Spitter" hidden="false" targetId="2901-05d3-6d85-b1a2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="acdf-548e-64c2-bbeb" name="Chemical Grenade Launcher" hidden="false" targetId="1584-1836-2c2a-3e07" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0fb2-e15b-09c8-a4af" name="Det Pack (Prox Fuse)" hidden="false" targetId="bb60-43bd-7e61-199e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="65f9-f5fd-623e-e6f5" name="Ray Pistol *" hidden="false" targetId="789c-e6f2-7a34-7e42" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="name" value="Ray Pistol">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
         <entryLink id="cd88-dc1f-dacb-43ee" name="Items" hidden="false" targetId="4e59-3b09-6cb8-5068" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -746,9 +848,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b947-8590-c336-b7ac" name="Stalker" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b947-8590-c336-b7ac" name="Stalker" book="Deadzone: Outbreak" page="75" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="1d0b-7843-e0b6-e228" name="Stalker" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="1d0b-7843-e0b6-e228" name="Stalker" book="Deadzone: Outbreak" page="75" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -777,76 +879,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5199-6e62-3f2d-1e20" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="1206-a498-9aa7-fb84">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35d9-ceb0-5a05-0091" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7594-0e0b-b63c-b690" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="f2a4-ec85-227b-ec1c" name="Big Drill" hidden="false" targetId="8796-6ff8-3f9d-e5ac" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="1206-a498-9aa7-fb84" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="bde5-606d-c694-19c8" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="72c3-fe5c-81cc-2ced">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b92-b826-57dc-9e6a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fb9-b17d-2c69-9453" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="9312-5776-6c09-d7d0" name="Ray Gun" hidden="false" targetId="4bde-1f0c-eca1-026c" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="72c3-fe5c-81cc-2ced" name="Ray Pistol *" hidden="false" targetId="789c-e6f2-7a34-7e42" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="name" value="Ray Pistol">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="6a15-0934-86ba-2967" name="Items" hidden="false" targetId="4e59-3b09-6cb8-5068" type="selectionEntryGroup">
           <profiles/>
@@ -856,15 +889,48 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ac16-ae11-ebdc-57d0" name="Ray Pistol *" hidden="false" targetId="789c-e6f2-7a34-7e42" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Ray Pistol">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf88-ee4e-57a8-e00f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3f-ad41-830c-72d3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6eda-679e-b9d6-724b" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c89b-2510-d697-deb8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4642-8401-c22a-14dc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="15ad-4f5a-94e9-c51a" name="Malignus" hidden="false" collective="false" type="unit">
+    <selectionEntry id="15ad-4f5a-94e9-c51a" name="Malignus" book="Deadzone: Outbreak" page="76" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="b5ab-1c84-25c6-f701" name="Malignus" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="b5ab-1c84-25c6-f701" name="Malignus" book="Deadzone: Outbreak" page="76" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1044,9 +1110,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e61-b324-e4cc-eccd" name="Night Terror with Scythes" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3e61-b324-e4cc-eccd" name="Night Terror with Scythes" book="Deadzone: Outbreak" page="76" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="a2ee-6a0d-b8f9-ec4f" name="Night Terror with Scythes" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="a2ee-6a0d-b8f9-ec4f" name="Night Terror with Scythes" book="Deadzone: Outbreak" page="76" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1124,9 +1190,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eec4-a701-6c11-ed91" name="Night Terror with Spitter" hidden="false" collective="false" type="unit">
+    <selectionEntry id="eec4-a701-6c11-ed91" name="Night Terror with Spitter" book="Deadzone: Outbreak" page="76" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="8f22-d3a7-e0ba-60ec" name="Night Terror with Spitter" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="8f22-d3a7-e0ba-60ec" name="Night Terror with Spitter" book="Deadzone: Outbreak" page="76" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1215,9 +1281,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed8d-f769-04da-90f3" name="Creeper" hidden="false" collective="false" type="unit">
+    <selectionEntry id="ed8d-f769-04da-90f3" name="Creeper" book="Deadzone: Outbreak" page="76" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="8b03-6539-14ee-bb18" name="Creeper" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="8b03-6539-14ee-bb18" name="Creeper" book="Deadzone: Outbreak" page="76" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1226,7 +1292,7 @@
             <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="2-3"/>
             <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="-"/>
             <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
-            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="5+"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="6+"/>
             <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="5+"/>
             <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
           </characteristics>
@@ -1260,20 +1326,20 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f826-2eb9-c363-3555" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="1457-7c6b-e2db-5e45">
+        <selectionEntryGroup id="be87-ae2c-14f4-da62" name="Melee Weapon" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4557-c144-bb82-97ff" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d75-ae39-edb8-a8c4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a3-5dd4-a1d8-7d19" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5818-ef8d-9e93-6499" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="1457-7c6b-e2db-5e45" name="Det Pack (Mag Lock)" hidden="false" targetId="2435-678e-88c7-56ff" type="selectionEntry">
+            <entryLink id="7cf2-ef64-df11-2257" name="Det Pack (Mag Lock)" hidden="false" targetId="2435-678e-88c7-56ff" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1287,7 +1353,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="86dd-9bf4-83c9-2a1e" name="Big Drill" hidden="false" targetId="8796-6ff8-3f9d-e5ac" type="selectionEntry">
+            <entryLink id="b0d4-8747-b8a1-68b3" name="Big Drill" hidden="false" targetId="8796-6ff8-3f9d-e5ac" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1297,20 +1363,20 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9871-00e9-efff-b6ad" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="f26e-d2d5-9bd8-1b32">
+        <selectionEntryGroup id="1d08-c307-f158-7ea7" name="Ranged Weapon 1" hidden="false" collective="false" defaultSelectionEntryId="246c-0135-7a0e-bfeb">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ba6-cc46-b3d4-6fb2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e862-2c07-8398-e733" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c877-d878-e62a-0618" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1848-1f23-a0d8-ec77" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="280f-8cc7-b2be-5550" name="Toxic Grenade Launcher" hidden="false" targetId="80b4-ddd0-ad93-a063" type="selectionEntry">
+            <entryLink id="0cc1-4c98-a228-fbcc" name="Chem Staff" hidden="false" targetId="74d8-4939-681a-de1c" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1318,7 +1384,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="115c-22e5-6bb8-ee2f" name="Smoke Grenade Launcher" hidden="false" targetId="849c-65f2-82e2-fdf9" type="selectionEntry">
+            <entryLink id="5cd7-274c-3793-e9f0" name="Spitter Rifle" hidden="false" targetId="8573-ad7f-4083-375a" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1326,7 +1392,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="61bd-1656-d653-c6f3" name="Ray Gun" hidden="false" targetId="4bde-1f0c-eca1-026c" type="selectionEntry">
+            <entryLink id="4503-66d4-0c87-e2a3" name="Toxic Grenade Launcher" hidden="false" targetId="80b4-ddd0-ad93-a063" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1334,7 +1400,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="e076-a884-edae-4e15" name="Chemical Grenade Launcher" hidden="false" targetId="1584-1836-2c2a-3e07" type="selectionEntry">
+            <entryLink id="7db4-1cf1-ba35-f1e0" name="Smoke Grenade Launcher" hidden="false" targetId="849c-65f2-82e2-fdf9" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1342,12 +1408,150 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="f26e-d2d5-9bd8-1b32" name="Det Pack (Prox Fuse)" hidden="false" targetId="bb60-43bd-7e61-199e" type="selectionEntry">
+            <entryLink id="2057-441b-cc87-dc50" name="Ray Gun" hidden="false" targetId="4bde-1f0c-eca1-026c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2087-ed9f-a2dc-765e" name="Chem Thrower" hidden="false" targetId="e5c1-a3c9-6635-dd56" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="96f7-c7cb-ce72-6591" name="Chem Spitter" hidden="false" targetId="2901-05d3-6d85-b1a2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2e4d-1c07-da7f-0d75" name="Chemical Grenade Launcher" hidden="false" targetId="1584-1836-2c2a-3e07" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="246c-0135-7a0e-bfeb" name="Det Pack (Prox Fuse)" hidden="false" targetId="bb60-43bd-7e61-199e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2e32-e0fd-d8dc-ca8b" name="Ranged Weapon 2" hidden="false" collective="false" defaultSelectionEntryId="b1a4-3c1a-4608-8e9f">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d94-ea63-9e34-b5c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="032b-fa13-2619-b159" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0ab7-7cdc-9572-51fc" name="Chem Staff" hidden="false" targetId="74d8-4939-681a-de1c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fe40-fb9d-f47c-299c" name="Spitter Rifle" hidden="false" targetId="8573-ad7f-4083-375a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fb21-3d4a-16aa-81d5" name="Toxic Grenade Launcher" hidden="false" targetId="80b4-ddd0-ad93-a063" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d88b-242d-2bf1-5cdf" name="Smoke Grenade Launcher" hidden="false" targetId="849c-65f2-82e2-fdf9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3cff-cb45-bc10-7f68" name="Ray Gun" hidden="false" targetId="4bde-1f0c-eca1-026c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b155-9fe2-0c3c-7201" name="Chem Thrower" hidden="false" targetId="e5c1-a3c9-6635-dd56" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c17c-b6a6-89fe-4fae" name="Chem Spitter" hidden="false" targetId="2901-05d3-6d85-b1a2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9dda-e210-7dfd-ac5b" name="Chemical Grenade Launcher" hidden="false" targetId="1584-1836-2c2a-3e07" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ba52-d819-a66d-968e" name="Det Pack (Prox Fuse)" hidden="false" targetId="bb60-43bd-7e61-199e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b1a4-3c1a-4608-8e9f" name="Ray Pistol *" hidden="false" targetId="789c-e6f2-7a34-7e42" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="name" value="Ray Pistol">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -1368,32 +1572,15 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="66a6-dfa2-284a-5120" name="Ray Pistol *" hidden="false" targetId="789c-e6f2-7a34-7e42" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Ray Pistol">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d69-8328-6884-fba7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31cd-3ad1-4949-b3b8" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b541-6958-4259-54e7" name="Rat Swarm" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b541-6958-4259-54e7" name="Rat Swarm" book="Deadzone: Outbreak" page="76" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="c81d-530f-a443-0a25" name="Rat Swarm" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="c81d-530f-a443-0a25" name="Rat Swarm" book="Deadzone: Outbreak + Errata" page="76" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1443,7 +1630,7 @@
       <selectionEntries>
         <selectionEntry id="5041-50fa-d2db-7eb1" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="5be1-46c3-5792-7f1e" name="Teeth and Claws" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+            <profile id="5be1-46c3-5792-7f1e" name="Teeth and Claws" book="Deadzone: Outbreak" page="76" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1480,9 +1667,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="34d4-fefd-9bbf-48cf" name="Nightmare" hidden="false" collective="false" type="unit">
+    <selectionEntry id="34d4-fefd-9bbf-48cf" name="Nightmare" book="Deadzone: Outbreak" page="77" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="e673-b5ec-2de5-910c" name="Nightmare" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="e673-b5ec-2de5-910c" name="Nightmare" book="Deadzone: Outbreak" page="77" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1634,9 +1821,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="17.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1213-0ff7-d50d-fc9d" name="Rumbler Weapons Platform" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1213-0ff7-d50d-fc9d" name="Rumbler Weapons Platform" book="Deadzone: Outbreak" page="77" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="cc85-3a62-0516-658e" name="Rumbler Weapons Platform" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="cc85-3a62-0516-658e" name="Rumbler Weapons Platform" book="Deadzone: Outbreak" page="77" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1726,9 +1913,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ddf-14ec-380d-da79" name="Tangle" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3ddf-14ec-380d-da79" name="Tangle" book="Deadzone: Outbreak" page="77" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="074e-f5cf-b95e-1574" name="Tangle" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="074e-f5cf-b95e-1574" name="Tangle" book="Deadzone: Outbreak" page="77" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1858,6 +2045,50 @@
             <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="a782-2095-919c-43dd" name="Hysteria" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3f5c-d224-e3dd-8c5d" name="Hysteria" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R4"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Suppression, Psychic"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="7c86-91f6-bd7a-bb51" name="Psychic" hidden="false" targetId="2e77-9e5d-bfe4-97f0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="ae9d-57a6-40f9-7db8" name="Suppression" hidden="false" targetId="bcf7-8697-e7d8-43ac" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f96-1474-ccf9-15c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66cb-2f96-1e6e-f790" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1866,9 +2097,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="07fa-9972-8fe6-91a7" name="Tunnel Runner" hidden="false" collective="false" type="unit">
+    <selectionEntry id="07fa-9972-8fe6-91a7" name="Tunnel Runner" book="Deadzone: Outbreak" page="77" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="9b04-943b-a1ae-cd36" name="Tunnel Runner" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="9b04-943b-a1ae-cd36" name="Tunnel Runner" book="Deadzone: Outbreak" page="77" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2582,7 +2813,7 @@
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="74d8-4939-681a-de1c" name="Chem Staff" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="74d8-4939-681a-de1c" name="Chem Staff" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2607,10 +2838,10 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8573-ad7f-4083-375a" name="Spitter Rifle" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8573-ad7f-4083-375a" name="Spitter Rifle" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2644,7 +2875,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e5c1-a3c9-6635-dd56" name="Chem Thrower" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e5c1-a3c9-6635-dd56" name="Chem Thrower" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2678,7 +2909,7 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2901-05d3-6d85-b1a2" name="Chem Spitter" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2901-05d3-6d85-b1a2" name="Chem Spitter" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2706,7 +2937,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1584-1836-2c2a-3e07" name="Chemical Grenade Launcher" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1584-1836-2c2a-3e07" name="Chemical Grenade Launcher" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2740,7 +2971,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2435-678e-88c7-56ff" name="Det Pack (Mag Lock)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2435-678e-88c7-56ff" name="Det Pack (Mag Lock)" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2762,11 +2993,17 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bb60-43bd-7e61-199e" name="Det Pack (Prox Fuse)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="bb60-43bd-7e61-199e" name="Det Pack (Prox Fuse)" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
         <infoLink id="7eb8-b1df-0d4b-c9a0" name="Det Pack (Prox Fuse)" hidden="false" targetId="04fb-0b97-e340-980e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fca8-ff80-765b-1cd0" name="Blast" hidden="false" targetId="bae6-aa38-21d6-7869" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2784,7 +3021,7 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8796-6ff8-3f9d-e5ac" name="Big Drill" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8796-6ff8-3f9d-e5ac" name="Big Drill" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2806,7 +3043,7 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b024-272d-6f87-b655" name="Two-Handed Drill **" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b024-272d-6f87-b655" name="Two-Handed Drill **" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2828,7 +3065,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6998-9ac0-10ab-f46b" name="Pair of Drills **" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6998-9ac0-10ab-f46b" name="Pair of Drills **" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2862,7 +3099,7 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ee5-6a82-c433-c2cb" name="Heavy Chem Thrower**" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6ee5-6a82-c433-c2cb" name="Heavy Chem Thrower**" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2902,7 +3139,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a6b1-c061-7450-ab40" name="Super Heavy Chem Thrower" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a6b1-c061-7450-ab40" name="Super Heavy Chem Thrower" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2942,7 +3179,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="336e-acff-ef58-e8f9" name="Scythes" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="336e-acff-ef58-e8f9" name="Scythes" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2976,7 +3213,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cde5-7fcb-960a-d4c7" name="Super Heavy Chem Spitter" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cde5-7fcb-960a-d4c7" name="Super Heavy Chem Spitter" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3022,7 +3259,7 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0be3-67b5-5909-e09c" name="Heavy Chem Spitter" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0be3-67b5-5909-e09c" name="Heavy Chem Spitter" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3044,7 +3281,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b560-9280-fad1-1a9c" name="Twin Chem Spitter" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b560-9280-fad1-1a9c" name="Twin Chem Spitters" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3053,7 +3290,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="Weight of Fire (1)">
+            <modifier type="set" field="name" value="Weight of Fire (2)">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -3084,7 +3321,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="849c-65f2-82e2-fdf9" name="Smoke Grenade Launcher" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="849c-65f2-82e2-fdf9" name="Smoke Grenade Launcher" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3112,7 +3349,7 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80b4-ddd0-ad93-a063" name="Toxic Grenade Launcher" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="80b4-ddd0-ad93-a063" name="Toxic Grenade Launcher" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3140,7 +3377,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="789c-e6f2-7a34-7e42" name="Ray Pistol *" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="789c-e6f2-7a34-7e42" name="Ray Pistol *" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3159,10 +3396,10 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4bde-1f0c-eca1-026c" name="Ray Gun" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4bde-1f0c-eca1-026c" name="Ray Gun" book="Deadzone: Outbreak" page="78" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3403,7 +3640,7 @@ It disperses in the same way as a Smoke Grenade.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="dd0d-a7f5-36b2-0c72" name="Ray Pistol" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="dd0d-a7f5-36b2-0c72" name="Ray Pistol" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3415,7 +3652,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Small Arms"/>
       </characteristics>
     </profile>
-    <profile id="4541-d85d-a13e-e796" name="Ray Gun" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="4541-d85d-a13e-e796" name="Ray Gun" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3427,7 +3664,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Small Arms"/>
       </characteristics>
     </profile>
-    <profile id="230b-93b3-bcb4-8532" name="Chem Staff" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="230b-93b3-bcb4-8532" name="Chem Staff" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3439,7 +3676,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Leader"/>
       </characteristics>
     </profile>
-    <profile id="df87-ddb6-9412-edf3" name="Spitter Rifle" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="df87-ddb6-9412-edf3" name="Spitter Rifle" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3451,7 +3688,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Leader, Light (Sniper)"/>
       </characteristics>
     </profile>
-    <profile id="d2c5-afcf-3226-c6f4" name="Chem Thrower" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="d2c5-afcf-3226-c6f4" name="Chem Thrower" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3463,7 +3700,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Assault)"/>
       </characteristics>
     </profile>
-    <profile id="ffb3-b09a-9a22-1b74" name="Chem Spitter" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="ffb3-b09a-9a22-1b74" name="Chem Spitter" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3475,7 +3712,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Automatic)"/>
       </characteristics>
     </profile>
-    <profile id="1bb1-c9bb-f940-58e2" name="Chemical Grenade Launcher" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="1bb1-c9bb-f940-58e2" name="Chemical Grenade Launcher" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3487,7 +3724,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Explosive)"/>
       </characteristics>
     </profile>
-    <profile id="241c-dcda-2db2-ac23" name="Det Pack (Mag Lock)" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="241c-dcda-2db2-ac23" name="Det Pack (Mag Lock)" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3499,7 +3736,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Explosive)"/>
       </characteristics>
     </profile>
-    <profile id="04fb-0b97-e340-980e" name="Det Pack (Prox Fuse)" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="04fb-0b97-e340-980e" name="Det Pack (Prox Fuse)" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3511,7 +3748,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Explosive)"/>
       </characteristics>
     </profile>
-    <profile id="68de-3063-a152-719d" name="Big Drill" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="68de-3063-a152-719d" name="Big Drill" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3523,7 +3760,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Melee), Heavy (Melee)"/>
       </characteristics>
     </profile>
-    <profile id="7e3c-511f-15e3-2273" name="Two-Handed Drill **" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="7e3c-511f-15e3-2273" name="Two-Handed Drill" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3535,7 +3772,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Melee)"/>
       </characteristics>
     </profile>
-    <profile id="90f6-6ef6-1e09-ded3" name="Pair or Drills" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="90f6-6ef6-1e09-ded3" name="Pair or Drills" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3547,7 +3784,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Melee)"/>
       </characteristics>
     </profile>
-    <profile id="bb1a-330c-ccd9-5c86" name="Heavy Chem Thrower" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="bb1a-330c-ccd9-5c86" name="Heavy Chem Thrower" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3559,7 +3796,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Assault)"/>
       </characteristics>
     </profile>
-    <profile id="8d1e-8b91-559c-0d4b" name="Super Heavy Chem Thrower" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="8d1e-8b91-559c-0d4b" name="Super Heavy Chem Thrower" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3571,7 +3808,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Vehicle (Assault)"/>
       </characteristics>
     </profile>
-    <profile id="7f39-72ff-f3bf-2d50" name="Scythes" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="7f39-72ff-f3bf-2d50" name="Scythes" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3583,7 +3820,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Beast (Melee), Vehicle (Melee)"/>
       </characteristics>
     </profile>
-    <profile id="d267-51d9-f306-64f4" name="Super Heavy Chem Spitter" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="d267-51d9-f306-64f4" name="Super Heavy Chem Spitter" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3595,7 +3832,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Vehicle (Automatic)"/>
       </characteristics>
     </profile>
-    <profile id="8330-d464-ea56-d935" name="Heavy Chem Spitter" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="8330-d464-ea56-d935" name="Heavy Chem Spitter" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3607,7 +3844,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Beast (Ranged)"/>
       </characteristics>
     </profile>
-    <profile id="49da-affc-3c88-dfe3" name="Twin Chem Spitter" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="49da-affc-3c88-dfe3" name="Twin Chem Spitters" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3615,11 +3852,11 @@ It disperses in the same way as a Smoke Grenade.</description>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R6"/>
         <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
-        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Weight of Fire (1), Rapid Fire"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Weight of Fire (2), Rapid Fire"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Vehicle (Automatic)"/>
       </characteristics>
     </profile>
-    <profile id="c65e-d8df-81e6-f7e4" name="Smoke Grenade Launcher" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="c65e-d8df-81e6-f7e4" name="Smoke Grenade Launcher" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3631,7 +3868,7 @@ It disperses in the same way as a Smoke Grenade.</description>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Leader, Light (Explosive)"/>
       </characteristics>
     </profile>
-    <profile id="c1b2-9fc9-abd9-fb82" name="Toxic Grenade Launcher" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="c1b2-9fc9-abd9-fb82" name="Toxic Grenade Launcher" book="Deadzone: Outbreak" page="78" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -540,7 +540,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4c27-12b2-2903-804b" name="Holo Sight (+)" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4c27-12b2-2903-804b" name="Holo Sight" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -910,14 +910,14 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="16.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="15.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
       </costs>
     </selectionEntry>
@@ -1005,7 +1005,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bb38-53cc-bffd-ef40" name="Pistol" hidden="false" collective="false" type="upgrade">
@@ -1036,7 +1036,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1044,7 +1044,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9c3-85b2-a438-802f" name="Blaine on Jetbike" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="94" hidden="false" collective="false" type="unit">
@@ -1137,7 +1137,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1e5c-f01b-0809-07a8" name="Wicked Blades" hidden="false" collective="false" type="upgrade">
@@ -1168,7 +1168,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1176,7 +1176,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="34.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fcdd-d439-27de-bcca" name="Boomer, Grenadier" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="91" hidden="false" collective="false" type="unit">
@@ -1269,98 +1269,170 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="05b8-9640-b106-53fd" name="Frag Grenades" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f1c1-6e09-061c-183e" name="Frag Grenades" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frag (3), Grenade"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9db1-bee9-9dae-88b7" name="Frag (n)" hidden="false" targetId="f7aa-fbc1-3217-1be0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Frag (3)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="6325-20b2-12cb-d1aa" name="Grenade" hidden="false" targetId="336e-9dc4-7706-61d6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="602d-d52e-d1c6-edc9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d50-639d-af7d-562b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d7cc-0531-e065-3dd2" name="Smoke Grenades" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="16e2-debf-419b-89f3" name="Smoke Grenades" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Smoke Grenade, Grenade"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="97b0-4036-a5c3-809d" name="Smoke Grenade" hidden="false" targetId="2ce0-7255-fa00-5648" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="bb35-f545-d036-da22" name="Grenade" hidden="false" targetId="336e-9dc4-7706-61d6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23d0-2fda-ecce-26d0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5473-5afd-264c-c384" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2686-d7da-55fa-8079" name="Stun Grenades" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8ae2-488d-acc1-a8ca" name="Smoke Grenades" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Smoke Grenade, Grenade"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2831-71f9-f4c1-3eab" name="Stun Grenade" hidden="false" targetId="d55e-f779-beb8-0071" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4bd9-d0a3-72e6-2a92" name="Grenade" hidden="false" targetId="336e-9dc4-7706-61d6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3492-f98a-1600-6aa7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d23-98c3-1d32-5677" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="d1b6-5a31-346c-c743" name="Frag Grenade (+)" hidden="false" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Frag Grenade">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6755-f58c-55a3-2a22" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="669e-2df0-0580-23d9" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b603-06a9-0ba2-250d" name="Smoke Grenade (+)" hidden="false" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Smoke Grenade">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f45e-38da-264c-3afc" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85a6-767a-7cab-bfd4" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6b7e-5584-80d9-b61a" name="Stun Grenade (+)" hidden="false" targetId="2ee6-1157-6672-3508" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Stun Grenade">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf49-09ed-f295-8fef" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e93-46d1-82c4-7fcc" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="18.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="14.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec30-5a87-2544-b5d3" name="Chief Radgrad" book="Deadzone 2nd Ed Rulebook" page="91" hidden="false" collective="false" type="unit">
+    <selectionEntry id="ec30-5a87-2544-b5d3" name="Chief Radgrad" book="Deadzone: Outbreak" page="84" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="194b-8146-6c9d-900f" name="Chief Radgrad" book="Deadzone 2nd Ed Rulebook" page="91" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="194b-8146-6c9d-900f" name="Chief Radgrad" book="Deadzone: Outbreak" page="84" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
-            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="1"/>
-            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="3"/>
-            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="5+"/>
-            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="4+"/>
-            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="4+"/>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="1"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="3"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="5+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1415,9 +1487,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b561-63d1-bd71-179b" name="Decapitator" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b561-63d1-bd71-179b" name="Decapitator" book="Deadzone: Outbreak" page="84" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="b223-985a-52a7-b883" name="Decapitator" book="Deadzone 2nd Ed Rulebook" page="91" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+            <profile id="b223-985a-52a7-b883" name="Decapitator" book="Deadzone: Outbreak" page="84" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1443,12 +1515,12 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9b47-09fa-9ed4-90bc" name="Twin Blasters" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9b47-09fa-9ed4-90bc" name="Twin Blasters" book="Deadzone: Outbreak" page="84" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="fe8b-0f03-c888-6cfd" name="Twin Blasters" book="Deadzone 2nd Ed Rulebook" page="91" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+            <profile id="fe8b-0f03-c888-6cfd" name="Twin Blasters" book="Deadzone: Outbreak" page="84" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1487,15 +1559,15 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="40.0"/>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="5.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="38.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0304-1c3a-5501-a41f" name="Chovar Psychic" book="Deadzone 2nd Ed Rulebook" page="93" hidden="false" collective="false" type="unit">
@@ -1589,7 +1661,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="213c-9ab3-b319-33ca" name="Blank" hidden="false" collective="false" type="upgrade">
@@ -1633,7 +1705,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="431d-e481-9b48-7d51" name="Passion" hidden="false" collective="false" type="upgrade">
@@ -1677,14 +1749,14 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="17.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
       </costs>
     </selectionEntry>
@@ -1778,7 +1850,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1788,7 +1860,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dba-2590-a3bb-d3c1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="024f-7fc3-f643-9ef1" type="min"/>
@@ -1798,7 +1876,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="62cc-6103-d30d-56e1" name="Freya" book="Deadzone 2nd Ed Rulebook" page="92" hidden="false" collective="false" type="unit">
@@ -1880,7 +1958,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1890,7 +1968,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5802-a09b-c387-052d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa89-f10d-f502-c1bd" type="min"/>
@@ -1899,7 +1983,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="16.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="14.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
@@ -1971,7 +2055,13 @@
               </modifiers>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2980-58a9-2644-8164" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a63-e45c-1dd6-0571" type="min"/>
@@ -2009,7 +2099,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3235-6263-a46f-31f8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5053-78aa-a4e4-15d4" type="min"/>
@@ -2028,7 +2124,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="27.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="911e-137a-0d2b-5058" name="Nastanza" book="Deadzone 2nd Ed Rulebook" page="92" hidden="false" collective="false" type="unit">
@@ -2086,7 +2182,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3cd-6bc2-04f2-4d6b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8491-638b-c35c-2750" type="min"/>
@@ -2103,12 +2205,17 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="d852-4e2d-37b0-b489" name="Energy Shield (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
+        <entryLink id="d852-4e2d-37b0-b489" name="Energy Shield (n) (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="name" value="Energy Shield (1) (+)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2124,7 +2231,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aae4-0ad6-535e-eaeb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9166-7758-02d9-030a" type="min"/>
@@ -2134,7 +2247,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="25.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0414-610d-4dbb-3791" name="Ogre Terminator" book="Deadzone 2nd Ed Rulebook" page="94" hidden="false" collective="false" type="unit">
@@ -2211,7 +2324,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0cb-193c-2511-fc54" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc08-d1f8-2821-41ef" type="min"/>
@@ -2242,7 +2361,13 @@
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c26-dd6b-6341-c55c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4917-c5f8-cec5-2427" type="min"/>
@@ -2261,23 +2386,24 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="28.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1acb-ca9d-dddd-bfd6" name="Project Oberon" book="Deadzone 2nd Ed Rulebook" page="93" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1acb-ca9d-dddd-bfd6" name="Project Oberon" book="Deadzone: Outbreak" page="85" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="b663-7e28-3973-4a17" name="Project Oberon" book="Deadzone 2nd Ed Rulebook" page="93" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="b663-7e28-3973-4a17" name="Project Oberon" book="Deadzone: Outbreak" page="85" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
-            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
-            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
-            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="4+"/>
-            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="4+"/>
-            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="4+"/>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="0"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="4+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="5+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2288,18 +2414,6 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="ce41-de02-b53d-f291" name="Weight of Fire (n)" hidden="false" targetId="fe68-94f5-c309-65bd" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="name" value="Weight of Fire (1)">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -2314,9 +2428,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="826d-5e4f-50fa-406e" name="Needler" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="826d-5e4f-50fa-406e" name="Needler" book="Deadzone: Outbreak" page="85" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="622c-fab0-d64a-94a5" name="Needler" book="Deadzone 2nd Ed Rulebook" page="93" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+            <profile id="622c-fab0-d64a-94a5" name="Needler" book="Deadzone: Outbreak" page="85" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2324,14 +2438,33 @@
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R4"/>
                 <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
-                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Weight of Fire (1)"/>
                 <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
-          <modifiers/>
+          <infoLinks>
+            <infoLink id="1aa9-1a0b-4349-c0c1" name="Weight of Fire (n)" hidden="false" targetId="fe68-94f5-c309-65bd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Weight of Fire (1)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b97-8388-70fa-b360" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d73c-74a3-9d30-2f72" type="min"/>
@@ -2345,9 +2478,9 @@
             <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d29b-2539-bf90-bb50" name="Toxic Shards" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d29b-2539-bf90-bb50" name="Toxic Shards" book="Deadzone: Outbreak" page="85" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="8959-e5f1-d609-2c12" name="Toxic Shards" book="Deadzone 2nd Ed Rulebook" page="93" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+            <profile id="8959-e5f1-d609-2c12" name="Toxic Shards" book="Deadzone: Outbreak" page="85" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2369,7 +2502,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f20a-1068-971b-d1aa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8985-b62b-c1b1-4ca8" type="min"/>
@@ -2386,12 +2525,17 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="28a0-41b9-863b-00e8" name="Energy Shield (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
+        <entryLink id="28a0-41b9-863b-00e8" name="Energy Shield (n) (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="name" value="Energy Shield (1) (+)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2405,7 +2549,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="28.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="25.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
       </costs>
     </selectionEntry>
@@ -2482,7 +2626,13 @@
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c23-265f-1013-3741" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ba8-d94c-79ab-3687" type="min"/>
@@ -2513,7 +2663,13 @@
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6bd-8b9b-5675-6de0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="906e-2fa5-8186-4e87" type="min"/>
@@ -2534,7 +2690,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c58d-3cfe-193d-5d04" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7485-4f88-ec17-f69c" type="min"/>
@@ -2543,7 +2705,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="27.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="24.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
       </costs>
     </selectionEntry>
@@ -2602,7 +2764,13 @@
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6afe-3f62-c7b7-aae0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f1-64e5-45ff-704e" type="min"/>
@@ -2646,7 +2814,13 @@
               </modifiers>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9943-24dc-941b-23d3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71b4-52e0-e3c4-b86e" type="min"/>
@@ -2665,7 +2839,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c11-2433-daf8-9638" name="The Helfather" book="Deadzone 2nd Ed Rulebook" page="92" hidden="false" collective="false" type="unit">
@@ -2729,7 +2903,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="094b-c834-6e7a-74e5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f8-0279-887a-c4d4" type="min"/>
@@ -2750,7 +2930,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f14-1495-9953-68d8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c640-f4d2-6915-87a0" type="min"/>
@@ -2759,7 +2945,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="22.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
       </costs>
     </selectionEntry>
@@ -2849,7 +3035,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b754-0645-5b49-ee2c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d26-9d9e-90fc-1e45" type="min"/>
@@ -2880,7 +3072,13 @@
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdd8-f8ee-f1ef-acd0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7d2-8315-4aaf-79cd" type="min"/>
@@ -2899,7 +3097,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="22.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8d1-8458-4eb4-9c7a" name="Wrath" book="Deadzone 2nd Ed Rulebook" page="92" hidden="false" collective="false" type="unit">
@@ -2982,7 +3180,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb01-91ce-86b1-c477" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78f4-da09-4389-d15d" type="min"/>
@@ -3020,7 +3224,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b3e-e670-36ce-0422" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2ee-9e91-6013-6442" type="min"/>
@@ -3051,7 +3261,13 @@
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="709e-80e9-1c26-3df6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5439-a15f-f142-2b02" type="min"/>
@@ -3069,7 +3285,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="32.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="29.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
       </costs>
     </selectionEntry>
@@ -3147,7 +3363,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52b5-3766-9b16-994b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b63-356e-d07a-a8f7" type="min"/>
@@ -3199,7 +3421,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe1d-864b-636c-a0e4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f838-68a6-f7ad-7a4d" type="min"/>
@@ -3303,19 +3531,30 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4409-eb1f-5a36-1005" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5a1-3c9b-1bce-3651" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b48c-551a-5e95-3f59" name="Holo Sight (+)" hidden="false" targetId="4c27-12b2-2903-804b" type="selectionEntry">
+        <entryLink id="b48c-551a-5e95-3f59" name="Holo Sight" hidden="false" targetId="4c27-12b2-2903-804b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -3330,7 +3569,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="59e5-5bca-484f-f69f" name="Adrienne Nikolovski" book="Deadzone: Infestation" page="28" hidden="false" collective="false" type="model">
@@ -3405,7 +3644,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4a06-af1b-88cc-101a" name="Dual Needle Pistols" hidden="false" collective="false" type="upgrade">
@@ -3443,7 +3682,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3453,7 +3692,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b540-18a8-5635-7855" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7091-f8ad-2ce7-a072" type="min"/>
@@ -3465,19 +3710,22 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
               <repeats/>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aced-2e8d-9bd0-2832" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8660-4b8d-527d-28a2" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="28.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a637-544b-7314-67e8" name="Long Range Observer N7-117" book="Deadzone: Infestation" page="20" hidden="false" collective="false" type="model">
@@ -3554,7 +3802,13 @@
               </modifiers>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3530-4140-91cb-cd83" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b84-680f-89a8-c449" type="min"/>
@@ -3592,7 +3846,13 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ec0-2178-8f7b-0ced" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="670d-7896-8796-205c" type="min"/>
@@ -3606,24 +3866,56 @@
             <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="534a-2b0d-c7d3-9793" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
-          <profiles/>
+        <selectionEntry id="e242-70bf-8906-550c" name="Energy Gauntlet" book="Deadzone Errata v2.1" page="3" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="75ac-c94d-56d2-6a70" name="Energy Gauntlet" book="Deadzone Errata v2.1" page="3" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Knockback"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <rules/>
-          <infoLinks/>
-          <modifiers/>
+          <infoLinks>
+            <infoLink id="8ade-e2c7-5bb8-7dc8" name="Knockback" hidden="false" targetId="9b4e-17bd-61ab-7feb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abfd-4abe-6c4e-ba22" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7077-72e4-ca8d-c841" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53e9-3778-b5be-656c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db36-0947-08d5-b85f" type="max"/>
           </constraints>
           <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="5.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="34.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9871-2ec9-b9fc-03a9" name="Bjarn Starnafall" book="Deadzone: Infestation" page="24" hidden="false" collective="false" type="unit">
@@ -3686,7 +3978,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1d13-d9ab-b21f-8449" name="Mining Laser" hidden="false" collective="false" type="upgrade">
@@ -3717,7 +4009,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3727,7 +4019,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7e4-56bd-0301-dd41" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8181-14b4-82a0-efd8" type="min"/>
@@ -3736,7 +4034,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="27.0"/>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
       </costs>
     </selectionEntry>
@@ -3831,7 +4129,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3841,7 +4139,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a3d-2644-59db-895a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bb4-c20d-1c82-3072" type="min"/>
@@ -3852,7 +4156,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c9-f160-0e96-36fd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b3-86ed-6776-c47e" type="min"/>
@@ -3862,7 +4172,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="28.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7522-8e53-d79e-f4e6" name="Dr Simmonds" book="Deadzone: Nexus Psi" page="20" hidden="false" collective="false" type="model">
@@ -3956,7 +4266,7 @@
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3966,7 +4276,13 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2853-150f-a41d-c39f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6ee-c29b-a522-2461" type="min"/>
@@ -3976,7 +4292,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="18.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e34a-6d79-52a3-65d9" name="The Piper" book="Deadzone: Infestation" page="16" hidden="false" collective="false" type="model">
@@ -4050,7 +4366,13 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8410-646a-1d50-00b3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c00c-9e93-0770-e4f5" type="min"/>
@@ -4153,7 +4475,7 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="34.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="33.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b52-2559-227a-5b19" name="Nem-Rath" book="Deadzone: Infestation" page="36" hidden="false" collective="false" type="model">
@@ -4225,7 +4547,13 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cbd-69d7-336f-2e0f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f115-cfef-d8cb-5fa0" type="min"/>
@@ -4263,7 +4591,13 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e9f-9987-4cb5-20db" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb7-28cd-e9c6-7d8d" type="min"/>
@@ -4273,7 +4607,6 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -4294,7 +4627,13 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e47-5f75-df09-0a8e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd13-a9d0-5a79-e2cc" type="min"/>
@@ -4313,7 +4652,7 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47dc-9794-d295-d82e" name="Commlink" book="Deadzone Errata v2.2" hidden="false" collective="false" type="upgrade">
@@ -4338,9 +4677,9 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af0c-5df6-5f3a-3754" name="Tripmine" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="af0c-5df6-5f3a-3754" name="Trip Mine" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="85a0-4f0c-3e6b-16f9" name="Tripmine" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+        <profile id="85a0-4f0c-3e6b-16f9" name="Trip Mine" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4367,7 +4706,7 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8cd2-5f76-65ab-86d2" name="Trap (n)" hidden="false" targetId="0619-45db-fd26-fe4c" type="rule">
+        <infoLink id="8cd2-5f76-65ab-86d2" name="Trap" hidden="false" targetId="0619-45db-fd26-fe4c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4477,7 +4816,13 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d58e-d7be-8599-ef79" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7808-ad22-d557-0540" type="min"/>
@@ -4498,7 +4843,13 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fb4-2c6c-eb5b-bdb3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac75-e397-dea4-fb6c" type="min"/>
@@ -4508,7 +4859,709 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6e8-f111-121c-ffdb" name="Stimulant Shot (+)" book="Deadzone: Outbreak" page="16" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2100-3b40-5eb0-5b47" name="Stimulant Shot" hidden="false" targetId="b420-8549-5e84-74a0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="05f8-84fa-759c-c461" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="029d-78ec-0cde-2c56" name="Adrenaline Shot (+)" book="Deadzone: Outbreak" page="16" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6dc0-3edf-eda4-a778" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3f35-44da-3d61-2067" name="Adrenaline Shot" hidden="false" targetId="139f-05c7-3940-9f1d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="77e2-70bf-5e6a-c3b4" name="Ten &apos;Ur-Go" book="Deadzone: Outbreak" page="80" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c005-ce33-14fa-1d6c" name="Ten &apos;Ur-Go" book="Deadzone: Outbreak" page="80" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="1"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="3+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6633-fa36-e628-fadc" name="Construct" hidden="false" targetId="f0c6-e746-f152-933c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3095-d80f-4751-614f" name="Glide" hidden="false" targetId="c78a-7e20-2ad4-9c09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="43f5-7ce7-843f-558f" name="Vulnerable" hidden="false" targetId="07eb-3d1e-7d8b-9dc6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="acaa-7739-716f-fe7c" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f52-9915-c5dc-c1b8" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4abf-1c47-fa77-d46a" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="033b-c972-84df-dcb4" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4595-9b50-4a29-c4b9" name="Singing Blade" book="Deadzone: Outbreak" page="80" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="acee-cdfb-57c7-a7ff" name="Singing Blade" book="Deadzone: Outbreak" page="80" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="623a-8a3a-66ab-29f8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e41a-72a7-3b8d-15e5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="66d8-fe29-bf75-0286" name="Noh Pistol" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7a5b-a1a9-90f7-1b91" name="Noh Pistol" book="Deadzone 2nd Ed Rulebook" page="76" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Small Arms"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ec2-5714-bc67-8a84" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6112-844e-aba7-35e7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="34d9-a094-089d-297c" name="Energy Shield (n) (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Energy Shield (4)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="773a-ad56-451c-b253" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e06-db0c-e1c8-c1f3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9a11-9086-46f9-d68b" name="Jump Pack" hidden="false" targetId="fc30-1c8d-ef65-7ba9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47d6-e0e5-5df5-9d59" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fee2-8953-42b2-c2fc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d6e-cc91-a0e1-d8bd" name="Lt. Commander Roca" book="Deadzone: Outbreak" page="81" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c425-7388-5f49-9428" name="Lt. Commander Roca" book="Deadzone: Outbreak" page="81" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="1"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="4+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fd24-c33c-7ba5-c080" name="Precision Shot" book="Deadzone: Outbreak" page="81" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend an Army Special Result to ignore the dice modifier when performing a Shoot action targeting an enemy in a cube containing friendly models or for shooting into or through a cube adjacent to smoke.  However, you may not shoot into a cube containing smoke.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="51e4-5611-6af8-03a3" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1175-31b2-0b82-c41d" name="Scout" hidden="false" targetId="634d-5763-a726-b91f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e695-e7df-af59-546f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ad-a91b-3196-9431" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e1a3-7186-16a8-26a3" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="77cf-01c0-e19c-230b" name="LSX Sniper Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="df7b-fc73-74a4-c95a" name="LSX Sniper Rifle" book="Deadzone: Outbreak" page="81" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R10"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Heavy, Sniper Scope"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1bd2-2c36-0e84-5ee8" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2f6a-e7f4-388f-9057" name="Sniper Scope" hidden="false" targetId="e624-e443-da35-a014" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="712c-ec43-f8be-df43" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ed6-98a1-b880-3120" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="608b-6ff9-79fa-60a0" name="Pistol" book="" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="31f2-7113-3b15-bd1f" name="Pistol" book="Deadzone 2nd Ed Rulebook" page="59" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Small Arms"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ec-9a8c-960f-1151" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1106-d88c-a66b-5f8d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6571-6bc9-3948-10ff" name="Energy Gauntlet" book="" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="dcbe-6c98-1cf9-bbdb" name="Energy Gauntlet" book="Deadzone 2nd Ed Rulebook" page="59" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Knockback"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Melee)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3e0e-1ac9-8711-a32f" name="Knockback" hidden="false" targetId="9b4e-17bd-61ab-7feb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="321f-4898-e7a8-2a32" name="Jump Pack" hidden="false" targetId="fc30-1c8d-ef65-7ba9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="face-d0d5-ce44-8d01" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f64-fcbf-4ce4-22fd" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f4f-38ec-616e-e8f3" name="Forge Lord Ingulf Krestürsson" book="Deadzone: Outbreak" page="82" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5252-ea89-2c0e-8721" name="Forge Lord Ingulf Krestürsson" book="Deadzone: Outbreak" page="82" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="2"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="3+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="3+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e393-943b-c4d2-9a60" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="61b8-f62e-f542-b640" name="Life Support" hidden="false" targetId="2945-b85d-72f0-9f72" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="220b-f0ea-09fc-3327" name="Solid" hidden="false" targetId="477f-7c1c-9cba-3258" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3cf1-c01b-8485-b221" name="Combat Team Training" hidden="false" targetId="6913-af21-328d-d34d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4399-5a7f-ba34-c347" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e2b-ae52-231c-48f1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1c1c-bdb6-df3f-9af0" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1930-c41e-4117-b2c0" name="Dragon Breath" book="Deadzone: Outbreak" page="82" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0da6-ff45-332d-01cc" name="Dragon Breath" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Heavy, Volatile, It Burns!"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e351-4ba5-2e1d-64fd" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fd9f-c298-b7fc-9eea" name="Volatile" hidden="false" targetId="66b5-4831-9238-85aa" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="65e9-dbda-8202-73c1" name="It Burns!" hidden="false" targetId="6b7c-f0a9-4644-398d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a374-c8a7-1c11-6026" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c790-14cd-001e-7fa5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c3a4-1315-cc63-24c9" name="Padd" book="Deadzone: Outbreak" page="82" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="8d59-2c1d-188d-6c17" name="Padd" book="Deadzone: Outbreak" page="82" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="2-3"/>
+                <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
+                <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+                <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
+                <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="4+"/>
+                <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="6+"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="8b73-a11c-7fd8-60b2" name="Faithful Companion" book="Deadzone: Outbreak" page="82" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>You may only include Padd in a strike team that contains Forge Lord Ingulf Krestürsson.  Padd may only be included once per strike team.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="31b3-3b09-0f24-db22" name="Tenacious" hidden="false" targetId="890a-cbd0-663e-119f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1457-3ad1-c5e1-7b3e" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="f591-6d8f-c5da-94df" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="6a16-7c8a-ba82-4381" name="Teeth" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="5683-6e8b-6206-d896" name="Teeth" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                    <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                    <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frenzy (1)"/>
+                    <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c76-51dc-95c3-09bf" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7129-4c25-0d92-8041" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+                <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d97e-a661-a089-5d37" name="Forge Hammer" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4de6-1257-2ffe-d508" name="Forge Hammer" book="Deadzone 2nd Ed Rulebook" page="71" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Melee)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37c1-8177-4e32-209d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c95-489b-e365-8f1e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="5.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="43.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4596,12 +5649,12 @@ In addition, some items can only be used by Engineers.</description>
 7: AP3
 8: Ominous Hum: The owning model gains the BOOM! (1) ability until the end of the game, and rolls again on this table. This effect is cumulative: The value of BOOM! increases by 1 each time an 8 is rolled.</description>
     </rule>
-    <rule id="a620-dc42-f93b-b270" name="Fire Control" book="Deadzone 2nd Ed Rulebook" page="29" hidden="false">
+    <rule id="a620-dc42-f93b-b270" name="Fire Control" book="Deadzone: Outbreak" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When the model takes a Shoot action it can use two weapons instead of one. Each weapon may choose the same or a different target. Declare the targets of both weapons before rolling any attack dice.</description>
+      <description>When the model takes a Shoot action it can use two weapons instead of one. Each weapon may choose the same or a different target. Declare the targets of both weapons before rolling any attack dice. A model with Fire Control that uses a Shoot symbol on a Command Dice only benefits from a single extra shot from only one of the available weapons.</description>
     </rule>
     <rule id="f7aa-fbc1-3217-1be0" name="Frag (n)" book="Deadzone 2nd Ed Rulebook" page="29" hidden="false">
       <profiles/>
@@ -4646,13 +5699,11 @@ The effect the Grenade has varies by type.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model with Hammerfist Drop Armour starts the battle off the table. It is called in using a Special action by a model in the same Strike Team already on the table.
-When called in, place the Hammerfist model in any empty cube on the table. If there is a stack, place it at the top level. The force of the model’s entry may send nearby models flying - the Hammerfist model rolls a 3 dice 4+ test (X) for the strength of the attack. Models in all adjacent cubes must roll a 3 dice Survive test (X). Roll once for the attack and separately for each target model’s survival roll.
+      <description>A model with Hammerfist Drop Armour starts the battle off the table. It is called in using a Special action by a model in the same Strike Team already on the table. When called in, place the Hammerfist model in any empty cube on the table. If there is a stack, place it at the top level. The force of the model’s entry may send nearby models flying - the Hammerfist model rolls a 3 dice 4+ test (X) for the strength of the attack. Models in all adjacent cubes must roll a 3 dice Survive test (X). Roll once for the attack and separately for each target model’s survival roll.
 Draw or Survive has more successes:
 Attack misses or fails to cause any harm.
 Hammerfist has more successes:
-The target model is thrown one cube directly away from the Hammerfist model and is Pinned.
-The Hammerfist model is then marked as activated.
+The target model is thrown one cube directly away from the Hammerfist model and is Pinned. The Hammerfist model is then marked as activated. 
 For the rest of the game, the model equipped with Hammerfist Drop Armour counts as having a Jump Pack.</description>
     </rule>
     <rule id="20eb-5380-3d00-044b" name="Heavy" book="Deadzone 2nd Ed Rulebook" page="30" hidden="false">
@@ -4714,12 +5765,12 @@ The target puts out the ames before they do any real Damage. The model may conti
 Fire/flames has more successes:
 The target manages to put out the ames and is no longer on re, but suffers Damage in the process. The Potential Damage is equal to the difference in total successes and is resolved at AP1. The model’s activation ends immediately.</description>
     </rule>
-    <rule id="9b4e-17bd-61ab-7feb" name="Knockback" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="32" hidden="false">
+    <rule id="9b4e-17bd-61ab-7feb" name="Knockback" book="Deadzone: Outbreak" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a weapon or model with this ability hits and causes potential damage it will knock the target model back into a different cube. Resolve the attack as normal, then move the target one cube directly away from the attacker (see page 27). If the knocked-back model’s route is blocked by a wall, the model is slammed into it (see page 27).</description>
+      <description>When a weapon or model with this ability hits and causes potential damage it will knock it back into a different cube. Resolve the attack as normal, then move the target one cube directly away from the attacker (see page 27 of the Deadzone 2.0 rulebook). If the knocked-back model’s route is blocked by a wall, the model is slammed into it (see page 27 of the Deadzone 2.0 rulebook).</description>
     </rule>
     <rule id="2945-b85d-72f0-9f72" name="Life Support" book="Deadzone 2nd Ed Rulebook" page="32" hidden="false">
       <profiles/>
@@ -4907,14 +5958,14 @@ Vehicles have an amount of Damage they can sustain based on their Size, just lik
 A Vehicle is not affected by the movement effects of explosions or attacks such as Knockback or Blast. It cannot be moved into another cube by any attack. However, it still suffers Damage from these types of attack as normal.
 When a Vehicle is destroyed it is left in place on the battle eld. It is now treated as part of the battle eld’s terrain. For the sake of appearance you might like to remove any crew models and add a small piece of cotton wool to make it look like a smoking wreck.</description>
     </rule>
-    <rule id="3409-b3c6-b6c4-b3c5" name="Teleport" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="34" hidden="false">
+    <rule id="3409-b3c6-b6c4-b3c5" name="Teleport" book="Deadzone: Outbreak" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A model with this ability may Teleport as a Long Action.
- Teleport allows the model to move up to 3 cubes in any direction without the need for there to be an unobstructed route between them. A model using Teleport must end its move in a cube where it can be physically placed on the table (not mid-air or inside an inaccessible cube surrounded by 6 solid walls). If a teleporting model ends this move in the same cube as an enemy model then they will Fight as if it had moved into the cube normally.
-You may Teleport out of a cube containing an enemy model but will be subject to the ‘breaking away’ rule on page 17 of the Deadzone 2.0 rulebook.</description>
+Teleport allows the model to move up to 3 cubes in any direction without the need for there to be an unobstructed route between them. A model using Teleport must end its move in a cube where it can be physically placed on the table (not midair or inside an inaccessible cube surrounded by 6 solid walls). If a teleporting model ends this move in the same cube as an enemy model then they will Fight as if it had moved into the cube normally.
+You may Teleport out of a cube containing an enemy model but will be subject to the ‘breaking away’ rule (see page 17 of the Deadzone 2.0 rulebook).</description>
     </rule>
     <rule id="95ec-04ae-0dd4-4f28" name="Toxic Smokescreen" book="Deadzone 2nd Ed Rulebook" page="35" hidden="false">
       <profiles/>
@@ -5066,28 +6117,28 @@ All models in the affected cube are marked as activated.</description>
       <modifiers/>
       <description>Thermal mines are One-Use, RF, AP3 weapons.</description>
     </rule>
-    <rule id="e4f8-1ba5-29a4-65f4" name="Weapons Team" book="Deadzone Errata v2.1" hidden="false">
+    <rule id="e4f8-1ba5-29a4-65f4" name="Weapons Team" book="Deadzone: Outbreak" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Models with this rule are typically armed with a heavy machine gun, mortar, missile launcher or laser cannon, and consist of two or more models mounted on a single base. Treat these models as a single model with the listed size for purposes of movement, cube size limits, and damage it can take before being removed as a casualty. Models with this rule must be equipped with a crew served weapon when added to your army list; they cannot be deployed unarmed. While models with this rule are injured, weapons they are equipped with are considered to have the Slow Reload rule. Weapons Teams should be based on a 60mm base. As an alternative models based on 25mm bases can be used as long as each model (weapon, specialist and loader) are placed in base to base contact at all times. They cannot be moved, targeted or removed individually and are treated as a weapons team as above.</description>
+      <description>Models with this rule are typically armed with a heavy machine gun, mortar, missile launcher or laser cannon, and consist of two or more models mounted on a single base.
+Treat these models as a single model with the listed size for purposes of movement, cube size limits, and damage it can take before being removed as a casualty. Models with this rule must be equipped with a weapon when added to your army list; they cannot be deployed unarmed. Whilst models with this rule are injured, any equipped weapons are considered to have the Slow Reload rule.
+Weapons Teams should be based on a 60mm base. As an alternative models based on 25mm bases can be used as long as each model (weapon, specialist and loader) are placed in base to base contact at all times. They cannot be moved, targeted or removed individually and are treated as a weapons team as above.</description>
     </rule>
     <rule id="1dd9-cb24-7a75-5b0a" name="Flight" book="Deadzone: Nexus Psi" page="11" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model with this ability does not require a wall or ramp to change levels. It may move over gaps
-of any size on the same level. The model must end its move in a cube (and position) that allows it
-to be physically placed on the gaming table.</description>
+      <description>A model with this ability does not require a wall or ramp to change levels. It may move over gaps of any size on the same level. The model must end its move in a cube (and position) that allows it to be physically placed on the gaming table.</description>
     </rule>
-    <rule id="bc2d-7c5f-2587-2e78" name="Walker Shield" book="Deadzone: Nexus Psi" page="10" hidden="false">
+    <rule id="bc2d-7c5f-2587-2e78" name="Walker Shield" book="Deadzone: Outbreak" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model equipped with this gains +1 Armour</description>
+      <description>A model equipped with a Walker Shield gains +1 Armour</description>
     </rule>
     <rule id="13ea-7da7-0039-e8ad" name="Recon Drone" book="Deadzone: Nexus Psi" page="16" hidden="false">
       <profiles/>
@@ -5103,13 +6154,12 @@ to be physically placed on the gaming table.</description>
       <modifiers/>
       <description>The weapon does no direct Damage. If the attack is a HIT, other effects of the weapon occur as normal.</description>
     </rule>
-    <rule id="64db-79a6-a8f3-a2cb" name="Aerial Deployment" book="Deadzone Errata v2.2" hidden="false">
+    <rule id="64db-79a6-a8f3-a2cb" name="Aerial Deployment" book="Deadzone: Outbreak" page="17" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>This model may choose to make an aerial deployment. If it does so, do not deploy it with the rest of your Strike Team. Once both players have deployed their teams, but before any Scout or Recon moves, a model using aerial deployment may be deployed in any cube not containing an objective and provided it is at least two cubes away from the nearest enemy model. If there are multiple cubes in a stack, it must deploy on the top level cube in that stack. A model may always aerially deploy into the owning player’s deployment zone (cube size limits willing) but may never aerially deploy in the enemy’s deployment zone.
-
 If both players have models with aerial deployment then alternate aerial deployments starting with the player with the initiative. If this means that a model cannot be deployed due to lack of a 2 cube distance then that model will have to instead be deployed within your deployment zone.
 </description>
     </rule>
@@ -5122,14 +6172,97 @@ If both players have models with aerial deployment then alternate aerial deploym
 
 Note that this does not allow models to target cubes outside of their weapon’s range, or to otherwise target cubes that are not valid targets.</description>
     </rule>
-    <rule id="0619-45db-fd26-fe4c" name="Trap" book="Deadzone Errata v2.2" hidden="false">
+    <rule id="0619-45db-fd26-fe4c" name="Trap" book="Deadzone: Outbreak" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a weapon with the Trap rule is used, place a Trap token in the targeted cube. Whenever an enemy model enters a cube with a Trap token, the player who placed the token may choose to detonate it; if they do so, immediately resolve the effect in parentheses following the Trap ability (i.e. If a weapon is listed as Trap-(Frag(3)), resolve a Frag (3) attack in the cube.) This ends the active model’s activation, and the token is removed from play.
-
-The only exception to this rule is if the enemy model entering the cube has the Engineer ability. In this case, the owner of the Trap token may not detonate it, as the Engineer knows how to avoid its triggering mechanism. A Trap token may be disarmed by any model with the Engineer ability, spending a Special action to do so. Remove the Trap token from play.</description>
+      <description>When a weapon with the Trap rule is used, place a Trap token in the targeted cube. Whenever an enemy model enters a cube with a Trap token, the player who placed the token may choose to detonate it; if they do so, immediately resolve the effect in parentheses following the Trap ability (i.e. If a weapon is listed as Trap [Frag(3)], resolve a Frag (3) attack in the cube.) This ends the active model’s activation, and the token is removed from play.
+The only exception to this rule is if the enemy model entering the cube has the Engineer ability. In this case, the owner of the Trap token may not detonate it, as the Engineer knows how to avoid its triggering mechanism. A Trap token may be disarmed by any model with the Engineer ability by spending a Special action to do so, then remove the Trap token from play.</description>
+    </rule>
+    <rule id="0da5-cfad-9f03-0186" name="Communications Relay" book="Deadzone: Outbreak" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with this ability grants a free extra activation Command Dice per round. You may not reroll this Command Dice and if the model granting Communications Relay is killed you lose the extra activation from all subsequent rounds.</description>
+    </rule>
+    <rule id="a2cc-0f18-4a04-a7e8" name="Dismantle" book="Deadzone: Outbreak" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model has a special knack for finding the weak spots of mechanical objects. Whenever this model deals potential damage to a model with the Vehicle or Construct ability, add 1 to the potential damage caused.</description>
+    </rule>
+    <rule id="f256-c9e1-fd94-2578" name="Evade" book="Deadzone: Outbreak" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this model is hit but not killed or Pinned by a Shoot action it may make an immediate 1 cube move in any direction. This may generate a Fight as normal.</description>
+    </rule>
+    <rule id="f384-1564-895b-429b" name="Triclinic Shard" book="Deadzone: Outbreak" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this weapon causes potential damage, place a Triclinic Shard token on the target model. Nameless models targeting a model with a Triclinic Shard token receive +1 dice to Fight tests. This effect is not cumulative.</description>
+    </rule>
+    <rule id="f2aa-7b2f-d14c-a5be" name="Inc Sac" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this model is killed place a Smokescreen in its cube, as if the cube was hit by a Smoke Grenade. In addition once per game a model with this ability can deploy a smokescreen in its cube at the beginning or end of its activation.</description>
+    </rule>
+    <rule id="0d44-4c12-cfcf-00cf" name="Resilient (n)" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model may re-roll n dice when making Survive tests.</description>
+    </rule>
+    <rule id="40d5-d002-c340-39c1" name="Stealthy" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this model is the target of a Shoot action, the attacking model may not benefit from the Clear Shot modifier.</description>
+    </rule>
+    <rule id="67c8-806c-990e-042d" name="Smash!" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After the damage is resolved the attacking player may move the target model up to one cube in any direction. The target model is then pinned. Models with the Solid or Vehicle abilities are still affected by Smash! This may result in falling or wall damage and may generate Fights if the model enters a cube containing an enemy model.</description>
+    </rule>
+    <rule id="6913-af21-328d-d34d" name="Combat Team Training" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>As long as a model with this ability remains in the game their strike team may re-roll command dice, even if it has lost more than 50% of its models.</description>
+    </rule>
+    <rule id="890a-cbd0-663e-119f" name="Tenacious" book="Deadzone: Outbreak" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model is able to entangle and restrict a model as it moves away. A model leaving a cube containing a model with this ability rolls one less dice for Break Away actions.</description>
+    </rule>
+    <rule id="b420-8549-5e84-74a0" name="Stimulant Shot" book="Deadzone: Outbreak" page="16" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>One-Use, gain +1 dice for a single roll (Fight or Shoot).</description>
+    </rule>
+    <rule id="139f-05c7-3940-9f1d" name="Adrenaline Shot" book="Deadzone: Outbreak" page="16" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>One-use, increase Speed by +1/+1 for this round.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

@@ -1,0 +1,4055 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8c46-04f3-255e-d072" name="Nameless" revision="1" battleScribeVersion="2.01" gameSystemId="3476-f239-cf73-2f89" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="3035-9267-2a08-1bfc" name="The Fear" book="Deadzone: Outbreak" page="56" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="9584-92c0-51fe-c077" name="The Fear" book="Deadzone: Outbreak" page="56" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="1"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="4+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a5a8-c8bb-06c9-c631" name="Creeping Fear" book="Deadzone: Outbreak" page="56" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend an Army Special result to give the active model the Stealthy and Resilient (1) abilities until the end of the Round.  If a model already has Resilient add +1 to its value.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="eca9-0e0e-07a1-7f04" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9e44-c017-91d9-5522" name="Resilient (n)" hidden="false" targetId="0d44-4c12-cfcf-00cf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Resilient (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="aa20-80af-f001-9dc8" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d35-05c6-b624-7f2f" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="9d31-2195-d17e-7fc8">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b5e-dd8b-7e17-91ce" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9105-dc5c-dcc6-bf92" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9d31-2195-d17e-7fc8" name="Ripping Tentacles" hidden="false" targetId="305c-5de3-8db5-4dba" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4d01-9ed4-58c2-d6c2" name="Ravenous Maw" hidden="false" targetId="54d8-21b9-d924-7c3d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9f4e-ac33-3026-fae0" name="Razor Claws" hidden="false" targetId="d86f-16eb-4d15-61a3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="34e6-b7bf-0ffc-fff2" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="897a-360e-18e4-3fd3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1580-6182-0656-07b7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a274-9c54-40bb-8851" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="897a-360e-18e4-3fd3" name="Shoulder-mounted Phaser" hidden="false" targetId="168b-a482-0b19-f69a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e0ec-138e-f684-c71b" name="Twin Crystal Pistols" hidden="false" targetId="d8ea-ca8e-82a9-ae6d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6c4e-a693-e08f-9a4d" name="Crystal Pistol" hidden="false" targetId="a725-6ab2-54c5-6627" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ced1-aff1-99d6-70b9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ced3-bac7-0685-95e2" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c0f-59f0-68da-dd33" name="Psychotroid" book="Deadzone: Outbreak" page="56" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="e46b-dfc7-7ff5-82cb" name="Psychotroid" book="Deadzone: Outbreak" page="56" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="1"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="2"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="6+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="5+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4cd5-164d-69fd-f5a9" name="Aura of Dread" book="Deadzone: Outbreak" page="56" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend an Army Special Result on a Command Dice at the start or end of the model&apos;s activation.  You may choose one non-pinned enemy model within 2 cubes and LoS and move it 1 cube directly away from the active model.  If the model enters a cube with an enemy model it will initiate a Fight action but may only roll to Survive.  If the model was in an occupied cube it must Breakaway to leave the cube.  The model is then marked as Activated, if it was not already.  You may use a maximum of one Special Result per activation.  Models with the Construct or Vehicle abilities are unaffected by this rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4894-b961-686f-3736" name="Resilient (n)" hidden="false" targetId="0d44-4c12-cfcf-00cf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Resilient (2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1b0a-6905-ada3-f7fd" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cc54-845d-13f5-0c20" name="Psychic" hidden="false" targetId="2e77-9e5d-bfe4-97f0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="610d-e789-e337-b2d0" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="04cf-d22a-7eb6-2236" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2c34-1312-eb97-8756" name="Psychic Surge" book="Deadzone: Outbreak" page="56" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="602c-2ee8-40b2-8b59" name="Psychic Surge" book="Deadzone: Outbreak" page="56" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R4"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value=""/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Psychic, Invigorate"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0c68-c6d6-a80a-2407" name="Psychic" hidden="false" targetId="2e77-9e5d-bfe4-97f0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fcde-d173-dad0-a133" name="Invigorate" hidden="false" targetId="4aba-e6ac-3fdc-cdae" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ef-9718-bf65-bdde" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9028-35bb-78fb-8d03" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="502c-9d78-23d5-8786" name="Psychic Stunning" book="Deadzone: Outbreak" page="56" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1d91-85de-fd8e-f752" name="Psychic Stunning" book="Deadzone: Outbreak" page="56" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R5"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Psychic, Stun"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a893-7a60-59a4-5b88" name="Psychic" hidden="false" targetId="2e77-9e5d-bfe4-97f0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6dd2-f85e-5c6d-76d0" name="Stun" hidden="false" targetId="5007-f9e6-65c2-71f5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f4c-99dd-e551-75ae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a1-dc50-f845-23f6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="50fc-961f-812e-6e94" name="Psychic Subjugation" hidden="false" targetId="99db-2d5b-ef9e-199b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba46-29ca-4419-9646" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2933-e7f7-9fdf-784e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4685-0f46-c5e2-a523" name="The Blight" book="Deadzone: Outbreak" page="57" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="29ed-333c-d67c-2a45" name="The Blight" book="Deadzone: Outbreak" page="57" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="1"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="2"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8806-5059-2e0f-4d32" name="Caustic Spittle" book="Deadzone: Outbreak" page="57" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend an Army Special result to allow the active model to perform a free Shoot action with R2, It Burns!.  If the model has no Shoot stat it can still make a ranged attack but with a Shoot stat at 7+.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b0c5-c063-ced5-f717" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="2fae-e0d7-619e-77bc" name="Resilient (n)" hidden="false" targetId="0d44-4c12-cfcf-00cf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Resilient (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0dcd-9d12-b364-e2cd" name="Tough" hidden="false" targetId="df54-2d71-8800-b15f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6d67-b93c-08f6-93e2" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1f58-b5d2-4a46-d793" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="91cd-b6b8-9baa-c2e9">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3a-2449-3635-82eb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45f5-d0af-9532-7f38" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1687-8538-abee-2449" name="Ripping Tentacles" hidden="false" targetId="305c-5de3-8db5-4dba" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="91cd-b6b8-9baa-c2e9" name="Ravenous Maw" hidden="false" targetId="54d8-21b9-d924-7c3d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="03bc-1d8d-0c6c-3d67" name="Razor Claws" hidden="false" targetId="d86f-16eb-4d15-61a3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d55a-acf0-7611-e058" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="f433-a3cc-fd83-6e74">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1809-79aa-d756-afe9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5f8-3f5b-c449-44c3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d566-c4e7-94bb-825f" name="Shoulder-mounted Phaser" hidden="false" targetId="168b-a482-0b19-f69a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f433-a3cc-fd83-6e74" name="Corrosive Blast" hidden="false" targetId="2d38-f543-f39f-0c5a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0073-c4bd-4728-429a" name="Corrosive Bile Ducts" hidden="false" targetId="838b-2484-be6d-8218" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="90ea-cae9-6287-3473" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fcb2-95b9-2fe1-8a10" name="Inker" book="Deadzone: Outbreak" page="57" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="69f6-b4fc-109d-cfd7" name="Inker" book="Deadzone: Outbreak" page="57" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="6+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="6+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2621-261b-dac5-4a53" name="Inc Sac" hidden="false" targetId="f2aa-7b2f-d14c-a5be" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d632-548a-0db5-ae58" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="48fb-c654-1a56-a5db" name="Teeth" book="Deadzone: Outbreak" page="57" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2743-9e32-763a-1d96" name="Teeth" book="Deadzone: Outbreak" page="57" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="548a-a337-21d7-9156" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b2a-3e91-a234-2c4e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8ac1-a05b-cfc6-a8c6" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc6b-9530-7a96-541a" name="Scuttler" book="Deadzone: Outbreak" page="57" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2171-408f-b2a0-383f" name="Scuttler" book="Deadzone: Outbreak" page="57" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="6+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d418-c9b3-1d78-f775" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3d12-7253-71d6-2f3e" name="Horde" hidden="false" targetId="1af6-7b35-37f7-869f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5af4-48aa-30b1-4149" name="Agile" hidden="false" targetId="8eff-d727-2c31-fa4d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d562-074d-5642-6225" name="Evade" hidden="false" targetId="f256-c9e1-fd94-2578" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aac5-7756-ce9f-38e4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4087-08b9-7806-bc0d" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="73fc-77f1-7dae-c963" name="Claws" book="Deadzone: Outbreak" page="57" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7d7c-c465-6350-79be" name="Claws" book="Deadzone: Outbreak" page="57" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2546-9264-3510-8a3f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0f5-fd0d-71af-c797" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7812-3aba-aacd-ec88" name="Caratid" book="Deadzone: Outbreak" page="57" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="626b-ea6e-8f3a-0460" name="Caratid" book="Deadzone: Outbreak" page="57" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="2-3"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="549e-912f-31a0-15be" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="93cb-2c65-1a1f-c830" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aac5-7756-ce9f-38e4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="de56-eb51-faef-8de1" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bc26-33f8-0778-fad4" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="d677-7175-5780-ea12">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a961-80bb-9cc3-e4e6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55a0-5a83-9608-d228" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="d677-7175-5780-ea12" name="Claws" book="Deadzone: Outbreak" page="57" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="5f71-f112-ba98-04fb" name="Claws" book="Deadzone: Outbreak" page="57" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                    <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                    <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                    <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+                <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7f2f-fb1a-ce9c-cccd" name="Ripping Tentacles" hidden="false" targetId="305c-5de3-8db5-4dba" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3532-8c0b-42df-73dc" name="Ravenous Maw" hidden="false" targetId="54d8-21b9-d924-7c3d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5273-5c61-89de-9687" name="Razor Claws" hidden="false" targetId="d86f-16eb-4d15-61a3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d3d2-f9e1-1983-7388" name="Assassin" book="Deadzone: Outbreak" page="58" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c2b7-f84b-cb03-1e79" name="Assassin" book="Deadzone: Outbreak" page="58" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="2-3"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="1"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="38ae-5545-b19f-6a09" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d21c-80c5-3392-e485" name="Stealthy" hidden="false" targetId="40d5-d002-c340-39c1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aac5-7756-ce9f-38e4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c8a1-949b-049b-7d58" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="500b-5cf4-f8e4-bda1" name="Razor Claws" hidden="false" targetId="d86f-16eb-4d15-61a3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ba2-cd8b-b5f5-41e7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d2-f782-86c7-9546" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="588c-ab15-5c68-2053" name="Needle Drones" book="Deadzone: Outbreak" page="58" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7ec1-2171-5b42-9e9e" name="Needle Drones" book="Deadzone: Outbreak" page="58" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="2-3"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="6+"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="-"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d831-4c32-e258-becb" name="Psychic" hidden="false" targetId="2e77-9e5d-bfe4-97f0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1f36-5f17-7209-407b" name="Agile" hidden="false" targetId="8eff-d727-2c31-fa4d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e4ba-0b37-4ccc-bac7" name="Stealthy" hidden="false" targetId="40d5-d002-c340-39c1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7673-e8a8-033f-f781" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7f4d-46aa-8ba7-3391" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="eb51-28b7-47ca-8938" name="Psychic Charge" hidden="false" targetId="0719-5464-a8b4-39a1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c0d-7d58-1320-b61f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47e9-1b3a-49b9-2a40" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f69-f810-ef4a-54a6" name="Gunslinger" book="Deadzone: Outbreak" page="58" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="cc89-8faf-9134-40c3" name="Gunslinger" book="Deadzone: Outbreak" page="58" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="1"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aac5-7756-ce9f-38e4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2d01-2af8-8fae-8759" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3cce-d80c-812c-d537" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="f01c-44fb-61b6-9d2c">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4cf-45ff-f5dc-d145" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f1c-a3ef-d9e4-63db" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="3fd2-65f3-1ba8-0ba4" name="Shoulder-mounted Phaser" hidden="false" targetId="168b-a482-0b19-f69a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f01c-44fb-61b6-9d2c" name="Twin Crystal Pistols" hidden="false" targetId="d8ea-ca8e-82a9-ae6d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5c50-d7f4-3b4d-055e" name="Corrosive Bile Ducts" hidden="false" targetId="838b-2484-be6d-8218" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4800-ce75-4289-c062" name="Crystal Pistol" hidden="false" targetId="a725-6ab2-54c5-6627" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c19-b168-0d49-14ec" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0de7-7682-ff33-be0e" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937e-bd59-8cd3-56eb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ea6e-92be-8cae-ad3d" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e0a-a8f1-23bc-b5b4" name="Ogre" book="Deadzone: Outbreak" page="58" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f2b7-a142-53e5-89da" name="Ogre" book="Deadzone: Outbreak" page="58" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="2"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="3"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="3+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4be6-55d7-f78f-769e" name="Solid" hidden="false" targetId="477f-7c1c-9cba-3258" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d781-0383-99cf-f649" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d761-4b37-a79a-6009" name="Tenacious" hidden="false" targetId="890a-cbd0-663e-119f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aac5-7756-ce9f-38e4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bde6-18d1-3821-630c" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="632b-5c7c-e0d6-8e27" name="Massive Claws" hidden="false" targetId="6e8f-1535-c1d8-207b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ac-526a-7f12-f273" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb4e-c3ae-1098-1845" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aac1-23c1-e6b7-f0b9" name="Defender Shield (+)" hidden="false" targetId="0c4b-92d5-3ab2-22b8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Defender Shield">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a7-c779-6a7d-fcf4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="493c-52b4-5518-87fe" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3258-7490-771a-2a32" name="The Terror" book="Deadzone: Outbreak" page="59" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5308-930c-1f0e-15c9" name="The Terror" book="Deadzone: Outbreak" page="59" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="2-3"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="1"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="2"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7cc6-824d-2f81-8667" name="Resilient (n)" hidden="false" targetId="0d44-4c12-cfcf-00cf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Resilient (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="2699-6461-5acd-4f00" name="Agile" hidden="false" targetId="8eff-d727-2c31-fa4d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f563-6809-1b06-fc25" name="Stealthy" hidden="false" targetId="40d5-d002-c340-39c1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e4b4-4358-2bf5-aba6" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="fc43-38a0-2549-37bf" name="Ravenous Maw" book="" hidden="false" targetId="54d8-21b9-d924-7c3d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="840e-b157-fe0e-e4ed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ebc-2363-7ab6-06d9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="559a-dddd-fd9a-86f0" name="Rifleman" book="Deadzone: Outbreak" page="59" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2052-fe9a-3b40-2b22" name="Rifleman" book="Deadzone: Outbreak" page="59" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="1"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="6+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6166-3ccf-61dd-f80f" name="Resilient (n)" hidden="false" targetId="0d44-4c12-cfcf-00cf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Resilient (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aac5-7756-ce9f-38e4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0dcb-7452-ddb3-2f12" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3ab6-24a4-8c30-b617" name="Ranged Weapon" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d99-0cbc-5060-9e24" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0159-0ea0-7cee-afb5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7287-3ad5-34b0-1da0" name="Crystal Rifle" hidden="false" targetId="4a3a-43da-8103-5fee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9853-bce4-be0e-b50c" name="Twin Crystal Pistols" hidden="false" targetId="d8ea-ca8e-82a9-ae6d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4a9c-b2ce-69b6-7570" name="Crystal Pistol" hidden="false" targetId="a725-6ab2-54c5-6627" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85d-8bac-fd75-1d1b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6675-a57f-8c1d-2c3b" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b468-1f35-8a8e-60ce" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3980-0b1f-d382-7a0d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a3ce-8685-a89e-86cc" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c453-c6cd-540a-c036" name="Bathomite" book="Deadzone: Outbreak" page="59" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7400-7517-e4f9-335e" name="Bathomite" book="Deadzone: Outbreak" page="59" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="3"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="4"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c52d-25fc-a02e-4943" name="Solid" hidden="false" targetId="477f-7c1c-9cba-3258" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5eba-8cd0-4c1c-e47a" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8b0e-c24f-b5c1-52d3" name="Tenacious" hidden="false" targetId="890a-cbd0-663e-119f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b3c5-371b-cee1-69fd" name="Psychic" hidden="false" targetId="2e77-9e5d-bfe4-97f0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="90c0-ffc1-b8e1-5ee2" name="New CategoryLink" hidden="false" targetId="caa6-edbf-2b8f-89d6" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2695-2c07-808b-5b94" name="Hardpoints" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="ff40-e064-347e-2743" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c453-c6cd-540a-c036" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="03ea-a0eb-9580-2618" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="ff40-e064-347e-2743" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c453-c6cd-540a-c036" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4279-9e48-88b6-0db6" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff40-e064-347e-2743" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4279-9e48-88b6-0db6" name="Crystal Launcher **" hidden="false" targetId="7071-557b-914b-0bee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a464-7c3e-ad16-5adf" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="778b-8c0f-6c6d-d389" name="Crystal Cannon" hidden="false" targetId="cd7b-901e-0645-5bf4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="822d-1660-fe5b-d2d6" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="289c-7e62-c0ec-cd27" name="Corrosive Bile Ducts" hidden="false" targetId="838b-2484-be6d-8218" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7000-f672-8d72-3075" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cd22-823f-d6a2-fb7e" name="Ripping Tentacles" hidden="false" targetId="305c-5de3-8db5-4dba" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbea-0352-5426-7e87" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7d6c-95a4-0c5c-772a" name="Razor Claws" hidden="false" targetId="d86f-16eb-4d15-61a3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="986d-21f2-cd9b-9e1e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5b81-466d-0006-1ed3" name="Ravenous Maw" hidden="false" targetId="54d8-21b9-d924-7c3d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="741b-030e-6d11-b730" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="03ea-a0eb-9580-2618" name="Psionic Disruptor **" hidden="false" targetId="ee36-6d1f-10a7-6519" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8960-3248-3f6f-6bb2" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8a0b-9f53-7e80-5331" name="Massive Claws" hidden="false" targetId="6e8f-1535-c1d8-207b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9136-4072-eea5-0508" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67b1-920f-7c13-34de" name="Goliath" book="Deadzone: Outbreak" page="59" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f8e7-4a3d-867d-626b" name="Goliath" book="Deadzone: Outbreak" page="59" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="2"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="4"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="3+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6695-0a5c-56a4-f954" name="Solid" hidden="false" targetId="477f-7c1c-9cba-3258" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="77e6-92c5-58a3-2945" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0f47-82ce-5e66-c22e" name="Tenacious" hidden="false" targetId="890a-cbd0-663e-119f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c947-5ad4-8575-60b6" name="Tough" hidden="false" targetId="df54-2d71-8800-b15f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9d9d-b25a-ad8b-4bca" name="New CategoryLink" hidden="false" targetId="caa6-edbf-2b8f-89d6" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9b36-7dfc-e1ec-4ffe" name="Crushing Maw" book="Deadzone: Outbreak" page="59" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1b70-21a7-46dd-cfdb" name="Crushing Maw" book="Deadzone: Outbreak" page="59" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP3"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c67-abea-a97f-a5f4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfc9-cf7a-676b-4e08" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e3de-dfba-df2f-7f9a" name="Lashing Tentacles" book="Deadzone: Outbreak" page="59" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2914-3298-4116-02f0" name="Lashing Tentacles" book="Deadzone: Outbreak" page="59" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R2"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Smash!"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="87c7-0a44-19b7-fa05" name="Smash!" hidden="false" targetId="67c8-806c-990e-042d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7316-8b18-bd19-e16d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5795-973e-b5b9-f171" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="5.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe7a-0e64-68b0-e267" name="Chief Radgrad" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8b0e-4d85-2a38-f6a9" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d0f1-832f-c915-aed7" name="Chief Radgrad" hidden="false" targetId="ec30-5a87-2544-b5d3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365d-5e03-3adf-5f03" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60b5-8e34-aa10-5b8d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1c11-9750-eaf8-de98" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a18-327b-f3f6-9836" name="Boomer, Grenadier" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cc14-9d34-4f83-1399" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="930a-a0cf-6888-7653" name="Boomer, Grenadier" hidden="false" targetId="fcdd-d439-27de-bcca" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90c8-5d24-33de-0847" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11e8-f020-8a31-d819" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2993-d9c7-0cbd-a03c" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5806-8368-8b14-8128" name="The Helfather" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b354-071e-0175-ed66" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2a2a-4d05-b31b-40d8" name="The Helfather" hidden="false" targetId="9c11-2433-daf8-9638" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a19a-c36d-f456-6d7f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec56-7999-9987-3209" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7a93-b715-f440-b91d" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6991-6ee7-e3bf-d89e" name="Freya" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7f05-2bf4-eac4-7d9f" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0b9c-7538-f84e-f92d" name="Freya" hidden="false" targetId="62cc-6103-d30d-56e1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86e2-baf2-ab71-b39c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ae-d441-3a54-6375" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2236-04d9-c223-e391" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10b9-a697-eed8-8cb0" name="Nastanza" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7d80-89ab-7f73-f2f2" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0acb-2921-e2c8-c2d1" name="Nastanza" hidden="false" targetId="911e-137a-0d2b-5058" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fbf-17f5-cb95-63df" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f683-d624-4586-f63e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="57b6-3beb-3951-2a23" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32c2-2dd1-f15c-93a2" name="Wrath" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="953e-8c4f-abe4-383c" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3df8-a86c-8832-abce" name="Wrath" hidden="false" targetId="f8d1-8458-4eb4-9c7a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faa5-b155-a3e5-af86" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc9-f079-6058-b3eb" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2968-881a-f089-2ee5" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fee0-2d8a-3a4d-7c53" name="Chovar Psychic" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="acd3-d36b-13e3-1365" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a82c-da94-1dcd-98dc" name="Chovar Psychic" hidden="false" targetId="0304-1c3a-5501-a41f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c4f-80cc-21f8-9ec6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e4-5ced-898e-597b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3e66-a721-43b9-dfe1" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b002-534f-5675-9e6d" name="The Survivor" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8cd3-0a5f-504e-e95c" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="331c-5e8d-4c35-476c" name="The Survivor" hidden="false" targetId="2c72-6306-7fce-219b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f913-1e0f-203a-5b1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dcc-f7cf-6a99-b982" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9853-36b5-5742-8364" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d409-c281-57e5-fb8c" name="Project Oberon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="acc2-d842-6325-64a4" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8f17-aa54-3a1a-358e" name="Project Oberon" hidden="false" targetId="1acb-ca9d-dddd-bfd6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b985-d624-5680-bd47" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640e-07f3-7e0b-f345" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6de9-47bb-1881-c724" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e02-f949-b482-66be" name="Blaine" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2b8c-2a1c-1b3f-c44c" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1254-1483-bae6-0bcf" name="Blaine" hidden="false" targetId="e67f-3025-4142-b721" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da96-e68a-6bc6-975b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c2-9f2e-da30-79aa" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="563f-dafb-7843-9591" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c27-7d06-6412-e405" name="Blaine on Jetbike" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fb32-7093-59de-7950" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ac17-1c70-9b97-c97e" name="Blaine on Jetbike" hidden="false" targetId="c9c3-85b2-a438-802f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c89e-41fe-c91f-dbc3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c2-c0a9-63b6-9133" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="13f0-51f3-24fc-e4d2" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="35b8-ac1d-438c-65ba" name="Teraton Shock Trooper" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0689-585f-1ddc-f09f" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7397-d77c-cd3c-6ff3" name="Teraton Shock Trooper" hidden="false" targetId="6543-c829-efb7-702a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbfc-bb06-a744-c237" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93ac-147e-59ae-b062" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5e99-dc88-cbe5-7b33" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9805-b55f-58a3-1a03" name="Ogre Terminator" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cf51-0b1d-e146-f864" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="459c-1499-29e1-3dc3" name="Ogre Terminator" hidden="false" targetId="0414-610d-4dbb-3791" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d3d-7e7d-614f-63e4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="417e-a253-9163-ca27" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1050-82c8-6153-c50d" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d51c-6f92-5dda-5eb0" name="Hund Rebel Bounty Hunter" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3035-9267-2a08-1bfc" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c0f-59f0-68da-dd33" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4685-0f46-c5e2-a523" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b202-2458-3779-173a" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4730-892d-c5e3-b710" name="Hund Rebel Bounty Hunter" hidden="false" targetId="82b7-ee91-ddd9-b4ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dfd-6ed2-609c-f84e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e2-d6f5-55c2-fe49" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1c11-97f4-21f4-506f" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aac5-7756-ce9f-38e4" name="Project Oberon" book="Deadzone: Outbreak" page="85" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="06bc-5e6e-0408-3f99" name="Project Oberon" book="Deadzone: Outbreak" page="85" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="0"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="4+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4f8b-c8bb-49b3-4dce" name="Toxic Slime" book="Deadzone: Outbreak" page="85" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend an Army Special Result on a Command Dice to give the active model a Toxic attack: RF, Toxic.  This attack replaces any current RF weapon for this attack only.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="de3f-3f27-cef1-9564" name="Scout" hidden="false" targetId="634d-5763-a726-b91f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1463-3a5a-e462-d980" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a931-ebe7-0566-b98a" name="Needler" book="Deadzone: Outbreak" page="85" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9a0b-1517-cd93-5d47" name="Needler" book="Deadzone: Outbreak" page="85" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R4"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Weight of Fire (1)"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1dbf-c40e-5e78-50a0" name="Weight of Fire (n)" hidden="false" targetId="fe68-94f5-c309-65bd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Weight of Fire (1)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e39-90d8-b7c2-a1d4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e68-3634-da01-7a76" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a427-fe4d-ce2c-a4ec" name="Toxic Shards" book="Deadzone: Outbreak" page="85" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2489-8e72-60db-d31d" name="Toxic Shards" book="Deadzone: Outbreak" page="85" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Toxic"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="05da-c5c9-433e-427d" name="Toxic" hidden="false" targetId="206d-4b8e-08b9-7a59" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da90-072f-844b-2332" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6553-cd39-d5e7-365f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f496-7daf-aad6-90ee" name="Energy Shield (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Energy Shield (1) (+)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df0-4780-f6ba-9e79" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b350-5fc6-b81b-11b3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="479a-27da-a90c-b723" name="Items" hidden="false" targetId="1ffa-b81d-bde2-4003" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="28.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="a725-6ab2-54c5-6627" name="Crystal Pistol" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="eb3a-261d-db7b-313d" name="Crystal Pistol" hidden="false" targetId="6a1d-d15d-914c-9d6c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ada8-0912-8672-45d7" name="Triclinic Shard" hidden="false" targetId="f384-1564-895b-429b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="2.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d8ea-ca8e-82a9-ae6d" name="Twin Crystal Pistols" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="db1b-3ff7-e44e-0de6" name="Twin Crystal Pistols" hidden="false" targetId="3528-93e2-5543-5e8e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a1e2-4145-3c86-f668" name="Weight of Fire (n)" hidden="false" targetId="fe68-94f5-c309-65bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Weight of Fire (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e73a-3366-8abc-91fe" name="Triclinic Shard" hidden="false" targetId="f384-1564-895b-429b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="4.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d38-f543-f39f-0c5a" name="Corrosive Blast" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d880-f888-edef-ee40" name="Corrosive Blast" hidden="false" targetId="202a-2023-9d02-ef34" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b6db-ae25-f074-2635" name="It Burns!" hidden="false" targetId="6b7c-f0a9-4644-398d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="168b-a482-0b19-f69a" name="Shoulder-mounted Phaser" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e888-7bc3-5a5a-8762" name="Shoulder-mounted Phaser" hidden="false" targetId="4ecf-d6ed-9635-8f06" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="99ca-d5fd-71c5-9833" name="Weight of Fire (n)" hidden="false" targetId="fe68-94f5-c309-65bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Weight of Fire (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="5.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54d8-21b9-d924-7c3d" name="Ravenous Maw" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6d96-394c-535c-05ee" name="Ravenous Maw" hidden="false" targetId="3d19-1df7-74f7-c766" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b2da-f0e9-2b6a-7f7b" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d86f-16eb-4d15-61a3" name="Razor Claws" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e8c0-d118-0a41-d4a8" name="Razor Claws" hidden="false" targetId="0d56-c263-fce7-015b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="76dc-7f1d-5617-3e70" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="305c-5de3-8db5-4dba" name="Ripping Tentacles" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="95fd-643f-fcd8-d26d" name="Ripping Tentacles" hidden="false" targetId="7f5b-a576-89c2-94ad" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e14d-ca8b-88b7-80ff" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0719-5464-a8b4-39a1" name="Psychic Charge" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="78da-f420-d3c0-59ce" name="Psychic Charge" hidden="false" targetId="5ef9-62cc-8edc-3a4a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a008-5089-5cc0-f8a3" name="Psychic" hidden="false" targetId="2e77-9e5d-bfe4-97f0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="760e-e9cc-e58d-3c08" name="Blast" hidden="false" targetId="bae6-aa38-21d6-7869" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="4.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="99db-2d5b-ef9e-199b" name="Psychic Subjugation" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4614-2bd2-a2a2-7b94" name="Psychic Subjugation" hidden="false" targetId="68b3-b71b-40b8-dec5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4ccd-a5d8-b341-1c97" name="Psychic" hidden="false" targetId="2e77-9e5d-bfe4-97f0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f51f-935b-28cc-2795" name="Suppression" hidden="false" targetId="bcf7-8697-e7d8-43ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a3a-43da-8103-5fee" name="Crystal Rifle" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8bff-a781-b439-2453" name="Crystal Rifle" hidden="false" targetId="d72a-950d-6e04-8e07" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e220-899e-2c37-e582" name="Triclinic Shard" hidden="false" targetId="f384-1564-895b-429b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="838b-2484-be6d-8218" name="Corrosive Bile Ducts" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="36f5-6e67-e367-f09d" name="Corrosive Bile Ducts" hidden="false" targetId="61bd-868a-6f2d-a55b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8bd2-cd8c-2915-0963" name="Volatile" hidden="false" targetId="66b5-4831-9238-85aa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7152-c720-dcfb-d2d7" name="It Burns!" hidden="false" targetId="6b7c-f0a9-4644-398d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ea84-9b86-ef5e-99ef" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd7b-901e-0645-5bf4" name="Crystal Cannon" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8bba-7cec-9904-f557" name="Crystal Cannon" hidden="false" targetId="9166-2328-e448-4550" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c4d2-5473-b5e6-7d1e" name="Weight of Fire (n)" hidden="false" targetId="fe68-94f5-c309-65bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Weight of Fire (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ea54-2372-5e62-b5ce" name="Triclinic Shard" hidden="false" targetId="f384-1564-895b-429b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7071-557b-914b-0bee" name="Crystal Launcher **" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ba00-4aee-f47d-ad7a" name="Crystal Launcher" hidden="false" targetId="1cc1-ab31-ba0b-9740" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1e41-54bf-5e82-9ccc" name="Indirect (n)" hidden="false" targetId="8fe0-f858-5940-b816" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Indirect (3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="559d-ccca-9a58-0211" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8d27-7258-f450-08b6" name="Triclinic Shard" hidden="false" targetId="f384-1564-895b-429b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee36-6d1f-10a7-6519" name="Psionic Disruptor **" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f0e6-680a-7feb-ead0" name="Psionic Disruptor" hidden="false" targetId="e2fc-d1dc-8686-6ba0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc75-7eaa-d3cc-57be" name="Psychic" hidden="false" targetId="2e77-9e5d-bfe4-97f0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3d58-da77-f422-7796" name="Suppression" hidden="false" targetId="bcf7-8697-e7d8-43ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e8f-1535-c1d8-207b" name="Massive Claws" book="Deadzone: Outbreak" page="60" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1ff3-be5a-c349-8268" name="Massive Claws" hidden="false" targetId="101e-3b2c-c783-dbe8" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="7.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="1ffa-b81d-bde2-4003" name="Items" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff72-c0f6-e6a9-80b6" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="476d-38a6-159c-cb13" name="Ammo (+)" hidden="false" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="b52d-6a06-ccea-d733" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="f990-1097-d9a0-cf35" name="AP Ammo (+)" hidden="false" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="4">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="0d10-925b-e41f-72cb" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="74ee-6cd9-9a03-41c5" name="Frag Grenade (+)" hidden="false" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="6">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="f2ab-5490-cf1a-f934" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="8e10-7da5-db45-ab8a" name="Holo Sight (+)" hidden="false" targetId="4c27-12b2-2903-804b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="8">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="e707-20f4-09ff-dd28" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="d1e0-e120-264e-c303" name="Medi-Pack (+)" hidden="false" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="2a3d-e0cd-b3bb-55fa" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="5c9f-877f-2695-7c95" name="Smoke Grenade (+)" hidden="false" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="3">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="f189-0367-abf5-e8ce" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="459b-3432-7654-49b3" name="Energy Shield (n) (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="name" value="Energy Shield (2) (+)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="7941-fe58-567c-20a3" name="New CategoryLink" hidden="false" targetId="2bc8-1366-e5e0-9c33" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="fc8e-a11d-c90e-42a4" name="Energy Shield (n) (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="7">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="name" value="Energy Shield (3) (+)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="d7e3-1ad7-076b-7ae3" name="New CategoryLink" hidden="false" targetId="2bc8-1366-e5e0-9c33" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules/>
+  <sharedProfiles>
+    <profile id="6a1d-d15d-914c-9d6c" name="Crystal Pistol" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Triclinic Shard"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Small Arms"/>
+      </characteristics>
+    </profile>
+    <profile id="3528-93e2-5543-5e8e" name="Twin Crystal Pistols" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Weight of Fire (1), Triclinic Shard"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Small Arms"/>
+      </characteristics>
+    </profile>
+    <profile id="202a-2023-9d02-ef34" name="Corrosive Blast" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="It Burns!"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Assault)"/>
+      </characteristics>
+    </profile>
+    <profile id="4ecf-d6ed-9635-8f06" name="Shoulder-mounted Phaser" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R6"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Weight of Fire (1)"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Assault)"/>
+      </characteristics>
+    </profile>
+    <profile id="3d19-1df7-74f7-c766" name="Ravenous Maw" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frenzy (1)"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Melee)"/>
+      </characteristics>
+    </profile>
+    <profile id="0d56-c263-fce7-015b" name="Razor Claws" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frenzy (2)"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Melee)"/>
+      </characteristics>
+    </profile>
+    <profile id="7f5b-a576-89c2-94ad" name="Ripping Tentacles" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frenzy (1)"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Melee)"/>
+      </characteristics>
+    </profile>
+    <profile id="5ef9-62cc-8edc-3a4a" name="Psychic Charge" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R2"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Psychic, Blast"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Psychic)"/>
+      </characteristics>
+    </profile>
+    <profile id="68b3-b71b-40b8-dec5" name="Psychic Subjugation" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R4"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Psychic, Suppression"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Psychic)"/>
+      </characteristics>
+    </profile>
+    <profile id="d72a-950d-6e04-8e07" name="Crystal Rifle" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R10"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Triclinic Shard"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Sniper)"/>
+      </characteristics>
+    </profile>
+    <profile id="61bd-868a-6f2d-a55b" name="Corrosive Bile Ducts" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Volatile, It Burns!, Heavy"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Assault)"/>
+      </characteristics>
+    </profile>
+    <profile id="9166-2328-e448-4550" name="Crystal Cannon" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R8"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP4"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Weight of Fire (1), Triclinic Shard"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Explosive)"/>
+      </characteristics>
+    </profile>
+    <profile id="1cc1-ab31-ba0b-9740" name="Crystal Launcher" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R5"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Indirect (3), Heavy, Triclinic Shard"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Explosive)"/>
+      </characteristics>
+    </profile>
+    <profile id="e2fc-d1dc-8686-6ba0" name="Psionic Disruptor" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R4"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Psychic, Suppression"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Lance)"/>
+      </characteristics>
+    </profile>
+    <profile id="101e-3b2c-c783-dbe8" name="Massive Claws" book="Deadzone: Outbreak" page="60" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Melee)"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

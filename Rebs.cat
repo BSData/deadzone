@@ -113,6 +113,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="29ad-aa61-0490-5d58" name="Wrist Blaster" hidden="false" targetId="9289-72d9-53c7-66ce" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0894-82d3-88b2-29aa" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="8dd0-18f7-1ec3-11ce">
@@ -204,7 +212,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Spend an Army Special result at the end of a model’s activation. The active model slinks into hiding. For the rest of the Round, this model cannot be targeted by Shoot actions, and cannot have Line of Sight drawn to it. The model is still affected by abilities that target every model in the cube (such as Frag, Indirect, It Burns or Blast) and can still be the target of Fight actions.</description>
+          <description>Spend an Army Special result on a Command Dice at the end of a model activation. The active model slinks into hiding. For the rest of the Round, this model cannot be targeted by Shoot actions, and cannot have Line of Sight drawn to it. The model is still affected by abilities that target every model in the cube (such as Frag, indirect, It Burns! or Blast) and can still be the target of Fight actions.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -290,6 +298,14 @@
               <categoryLinks/>
             </entryLink>
             <entryLink id="ac64-cc33-c3ad-7f2f" name="Blaster" hidden="false" targetId="6c51-de7b-e235-2e35" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="360b-2c5e-938a-462d" name="Wrist Blaster" hidden="false" targetId="9289-72d9-53c7-66ce" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -764,6 +780,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="80fd-2c1d-4c1f-194f" name="Wrist Blaster" hidden="false" targetId="9289-72d9-53c7-66ce" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -883,14 +907,6 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="8380-f5ff-f622-5bad" name="Missile Launcher" hidden="false" targetId="d70f-3398-4422-5ac7" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
             <entryLink id="6d8f-f300-5ff7-c238" name="Grenade Launcher" hidden="false" targetId="9609-4f43-8533-15be" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -908,6 +924,14 @@
               <categoryLinks/>
             </entryLink>
             <entryLink id="11ac-b3ca-a634-4f84" name="Grenade Launcher" hidden="false" targetId="585f-d3b4-c7b1-3c36" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a4c4-a1fb-f85d-089a" name="Harpoon Gun" hidden="false" targetId="590a-f91d-9e5a-ad5c" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1028,14 +1052,6 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="48fb-25c7-bee6-7bee" name="Hand Flamer" hidden="false" targetId="aeac-4622-eb9c-a034" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
             <entryLink id="19aa-9019-b946-6c17" name="Wrist Blaster" hidden="false" targetId="9289-72d9-53c7-66ce" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -1055,7 +1071,23 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="33c4-8da4-6a9b-f89a" name="Flame Thrower" hidden="false" targetId="693b-db39-48f2-4661" type="selectionEntry">
+            <entryLink id="c6a0-8478-fbcd-2b61" name="Harpoon Gun" hidden="false" targetId="590a-f91d-9e5a-ad5c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="85d9-804e-25f6-3eeb" name="Light Flamer" hidden="false" targetId="0dc4-f1c2-9e55-4ec6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cb25-37f5-c09b-1ba6" name="Flame Thrower" hidden="false" targetId="693b-db39-48f2-4661" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1272,6 +1304,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="8215-22ed-ff27-2219" name="Evade" hidden="false" targetId="f256-c9e1-fd94-2578" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1387,7 +1425,20 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="dffb-f09d-dad9-20ef" name="Resilient (n)" hidden="false" targetId="0d44-4c12-cfcf-00cf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Resilient (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1488,7 +1539,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7f0-ebfe-a431-c2bb" name="Rebel Teraton" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="88" hidden="false" collective="false" type="unit">
@@ -1573,14 +1624,6 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="33d8-7db2-36c9-18d7" name="Wrist Blaster" hidden="false" targetId="9289-72d9-53c7-66ce" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
             <entryLink id="b683-7e4b-141b-c65c" name="Light Grenade Launcher" hidden="false" targetId="9609-4f43-8533-15be" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -1601,6 +1644,14 @@
               <categoryLinks/>
             </entryLink>
             <entryLink id="22f5-756b-9f3f-30a0" name="Flame Thrower" hidden="false" targetId="693b-db39-48f2-4661" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d488-1f8e-6f1c-18a1" name="Harpoon Gun" hidden="false" targetId="590a-f91d-9e5a-ad5c" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1700,7 +1751,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="8377-bbc6-8986-b598" name="Wrist Blaster" hidden="false" targetId="9289-72d9-53c7-66ce" type="selectionEntry">
+            <entryLink id="7063-a6af-776b-c2b7" name="Flame Thrower" hidden="false" targetId="693b-db39-48f2-4661" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1708,7 +1759,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="7063-a6af-776b-c2b7" name="Flame Thrower" hidden="false" targetId="693b-db39-48f2-4661" type="selectionEntry">
+            <entryLink id="61d6-a0b8-c429-bfba" name="Harpoon Gun" hidden="false" targetId="590a-f91d-9e5a-ad5c" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1856,6 +1907,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="31ab-e141-c6b7-69db" name="Harpoon Gun" hidden="false" targetId="590a-f91d-9e5a-ad5c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1982,14 +2041,6 @@
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="4d87-59fd-666f-f434" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
             <entryLink id="1a75-86fe-b9bb-0b20" name="Combat Blades" hidden="false" targetId="db58-2ac0-329a-6f31" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -2088,6 +2139,14 @@
               <categoryLinks/>
             </entryLink>
             <entryLink id="0d24-7160-b623-5c21" name="Blaster" hidden="false" targetId="6c51-de7b-e235-2e35" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d570-026b-9b99-50d0" name="Wrist Blaster" hidden="false" targetId="9289-72d9-53c7-66ce" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2443,6 +2502,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="a04a-e0dd-1a27-47c6" name="Mortar" hidden="false" targetId="4b71-bc41-a3b7-f6b6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2472,9 +2539,9 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="27a2-7a6d-ddc3-46fc" name="Sorak Swordspawn" book="Deadzone 2nd Ed Rulebook + Errata v2.1" hidden="false" collective="false" type="unit">
+    <selectionEntry id="27a2-7a6d-ddc3-46fc" name="Rebel Sorak Swordspawn" book="Deadzone 2nd Ed Rulebook + Errata v2.1" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="6082-b343-f1ca-204b" name="Sorak Swordspawn" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="6082-b343-f1ca-204b" name="Rebel Sorak Swordspawn" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2484,7 +2551,7 @@
             <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
             <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
             <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
-            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="6+"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="5+"/>
             <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
           </characteristics>
         </profile>
@@ -2498,7 +2565,16 @@
           <modifiers>
             <modifier type="set" field="name" value="Frenzy (1)">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="27a2-7a6d-ddc3-46fc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0349-2f8d-3dd1-7e97" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="name" value="Frenzy (2)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="27a2-7a6d-ddc3-46fc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc61-17c4-36b5-e1db" type="equalTo"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -2517,7 +2593,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e061-bcdb-e1a6-90e9" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="d77c-14fd-b0e6-2e53">
+        <selectionEntryGroup id="e061-bcdb-e1a6-90e9" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="cc61-17c4-36b5-e1db">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2527,28 +2603,32 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7111-6064-1ecf-ed7e" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="d77c-14fd-b0e6-2e53" name="Combat Blades" hidden="false" targetId="db58-2ac0-329a-6f31" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry id="cc61-17c4-36b5-e1db" name="Combat Blades" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <infoLinks>
+                <infoLink id="0bb5-a6dc-3530-fdfc" name="Combat Blades" hidden="false" targetId="cc12-82dd-49e0-96f8" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
-            </entryLink>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+                <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
             <entryLink id="0349-2f8d-3dd1-7e97" name="Ceremonial Blades" hidden="false" targetId="54e2-09e5-1a6d-cc7f" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -2572,7 +2652,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="605b-f12f-62f4-de70" name="Teraton Shock Trooper" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="94" hidden="false" collective="false" type="unit">
@@ -2690,7 +2770,16 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="d1f2-b356-ca2a-9931" name="Items" hidden="false" targetId="269c-a9f4-0769-0796" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
@@ -3255,49 +3344,6 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="544e-a45d-00d8-921a" name="Teraton Shock Trooper" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="e5bf-f90a-e7ab-5eb5" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="5abe-0727-8bab-4c35" name="Teraton Shock Trooper" hidden="false" targetId="6543-c829-efb7-702a" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ec5-72be-40fc-1e37" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eb3-3776-4fda-d86e" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="f6f3-6d17-5c1e-d8b2" name="Items" hidden="false" targetId="269c-a9f4-0769-0796" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5bf2-7b31-991c-eb9e" name="The Helfather" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
@@ -3384,6 +3430,389 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="fa37-2810-af27-94f2" name="Rebel Cell Leader" book="Deadzone: Outbreak" page="68" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b543-efb8-92b9-c62d" name="Rebel Cell Leader" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="6e20-a2eb-4873-facd" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fa37-2810-af27-94f2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2be0-f159-5566-8b67" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5ab1-1acc-a108-daf5" value="6+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fa37-2810-af27-94f2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6276-786d-4c80-a054" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="8e81-1fe3-f677-8d5c" value="5+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fa37-2810-af27-94f2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="34ca-6b50-5e22-9018" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5ab1-1acc-a108-daf5" value="4+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fa37-2810-af27-94f2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="34ca-6b50-5e22-9018" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="2375-5bce-3345-261b" value="6+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fa37-2810-af27-94f2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="34ca-6b50-5e22-9018" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="0"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="4+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="5+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ad55-8ded-9bcc-6cb7" name="Jack of All Trades" book="Deadzone: Outbreak" page="68" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend an Army Special Result to allow the active model to switch their Shoot, Fight or Survive stat for a test. You may not swap a stat value of &apos;-&apos;.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b610-0c25-fe49-9ff9" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b985-4b1c-969f-9634" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3944-9408-f929-2fa8" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="5de8-f01a-2c87-8468">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f559-f1b3-ce59-d209" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ac0-5282-d892-fe9b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="5de8-f01a-2c87-8468" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fb3f-a736-2450-d407" name="Combat Blades" hidden="false" targetId="db58-2ac0-329a-6f31" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cbfe-6e28-9db9-2a69" name="Ceremonial Blades" hidden="false" targetId="54e2-09e5-1a6d-cc7f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f7e2-3d67-c4db-902e" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="d3fb-6739-967a-dd94">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7601-63b9-c0fa-29a8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a93-f9ff-a1ef-ab52" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6a68-a8c3-cc0c-76ea" name="Long Rifle" hidden="false" targetId="f4d0-d51d-c3b4-7add" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d3fb-6739-967a-dd94" name="Rifle" hidden="false" targetId="0331-f609-6d1f-2830" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f2d0-8171-4fc8-d4d3" name="Sniper Rifle" hidden="false" targetId="f6ef-6d6a-19e5-04c4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="894b-853f-cd27-8de3" name="Blaster" hidden="false" targetId="6c51-de7b-e235-2e35" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c107-b423-a5b1-6a80" name="Wrist Blaster" hidden="false" targetId="9289-72d9-53c7-66ce" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="bfe5-0bd0-2c1c-8f4b" name="Harpoon Gun" hidden="false" targetId="590a-f91d-9e5a-ad5c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9c6b-6c4c-82db-6c5f" name="Flame Thrower" hidden="false" targetId="693b-db39-48f2-4661" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="af3b-1280-9f2a-cbc8" name="Light Flamer" hidden="false" targetId="0dc4-f1c2-9e55-4ec6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7bae-01fa-1979-35c6" name="Grenade Launcher" hidden="false" targetId="585f-d3b4-c7b1-3c36" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="09b5-5e83-dabf-de6b" name="Light Grenade Launcher" hidden="false" targetId="9609-4f43-8533-15be" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5492-7834-b504-d5eb" name="Species" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6494-3987-cddc-25bf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dd0-f4e3-e523-bd40" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="f8a3-fb55-c075-564d" name="Human" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d929-43f9-85a0-eb6a" name="Logistics" hidden="false" targetId="48fe-47f4-9f2a-ca2e" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+                <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2be0-f159-5566-8b67" name="Rin" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+                <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6276-786d-4c80-a054" name="Sphyr" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="5332-3dfd-f856-6229" name="Mata Magma Lance" book="Deadzone: Outbreak" page="68" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="3659-6e1b-a816-0377" name="Mata Magma Lance" book="Deadzone: Outbreak" page="68" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R5"/>
+                        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+                        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="-"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c2c-ef84-7736-7cab" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0285-3b70-4e3a-b76c" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+                    <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+                <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="34ca-6b50-5e22-9018" name="Kraaw" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="6e32-510c-bec8-db4e" name="Scout" hidden="false" targetId="634d-5763-a726-b91f" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="26bf-0e54-c0a2-277b" name="Glide" hidden="false" targetId="c78a-7e20-2ad4-9c09" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+                <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2e6e-07af-5381-be45" name="Pistol *" hidden="false" targetId="3195-e001-4f4d-77ad" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc30-7e59-6b63-4a81" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ba55-5429-a909-f1f9" name="Items" hidden="false" targetId="269c-a9f4-0769-0796" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -3406,7 +3835,7 @@
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0331-f609-6d1f-2830" name="Rifle" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
@@ -3489,8 +3918,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c72-df29-717f-92f8" name="Chainsaw" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
@@ -3503,6 +3932,18 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="89d2-4b86-230f-00dc" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -3511,8 +3952,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="5.0"/>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f6ef-6d6a-19e5-04c4" name="Sniper Rifle" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
@@ -3540,10 +3981,10 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="16.0"/>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f6d-723b-7064-92a1" name="Polaris Cannon (Genling 88) **" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5f6d-723b-7064-92a1" name="Polaris Cannon **" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3602,6 +4043,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="3.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad67-8669-b0f9-1b33" name="Desolator" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
@@ -3637,12 +4079,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="e5f6-1a55-9145-3971" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="52f1-23cc-f139-d275" name="Slow Reload" hidden="false" targetId="f96b-7b86-d584-e0dd" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3911,7 +4347,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a98-9528-0087-ea51" name="Heavy Burst Laser **" hidden="false" collective="false" type="upgrade">
@@ -3952,6 +4388,136 @@
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="590a-f91d-9e5a-ad5c" name="Harpoon Gun" book="Deadzone: Outbreak" page="73" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fded-e139-a230-021a" name="Harpoon Gun" hidden="false" targetId="6096-e298-ff33-be0b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="3.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0dc4-f1c2-9e55-4ec6" name="Light Flamer" book="Deadzone: Outbreak" page="73" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9fe0-e27c-e426-88fc" name="Light Flamer" hidden="false" targetId="c649-8050-edff-a6eb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a496-e4cf-0743-263a" name="It Burns!" hidden="false" targetId="6b7c-f0a9-4644-398d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c23b-25ea-134a-d1de" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4365-6a11-d05e-fa6b" name="Volatile" hidden="false" targetId="66b5-4831-9238-85aa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="4.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b71-bc41-a3b7-f6b6" name="Mortar" book="Deadzone: Outbreak" page="73" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d7e8-235c-cc35-820d" name="Mortar" hidden="false" targetId="fe57-32a5-cb19-f146" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ec3d-e897-f7e0-ae16" name="Indirect (n)" hidden="false" targetId="8fe0-f858-5940-b816" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Indirect (4)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3da4-67e9-d838-5114" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42f4-0f1a-f536-9baf" name="Spiked Gloves" book="Deadzone: Outbreak" page="69" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e7ee-3fb6-0392-d6cc" name="Knockback" hidden="false" targetId="9b4e-17bd-61ab-7feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b20f-cac9-1a9e-9055" name="Spiked Gloves" hidden="false" targetId="43be-2ae3-7d63-c7de" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4149,6 +4715,20 @@
             </categoryLink>
           </categoryLinks>
         </entryLink>
+        <entryLink id="6c0f-9418-97ad-10ea" name="Defender Shield (+)" hidden="false" targetId="0c4b-92d5-3ab2-22b8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -4197,7 +4777,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R2"/>
-        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
         <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Volatile, It Burns!"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Assault)"/>
       </characteristics>
@@ -4209,8 +4789,8 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
-        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
-        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frenzy (1)"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Melee)"/>
       </characteristics>
     </profile>
@@ -4226,7 +4806,7 @@
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Sniper)"/>
       </characteristics>
     </profile>
-    <profile id="8c14-7fdb-0116-fc2d" name="Polaris Cannon (Genling 88)" book="Deadzone 2nd Ed Rulebook" page="89" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="8c14-7fdb-0116-fc2d" name="Polaris Cannon" book="Deadzone 2nd Ed Rulebook" page="89" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4271,7 +4851,7 @@
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R10"/>
         <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP4"/>
         <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Heavy"/>
-        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Explosive)"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Crew Served Weapon)"/>
       </characteristics>
     </profile>
     <profile id="2314-247f-d507-5333" name="Ceremonial Blades" book="Deadzone 2nd Ed Rulebook" page="89" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
@@ -4319,7 +4899,7 @@
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R3"/>
         <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
         <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Blast"/>
-        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Assault)"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Automatic)"/>
       </characteristics>
     </profile>
     <profile id="27aa-21f0-576e-287a" name="Blaster" book="Deadzone 2nd Ed Rulebook" page="89" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
@@ -4380,6 +4960,54 @@
         <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
         <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Suppression, Weight of Fire (2)"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Automatic)"/>
+      </characteristics>
+    </profile>
+    <profile id="6096-e298-ff33-be0b" name="Harpoon Gun" book="Deadzone: Outbreak" page="73" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R5"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Assault)"/>
+      </characteristics>
+    </profile>
+    <profile id="c649-8050-edff-a6eb" name="Light Flamer" book="Deadzone: Outbreak" page="73" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R2"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Volatile, It Burns!, One Use"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Assault)"/>
+      </characteristics>
+    </profile>
+    <profile id="fe57-32a5-cb19-f146" name="Mortar" book="Deadzone: Outbreak" page="73" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R8"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Indirect (4), Heavy"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Heavy (Crew Served Weapon)"/>
+      </characteristics>
+    </profile>
+    <profile id="43be-2ae3-7d63-c7de" name="Spiked Gloves" book="Deadzone: Outbreak" page="69" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Knockback"/>
+        <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="-"/>
       </characteristics>
     </profile>
   </sharedProfiles>

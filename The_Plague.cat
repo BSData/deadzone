@@ -32,8 +32,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Spend an Army Special result at the start of a model’s activation. That model manifests a random mutation for the rest of the Round.
-Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1. 7-8: Increase Armour of model by +1.</description>
+          <description>Spend an Army Special result at the start of a model’s activation. That model manifests a random mutation for the rest of the Round.  Chose from Resilient (1), Frenzy (1), Increase AP of one RF weapon by 1 or increase Armour of model by 1.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -118,18 +117,19 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
     </selectionEntry>
     <selectionEntry id="89f6-9f41-f4b6-10a5" name="Stage 3A &quot;General&quot;" book="Deadzone 2nd Ed Rulebook" page="49" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="cec6-10f7-0a2e-458f" name="Stage 13A &quot;General&quot;" book="Deadzone 2nd Ed Rulebook" page="49" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="cec6-10f7-0a2e-458f" name="Stage 3A &quot;General&quot;" book="Deadzone 2nd Ed Rulebook" page="49" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="2-3"/>
-            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
-            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
-            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="6+"/>
-            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="5+"/>
-            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="2-3"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="0"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="6+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="5+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="4+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -279,7 +279,7 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bb10-5fa9-3b07-98b1" name="Stage 3A" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" collective="false" type="unit">
+    <selectionEntry id="bb10-5fa9-3b07-98b1" name="Stage 3A &quot;Ghoul&quot;" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="da62-d5fe-0083-4bbb" name="Stage 3A" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -433,7 +433,7 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be69-e3de-0315-07e0" name="Stage 2A" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" collective="false" type="unit">
+    <selectionEntry id="be69-e3de-0315-07e0" name="Stage 2A &quot;Leaper&quot;" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="ba04-f7c2-c22d-fae9" name="Stage 2A" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -457,6 +457,18 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
           <rules/>
           <infoLinks/>
           <modifiers/>
+        </infoLink>
+        <infoLink id="1332-66e9-3b4f-ee4b" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -498,9 +510,9 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98c3-d8a0-fa04-55cc" name="Plague Weapons Team" book="Deadzone Errata v2.1" hidden="false" collective="false" type="unit">
+    <selectionEntry id="98c3-d8a0-fa04-55cc" name="Stage 3A Weapons Team" book="Deadzone Errata v2.1" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="1b2d-4be4-a93b-5230" name="Plague Weapons Team" book="Deadzone Errata v2.1" page="1" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+        <profile id="1b2d-4be4-a93b-5230" name="Stage 3A Weapons Team" book="Deadzone Errata v2.1" page="1" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -536,18 +548,46 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="961d-f3ed-2df9-3203" name="Mortar" hidden="false" targetId="b122-0486-36f7-3092" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ef09-7da4-fd79-52f6" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="b24a-45e4-e70c-edb2">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32c-ebc7-eb55-327a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc1f-c48b-2faa-10f5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f302-c293-cbc0-aaa1" type="min"/>
           </constraints>
           <categoryLinks/>
-        </entryLink>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b24a-45e4-e70c-edb2" name="Rifle" hidden="false" targetId="364a-9218-d99e-117c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="67b0-5af6-adad-2dc6" name="Mortar" hidden="false" targetId="b122-0486-36f7-3092" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
         <entryLink id="0ce0-15fd-d634-6b6e" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -720,6 +760,18 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="80bf-8e71-a8d5-1a84" name="Tough" hidden="false" targetId="df54-2d71-8800-b15f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e2d0-6282-d24a-4666" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -773,16 +825,7 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="b125-aaab-7334-3480" name="Items" hidden="false" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="4.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="40.0"/>
@@ -1059,7 +1102,7 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="12"/>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
             <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="3"/>
             <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="4"/>
             <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="6+"/>
@@ -1883,6 +1926,113 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2fb1-6625-5dff-0ba7" name="Stage 3A &quot;Lieutenant&quot;" book="Deadzone: Outbreak" page="62" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="78f5-dd1d-a94f-5d17" name="Stage 3A &quot;Lieutenant&quot;" book="Deadzone: Outbreak" page="62" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="2-3"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="0"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="5+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="5+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="55a1-c70e-7cdf-42b2" name="Thirst for Blood" book="Deadzone: Outbreak" page="62" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend an Army Special Result on a Command Dice at the start of a Stage 2A, 2B or Aberration model&apos;s activation to gain 0/+1 Speed and RF AP1 weapon (or increase the AP of any RF weapon by +1) for the rest of the Round.  In addition, the model will not need to test for Rampage at the start of this activation.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2840-7d4a-850e-9084" name="Tactition (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2455-7de3-8012-8951" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7922-5bf6-c166-4fca" name="Rifle" hidden="false" targetId="364a-9218-d99e-117c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0f8-65bf-5e8c-b759" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7429-e915-d281-b76a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a2e8-a148-b355-02a8" name="Pistol *" hidden="false" targetId="fd6e-307e-ddfb-307d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="439d-09f0-2a16-1e86" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="80f1-f5bf-e724-ec8d" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84df-c6d0-afab-a8b6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a45-2bbd-b3da-94d9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ad5f-01f6-2b00-ab18" name="Items" hidden="false" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="18.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -1905,7 +2055,7 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
       <entryLinks/>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="364a-9218-d99e-117c" name="Rifle" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">
@@ -1913,6 +2063,12 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
       <rules/>
       <infoLinks>
         <infoLink id="8d53-6135-f852-22ef" name="Rifle" hidden="false" targetId="7e34-55c8-d859-4d3a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4cfc-0fec-289a-95a2" name="Rapid Fire" hidden="false" targetId="dd9c-58ef-1fec-28b8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1991,6 +2147,12 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </infoLink>
+        <infoLink id="b35e-34ec-0673-d51d" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -2102,8 +2264,8 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51ff-13fd-2a23-bf06" name="Chainsaw" hidden="false" collective="false" type="upgrade">
@@ -2116,6 +2278,18 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="ba50-3e22-1c9a-f161" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -2124,11 +2298,11 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="5.0"/>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="8.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4b1-2653-95f0-9ebd" name="Polaris Cannon (Genling 88) **" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a4b1-2653-95f0-9ebd" name="Polaris Cannon **" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2146,11 +2320,11 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
-        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="801e-00b8-4a32-ce03" name="Flame Thrower" book="Nexus PSI" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="801e-00b8-4a32-ce03" name="Flamethrower" book="Nexus PSI" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2422,7 +2596,7 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
       <characteristics>
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="R5"/>
         <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="-"/>
-        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Indirect (3)"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Indirect (3), Heavy"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Light (Explosive)"/>
       </characteristics>
     </profile>
@@ -2462,7 +2636,7 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Assault)"/>
       </characteristics>
     </profile>
-    <profile id="ea98-91a1-d7c1-1418" name="Polaris Cannon (Genling 88)" book="Deadzone 2nd Ed Rulebook" page="52" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="ea98-91a1-d7c1-1418" name="Polaris Cannon" book="Deadzone 2nd Ed Rulebook" page="52" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2481,12 +2655,12 @@ Roll a d8: 1-2: Agile. 2-4: Frenzy (+1). 5-6: Increase AP of one RF weapon by +1
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
-        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP1"/>
-        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+        <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+        <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="Frenzy (1)"/>
         <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value="Walker (Melee)"/>
       </characteristics>
     </profile>
-    <profile id="6e0a-2db7-fefc-e993" name="Flame Thrower" book="Deadzone Errata v2.1" page="52" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+    <profile id="6e0a-2db7-fefc-e993" name="Flamethrower" book="Deadzone Errata v2.1" page="52" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>

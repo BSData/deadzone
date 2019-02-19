@@ -222,7 +222,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5be4-61af-9eaf-73dc" name="Stage 3D &quot;Hellhound&quot;" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="50" hidden="false" collective="false" type="unit">
+    <selectionEntry id="5be4-61af-9eaf-73dc" name="Stage 3D &quot;Hellhound&quot;" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="50" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="9859-061d-1ceb-3094" name="Stage 3D &quot;Hellhound&quot;" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -248,7 +248,36 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6034-0727-b595-2155" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="8e0d-87f9-2322-b21c" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true">
@@ -279,7 +308,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bb10-5fa9-3b07-98b1" name="Stage 3A &quot;Ghoul&quot;" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" collective="false" type="unit">
+    <selectionEntry id="bb10-5fa9-3b07-98b1" name="Stage 3A &quot;Ghoul&quot;" book="Deadzone 2nd Ed Rulebook" page="50" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="da62-d5fe-0083-4bbb" name="Stage 3A" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -298,7 +327,36 @@
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="41df-0317-da7e-92f6" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true">
@@ -364,7 +422,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cd3f-f52b-bdd7-5793" name="Stage 3Z &quot;Zombie&quot;" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="50" hidden="false" collective="false" type="unit">
+    <selectionEntry id="cd3f-f52b-bdd7-5793" name="Stage 3Z &quot;Zombie&quot;" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="50" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="c401-b601-d6c2-bac4" name="Stage 3Z &quot;Zombie&quot;" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -402,7 +460,36 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="d84d-78c9-920b-d67f" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true">
@@ -433,7 +520,7 @@
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be69-e3de-0315-07e0" name="Stage 2A &quot;Leaper&quot;" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" collective="false" type="unit">
+    <selectionEntry id="be69-e3de-0315-07e0" name="Stage 2A &quot;Leaper&quot;" book="Deadzone 2nd Ed Rulebook" page="50" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="ba04-f7c2-c22d-fae9" name="Stage 2A" book="Deadzone 2nd Ed Rulebook" page="50" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -471,7 +558,43 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6034-0727-b595-2155" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="3322-5390-41d4-15f0" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true">
@@ -485,11 +608,40 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="4ed9-3c09-b4c0-a80e" name="Items" hidden="false" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+        <entryLink id="4ed9-3c09-b4c0-a80e" name="Items" hidden="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -504,13 +656,29 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="2261-e97f-78bb-a6d0" name="Items (901)" hidden="true" targetId="9097-7450-8118-eae9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6034-0727-b595-2155" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98c3-d8a0-fa04-55cc" name="Stage 3A Weapons Team" book="Deadzone Errata v2.1" hidden="false" collective="false" type="unit">
+    <selectionEntry id="98c3-d8a0-fa04-55cc" name="Stage 3A Weapons Team" book="Deadzone Errata v2.1" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="1b2d-4be4-a93b-5230" name="Stage 3A Weapons Team" book="Deadzone Errata v2.1" page="1" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -536,7 +704,29 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="d2d1-bd0a-547d-ac11" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
@@ -613,7 +803,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a50-65f2-a25b-c8c3" name="Stage 3A &quot;Specialist&quot;" book="Deadzone 2nd Ed Rulebook" page="51" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8a50-65f2-a25b-c8c3" name="Stage 3A &quot;Specialist&quot;" book="Deadzone 2nd Ed Rulebook" page="51" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="b6e7-5f66-66d0-e456" name="Stage 3A &quot;Specialist&quot;" book="Deadzone 2nd Ed Rulebook" page="51" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -632,7 +822,36 @@
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="ee51-a090-a6bc-5375" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
@@ -735,7 +954,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3696-892f-9f44-6e99" name="Aberration" book="Deadzone 2nd Ed Rulebook" page="51" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3696-892f-9f44-6e99" name="Aberration" book="Deadzone 2nd Ed Rulebook" page="51" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="bba9-a242-252d-a668" name="Aberration" book="Deadzone 2nd Ed Rulebook" page="51" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -773,7 +992,36 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6034-0727-b595-2155" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="75ff-b4d9-419f-02f7" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
@@ -831,7 +1079,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4808-dccf-db74-a60c" name="Plague Swarm" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="51" hidden="false" collective="false" type="unit">
+    <selectionEntry id="4808-dccf-db74-a60c" name="Plague Swarm" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="51" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="0787-5e55-a11e-f68a" name="Plague Swarm" book="Deadzone 2nd Ed Rulebook" page="51" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -869,7 +1117,36 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6034-0727-b595-2155" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="6641-cb57-dc7b-ca3f" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
@@ -920,7 +1197,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7245-ee1a-18eb-1144" name="Plague Teraton" book="Deadzone 2nd Ed Rulebook" page="51" hidden="false" collective="false" type="unit">
+    <selectionEntry id="7245-ee1a-18eb-1144" name="Plague Teraton" book="Deadzone 2nd Ed Rulebook" page="51" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="3d80-2b0a-cfe0-f613" name="Plague Teraton" book="Deadzone 2nd Ed Rulebook" page="51" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -952,7 +1229,36 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="812b-2571-78b6-601a" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
@@ -1019,7 +1325,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b4e-c909-4e1d-4f6f" name="Plague Enforcer" book="Deadzone 2nd Ed Rulebook" page="51" hidden="false" collective="false" type="unit">
+    <selectionEntry id="7b4e-c909-4e1d-4f6f" name="Plague Enforcer" book="Deadzone 2nd Ed Rulebook" page="51" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="9fac-a2da-8415-956a" name="Plague Enforcer" book="Deadzone 2nd Ed Rulebook" page="51" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -1038,7 +1344,36 @@
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="4b66-f587-166f-36c7" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
@@ -1094,7 +1429,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af32-b13e-6197-3aa5" name="Plague Strider" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="52" hidden="false" collective="false" type="unit">
+    <selectionEntry id="af32-b13e-6197-3aa5" name="Plague Strider" book="Deadzone 2nd Ed Rulebook + Errata v2.1" page="52" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="1425-7819-e160-9fd3" name="Plague Strider" book="Deadzone 2nd Ed Rulebook" page="52" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -1132,7 +1467,36 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="63fd-f712-2b73-f8a0" name="New CategoryLink" hidden="false" targetId="caa6-edbf-2b8f-89d6" primary="true">
@@ -1221,7 +1585,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b795-a226-174c-3b1b" name="Stage 2B &quot;Burster&quot;" book="Deadzone: Nexus Psi" page="11" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b795-a226-174c-3b1b" name="Stage 2B &quot;Burster&quot;" book="Deadzone: Nexus Psi" page="11" hidden="true" collective="false" type="unit">
       <profiles>
         <profile id="3f1f-a354-a929-3f5e" name="Stage 2B &quot;Burster&quot;" book="Deadzone: Nexus Psi" page="11" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -1253,7 +1617,29 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="810c-f728-3c37-ae95" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
@@ -1292,7 +1678,7 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea51-2fa3-9756-574a" name="Murderbirds" book="Deadzone: Nexus Psi" page="11" hidden="false" collective="false" type="model">
+    <selectionEntry id="ea51-2fa3-9756-574a" name="Murderbirds" book="Deadzone: Nexus Psi" page="11" hidden="true" collective="false" type="model">
       <profiles>
         <profile id="9252-7660-aa9d-4232" name="Murderbirds" book="Deadzone: Nexus Psi" page="11" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
           <profiles/>
@@ -1336,7 +1722,29 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="10d1-6650-3706-feda" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
@@ -1367,11 +1775,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="19.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="946b-47af-cbdc-a76d" name="Wrath" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="946b-47af-cbdc-a76d" name="Wrath" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="71a4-4292-7b89-440e" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1410,11 +1840,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb3e-1d83-2b53-438d" name="Aqissiaq" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="eb3e-1d83-2b53-438d" name="Aqissiaq" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="1dc2-9248-6f1a-7930" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1453,11 +1905,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3f9e-d0b8-eac3-3dd9" name="Blaine" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3f9e-d0b8-eac3-3dd9" name="Blaine" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="1c06-04ed-4f4d-8a8b" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1496,11 +1970,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60f9-1f9b-f987-d4cf" name="Blaine on Jetbike" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="60f9-1f9b-f987-d4cf" name="Blaine on Jetbike" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="9136-0f39-de94-7ff3" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1539,11 +2035,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b133-4486-089b-792a" name="Boomer, Grenadier" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b133-4486-089b-792a" name="Boomer, Grenadier" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="8e46-faac-b255-f809" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1582,11 +2100,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="668c-e067-f0a1-518e" name="Chief Radgrad" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="668c-e067-f0a1-518e" name="Chief Radgrad" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="ef45-61ed-0a99-cca9" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1625,11 +2165,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e49-3587-1e59-23f1" name="Chovar Psychic" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5e49-3587-1e59-23f1" name="Chovar Psychic" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="416f-57cb-84ec-4c1a" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1668,11 +2230,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3de6-3071-4473-43ff" name="Dr Simmonds" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3de6-3071-4473-43ff" name="Dr Simmonds" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="cc1e-ef35-2a27-85ba" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1711,11 +2295,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="35c1-c92f-48f0-ac2a" name="Freya" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="35c1-c92f-48f0-ac2a" name="Freya" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="8159-6a9a-4244-d313" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1754,11 +2360,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8585-2b30-137c-8522" name="Nastanza" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8585-2b30-137c-8522" name="Nastanza" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="fc3a-4190-bc78-8899" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1797,11 +2425,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7d0-ce89-8974-15e0" name="Project Oberon" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e7d0-ce89-8974-15e0" name="Project Oberon" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="cc72-6bb4-d531-9388" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1840,11 +2490,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="47d5-4174-a37b-648a" name="The Helfather" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="47d5-4174-a37b-648a" name="The Helfather" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="1f9a-f814-f6c0-bc85" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1883,11 +2555,33 @@
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98f6-cd2f-1fdc-b6d1" name="The Survivor" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="98f6-cd2f-1fdc-b6d1" name="The Survivor" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="622c-e8a3-9cb3-5119" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
@@ -1954,7 +2648,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="2840-7d4a-850e-9084" name="Tactition (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+        <infoLink id="2840-7d4a-850e-9084" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2031,6 +2725,532 @@
       <costs>
         <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
         <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6034-0727-b595-2155" name="Subject 901" book="Deadzone: Outbreak" page="86" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2cce-6a17-0124-40b2" name="Subject 901" book="Deadzone: Outbreak" page="86" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="1"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="2"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a281-7363-1ef5-a408" name="Active Strain" book="Deadzone: Outbreak" page="86" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend an Army Special Result to give a model speed 0/+1 and Frenzy (1) for this activation.  In addition a wounded model with Rampage does not need to roll on the Rampage Table for this activation.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1695-594f-6676-9ccf" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0c7e-6aeb-54f5-d609" name="Rampage" hidden="false" targetId="74a7-f706-2c69-be6e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="82b1-5729-7511-fa04" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3a45-21b3-5fde-cce6" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e225-a4e1-a1f5-51be" name="Teeth &amp; Claws" book="Deadzone: Outbreak" page="86" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c1d6-dab7-8db3-89c5" name="Teeth &amp; Claws" book="Deadzone: Outbreak" page="86" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e2-ebf9-8595-d018" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f021-c111-2cf0-1f75" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="754b-32eb-96bc-03db" name="Items" hidden="false" targetId="9097-7450-8118-eae9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d30-37a3-c0b6-354a" name="Dr Simmonds" book="Deadzone: Nexus Psi" page="20" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c924-0114-55d6-c569" name="Dr Simmonds" book="Deadzone: Nexus Psi" page="20" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="2-3"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="0"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="6+"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="3+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3395-04be-596f-869b" name="Under the Knife" book="Nexus Psi Expansion" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spend and Army Special result to activate the bio-modifications Dr Simmonds has implanted within her troops. The Non-vehicle active model gains an effect of the player&apos;s choice from the following list:
+Claws: Gain a RF, AP2 weapon until the end of the round
+Adrenal Burst: Gain +1/+0 speed until the end of the round
+Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c9f3-80a5-b388-ce59" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8ecd-5367-e570-4ac9" name="Medic" hidden="false" targetId="d4ff-88bd-fc26-94e2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="da97-a6d4-ec6c-b6e8" name="Tough" hidden="false" targetId="df54-2d71-8800-b15f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fe15-88c9-c7f6-f723" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b1df-3e38-4da9-dbbc" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba12-c947-247b-9eb8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d95d-92fa-2913-ea31" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6d45-0046-2ac9-80e6" name="Items" hidden="false" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5d0a-9ae4-73e2-7112" name="Rifle" hidden="false" targetId="364a-9218-d99e-117c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f6d-5d08-3c97-6867" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef85-2d7d-5741-6240" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="58c9-14e1-b159-8695" name="Subject 901" book="Deadzone: Outbreak" page="86" hidden="true" collective="false" type="unit">
+      <profiles>
+        <profile id="23f3-a608-d07d-e3ba" name="Subject 901" book="Deadzone: Outbreak" page="86" hidden="false" profileTypeId="a9aa-7e6b-1b30-f1b0" profileTypeName="Leader">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="4e85-eaa5-eccb-41d1" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="6e20-a2eb-4873-facd" value="1"/>
+            <characteristic name="Size" characteristicTypeId="72ed-1424-6a6b-51d8" value="2"/>
+            <characteristic name="Shoot" characteristicTypeId="8e81-1fe3-f677-8d5c" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="5ab1-1acc-a108-daf5" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="2375-5bce-3345-261b" value="4+"/>
+            <characteristic name="Recon" characteristicTypeId="af03-2f51-1267-9c64" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bcbe-ea81-a6f9-71a9" name="Tactician (n)" hidden="false" targetId="61bb-0743-e806-2bfc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tactician (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="da00-5ca7-8c8a-2667" name="Rampage" hidden="false" targetId="74a7-f706-2c69-be6e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f4b6-5bec-ee2e-1e59" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4eec-01df-c9b6-9491" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="165a-a59c-0241-b050" name="Teeth &amp; Claws" book="Deadzone: Outbreak" page="86" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9012-3687-991f-93d8" name="Teeth &amp; Claws" book="Deadzone: Outbreak" page="86" hidden="false" profileTypeId="2421-adf7-5cec-846a" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="df8a-ee5b-d620-4246" value="RF"/>
+                <characteristic name="AP" characteristicTypeId="3ef9-9c4e-a280-fccb" value="AP2"/>
+                <characteristic name="Abilities" characteristicTypeId="faf9-0187-1806-7214" value="-"/>
+                <characteristic name="Type" characteristicTypeId="90af-0797-a0fd-965c" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab41-ba44-6e17-79e9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1717-ca94-9d1b-67e8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0bf4-8ee8-71df-0916" name="Items" hidden="false" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1eac-4d15-f17f-3942" name="Plague Victim" book="Deadzone: Outbreak" page="54" hidden="true" collective="false" type="unit">
+      <profiles>
+        <profile id="90a2-9fd9-3983-bb14" name="Plague Victim" book="Deadzone: Outbreak" page="54" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="2-3"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="0"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="1"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="4+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a1bd-c6ed-6a59-c470" name="Beast" hidden="false" targetId="6c23-71da-c6bd-32af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ba17-9e23-393c-558e" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="74b5-f0e7-3058-2c08" name="Rampage" hidden="false" targetId="74a7-f706-2c69-be6e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6034-0727-b595-2155" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1eb1-92e9-5c11-e735" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f166-065d-9a3a-b4fb" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c79-5f99-0eee-0d76" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c62-c746-f584-3e1f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="534e-e1de-7618-7d85" name="Stage 2B &quot;Burster&quot;" book="Deadzone: Nexus Psi" page="11" hidden="true" collective="false" type="unit">
+      <profiles>
+        <profile id="a2b3-eea6-129c-eb03" name="Stage 2B &quot;Burster&quot;" book="Deadzone: Nexus Psi" page="11" hidden="false" profileTypeId="bd3d-1b17-592d-9a6f" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="df17-4b5c-638f-0807" value="1-2"/>
+            <characteristic name="Armour" characteristicTypeId="0274-bb56-5442-a0f1" value="1"/>
+            <characteristic name="Size" characteristicTypeId="2623-46e7-250f-eacf" value="2"/>
+            <characteristic name="Shoot" characteristicTypeId="68ea-7e51-32e7-70c8" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="cf38-e165-7d39-0773" value="5+"/>
+            <characteristic name="Survive" characteristicTypeId="ecb0-eafd-b6fa-91a0" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8df9-e628-9cda-2120" name="BOOM! (n)" hidden="false" targetId="e7db-45f0-3707-fac8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="BOOM! (4)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6034-0727-b595-2155" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="42e5-b0f5-909d-5f90" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="475a-882e-833c-5496" name="Items" hidden="false" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ecb2-e054-e2f1-93fb" name="Knife" hidden="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7803-8333-61e2-bf55" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04d0-2e87-d71e-38aa" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="11.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -2405,7 +3625,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0f5-7484-118b-b32e" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2539,6 +3761,103 @@
           <constraints/>
           <categoryLinks>
             <categoryLink id="08a6-5626-72ee-7d96" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9097-7450-8118-eae9" name="Items" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8bf-aa11-79bd-026f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="6deb-93dc-9d01-041d" name="Adrenaline Shot" book="Deadzone: Outbreak" page="16" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="ce71-b2ac-39c1-1921" name="Adrenaline Shot" book="Deadzone: Outbreak" page="16" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Adrenaline Shot increases the heart rate and blood supply to drive the user to higher degrees of physical activity. One-Use, increase Speed by +1/+1 for this round.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="6a79-8986-1b03-0403" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="2.0"/>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7f34-f4e5-96af-5ec9" name="Stimulant Shot" book="Deadzone: Outbreak" page="16" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="5f32-02a5-45ea-9729" name="Stimulant Shot" book="Deadzone: Outbreak" page="16" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Many stimulants are banned in civilized GCPS space, but in a Deadzone anything goes. Weaponized stimulants drive combat soldiers to incredible feats of violence. One-Use, gain +1 dice for a single roll (Fight or Shoot).</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="1a22-73a5-0cab-53e2" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="3.0"/>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="49f5-1b95-d84a-28c3" name="Medi-Pack (+)" hidden="false" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="d992-3906-8b38-a32e" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>

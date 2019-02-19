@@ -4608,6 +4608,7 @@ Vermin Swarm&apos;s are not part of the Army List, gain no experience, and are n
           <entryLinks/>
           <costs>
             <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2acc-7576-3dc4-2728" name="Noh Pistol" book="Deadzone 2nd Ed Rulebook" hidden="false" collective="false" type="upgrade">

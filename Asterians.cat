@@ -589,11 +589,72 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e32d-7867-f725-5ddf" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+        <entryLink id="d205-6c94-6b84-ac14" name="Items" hidden="true" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56f0-1ee6-94a9-9f35" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7881-d778-ac63-7375" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a805-80b2-a76e-9f6a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b721-ddb3-7cb1-97b8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a0c9-3fbf-4641-83d5" name="Items (Nem)" hidden="true" targetId="fb17-aa5d-89f1-c00a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="782c-4076-a109-6449" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="021b-b7da-7819-e46c" name="Items (Ten)" hidden="true" targetId="73eb-b527-535f-edfb" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ce-8e0d-f349-6191" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -774,11 +835,56 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="54b6-f6d6-8918-556c" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+        <entryLink id="15b1-92b7-3dfc-a3e4" name="Items" hidden="true" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56f0-1ee6-94a9-9f35" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7881-d778-ac63-7375" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a805-80b2-a76e-9f6a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b721-ddb3-7cb1-97b8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="39bd-ea3d-c1e1-9d90" name="Items (Nem)" hidden="true" targetId="fb17-aa5d-89f1-c00a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="782c-4076-a109-6449" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1085,11 +1191,56 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0b8f-a524-5fdd-baf6" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+        <entryLink id="e8df-8848-6434-008b" name="Items" hidden="true" targetId="73eb-b527-535f-edfb" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ce-8e0d-f349-6191" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a303-e65b-b0ea-b7c1" name="Items" hidden="true" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56f0-1ee6-94a9-9f35" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7881-d778-ac63-7375" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a805-80b2-a76e-9f6a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b721-ddb3-7cb1-97b8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1419,11 +1570,40 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7c45-2bdf-5b15-a1d6" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+        <entryLink id="7c45-2bdf-5b15-a1d6" name="Items" hidden="true" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56f0-1ee6-94a9-9f35" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7881-d778-ac63-7375" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a805-80b2-a76e-9f6a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b721-ddb3-7cb1-97b8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1447,6 +1627,22 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30ba-f9e0-b992-f730" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a9b-d5dc-ae5d-7da6" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="adff-c5de-ffa0-a3c9" name="Items" hidden="true" targetId="fb17-aa5d-89f1-c00a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="782c-4076-a109-6449" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -3265,6 +3461,11 @@
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
               <constraints/>
               <categoryLinks/>
@@ -3662,7 +3863,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="98e6-fc68-997f-6956" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+        <entryLink id="98e6-fc68-997f-6956" name="Items (Nem)" hidden="false" targetId="fb17-aa5d-89f1-c00a" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3865,7 +4066,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0221-5825-ba01-bbbf" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+        <entryLink id="a65f-3337-c8f5-e4ec" name="Items (Nem)" hidden="false" targetId="fb17-aa5d-89f1-c00a" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4001,7 +4202,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8cac-29ba-0c56-9894" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
+        <entryLink id="8cac-29ba-0c56-9894" name="Items (Ten)" hidden="false" targetId="73eb-b527-535f-edfb" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4206,14 +4407,6 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="cd0d-11b3-0fc7-c34d" name="Items" hidden="false" targetId="4d69-7c63-5660-0685" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="d565-63fa-b9bd-2219" name="Energy Shield (n) (+)" hidden="false" targetId="14f6-da63-6187-2dc0" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -4234,6 +4427,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec29-e050-3505-3920" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b277-06c9-302f-f4d5" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6df5-6d88-c7da-81d4" name="Items" hidden="false" targetId="73eb-b527-535f-edfb" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -5142,6 +5343,444 @@
           <constraints/>
           <categoryLinks>
             <categoryLink id="465d-a0d5-208a-b65e" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="73eb-b527-535f-edfb" name="Items" book="Deadzone: Outbreak" page="80" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a261-42cc-92cc-9ff8" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="892a-a68c-e184-6e2b" name="Energy Shield (2) (+)" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c144-32f0-9c9d-5b14" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Energy Shield (2)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="d543-49e3-6b69-9554" name="New CategoryLink" hidden="false" targetId="2bc8-1366-e5e0-9c33" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="5.0"/>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c8ca-2e66-cf5a-0b8a" name="Ammo (+)" hidden="false" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="aa93-2da8-6601-69c8" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="3736-086f-5460-89ff" name="AP Ammo (+)" hidden="false" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="4">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="9e07-1794-0ee1-4ff7" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="06b6-c13d-235a-03f4" name="Frag Grenade (+)" hidden="false" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="6">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="2f86-54e7-9afe-5e38" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="4f0d-6316-03bf-4c39" name="Smoke Grenade (+)" hidden="false" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="3">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="21b4-c80d-cc9b-5cd0" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="a3ff-ed82-5d47-1599" name="Medi-Pack (+)" hidden="false" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="3776-1c3f-da9c-52f5" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="b5dd-a1fe-f62a-f0d2" name="Stun Grenade (+)" hidden="false" targetId="2ee6-1157-6672-3508" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="4">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="6144-a764-fea4-4ec8" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fb17-aa5d-89f1-c00a" name="Items" book="Deadzone: Infestation" page="36" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6342-f8b6-8af8-060a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="218c-8164-1678-8a68" name="Energy Shield (4) (+)" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8982-5b91-a384-1b25" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Energy Shield (4)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="2f9e-c39e-c3c5-2536" name="New CategoryLink" hidden="false" targetId="2bc8-1366-e5e0-9c33" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="9.0"/>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b38a-88a5-728a-4ef3" name="Energy Shield (3) (+)" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="dc74-6dbb-145d-c79b" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Energy Shield (3)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="9c4b-67d3-0598-9dba" name="New CategoryLink" hidden="false" targetId="2bc8-1366-e5e0-9c33" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="7.0"/>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0391-9001-f7a5-75a6" name="Energy Shield (2) (+)" book="Deadzone 2nd Ed Rulebook" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="ff24-1d74-2df9-4c2c" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Energy Shield (2)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="e3c3-f210-1ec8-0899" name="New CategoryLink" hidden="false" targetId="2bc8-1366-e5e0-9c33" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="61f9-fd84-cb0b-0306" value="5.0"/>
+            <cost name="VPs" costTypeId="02a0-6bab-fa73-4a98" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="030f-091d-1569-38a1" name="Ammo (+)" hidden="false" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="72c4-208e-4e2d-a864" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="ac0e-1c23-0ab3-a577" name="AP Ammo (+)" hidden="false" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="4">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="0583-24fd-5396-a562" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="498a-4a42-55fb-0ae2" name="Frag Grenade (+)" hidden="false" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="6">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="c46d-2e32-7233-b1af" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="4386-0100-61b2-528a" name="Holo Sight (+)" hidden="false" targetId="4c27-12b2-2903-804b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="8">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="423b-fe47-275c-51a3" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="3bd4-c4bf-6a61-fbb5" name="Smoke Grenade (+)" hidden="false" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="3">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="1308-08f2-23b6-fb42" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="49ae-b832-ff3b-543f" name="Stun Grenade (+)" hidden="false" targetId="2ee6-1157-6672-3508" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="4">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="d16e-0e53-ad2c-b255" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>

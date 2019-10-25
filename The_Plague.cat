@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="e2c0-9007-7059-27a5" name="The Plague" revision="1" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" library="false" gameSystemId="9491-c0e3-ba03-047b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <publications>
-    <publication id="e2c0-9007-pubN65537" name="Deadzone 2nd Ed Rulebook"/>
-    <publication id="e2c0-9007-pubN66194" name="Deadzone 2nd Ed Rulebook + Errata v2.1"/>
-    <publication id="e2c0-9007-pubN73463" name="Deadzone: Outbreak"/>
-  </publications>
   <selectionEntries>
     <selectionEntry id="4a13-bfb6-2282-7a2e" name="Stage 1A &quot;Lord&quot;" publicationId="9491-c0e3-pubN79930" page="96" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -21,7 +16,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="0ab4-7943-a2a1-8196" name="Mutation" publicationId="e2c0-9007-pubN65537" page="49" hidden="false">
+        <rule id="0ab4-7943-a2a1-8196" name="Mutation" publicationId="9491-c0e3-pubN79930" page="96" hidden="false">
           <description>Spend an Army Special result at the start of a model’s activation. That model manifests a random mutation for the rest of the Round.  Chose from Resilient (1), Frenzy (1), Increase AP of one RF weapon by 1 or increase Armour of model by 1.</description>
         </rule>
       </rules>
@@ -37,13 +32,13 @@
         <categoryLink id="5c97-117f-ba19-eda1" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1c69-940a-b58e-3352" name="Talons" publicationId="e2c0-9007-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1c69-940a-b58e-3352" name="Talons" publicationId="9491-c0e3-pubN79930" page="96" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e94d-0d1b-7123-55ce" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bdf-6066-7300-0704" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e005-7932-6d73-3e32" name="Talons" hidden="false" typeId="2421-adf7-5cec-846a" typeName="Weapon">
+            <profile id="e005-7932-6d73-3e32" name="Talons" publicationId="9491-c0e3-pubN79930" page="96" hidden="false" typeId="2421-adf7-5cec-846a" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="df8a-ee5b-d620-4246">RF</characteristic>
                 <characteristic name="AP" typeId="3ef9-9c4e-a280-fccb">AP1</characteristic>
@@ -81,7 +76,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="db88-c266-7965-bc6e" name="Infection" publicationId="e2c0-9007-pubN65537" page="49" hidden="false">
+        <rule id="db88-c266-7965-bc6e" name="Infection" publicationId="9491-c0e3-pubN79930" page="96" hidden="false">
           <description>When an enemy model is killed you may spend an Army Special result on your Command Dice to spread the Infection and raise it again as a Zombie. Swap the Dead enemy model for a Pinned Zombie in the same cube. The Zombie is marked as activated for this Round. The original model is dead and the Zombie is counted as part of the Plague Strike Team.</description>
         </rule>
       </rules>
@@ -236,7 +231,34 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffaa-77b3-b18b-0cbc" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="e62b-069c-4a63-382b" name="Items" hidden="false" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup"/>
+        <entryLink id="a194-a800-5db9-9e7b" name="Items" hidden="true" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="230e-4c89-c548-ea6f" name="Items (Dr S)" hidden="true" collective="false" import="true" targetId="dd4c-67c5-7f78-21b4" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="1.0"/>
@@ -292,7 +314,34 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0761-799d-fb2c-0e0e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="6338-960e-dda4-6c84" name="Items" hidden="false" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup"/>
+        <entryLink id="5ac0-c476-5a73-7ff6" name="Items" hidden="true" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="14be-5bae-caa2-131a" name="Items (Dr S)" hidden="true" collective="false" import="true" targetId="dd4c-67c5-7f78-21b4" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="6.0"/>
@@ -314,11 +363,6 @@
         <modifier type="set" field="hidden" value="false">
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="false">
@@ -353,11 +397,6 @@
       <entryLinks>
         <entryLink id="4ed9-3c09-b4c0-a80e" name="Items" hidden="true" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
-              </conditions>
-            </modifier>
             <modifier type="set" field="hidden" value="false">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
@@ -533,7 +572,34 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d42-8ff9-7644-4774" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="64d3-879b-aad8-c316" name="Items" hidden="false" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup"/>
+        <entryLink id="f25a-a43d-5fdd-72eb" name="Items" hidden="true" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="35e1-88ec-32ae-cda9" name="Items (Dr S)" hidden="true" collective="false" import="true" targetId="dd4c-67c5-7f78-21b4" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="1.0"/>
@@ -584,7 +650,7 @@
         <categoryLink id="75ff-b4d9-419f-02f7" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7acb-9162-5187-feed" name="Talons" publicationId="e2c0-9007-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7acb-9162-5187-feed" name="Talons" publicationId="9491-c0e3-pubN79930" page="98" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a0-a4ab-1a11-872b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="214b-5d0b-2b7a-83f7" type="min"/>
@@ -751,7 +817,34 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="6494-42d0-4b80-1b2d" name="Items" hidden="false" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup"/>
+        <entryLink id="e83b-29b4-c76f-55c0" name="Items" hidden="true" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="a760-ad92-4110-788b" name="Items (Dr S)" hidden="true" collective="false" import="true" targetId="dd4c-67c5-7f78-21b4" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="3.0"/>
@@ -800,6 +893,7 @@
         <entryLink id="f235-dfc2-2c5d-5294" name="Experimental Weapon" hidden="false" collective="false" import="true" targetId="c27f-3829-fa08-443d" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
+            <modifier type="set" field="02a0-6bab-fa73-4a98" value="0.0"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1440-270b-a03c-547c" type="max"/>
@@ -812,7 +906,34 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db7a-f4c5-192a-577e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="7d13-20b5-974f-f355" name="Items" hidden="false" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup"/>
+        <entryLink id="7d13-20b5-974f-f355" name="Items" hidden="true" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fb1-6625-5dff-0ba7" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f6-9f41-f4b6-10a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a13-bfb6-2282-7a2e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="c771-25fe-e338-47ab" name="Items (Dr S)" hidden="true" collective="false" import="true" targetId="dd4c-67c5-7f78-21b4" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="2.0"/>
@@ -870,9 +991,14 @@
                 <condition field="selections" scope="af32-b13e-6197-3aa5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b099-5baa-04e5-8895" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="43e6-61e7-28e1-d8e0" value="1">
+            <modifier type="set" field="43e6-61e7-28e1-d8e0" value="1.0">
               <conditions>
                 <condition field="selections" scope="af32-b13e-6197-3aa5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f9c0-2c0a-cc9e-9fe4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="43e6-61e7-28e1-d8e0" value="1.0">
+              <conditions>
+                <condition field="selections" scope="af32-b13e-6197-3aa5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c2e1-5daa-463d-f089" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -910,6 +1036,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa65-18f4-9e00-9b5c" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="f888-bc61-bc66-fb08" name="Dual Chainsaws **" hidden="false" collective="false" import="true" targetId="c2e1-5daa-463d-f089" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1046,12 +1173,12 @@
             <characteristic name="Shoot" typeId="8e81-1fe3-f677-8d5c">5+</characteristic>
             <characteristic name="Fight" typeId="5ab1-1acc-a108-daf5">5+</characteristic>
             <characteristic name="Survive" typeId="2375-5bce-3345-261b">5+</characteristic>
-            <characteristic name="Recon" typeId="af03-2f51-1267-9c64">4+</characteristic>
+            <characteristic name="Recon" typeId="af03-2f51-1267-9c64">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="55a1-c70e-7cdf-42b2" name="Thirst for Blood" publicationId="e2c0-9007-pubN73463" page="62" hidden="false">
+        <rule id="55a1-c70e-7cdf-42b2" name="Thirst for Blood" publicationId="9491-c0e3-pubN79930" page="96" hidden="false">
           <description>Spend an Army Special Result on a Command Dice at the start of a Stage 2A, 2B or Aberration model&apos;s activation to gain 0/+1 Speed and RF AP1 weapon (or increase the AP of any RF weapon by +1) for the rest of the Round.  In addition, the model will not need to test for Rampage at the start of this activation.</description>
         </rule>
       </rules>
@@ -1108,7 +1235,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="a281-7363-1ef5-a408" name="Active Strain" publicationId="e2c0-9007-pubN73463" page="86" hidden="false">
+        <rule id="a281-7363-1ef5-a408" name="Active Strain" publicationId="9491-c0e3-pubN72955" page="86" hidden="false">
           <description>Spend an Army Special Result to give a model speed 0/+1 and Frenzy (1) for this activation.  In addition a wounded model with Rampage does not need to roll on the Rampage Table for this activation.</description>
         </rule>
       </rules>
@@ -1150,9 +1277,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="754b-32eb-96bc-03db" name="Items" hidden="false" collective="false" import="true" targetId="9097-7450-8118-eae9" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="3.0"/>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="24.0"/>
@@ -1214,7 +1338,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1eac-4d15-f17f-3942" name="Plague Victim" publicationId="e2c0-9007-pubN73463" page="54" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="1eac-4d15-f17f-3942" name="Plague Victim" publicationId="9491-c0e3-pubN72955" page="54" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1223,7 +1347,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="90a2-9fd9-3983-bb14" name="Plague Victim" publicationId="e2c0-9007-pubN73463" page="54" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
+        <profile id="90a2-9fd9-3983-bb14" name="Plague Victim" publicationId="9491-c0e3-pubN72955" page="54" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
           <characteristics>
             <characteristic name="Speed" typeId="df17-4b5c-638f-0807">2-3</characteristic>
             <characteristic name="Armour" typeId="0274-bb56-5442-a0f1">0</characteristic>
@@ -1290,7 +1414,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
         <categoryLink id="42e5-b0f5-909d-5f90" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="475a-882e-833c-5496" name="Items" hidden="false" collective="false" import="true" targetId="b3eb-0970-7534-11c7" type="selectionEntryGroup"/>
+        <entryLink id="475a-882e-833c-5496" name="Items (901)" hidden="false" collective="false" import="true" targetId="9097-7450-8118-eae9" type="selectionEntryGroup"/>
         <entryLink id="ecb2-e054-e2f1-93fb" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7803-8333-61e2-bf55" type="max"/>
@@ -1369,6 +1493,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
           </infoLinks>
           <costs>
             <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1514,12 +1639,62 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="5de6-9359-5ee3-7bc5" name="Items" hidden="false" collective="false" import="true" targetId="9097-7450-8118-eae9" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="3.0"/>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34af-2058-f928-8370" name="Stage 2A &quot;Leaper&quot;" publicationId="9491-c0e3-pubN79930" page="97" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="d923-9a5b-adf4-bb20" name="Stage 2A" publicationId="9491-c0e3-pubN79930" page="97" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
+          <characteristics>
+            <characteristic name="Speed" typeId="df17-4b5c-638f-0807">1-2</characteristic>
+            <characteristic name="Armour" typeId="0274-bb56-5442-a0f1">1</characteristic>
+            <characteristic name="Size" typeId="2623-46e7-250f-eacf">2</characteristic>
+            <characteristic name="Shoot" typeId="68ea-7e51-32e7-70c8">-</characteristic>
+            <characteristic name="Fight" typeId="cf38-e165-7d39-0773">4+</characteristic>
+            <characteristic name="Survive" typeId="ecb0-eafd-b6fa-91a0">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="748f-8d12-18e2-65df" name="Rampage" hidden="false" targetId="74a7-f706-2c69-be6e" type="rule"/>
+        <infoLink id="8f8f-5d06-4c6b-7171" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Frenzy (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7db8-5d6c-0ba3-a3b9" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="99dd-4ecd-433c-5241" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03fc-4ac3-9175-c622" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b30e-a687-ffd6-1106" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7945-4250-2ad0-c9f6" name="Items (Dr S)" hidden="true" collective="false" import="true" targetId="dd4c-67c5-7f78-21b4" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d30-37a3-c0b6-354a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="2.0"/>
+        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="16.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1974,7 +2149,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
         <categoryLink id="d0c0-115a-0530-89ac" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bee2-48e7-ac06-ce80" name="Chovar Psychic" hidden="true" collective="false" import="true" targetId="0304-1c3a-5501-a41f" type="selectionEntry">
+    <entryLink id="bee2-48e7-ac06-ce80" name="Chovar Psychic" hidden="true" collective="false" import="true" targetId="0002-63e7-ea7c-c552" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -2533,7 +2708,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0f5-7484-118b-b32e" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="56c4-6835-259b-23e2" name="Energy Shield (3) (+)" publicationId="9491-c0e3-pubN65537" page="37" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="56c4-6835-259b-23e2" name="Energy Shield (3) (+)" publicationId="9491-c0e3-pubN79930" page="101" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="911a-ffc0-444d-587f" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
               <modifiers>
@@ -2548,7 +2723,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="f31e-00f0-4320-fcad" name="Ammo (+)" hidden="false" collective="false" import="true" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
+        <entryLink id="f31e-00f0-4320-fcad" name="Ammo (+)" publicationId="9491-c0e3-pubN79930" page="101" hidden="false" collective="false" import="true" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="2"/>
           </modifiers>
@@ -2556,7 +2731,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
             <categoryLink id="0419-654b-44a2-f1bd" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="5183-3509-6779-807d" name="AP Ammo (+)" hidden="false" collective="false" import="true" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
+        <entryLink id="5183-3509-6779-807d" name="AP Ammo (+)" publicationId="9491-c0e3-pubN79930" page="101" hidden="false" collective="false" import="true" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="4"/>
           </modifiers>
@@ -2564,7 +2739,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
             <categoryLink id="265d-136e-f744-2128" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="1ccf-8bff-ce98-3ada" name="Frag Grenade (+)" hidden="false" collective="false" import="true" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
+        <entryLink id="1ccf-8bff-ce98-3ada" name="Frag Grenade (+)" publicationId="9491-c0e3-pubN79930" page="101" hidden="false" collective="false" import="true" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="6"/>
           </modifiers>
@@ -2572,7 +2747,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
             <categoryLink id="d1c2-0b01-a63a-9b2d" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="0e50-2657-ef95-237e" name="Holo Sight (+)" hidden="false" collective="false" import="true" targetId="4c27-12b2-2903-804b" type="selectionEntry">
+        <entryLink id="0e50-2657-ef95-237e" name="Holo Sight (+)" publicationId="9491-c0e3-pubN79930" page="101" hidden="false" collective="false" import="true" targetId="4c27-12b2-2903-804b" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="8"/>
           </modifiers>
@@ -2580,7 +2755,7 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
             <categoryLink id="960e-711f-4416-1091" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="3e3f-6cbd-21a8-9986" name="Smoke Grenade (+)" hidden="false" collective="false" import="true" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
+        <entryLink id="3e3f-6cbd-21a8-9986" name="Smoke Grenade (+)" publicationId="9491-c0e3-pubN79930" page="101" hidden="false" collective="false" import="true" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="3"/>
           </modifiers>
@@ -2595,28 +2770,20 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8bf-aa11-79bd-026f" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="6deb-93dc-9d01-041d" name="Adrenaline Shot" publicationId="e2c0-9007-pubN73463" page="16" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="ce71-b2ac-39c1-1921" name="Adrenaline Shot" publicationId="e2c0-9007-pubN73463" page="16" hidden="false">
-              <description>The Adrenaline Shot increases the heart rate and blood supply to drive the user to higher degrees of physical activity. One-Use, increase Speed by +1/+1 for this round.</description>
-            </rule>
-          </rules>
+        <selectionEntry id="6deb-93dc-9d01-041d" name="Adrenaline Shot" publicationId="9491-c0e3-pubN72955" page="86" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="6a79-8986-1b03-0403" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule"/>
+            <infoLink id="b440-33c8-88f9-c1d8" name="Adrenaline Shot" hidden="false" targetId="139f-05c7-3940-9f1d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="2.0"/>
             <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7f34-f4e5-96af-5ec9" name="Stimulant Shot" publicationId="e2c0-9007-pubN73463" page="16" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="5f32-02a5-45ea-9729" name="Stimulant Shot" publicationId="e2c0-9007-pubN73463" page="16" hidden="false">
-              <description>Many stimulants are banned in civilized GCPS space, but in a Deadzone anything goes. Weaponized stimulants drive combat soldiers to incredible feats of violence. One-Use, gain +1 dice for a single roll (Fight or Shoot).</description>
-            </rule>
-          </rules>
+        <selectionEntry id="7f34-f4e5-96af-5ec9" name="Stimulant Shot" publicationId="9491-c0e3-pubN72955" page="86" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="1a22-73a5-0cab-53e2" name="One Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule"/>
+            <infoLink id="dabe-f243-34ba-2858" name="Stimulant Shot" hidden="false" targetId="b420-8549-5e84-74a0" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="3.0"/>
@@ -2625,12 +2792,82 @@ Grav-Pods: Gain Jump Pack and Glide until the end of the Round</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="49f5-1b95-d84a-28c3" name="Medi-Pack (+)" hidden="false" collective="false" import="true" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
+        <entryLink id="49f5-1b95-d84a-28c3" name="Medi-Pack (+)" publicationId="9491-c0e3-pubN72955" page="86" hidden="false" collective="false" import="true" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="5"/>
           </modifiers>
           <categoryLinks>
             <categoryLink id="d992-3906-8b38-a32e" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dd4c-67c5-7f78-21b4" name="Items" publicationId="9491-c0e3-pubN79930" page="101" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9efc-1cda-902d-8406" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8335-032a-fbe2-e050" name="Energy Shield (3) (+)" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="a9da-4e41-4682-5b37" name="Energy Shield (n)" hidden="false" targetId="df94-719f-164a-cc93" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Energy Shield (3)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e738-ccd8-2789-4990" name="Ammo (+)" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" collective="false" import="true" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="2"/>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="9392-41d6-23d1-6025" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="c063-d0eb-2042-a916" name="AP Ammo (+)" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" collective="false" import="true" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="4"/>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="1db7-393a-43d2-f3af" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="5de9-6d89-84d3-d12e" name="Frag Grenade (+)" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" collective="false" import="true" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="6"/>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="d71f-889f-3a39-ee9d" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="255a-6e76-adcb-44bd" name="Holo Sight (+)" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" collective="false" import="true" targetId="4c27-12b2-2903-804b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="8"/>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="7108-3d6f-6c34-2a5a" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="ea03-368b-63f3-864f" name="Smoke Grenade (+)" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" collective="false" import="true" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="3"/>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="d111-feb7-886b-d492" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="5bb8-b6d1-24e1-577d" name="Medi-Pack (+)" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" collective="false" import="true" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="61f9-fd84-cb0b-0306" value="5.0"/>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="a191-9f42-7c9b-c866" name="Common Items" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>

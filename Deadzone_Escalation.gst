@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9491-c0e3-ba03-047b" name="Deadzone Escalation" revision="1" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9491-c0e3-ba03-047b" name="Deadzone Escalation" revision="2" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="9491-c0e3-pubN65537" name="Deadzone 2nd Ed Rulebook"/>
     <publication id="9491-c0e3-pubN72955" name="Deadzone: Outbreak"/>
@@ -1203,9 +1203,6 @@
           </constraints>
         </entryLink>
         <entryLink id="74a2-7013-2258-774b" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="61f9-fd84-cb0b-0306" value="1"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aae4-0ad6-535e-eaeb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9166-7758-02d9-030a" type="min"/>

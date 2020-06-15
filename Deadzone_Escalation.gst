@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9491-c0e3-ba03-047b" name="Deadzone Escalation" revision="2" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9491-c0e3-ba03-047b" name="Deadzone Escalation" revision="3" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="9491-c0e3-pubN65537" name="Deadzone 2nd Ed Rulebook"/>
     <publication id="9491-c0e3-pubN72955" name="Deadzone: Outbreak"/>
@@ -12,8 +12,8 @@
     <publication id="9491-c0e3-pubN91744" name="Deadzone 2nd Ed Rulebook + Errata v2.1"/>
   </publications>
   <costTypes>
-    <costType id="61f9-fd84-cb0b-0306" name="pts" defaultCostLimit="-1.0"/>
-    <costType id="02a0-6bab-fa73-4a98" name="VPs" defaultCostLimit="-1.0"/>
+    <costType id="61f9-fd84-cb0b-0306" name="pts" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="02a0-6bab-fa73-4a98" name="VPs" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="bd3d-1b17-592d-9a6f" name="Unit">
@@ -2819,8 +2819,8 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="26.0"/>
-        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="3.0"/>
+        <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="3.0"/>
+        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e68-4f54-e946-99be" name="Kizai Uro [1]" publicationId="9491-c0e3-pubN79930" page="35" hidden="false" collective="false" import="true" type="upgrade">

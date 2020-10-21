@@ -3611,14 +3611,14 @@ Whatever the results of the explosion, all surviving models in the target cube a
       <description>The weapon unleashes indiscriminate sheets of flame, acid, or similar lethal concoctions.
 It Burns! weapons attack every model in same cube as the primary target, regardless of which side they are on or whether they are visible to the Shooter.
 Choose one visible model as the primary target and roll for the attack with no modifiers. Roll Survive separately for each model in the target cube and compare each individually to the attack roll see the results.
-Whatever the result of the attack (even if it misses) all models in the target cube are set on re (mark them with a Flame counter). In reality, the weapon fires great gouts of flame that fill the cube, and even near-misses set things alight.
-If a model is on re when it is activated, then its first action must be to attempt to put out the re. This is a free Special action that the model must take but will not count towards its normal action limit this activation. It is worked out as follows:
-The fire/ ames roll a 3 dice 4+ test (X).
+Whatever the result of the attack (even if it misses) all models in the target cube are set on fire (mark them with a Flame counter). In reality, the weapon fires great gouts of flame that fill the cube, and even near-misses set things alight.
+If a model is on fire when it is activated, then its first action must be to attempt to put out the fire. This is a free Special action that the model must take but will not count towards its normal action limit this activation. It is worked out as follows:
+The fire/flames roll a 3 dice 4+ test (X).
 The target rolls a 3 dice Survival test (X).
 Draw or Survive has more successes
-The target puts out the ames before they do any real Damage. The model may continue with any remaining actions as normal.
+The target puts out the flames before they do any real Damage. The model may continue with any remaining actions as normal.
 Fire/flames has more successes:
-The target manages to put out the ames and is no longer on re, but suffers Damage in the process. The Potential Damage is equal to the difference in total successes and is resolved at AP1. The model’s activation ends immediately.</description>
+The target manages to put out the flames and is no longer on fire, but suffers Damage in the process. The Potential Damage is equal to the difference in total successes and is resolved at AP1. The model’s activation ends immediately.</description>
     </rule>
     <rule id="9b4e-17bd-61ab-7feb" name="Knockback" publicationId="9491-c0e3-pubN79930" page="27" hidden="false">
       <description>When a weapon or model with this ability hits and causes potential damage it will knock it back into a different cube. Resolve the attack as normal, then move the target one cube directly away from the attacker (see page 27 of the Deadzone 2.0 rulebook). If the knocked-back model’s route is blocked by a wall, the model is slammed into it (see page 27 of the Deadzone 2.0 rulebook).</description>
@@ -3678,7 +3678,7 @@ If the model moves away, the Smokescreen remains in the cube it was deployed in.
 A model leaving a cube with Smokescreen must still take a “breaking away” test to exit the cube if enemy models occupy it - the opposing model is assumed to be close enough to see/smell/ feel/hear their enemy, despite the Smokescreen.</description>
     </rule>
     <rule id="e624-e443-da35-a014" name="Sniper Scope" publicationId="9491-c0e3-pubN65537" page="34" hidden="false">
-      <description>The weapon gains +2 dice to Shoot actions in addition to any other modifiers that apply. A weapon with Sniper Scope may not bene t from the +1 Dice of a Holo-Sight (page 37).</description>
+      <description>The weapon gains +2 dice to Shoot actions in addition to any other modifiers that apply. A weapon with Sniper Scope may not benefit from the +1 Dice of a Holo-Sight (page 37).</description>
     </rule>
     <rule id="5007-f9e6-65c2-71f5" name="Stun" publicationId="9491-c0e3-pubN65537" page="34" hidden="false">
       <description>A weapon with this ability does not cause actual Damage. If this weapon scores any Potential Damage however, the target model is immediately marked as activated.</description>
@@ -3690,11 +3690,11 @@ A model leaving a cube with Smokescreen must still take a “breaking away” te
       <description>A weapon with this ability Shoots as normal. Then, in addition, any models (from either side) in the target cube are Pinned, regardless of whether any Damage was done by the shot.</description>
     </rule>
     <rule id="e92f-71ef-638e-9689" name="Tag" publicationId="9491-c0e3-pubN65537" page="34" hidden="false">
-      <description>A model with a Tag rifle can spend a Special action to mark an enemy model as a target. For the remainder of this Round, all shots made against that target by any models with Tag rifles receive +1 dice. Note this effect is not cumulative. A model may only receive a maximum of +1 dice from a target being tagged. There is no bene t to tagging a model multiple times in a single Round.</description>
+      <description>A model with a Tag rifle can spend a Special action to mark an enemy model as a target. For the remainder of this Round, all shots made against that target by any models with Tag rifles receive +1 dice. Note this effect is not cumulative. A model may only receive a maximum of +1 dice from a target being tagged. There is no benefit to tagging a model multiple times in a single Round.</description>
     </rule>
     <rule id="61bb-0743-e806-2bfc" name="Tactician (n)" publicationId="9491-c0e3-pubN65537" page="34" hidden="false">
       <description>The model is a great leader and intuitively understands how to get the most out of a combat situation. Tactician will always be listed with a number after it in place of the (n), e.g.Tactician (1), Tactician (2), etc. When Rolling Command at the start of a Round, add (n) Command Dice to the roll if the Tactician is still on the battlefield.
-Note you can only apply the Tactician ability of one model in your Strike Team. Having more than one Tactician in a Strike Team provides no bene t beyond having a replacement if the first one is killed.</description>
+Note you can only apply the Tactician ability of one model in your Strike Team. Having more than one Tactician in a Strike Team provides no benefit beyond having a replacement if the first one is killed.</description>
     </rule>
     <rule id="df54-2d71-8800-b15f" name="Tough" publicationId="9491-c0e3-pubN65537" page="34" hidden="false">
       <description>The model ignores 1 point of Potential Damage per attack (including from events such as falling or slamming into walls). This is calculated before Armour is taken into account and cannot be countered by any AP value of the attack.</description>
@@ -3706,11 +3706,11 @@ Note you can only apply the Tactician ability of one model in your Strike Team. 
       <description>A model struck by a Toxic weapon is never Injured, any actual Damage the model takes will kill it. Toxic never affects models with either the Construct or Vehicle ability.</description>
     </rule>
     <rule id="ea60-c32b-086e-1a17" name="Vehicle" publicationId="9491-c0e3-pubN65537" page="35" hidden="false">
-      <description>The model is a Vehicle. If the model comes with separate crew figures then you can choose to either attach them to the main chassis, or leave them loose so the main vehicle can be used as a wreck (or scenery in battles where it is not used in the Strike Team). They have no specific game function beyond looking good and showing that the Vehicle is still in the battle. Vehicles are large and cumbersome so cannot move about the battle eld with the same ease as smaller models. A Vehicle can only change level by moving up or down a ramp. They may not climb up or down walls.
+      <description>The model is a Vehicle. If the model comes with separate crew figures then you can choose to either attach them to the main chassis, or leave them loose so the main vehicle can be used as a wreck (or scenery in battles where it is not used in the Strike Team). They have no specific game function beyond looking good and showing that the Vehicle is still in the battle. Vehicles are large and cumbersome so cannot move about the battlefield with the same ease as smaller models. A Vehicle can only change level by moving up or down a ramp. They may not climb up or down walls.
 A Vehicle cannot pick up, carry, or use items.
 Vehicles have an amount of Damage they can sustain based on their Size, just like other models.
 A Vehicle is not affected by the movement effects of explosions or attacks such as Knockback or Blast. It cannot be moved into another cube by any attack. However, it still suffers Damage from these types of attack as normal.
-When a Vehicle is destroyed it is left in place on the battle eld. It is now treated as part of the battle eld’s terrain. For the sake of appearance you might like to remove any crew models and add a small piece of cotton wool to make it look like a smoking wreck.</description>
+When a Vehicle is destroyed it is left in place on the battlefield. It is now treated as part of the battlefield’s terrain. For the sake of appearance you might like to remove any crew models and add a small piece of cotton wool to make it look like a smoking wreck.</description>
     </rule>
     <rule id="3409-b3c6-b6c4-b3c5" name="Teleport" publicationId="9491-c0e3-pubN79930" page="27" hidden="false">
       <description>A model with this ability may Teleport as a Long Action.

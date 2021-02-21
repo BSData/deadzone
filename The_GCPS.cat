@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f2ba-94c0-9329-1080" name="GCPS" revision="1" battleScribeVersion="2.02" authorName="Ben Edwards" authorContact="BAE2 (Github)" library="false" gameSystemId="9491-c0e3-ba03-047b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f2ba-94c0-9329-1080" name="GCPS" revision="1" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" library="false" gameSystemId="9491-c0e3-ba03-047b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="a421-4ad8-5e21-c42e" name="Major-General" publicationId="9491-c0e3-pubN79930" page="67" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a421-4ad8-5e21-c42e" name="Major-General" publicationId="9491-c0e3-pubN79930" page="67" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="9ce3-6f40-bd13-dc42" name="Major-General" publicationId="9491-c0e3-pubN79930" page="67" hidden="false" typeId="a9aa-7e6b-1b30-f1b0" typeName="Leader">
           <characteristics>
@@ -31,54 +31,54 @@
         <categoryLink id="0389-81d8-c707-111f" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3be3-65a6-cf0d-a3dc" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="1754-76e8-3b3b-328a">
+        <selectionEntryGroup id="3be3-65a6-cf0d-a3dc" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1754-76e8-3b3b-328a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a0d-82fa-6fd6-0755" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a40-5c40-0129-a5f7" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1754-76e8-3b3b-328a" name="Officer&apos;s Sword" hidden="false" collective="false" targetId="71cc-3e0a-dac1-687e" type="selectionEntry">
+            <entryLink id="1754-76e8-3b3b-328a" name="Officer&apos;s Sword" hidden="false" collective="false" import="true" targetId="71cc-3e0a-dac1-687e" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="482f-1ce2-4109-ec93" name="Energy Gauntlet" hidden="false" collective="false" targetId="b90e-e868-81cc-3cb1" type="selectionEntry"/>
+            <entryLink id="482f-1ce2-4109-ec93" name="Energy Gauntlet" hidden="false" collective="false" import="true" targetId="b90e-e868-81cc-3cb1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8426-18d6-8874-ade9" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="f95d-9091-7ac4-e635">
+        <selectionEntryGroup id="8426-18d6-8874-ade9" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f95d-9091-7ac4-e635">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf47-b545-b928-584b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e888-7e73-5b2a-fccb" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f95d-9091-7ac4-e635" name="Pistol *" hidden="false" collective="false" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+            <entryLink id="f95d-9091-7ac4-e635" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="Pistol"/>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="dc67-96f3-03e5-6dc5" name="Genling 340 Frontiersman" hidden="false" collective="false" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
-            <entryLink id="853e-7052-b459-5ece" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
-            <entryLink id="cce7-d919-e38d-5681" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
-            <entryLink id="9385-fdd6-4b1f-1566" name="Flamer Thrower" hidden="false" collective="false" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
-            <entryLink id="da91-98bf-5b4a-76ac" name="Grenade Launcher" hidden="false" collective="false" targetId="f865-2f7d-474b-8c3c" type="selectionEntry"/>
-            <entryLink id="0a8d-4dfa-cf2c-765d" name="Thermal Rifle" hidden="false" collective="false" targetId="78c3-4d51-12bd-6d66" type="selectionEntry"/>
-            <entryLink id="a46f-1343-3b43-6222" name="Accutek LR-32 Laser Carbine" hidden="false" collective="false" targetId="ed1b-a6b3-c000-283f" type="selectionEntry"/>
-            <entryLink id="1f83-41ee-b4aa-ce52" name="Marksman Rifle (Accutek LR-45 DMR)" hidden="false" collective="false" targetId="6620-2cb8-6c9c-9948" type="selectionEntry"/>
-            <entryLink id="409e-c86b-ee6b-f499" name="Accutek LR-AM Heavy Rifle" hidden="false" collective="false" targetId="e671-2c75-86d3-cbd1" type="selectionEntry"/>
-            <entryLink id="0890-c12b-dfae-088c" name="Accutek LR-AWP" hidden="false" collective="false" targetId="6207-be6d-1fa0-dab8" type="selectionEntry"/>
+            <entryLink id="dc67-96f3-03e5-6dc5" name="Genling 340 Frontiersman" hidden="false" collective="false" import="true" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
+            <entryLink id="853e-7052-b459-5ece" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
+            <entryLink id="cce7-d919-e38d-5681" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
+            <entryLink id="9385-fdd6-4b1f-1566" name="Flamer Thrower" hidden="false" collective="false" import="true" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
+            <entryLink id="da91-98bf-5b4a-76ac" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="f865-2f7d-474b-8c3c" type="selectionEntry"/>
+            <entryLink id="0a8d-4dfa-cf2c-765d" name="Thermal Rifle" hidden="false" collective="false" import="true" targetId="78c3-4d51-12bd-6d66" type="selectionEntry"/>
+            <entryLink id="a46f-1343-3b43-6222" name="Accutek LR-32 Laser Carbine" hidden="false" collective="false" import="true" targetId="ed1b-a6b3-c000-283f" type="selectionEntry"/>
+            <entryLink id="1f83-41ee-b4aa-ce52" name="Marksman Rifle (Accutek LR-45 DMR)" hidden="false" collective="false" import="true" targetId="6620-2cb8-6c9c-9948" type="selectionEntry"/>
+            <entryLink id="409e-c86b-ee6b-f499" name="Accutek LR-AM Heavy Rifle" hidden="false" collective="false" import="true" targetId="e671-2c75-86d3-cbd1" type="selectionEntry"/>
+            <entryLink id="0890-c12b-dfae-088c" name="Accutek LR-AWP" hidden="false" collective="false" import="true" targetId="6207-be6d-1fa0-dab8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="412f-373f-bdce-78b1" name="Items" hidden="false" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
+        <entryLink id="412f-373f-bdce-78b1" name="Items" hidden="false" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="3.0"/>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3465-3a94-6ea5-5445" name="Corporation Marine Sergeant" publicationId="9491-c0e3-pubN79930" page="67" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3465-3a94-6ea5-5445" name="Corporation Marine Sergeant" publicationId="9491-c0e3-pubN79930" page="67" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5ae7-c6cb-26f0-532a" name="Corporation Marine Sergeant" publicationId="9491-c0e3-pubN79930" page="67" hidden="false" typeId="a9aa-7e6b-1b30-f1b0" typeName="Leader">
           <characteristics>
@@ -108,48 +108,48 @@
         <categoryLink id="55a3-a507-4a07-ffc2" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8962-6708-5c54-ad7d" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="2cf8-7246-a2d7-5357">
+        <selectionEntryGroup id="8962-6708-5c54-ad7d" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2cf8-7246-a2d7-5357">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="139d-3e7a-999e-df18" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b442-ec42-d70b-3247" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3b80-1e06-6591-e068" name="Officer&apos;s Sword" hidden="false" collective="false" targetId="71cc-3e0a-dac1-687e" type="selectionEntry"/>
-            <entryLink id="2cf8-7246-a2d7-5357" name="Energy Gauntlet" hidden="false" collective="false" targetId="b90e-e868-81cc-3cb1" type="selectionEntry">
+            <entryLink id="3b80-1e06-6591-e068" name="Officer&apos;s Sword" hidden="false" collective="false" import="true" targetId="71cc-3e0a-dac1-687e" type="selectionEntry"/>
+            <entryLink id="2cf8-7246-a2d7-5357" name="Energy Gauntlet" hidden="false" collective="false" import="true" targetId="b90e-e868-81cc-3cb1" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9a13-54f5-773a-cbc6" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="745a-0371-96b0-1479">
+        <selectionEntryGroup id="9a13-54f5-773a-cbc6" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="745a-0371-96b0-1479">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e016-39a7-c57f-9a62" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e58a-ae72-ce72-e5f9" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="745a-0371-96b0-1479" name="Pistol *" hidden="false" collective="false" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+            <entryLink id="745a-0371-96b0-1479" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="Pistol"/>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="a0ab-c311-160b-346e" name="Genling 340 Frontiersman" hidden="false" collective="false" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
-            <entryLink id="b785-8888-c91e-85da" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
-            <entryLink id="40cd-5588-5fed-4c80" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
-            <entryLink id="6744-97cb-e440-2074" name="Flamer Thrower" hidden="false" collective="false" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
+            <entryLink id="a0ab-c311-160b-346e" name="Genling 340 Frontiersman" hidden="false" collective="false" import="true" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
+            <entryLink id="b785-8888-c91e-85da" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
+            <entryLink id="40cd-5588-5fed-4c80" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
+            <entryLink id="6744-97cb-e440-2074" name="Flamer Thrower" hidden="false" collective="false" import="true" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="eda1-46f6-9b4b-7558" name="Items" hidden="false" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
+        <entryLink id="eda1-46f6-9b4b-7558" name="Items" hidden="false" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="2.0"/>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef64-d725-6341-fcda" name="Ranger Sergeant" publicationId="9491-c0e3-pubN79930" page="67" hidden="false" collective="false" type="unit">
+    <selectionEntry id="ef64-d725-6341-fcda" name="Ranger Sergeant" publicationId="9491-c0e3-pubN79930" page="67" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="620d-5bc0-b4d0-190e" name="Ranger Sergeant" publicationId="9491-c0e3-pubN79930" page="67" hidden="false" typeId="a9aa-7e6b-1b30-f1b0" typeName="Leader">
           <characteristics>
@@ -180,48 +180,48 @@
         <categoryLink id="f761-f8df-a626-566a" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8b3f-9962-d1b1-e907" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="d287-b0d3-f98b-e1b4">
+        <selectionEntryGroup id="8b3f-9962-d1b1-e907" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d287-b0d3-f98b-e1b4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd5f-98c6-025e-d452" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="989b-af7d-c250-b611" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b83f-4eea-7c5e-4b50" name="Officer&apos;s Sword" hidden="false" collective="false" targetId="71cc-3e0a-dac1-687e" type="selectionEntry"/>
-            <entryLink id="d287-b0d3-f98b-e1b4" name="Energy Gauntlet" hidden="false" collective="false" targetId="b90e-e868-81cc-3cb1" type="selectionEntry">
+            <entryLink id="b83f-4eea-7c5e-4b50" name="Officer&apos;s Sword" hidden="false" collective="false" import="true" targetId="71cc-3e0a-dac1-687e" type="selectionEntry"/>
+            <entryLink id="d287-b0d3-f98b-e1b4" name="Energy Gauntlet" hidden="false" collective="false" import="true" targetId="b90e-e868-81cc-3cb1" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="382f-1b99-dd03-7b29" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="5e62-1292-0887-97b4">
+        <selectionEntryGroup id="382f-1b99-dd03-7b29" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e62-1292-0887-97b4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b660-f526-e537-c8cb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c2f-ce54-79ff-500d" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5e62-1292-0887-97b4" name="Pistol *" hidden="false" collective="false" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+            <entryLink id="5e62-1292-0887-97b4" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="Pistol"/>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="d02f-6a44-0d64-3763" name="Genling 340 Frontiersman" hidden="false" collective="false" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
-            <entryLink id="5ba5-ae84-aab9-1a98" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
-            <entryLink id="495b-9a9d-af03-6128" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
-            <entryLink id="ba48-06cd-e05a-91f2" name="Flamer Thrower" hidden="false" collective="false" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
+            <entryLink id="d02f-6a44-0d64-3763" name="Genling 340 Frontiersman" hidden="false" collective="false" import="true" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
+            <entryLink id="5ba5-ae84-aab9-1a98" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
+            <entryLink id="495b-9a9d-af03-6128" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
+            <entryLink id="ba48-06cd-e05a-91f2" name="Flamer Thrower" hidden="false" collective="false" import="true" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="cf1e-13de-dbbe-c716" name="Items" hidden="false" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
+        <entryLink id="cf1e-13de-dbbe-c716" name="Items" hidden="false" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="3.0"/>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9556-e83e-8346-7963" name="Corporation Recruit" publicationId="9491-c0e3-pubN79930" page="68" hidden="true" collective="false" type="unit">
+    <selectionEntry id="9556-e83e-8346-7963" name="Corporation Recruit" publicationId="9491-c0e3-pubN79930" page="68" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -260,13 +260,13 @@
         <categoryLink id="5dc9-6c1e-9a4e-4882" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ced8-d617-8347-52a5" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="ced8-d617-8347-52a5" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2e-db7d-172d-8d23" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d8e-4684-55a1-4efc" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="ae56-bdd1-adb3-a481" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
+        <entryLink id="ae56-bdd1-adb3-a481" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
           </modifiers>
@@ -275,7 +275,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d35-e98f-ec38-4f62" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="7eff-bc08-9fbc-03a0" name="Items (Loren)" hidden="true" collective="false" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
+        <entryLink id="7eff-bc08-9fbc-03a0" name="Items (Loren)" hidden="true" collective="false" import="true" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -284,7 +284,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="1476-1719-e86b-bec4" name="Items (Regular)" hidden="true" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
+        <entryLink id="1476-1719-e86b-bec4" name="Items (Regular)" hidden="true" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -309,7 +309,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="da35-d217-929a-6282" name="Corporation Marine" publicationId="9491-c0e3-pubN79930" page="68" hidden="true" collective="false" type="unit">
+    <selectionEntry id="da35-d217-929a-6282" name="Corporation Marine" publicationId="9491-c0e3-pubN79930" page="68" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -343,30 +343,30 @@
         <categoryLink id="f75c-a286-377b-a759" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="badb-69d4-1698-ab4c" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="136e-34be-4c42-dd2c">
+        <selectionEntryGroup id="badb-69d4-1698-ab4c" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="136e-34be-4c42-dd2c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9402-e052-f9fb-a822" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8633-e3aa-bbfe-4a6f" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="136e-34be-4c42-dd2c" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
+            <entryLink id="136e-34be-4c42-dd2c" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="0909-d427-33c2-9d06" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
+            <entryLink id="0909-d427-33c2-9d06" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d382-4444-c829-1fef" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="d382-4444-c829-1fef" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b525-5f2d-6785-93a5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c8-a850-733d-682a" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="2528-9008-8d71-46c6" name="Items" hidden="false" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
-        <entryLink id="9ed1-e8d9-7ee3-75bc" name="Pistol *" hidden="false" collective="false" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+        <entryLink id="2528-9008-8d71-46c6" name="Items" hidden="false" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
+        <entryLink id="9ed1-e8d9-7ee3-75bc" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0127-e7cf-4df0-6754" type="max"/>
           </constraints>
@@ -377,7 +377,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fbcb-2e5e-3b92-f438" name="Corporation Veteran" publicationId="9491-c0e3-pubN79930" page="68" hidden="true" collective="false" type="unit">
+    <selectionEntry id="fbcb-2e5e-3b92-f438" name="Corporation Veteran" publicationId="9491-c0e3-pubN79930" page="68" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -416,15 +416,15 @@
         <categoryLink id="803c-9d64-4206-96fe" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6d55-bc19-fe05-9087" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="2abc-45f0-f7df-00dc">
+        <selectionEntryGroup id="6d55-bc19-fe05-9087" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2abc-45f0-f7df-00dc">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d78e-d75f-26b2-e214" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3015-8775-63d8-30d6" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="bf2e-e5c2-d954-9049" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
-            <entryLink id="8bfa-a51b-8358-546d" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
-            <entryLink id="2abc-45f0-f7df-00dc" name="Accutek LR-32 Laser Carbine" hidden="false" collective="false" targetId="ed1b-a6b3-c000-283f" type="selectionEntry">
+            <entryLink id="bf2e-e5c2-d954-9049" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
+            <entryLink id="8bfa-a51b-8358-546d" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
+            <entryLink id="2abc-45f0-f7df-00dc" name="Accutek LR-32 Laser Carbine" hidden="false" collective="false" import="true" targetId="ed1b-a6b3-c000-283f" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
@@ -433,18 +433,18 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="328c-4910-43ff-b5d4" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="328c-4910-43ff-b5d4" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc65-c6ca-c772-026d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b026-565c-6ac1-ab3e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="cde3-8f2a-3841-8108" name="Pistol *" hidden="false" collective="false" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+        <entryLink id="cde3-8f2a-3841-8108" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e75e-ff56-3091-410f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6cbd-1704-fee6-fee6" name="Items (Loren)" hidden="true" collective="false" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
+        <entryLink id="6cbd-1704-fee6-fee6" name="Items (Loren)" hidden="true" collective="false" import="true" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -453,7 +453,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="c51e-9b33-7956-54ca" name="Items (Regular)" hidden="true" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
+        <entryLink id="c51e-9b33-7956-54ca" name="Items (Regular)" hidden="true" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -478,7 +478,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c82f-8974-31eb-f2e8" name="Ranger" publicationId="9491-c0e3-pubN79930" page="69" hidden="true" collective="false" type="unit">
+    <selectionEntry id="c82f-8974-31eb-f2e8" name="Ranger" publicationId="9491-c0e3-pubN79930" page="69" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -515,48 +515,48 @@
         <categoryLink id="88de-30b9-a136-7845" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c300-2574-6f42-e258" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="6972-6de8-a9bb-c1f6">
+        <selectionEntryGroup id="c300-2574-6f42-e258" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6972-6de8-a9bb-c1f6">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f591-5355-36c3-b011" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c5b-3581-141d-fc29" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4e5e-f679-6649-1ad3" name="Genling 340 Frontiersman" hidden="false" collective="false" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
-            <entryLink id="6972-6de8-a9bb-c1f6" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
+            <entryLink id="4e5e-f679-6649-1ad3" name="Genling 340 Frontiersman" hidden="false" collective="false" import="true" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
+            <entryLink id="6972-6de8-a9bb-c1f6" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="2652-713d-d1a4-4966" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
-            <entryLink id="870c-363e-e32b-ca0d" name="Flamer Thrower" hidden="false" collective="false" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
-            <entryLink id="c4d0-e8aa-6b82-8475" name="Thermal Rifle" hidden="false" collective="false" targetId="78c3-4d51-12bd-6d66" type="selectionEntry"/>
-            <entryLink id="8948-7aa2-cddd-e6d5" name="Accutek LR-32 Laser Carbine" hidden="false" collective="false" targetId="ed1b-a6b3-c000-283f" type="selectionEntry"/>
-            <entryLink id="f376-d871-d0f0-f4be" name="Accutek LR-45 DMR" hidden="false" collective="false" targetId="6620-2cb8-6c9c-9948" type="selectionEntry"/>
-            <entryLink id="d7b3-5c03-89fd-3a41" name="Accutek LR-AM Heavy Rifle" hidden="false" collective="false" targetId="e671-2c75-86d3-cbd1" type="selectionEntry"/>
-            <entryLink id="4170-3499-40bf-7d99" name="Accutek LR-AWP" hidden="false" collective="false" targetId="6207-be6d-1fa0-dab8" type="selectionEntry"/>
+            <entryLink id="2652-713d-d1a4-4966" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
+            <entryLink id="870c-363e-e32b-ca0d" name="Flamer Thrower" hidden="false" collective="false" import="true" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
+            <entryLink id="c4d0-e8aa-6b82-8475" name="Thermal Rifle" hidden="false" collective="false" import="true" targetId="78c3-4d51-12bd-6d66" type="selectionEntry"/>
+            <entryLink id="8948-7aa2-cddd-e6d5" name="Accutek LR-32 Laser Carbine" hidden="false" collective="false" import="true" targetId="ed1b-a6b3-c000-283f" type="selectionEntry"/>
+            <entryLink id="f376-d871-d0f0-f4be" name="Accutek LR-45 DMR" hidden="false" collective="false" import="true" targetId="6620-2cb8-6c9c-9948" type="selectionEntry"/>
+            <entryLink id="d7b3-5c03-89fd-3a41" name="Accutek LR-AM Heavy Rifle" hidden="false" collective="false" import="true" targetId="e671-2c75-86d3-cbd1" type="selectionEntry"/>
+            <entryLink id="4170-3499-40bf-7d99" name="Accutek LR-AWP" hidden="false" collective="false" import="true" targetId="6207-be6d-1fa0-dab8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6619-04dc-04ae-42df" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="6619-04dc-04ae-42df" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08d4-d1e5-6dbc-638a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c7c-2db8-4f39-0b78" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="58f8-53c5-9dfc-8176" name="Pistol *" hidden="false" collective="false" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+        <entryLink id="58f8-53c5-9dfc-8176" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8cb-cd3d-c7c0-f916" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1d63-1ebe-6c0e-98f1" name="Items" hidden="false" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
+        <entryLink id="1d63-1ebe-6c0e-98f1" name="Items" hidden="false" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="2.0"/>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d92a-8f24-e16e-29b0" name="Marine Specialist" publicationId="9491-c0e3-pubN79930" page="69" hidden="true" collective="false" type="unit">
+    <selectionEntry id="d92a-8f24-e16e-29b0" name="Marine Specialist" publicationId="9491-c0e3-pubN79930" page="69" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -595,42 +595,42 @@
         <categoryLink id="fb01-3fbb-aa3d-dee1" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0251-7a2b-3f93-c7bd" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="fc3f-a115-f2fa-cfeb">
+        <selectionEntryGroup id="0251-7a2b-3f93-c7bd" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="fc3f-a115-f2fa-cfeb">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccf6-3755-608a-2392" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d6-44d6-106c-0b00" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="43ea-5e1e-9a48-32f4" name="Genling 340 &apos;Frontiersman&apos;" hidden="false" collective="false" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
-            <entryLink id="fc3f-a115-f2fa-cfeb" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
+            <entryLink id="43ea-5e1e-9a48-32f4" name="Genling 340 &apos;Frontiersman&apos;" hidden="false" collective="false" import="true" targetId="5314-054e-3444-ac93" type="selectionEntry"/>
+            <entryLink id="fc3f-a115-f2fa-cfeb" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="fe2d-0e0b-24b0-b63d" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
-            <entryLink id="a5b1-3faf-7fdb-1ec7" name="Flamer Thrower" hidden="false" collective="false" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
-            <entryLink id="c910-279a-bd1d-8682" name="Grenade Launcher" hidden="false" collective="false" targetId="f865-2f7d-474b-8c3c" type="selectionEntry"/>
-            <entryLink id="7fee-b8a3-893b-fef6" name="Thermal Rifle" hidden="false" collective="false" targetId="78c3-4d51-12bd-6d66" type="selectionEntry"/>
-            <entryLink id="271f-d902-5aac-ab84" name="Accutek LR-32 Laser Carbine" hidden="false" collective="false" targetId="ed1b-a6b3-c000-283f" type="selectionEntry"/>
-            <entryLink id="2e78-28cd-5723-0e44" name="Accutek LR-45 DMR" hidden="false" collective="false" targetId="6620-2cb8-6c9c-9948" type="selectionEntry"/>
-            <entryLink id="9a7c-28c1-731b-a693" name="Heavy Laser Rifle (Accutek LR-AM)" hidden="false" collective="false" targetId="e671-2c75-86d3-cbd1" type="selectionEntry"/>
-            <entryLink id="e6b2-04c9-d2a1-bb7c" name="Accutek LR-AWP" hidden="false" collective="false" targetId="6207-be6d-1fa0-dab8" type="selectionEntry"/>
+            <entryLink id="fe2d-0e0b-24b0-b63d" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
+            <entryLink id="a5b1-3faf-7fdb-1ec7" name="Flamer Thrower" hidden="false" collective="false" import="true" targetId="c024-afd3-6a4c-14ae" type="selectionEntry"/>
+            <entryLink id="c910-279a-bd1d-8682" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="f865-2f7d-474b-8c3c" type="selectionEntry"/>
+            <entryLink id="7fee-b8a3-893b-fef6" name="Thermal Rifle" hidden="false" collective="false" import="true" targetId="78c3-4d51-12bd-6d66" type="selectionEntry"/>
+            <entryLink id="271f-d902-5aac-ab84" name="Accutek LR-32 Laser Carbine" hidden="false" collective="false" import="true" targetId="ed1b-a6b3-c000-283f" type="selectionEntry"/>
+            <entryLink id="2e78-28cd-5723-0e44" name="Accutek LR-45 DMR" hidden="false" collective="false" import="true" targetId="6620-2cb8-6c9c-9948" type="selectionEntry"/>
+            <entryLink id="9a7c-28c1-731b-a693" name="Heavy Laser Rifle (Accutek LR-AM)" hidden="false" collective="false" import="true" targetId="e671-2c75-86d3-cbd1" type="selectionEntry"/>
+            <entryLink id="e6b2-04c9-d2a1-bb7c" name="Accutek LR-AWP" hidden="false" collective="false" import="true" targetId="6207-be6d-1fa0-dab8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2e42-b826-796a-db5a" name="Pistol *" hidden="false" collective="false" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+        <entryLink id="2e42-b826-796a-db5a" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="728e-8536-d29b-6c3d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="48be-1470-2781-655e" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="48be-1470-2781-655e" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1498-ed91-ce73-a16b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd4-d362-37e8-af8e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="1485-8275-b2e4-8f2f" name="Items (Loren)" hidden="true" collective="false" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
+        <entryLink id="1485-8275-b2e4-8f2f" name="Items (Loren)" hidden="true" collective="false" import="true" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -639,7 +639,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="3b48-2de3-7b23-78db" name="Items (Regular)" hidden="true" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
+        <entryLink id="3b48-2de3-7b23-78db" name="Items (Regular)" hidden="true" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -664,7 +664,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be23-0bb2-6ee4-8567" name="Corporation Medic" publicationId="9491-c0e3-pubN79930" page="70" hidden="true" collective="false" type="unit">
+    <selectionEntry id="be23-0bb2-6ee4-8567" name="Corporation Medic" publicationId="9491-c0e3-pubN79930" page="70" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -706,15 +706,15 @@
         <categoryLink id="f94a-2764-6a0c-9b09" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="aa0a-2626-18f3-27de" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="1353-a0e3-f7fb-7941">
+        <selectionEntryGroup id="aa0a-2626-18f3-27de" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1353-a0e3-f7fb-7941">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="914e-f60c-7330-29dd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd15-534f-3834-de08" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c732-9fb7-578e-5011" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
-            <entryLink id="f4fb-63ee-681d-eb8c" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
-            <entryLink id="1353-a0e3-f7fb-7941" name="Pistol *" hidden="false" collective="false" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+            <entryLink id="c732-9fb7-578e-5011" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry"/>
+            <entryLink id="f4fb-63ee-681d-eb8c" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
+            <entryLink id="1353-a0e3-f7fb-7941" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="Pistol"/>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
@@ -724,13 +724,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6f16-b88d-1171-2622" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="6f16-b88d-1171-2622" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="491a-fce0-8423-73d8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9c8-38f4-d9a5-caba" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="6f8a-84db-fbb9-7c2e" name="Items" hidden="true" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
+        <entryLink id="6f8a-84db-fbb9-7c2e" name="Items" hidden="true" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -749,7 +749,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="38c8-ef05-aae7-b6e4" name="Items" hidden="true" collective="false" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
+        <entryLink id="38c8-ef05-aae7-b6e4" name="Items" hidden="true" collective="false" import="true" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -764,7 +764,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="99ec-9eb2-4962-aa36" name="Corporation Engineer" publicationId="9491-c0e3-pubN79930" page="69" hidden="true" collective="false" type="unit">
+    <selectionEntry id="99ec-9eb2-4962-aa36" name="Corporation Engineer" publicationId="9491-c0e3-pubN79930" page="69" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -802,41 +802,41 @@
         <categoryLink id="f021-a308-f64e-6749" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="181e-ccb5-b6dd-ccb7" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="6c62-93d6-518e-ffa5">
+        <selectionEntryGroup id="181e-ccb5-b6dd-ccb7" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c62-93d6-518e-ffa5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cad-3708-cd7f-1840" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="777b-cfa7-ba88-f274" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6c62-93d6-518e-ffa5" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
+            <entryLink id="6c62-93d6-518e-ffa5" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="8c1c-e185-79bc-3717" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
+            <entryLink id="8c1c-e185-79bc-3717" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f0b1-987b-cee1-1b55" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="f0b1-987b-cee1-1b55" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="387f-436b-452b-7553" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97fc-affa-be42-7889" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="61cd-e2ae-92a1-db96" name="Pistol *" hidden="false" collective="false" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+        <entryLink id="61cd-e2ae-92a1-db96" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae8d-5900-6e52-f127" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2205-408a-8f54-7228" name="Items" hidden="false" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
+        <entryLink id="2205-408a-8f54-7228" name="Items" hidden="false" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="1.0"/>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="844f-c806-3d2c-3b53" name="Heavy Weapons Squad" publicationId="9491-c0e3-pubN79930" page="70" hidden="true" collective="false" type="unit">
+    <selectionEntry id="844f-c806-3d2c-3b53" name="Heavy Weapons Squad" publicationId="9491-c0e3-pubN79930" page="70" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -878,32 +878,32 @@
         <categoryLink id="12c9-b006-66da-2fa9" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ac49-7659-d341-86ea" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="db72-8bfe-d743-9513">
+        <selectionEntryGroup id="ac49-7659-d341-86ea" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="db72-8bfe-d743-9513">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdda-61aa-4891-01e7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e18-5a4a-94ac-27bb" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="db72-8bfe-d743-9513" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
+            <entryLink id="db72-8bfe-d743-9513" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="2197-6607-13ca-fd4f" name="Autocannon" hidden="false" collective="false" targetId="1bd5-8b4b-24aa-2576" type="selectionEntry"/>
-            <entryLink id="a707-6ef1-b528-9c92" name="Laser Cannon" hidden="false" collective="false" targetId="97c1-0865-84b9-1fe2" type="selectionEntry"/>
-            <entryLink id="0ee5-c3ad-eeee-1589" name="Missile Launcher" hidden="false" collective="false" targetId="71e7-a2ca-d047-5e3c" type="selectionEntry"/>
-            <entryLink id="af23-3e23-4c7c-7b87" name="Mortar" hidden="false" collective="false" targetId="8bc5-1c5c-0b1c-ba18" type="selectionEntry"/>
+            <entryLink id="2197-6607-13ca-fd4f" name="Autocannon" hidden="false" collective="false" import="true" targetId="1bd5-8b4b-24aa-2576" type="selectionEntry"/>
+            <entryLink id="a707-6ef1-b528-9c92" name="Laser Cannon" hidden="false" collective="false" import="true" targetId="97c1-0865-84b9-1fe2" type="selectionEntry"/>
+            <entryLink id="0ee5-c3ad-eeee-1589" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="71e7-a2ca-d047-5e3c" type="selectionEntry"/>
+            <entryLink id="af23-3e23-4c7c-7b87" name="Mortar" hidden="false" collective="false" import="true" targetId="8bc5-1c5c-0b1c-ba18" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4852-45b3-6dc7-29ea" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="4852-45b3-6dc7-29ea" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a04e-bf64-650d-478b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6624-8dfb-9cc7-333f" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="0bde-c98b-b387-d769" name="Items (Loren)" hidden="true" collective="false" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
+        <entryLink id="0bde-c98b-b387-d769" name="Items (Loren)" hidden="true" collective="false" import="true" targetId="36df-9cbd-392c-7aac" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -912,7 +912,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="bf9a-179f-13bb-b7ae" name="Items (Regular)" hidden="true" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
+        <entryLink id="bf9a-179f-13bb-b7ae" name="Items (Regular)" hidden="true" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -937,7 +937,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6761-dab8-3b74-c180" name="Corporation Strider" publicationId="9491-c0e3-pubN79930" page="72" hidden="true" collective="false" type="unit">
+    <selectionEntry id="6761-dab8-3b74-c180" name="Corporation Strider" publicationId="9491-c0e3-pubN79930" page="72" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -976,7 +976,7 @@
         <categoryLink id="2be6-cce2-3f18-b074" name="New CategoryLink" hidden="false" targetId="caa6-edbf-2b8f-89d6" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="88f8-669f-d3ba-a4db" name="Hardpoints" hidden="false" collective="false">
+        <selectionEntryGroup id="88f8-669f-d3ba-a4db" name="Hardpoints" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="e440-abc8-e6c1-8294" value="1.0">
               <conditions>
@@ -993,32 +993,32 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e440-abc8-e6c1-8294" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7d6d-c530-b81b-7686" name="Aggressor Shield" hidden="false" collective="false" targetId="f2f3-3a4c-9c16-fcd3" type="selectionEntry">
+            <entryLink id="7d6d-c530-b81b-7686" name="Aggressor Shield" hidden="false" collective="false" import="true" targetId="f2f3-3a4c-9c16-fcd3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b878-a51e-9a69-a6b2" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0823-f5a9-fb65-ea7f" name="Polaris Cannon **" hidden="false" collective="false" targetId="4459-65b2-c720-2dd2" type="selectionEntry">
+            <entryLink id="0823-f5a9-fb65-ea7f" name="Polaris Cannon **" hidden="false" collective="false" import="true" targetId="4459-65b2-c720-2dd2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d3c-bca6-e6f7-60b8" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b01f-f393-f8d3-9a6d" name="Grav-Ram Spear" hidden="false" collective="false" targetId="3fc4-557a-7714-8058" type="selectionEntry">
+            <entryLink id="b01f-f393-f8d3-9a6d" name="Grav-Ram Spear" hidden="false" collective="false" import="true" targetId="3fc4-557a-7714-8058" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91a2-bb31-647b-5b92" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="e896-b06c-fab8-66dc" name="Chainsaw" hidden="false" collective="false" targetId="a4a6-e125-dc0c-0658" type="selectionEntry">
+            <entryLink id="e896-b06c-fab8-66dc" name="Chainsaw" hidden="false" collective="false" import="true" targetId="a4a6-e125-dc0c-0658" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6197-2be9-260f-4aa5" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="8662-e889-2dc1-fc3e" name="Heavy Burst Laser **" hidden="false" collective="false" targetId="5be4-50fb-04b1-9f83" type="selectionEntry">
+            <entryLink id="8662-e889-2dc1-fc3e" name="Heavy Burst Laser **" hidden="false" collective="false" import="true" targetId="5be4-50fb-04b1-9f83" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a69-0c2f-dcb3-fd32" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="6a8a-cb17-273c-3dba" name="Assault Flamer" hidden="false" collective="false" targetId="1ae6-d9b7-fb3e-83cc" type="selectionEntry">
+            <entryLink id="6a8a-cb17-273c-3dba" name="Assault Flamer" hidden="false" collective="false" import="true" targetId="1ae6-d9b7-fb3e-83cc" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="072d-9d59-151f-584c" type="max"/>
               </constraints>
@@ -1027,12 +1027,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="99e6-1a1b-0b49-b733" name="Shoulder Rockets ***" hidden="false" collective="false" targetId="d7ce-4d49-a5b5-9f42" type="selectionEntry">
+        <entryLink id="99e6-1a1b-0b49-b733" name="Shoulder Rockets ***" hidden="false" collective="false" import="true" targetId="d7ce-4d49-a5b5-9f42" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b0d-30d1-5871-c56e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3816-687f-67f7-3b22" name="Smoke Launchers ***" hidden="false" collective="false" targetId="05de-972b-a4e1-f44b" type="selectionEntry">
+        <entryLink id="3816-687f-67f7-3b22" name="Smoke Launchers ***" hidden="false" collective="false" import="true" targetId="05de-972b-a4e1-f44b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91ed-9c56-43f3-9b03" type="max"/>
           </constraints>
@@ -1043,7 +1043,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6550-5797-8ea4-8b1a" name="Major Loren Chard [1]" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6550-5797-8ea4-8b1a" name="Major Loren Chard [1]" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="eb6a-6e8c-639e-9cd2" name="Major Loren Chard" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" typeId="a9aa-7e6b-1b30-f1b0" typeName="Leader">
           <characteristics>
@@ -1073,13 +1073,13 @@
         <categoryLink id="41da-4e02-3702-8747" name="New CategoryLink" hidden="false" targetId="9d0a-c2f8-ef29-972c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e396-2942-3e6c-5a63" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="e396-2942-3e6c-5a63" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0125-4b64-8021-0905" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f400-43d6-812b-e95f" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="78a4-d77b-74fa-7fa3" name="Genling 340 &apos;Frontiersman&apos;" hidden="false" collective="false" targetId="5314-054e-3444-ac93" type="selectionEntry">
+        <entryLink id="78a4-d77b-74fa-7fa3" name="Genling 340 &apos;Frontiersman&apos;" hidden="false" collective="false" import="true" targetId="5314-054e-3444-ac93" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
           </modifiers>
@@ -1094,7 +1094,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af71-5a7e-207e-c957" name="Major Loren Chard [1]" publicationId="9491-c0e3-pubN79930" page="71" hidden="true" collective="false" type="unit">
+    <selectionEntry id="af71-5a7e-207e-c957" name="Major Loren Chard [1]" publicationId="9491-c0e3-pubN79930" page="71" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1135,13 +1135,13 @@
         <categoryLink id="b032-72eb-853d-f3fd" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7f76-7ff6-e986-4c4f" name="Knife" hidden="false" collective="false" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
+        <entryLink id="7f76-7ff6-e986-4c4f" name="Knife" hidden="false" collective="false" import="true" targetId="7a3c-8f4b-5072-870a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03bc-71ed-118d-61bf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40ab-5292-9412-a936" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="3c02-8c86-2419-5d18" name="Genling 340 &apos;Frontiersman&apos;" hidden="false" collective="false" targetId="5314-054e-3444-ac93" type="selectionEntry">
+        <entryLink id="3c02-8c86-2419-5d18" name="Genling 340 &apos;Frontiersman&apos;" hidden="false" collective="false" import="true" targetId="5314-054e-3444-ac93" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="0.0"/>
           </modifiers>
@@ -1156,7 +1156,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="caf9-fc90-a0a1-4f86" name="Lt. Commander Roca [1]" publicationId="9491-c0e3-pubN79930" page="71" hidden="true" collective="false" type="unit">
+    <selectionEntry id="caf9-fc90-a0a1-4f86" name="Lt. Commander Roca [1]" publicationId="9491-c0e3-pubN79930" page="71" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1198,7 +1198,7 @@
         <categoryLink id="cdcc-470b-b564-3d55" name="New CategoryLink" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="25ce-f840-8cfd-a7de" name="LSX Sniper Rifle" publicationId="9491-c0e3-pubN79930" page="71" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="25ce-f840-8cfd-a7de" name="LSX Sniper Rifle" publicationId="9491-c0e3-pubN79930" page="71" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfcb-8c80-406d-9870" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03b0-a413-bcce-46a1" type="max"/>
@@ -1222,7 +1222,7 @@
             <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="20dd-e009-b262-3a70" name="Pistol" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="20dd-e009-b262-3a70" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a221-27ed-8295-9369" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be01-14a0-9555-f474" type="min"/>
@@ -1242,7 +1242,7 @@
             <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0b23-f750-01e5-c0df" name="Energy Gauntlet" publicationId="9491-c0e3-pubN79930" page="71" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0b23-f750-01e5-c0df" name="Energy Gauntlet" publicationId="9491-c0e3-pubN79930" page="71" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4358-6f5c-832b-bd95" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49e8-66d0-c2ec-472d" type="min"/>
@@ -1262,11 +1262,12 @@
           </infoLinks>
           <costs>
             <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
+            <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="6ef6-fb9e-8d5d-7208" name="Jump Pack" hidden="false" collective="false" targetId="fc30-1c8d-ef65-7ba9" type="selectionEntry">
+        <entryLink id="6ef6-fb9e-8d5d-7208" name="Jump Pack" hidden="false" collective="false" import="true" targetId="fc30-1c8d-ef65-7ba9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6a9-9bfa-cbff-9098" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f7a-35e0-db1d-0590" type="min"/>
@@ -1278,7 +1279,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="43.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bb2-722b-f960-4203" name="Corporation Medi-Bot" publicationId="9491-c0e3-pubN79930" page="70" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="8bb2-722b-f960-4203" name="Corporation Medi-Bot" publicationId="9491-c0e3-pubN79930" page="70" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1316,7 +1317,7 @@
         <categoryLink id="e75a-29af-c764-bc30" name="Specialists" hidden="false" targetId="a3e3-dc59-6001-a302" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0bd3-042b-712f-e913" name="Defender Shield (+)" hidden="false" collective="false" targetId="0c4b-92d5-3ab2-22b8" type="selectionEntry">
+        <entryLink id="0bd3-042b-712f-e913" name="Defender Shield (+)" hidden="false" collective="false" import="true" targetId="0c4b-92d5-3ab2-22b8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="name" value="Defender Shield"/>
           </modifiers>
@@ -1325,7 +1326,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fe6-165c-950e-32d9" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="31eb-676c-c70f-8771" name="Items" hidden="true" collective="false" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
+        <entryLink id="31eb-676c-c70f-8771" name="Items" hidden="true" collective="false" import="true" targetId="f4e6-a5ae-4107-e9be" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1352,7 +1353,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="a256-0597-aaab-fc44" name="Blaine [1]" hidden="true" collective="false" targetId="e67f-3025-4142-b721" type="selectionEntry">
+    <entryLink id="a256-0597-aaab-fc44" name="Blaine [1]" hidden="true" collective="false" import="true" targetId="e67f-3025-4142-b721" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1377,7 +1378,7 @@
         <categoryLink id="34ef-f6ae-ad5d-c630" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6b28-3732-5d6f-2ddd" name="Kr-0m3 [1]" hidden="true" collective="false" targetId="6223-aa7a-fd05-1084" type="selectionEntry">
+    <entryLink id="6b28-3732-5d6f-2ddd" name="Kr-0m3 [1]" hidden="true" collective="false" import="true" targetId="6223-aa7a-fd05-1084" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1402,7 +1403,7 @@
         <categoryLink id="4b74-3761-fa78-0591" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f0c3-235b-8687-61d4" name="Kizai Uro [1]" hidden="true" collective="false" targetId="3e68-4f54-e946-99be" type="selectionEntry">
+    <entryLink id="f0c3-235b-8687-61d4" name="Kizai Uro [1]" hidden="true" collective="false" import="true" targetId="3e68-4f54-e946-99be" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1427,7 +1428,7 @@
         <categoryLink id="c336-d779-aace-74ac" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="227c-a08f-ae15-1033" name="So Hin [1]" hidden="true" collective="false" targetId="1d45-d2d0-651f-6a77" type="selectionEntry">
+    <entryLink id="227c-a08f-ae15-1033" name="So Hin [1]" hidden="true" collective="false" import="true" targetId="1d45-d2d0-651f-6a77" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1452,7 +1453,7 @@
         <categoryLink id="343d-6109-1594-c830" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="efdd-8169-633f-2047" name="Freya [1]" hidden="true" collective="false" targetId="62cc-6103-d30d-56e1" type="selectionEntry">
+    <entryLink id="efdd-8169-633f-2047" name="Freya [1]" hidden="true" collective="false" import="true" targetId="62cc-6103-d30d-56e1" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1477,7 +1478,7 @@
         <categoryLink id="289f-5698-9dcb-afe6" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="25bd-6e70-a47c-e826" name="Chovar Psychic" hidden="true" collective="false" targetId="0304-1c3a-5501-a41f" type="selectionEntry">
+    <entryLink id="25bd-6e70-a47c-e826" name="Chovar Psychic" hidden="true" collective="false" import="true" targetId="0304-1c3a-5501-a41f" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1502,7 +1503,7 @@
         <categoryLink id="1f2b-e348-7ca3-58c7" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9e28-e03f-9fd3-e176" name="Kira Nikolovski [1]" hidden="true" collective="false" targetId="9fd0-1d55-d388-438c" type="selectionEntry">
+    <entryLink id="9e28-e03f-9fd3-e176" name="Kira Nikolovski [1]" hidden="true" collective="false" import="true" targetId="9fd0-1d55-d388-438c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1527,7 +1528,7 @@
         <categoryLink id="8910-88f5-5ea2-dc29" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a569-17c3-f1f2-9873" name="Hund, Rebel Bounty Hunter [1]" hidden="true" collective="false" targetId="82b7-ee91-ddd9-b4ea" type="selectionEntry">
+    <entryLink id="a569-17c3-f1f2-9873" name="Hund, Rebel Bounty Hunter [1]" hidden="true" collective="false" import="true" targetId="82b7-ee91-ddd9-b4ea" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1552,7 +1553,7 @@
         <categoryLink id="5b53-50d6-6dbd-a72f" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="969c-ff04-98d3-21ee" name="Boomer, Hobgoblin Grenadier [1]" hidden="true" collective="false" targetId="fcdd-d439-27de-bcca" type="selectionEntry">
+    <entryLink id="969c-ff04-98d3-21ee" name="Boomer, Hobgoblin Grenadier [1]" hidden="true" collective="false" import="true" targetId="fcdd-d439-27de-bcca" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1577,7 +1578,7 @@
         <categoryLink id="164d-eed9-c93c-2a60" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="65d7-51f0-25cf-4566" name="Ector Zanchez [1]" hidden="true" collective="false" targetId="9965-723b-8710-2e5e" type="selectionEntry">
+    <entryLink id="65d7-51f0-25cf-4566" name="Ector Zanchez [1]" hidden="true" collective="false" import="true" targetId="9965-723b-8710-2e5e" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1602,7 +1603,7 @@
         <categoryLink id="4c27-e742-41b7-7692" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8581-970b-e65c-de93" name="Blaine on Jetbike [1]" hidden="true" collective="false" targetId="c9c3-85b2-a438-802f" type="selectionEntry">
+    <entryLink id="8581-970b-e65c-de93" name="Blaine on Jetbike [1]" hidden="true" collective="false" import="true" targetId="c9c3-85b2-a438-802f" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1627,7 +1628,7 @@
         <categoryLink id="eb75-8c8a-069a-9670" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cc41-b334-2fa8-9f0f" name="Alyse [1]" hidden="true" collective="false" targetId="7090-0cbe-c1ce-53fe" type="selectionEntry">
+    <entryLink id="cc41-b334-2fa8-9f0f" name="Alyse [1]" hidden="true" collective="false" import="true" targetId="7090-0cbe-c1ce-53fe" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1652,7 +1653,7 @@
         <categoryLink id="a8c0-a803-c8d6-3526" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="810f-04cb-5ad8-e282" name="Francesco &apos;The Devil&apos; Selvaggio [1]" hidden="true" collective="false" targetId="7725-9578-69db-f9cf" type="selectionEntry">
+    <entryLink id="810f-04cb-5ad8-e282" name="Francesco &apos;The Devil&apos; Selvaggio [1]" hidden="true" collective="false" import="true" targetId="7725-9578-69db-f9cf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1677,7 +1678,7 @@
         <categoryLink id="61a6-bdfa-56d3-7762" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cfd6-50f4-5bbd-4709" name="The Helfather [1]" hidden="true" collective="false" targetId="9c11-2433-daf8-9638" type="selectionEntry">
+    <entryLink id="cfd6-50f4-5bbd-4709" name="The Helfather [1]" hidden="true" collective="false" import="true" targetId="9c11-2433-daf8-9638" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1702,7 +1703,7 @@
         <categoryLink id="d9f8-24d8-75ee-4df9" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c2d8-a4ad-ec80-fdac" name="Captain Erika Dulinksy [1]" hidden="true" collective="false" targetId="e2d8-3e44-2041-4af0" type="selectionEntry">
+    <entryLink id="c2d8-a4ad-ec80-fdac" name="Captain Erika Dulinksy [1]" hidden="true" collective="false" import="true" targetId="e2d8-3e44-2041-4af0" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1727,7 +1728,7 @@
         <categoryLink id="a7a9-f980-8065-2db1" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9ff7-f1ff-b4ca-950c" name="Sergeant Ugurik [1]" hidden="true" collective="false" targetId="0c6a-e454-2b67-15ef" type="selectionEntry">
+    <entryLink id="9ff7-f1ff-b4ca-950c" name="Sergeant Ugurik [1]" hidden="true" collective="false" import="true" targetId="0c6a-e454-2b67-15ef" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1752,7 +1753,7 @@
         <categoryLink id="f949-595f-41c2-2fbe" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ad60-5b3b-6bf6-6012" name="Hacker Half-Tail [1]" hidden="true" collective="false" targetId="befd-5f88-6943-7762" type="selectionEntry">
+    <entryLink id="ad60-5b3b-6bf6-6012" name="Hacker Half-Tail [1]" hidden="true" collective="false" import="true" targetId="befd-5f88-6943-7762" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1777,7 +1778,7 @@
         <categoryLink id="5cb5-0f11-89c8-973b" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="eb2c-1a12-faa2-8ca8" name="Kur Keela [1]" hidden="true" collective="false" targetId="d85b-4ba3-58f5-0e6c" type="selectionEntry">
+    <entryLink id="eb2c-1a12-faa2-8ca8" name="Kur Keela [1]" hidden="true" collective="false" import="true" targetId="d85b-4ba3-58f5-0e6c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1802,7 +1803,7 @@
         <categoryLink id="14ae-00b8-bcc7-7ac3" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0f72-e9ad-fa6e-c097" name="C.U.R.B07153 - &apos;Curby&apos; [1]" hidden="true" collective="false" targetId="1496-0a3d-8806-b8a1" type="selectionEntry">
+    <entryLink id="0f72-e9ad-fa6e-c097" name="C.U.R.B07153 - &apos;Curby&apos; [1]" hidden="true" collective="false" import="true" targetId="1496-0a3d-8806-b8a1" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1827,7 +1828,7 @@
         <categoryLink id="7ca3-8292-3aa9-83ba" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e471-1908-793c-5dea" name="Leesh&apos;ma [1]" hidden="true" collective="false" targetId="ea81-3dbf-cea3-9648" type="selectionEntry">
+    <entryLink id="e471-1908-793c-5dea" name="Leesh&apos;ma [1]" hidden="true" collective="false" import="true" targetId="ea81-3dbf-cea3-9648" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1852,7 +1853,7 @@
         <categoryLink id="95f2-2396-29c7-f783" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6ed9-657d-000e-49c5" name="Ogan Helkkare [1]" hidden="true" collective="false" targetId="45e3-8973-c025-5923" type="selectionEntry">
+    <entryLink id="6ed9-657d-000e-49c5" name="Ogan Helkkare [1]" hidden="true" collective="false" import="true" targetId="45e3-8973-c025-5923" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1877,7 +1878,7 @@
         <categoryLink id="fe29-201f-b7f1-1e7d" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="39c7-dfe5-05ee-3a83" name="The Survivor [1]" hidden="true" collective="false" targetId="2c72-6306-7fce-219b" type="selectionEntry">
+    <entryLink id="39c7-dfe5-05ee-3a83" name="The Survivor [1]" hidden="true" collective="false" import="true" targetId="2c72-6306-7fce-219b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1902,7 +1903,7 @@
         <categoryLink id="904c-2a72-074b-194d" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6fe7-cd2e-8842-7875" name="Wrath [1]" hidden="true" collective="false" targetId="f8d1-8458-4eb4-9c7a" type="selectionEntry">
+    <entryLink id="6fe7-cd2e-8842-7875" name="Wrath [1]" hidden="true" collective="false" import="true" targetId="f8d1-8458-4eb4-9c7a" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1927,7 +1928,7 @@
         <categoryLink id="97d5-002c-4f8d-2e11" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1221-2847-a9ce-cf95" name="Shade [1]" hidden="true" collective="false" targetId="7b78-a5cb-9c33-4da4" type="selectionEntry">
+    <entryLink id="1221-2847-a9ce-cf95" name="Shade [1]" hidden="true" collective="false" import="true" targetId="7b78-a5cb-9c33-4da4" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1952,7 +1953,7 @@
         <categoryLink id="0828-39b7-0ea8-3c17" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1ac4-7a5b-e469-c93a" name="Nastanza [1]" hidden="true" collective="false" targetId="911e-137a-0d2b-5058" type="selectionEntry">
+    <entryLink id="1ac4-7a5b-e469-c93a" name="Nastanza [1]" hidden="true" collective="false" import="true" targetId="911e-137a-0d2b-5058" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1977,7 +1978,7 @@
         <categoryLink id="ec99-20c1-06c3-d8e1" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3f41-f634-bcff-0385" name="Arkoline [1]" hidden="true" collective="false" targetId="1529-c4f4-9a3b-7e3d" type="selectionEntry">
+    <entryLink id="3f41-f634-bcff-0385" name="Arkoline [1]" hidden="true" collective="false" import="true" targetId="1529-c4f4-9a3b-7e3d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -2002,7 +2003,7 @@
         <categoryLink id="1510-8315-3e81-05d1" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ae00-5255-5af9-72a8" name="Ogre Terminator" hidden="true" collective="false" targetId="0414-610d-4dbb-3791" type="selectionEntry">
+    <entryLink id="ae00-5255-5af9-72a8" name="Ogre Terminator" hidden="true" collective="false" import="true" targetId="0414-610d-4dbb-3791" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -2027,7 +2028,7 @@
         <categoryLink id="c3cc-e71d-57b9-ba51" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e855-ba3f-b779-6bb5" name="Chief Radgrad [1]" hidden="true" collective="false" targetId="ec30-5a87-2544-b5d3" type="selectionEntry">
+    <entryLink id="e855-ba3f-b779-6bb5" name="Chief Radgrad [1]" hidden="true" collective="false" import="true" targetId="ec30-5a87-2544-b5d3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -2052,7 +2053,7 @@
         <categoryLink id="5b4a-8104-2ac8-69fa" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6317-306c-a643-9a7e" name="Orion [1]" hidden="true" collective="false" targetId="94bb-d0a8-6b24-0003" type="selectionEntry">
+    <entryLink id="6317-306c-a643-9a7e" name="Orion [1]" hidden="true" collective="false" import="true" targetId="94bb-d0a8-6b24-0003" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -2077,7 +2078,7 @@
         <categoryLink id="bff0-6225-e6f0-be35" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4292-4b42-fde3-e2d7" name="Sergeant Erriq Umunsar [1]" hidden="true" collective="false" targetId="c99f-7602-8e45-c964" type="selectionEntry">
+    <entryLink id="4292-4b42-fde3-e2d7" name="Sergeant Erriq Umunsar [1]" hidden="true" collective="false" import="true" targetId="c99f-7602-8e45-c964" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -2102,7 +2103,7 @@
         <categoryLink id="5fff-812a-d5cc-5409" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b045-e2c2-9c6b-ce12" name="Ota Sora [1]" hidden="true" collective="false" targetId="b4e6-eacb-5781-a8e8" type="selectionEntry">
+    <entryLink id="b045-e2c2-9c6b-ce12" name="Ota Sora [1]" hidden="true" collective="false" import="true" targetId="b4e6-eacb-5781-a8e8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -2127,7 +2128,7 @@
         <categoryLink id="65e1-b2a6-8e1a-8742" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="49f9-6b20-232b-b87c" name="Blaine in Peacekeeper Armour [1]" hidden="true" collective="false" targetId="a8f6-fc7c-678c-5fb7" type="selectionEntry">
+    <entryLink id="49f9-6b20-232b-b87c" name="Blaine in Peacekeeper Armour [1]" hidden="true" collective="false" import="true" targetId="a8f6-fc7c-678c-5fb7" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -2154,7 +2155,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="bc4a-f30a-8fe0-9d31" name="Pistol *" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="bc4a-f30a-8fe0-9d31" name="Pistol *" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="fbf0-11ea-7530-dba2" name="Pistol" hidden="false" targetId="57c1-2b4c-4190-2dca" type="profile"/>
       </infoLinks>
@@ -2163,7 +2164,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="300e-7914-ee40-3e1c" name="Laser Rifle (Accutek LR-45)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="300e-7914-ee40-3e1c" name="Laser Rifle (Accutek LR-45)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6eae-c55d-1b47-596b" name="Laser Rifle (Accutek LR-45)" hidden="false" targetId="67fd-d4da-0a8e-51f8" type="profile"/>
         <infoLink id="e03e-77d4-5a8b-8511" name="Rapid Fire" hidden="false" targetId="dd9c-58ef-1fec-28b8" type="rule"/>
@@ -2173,7 +2174,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7fb2-a4e7-a8ae-2264" name="Shotgun (Accutek ID-KFA)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7fb2-a4e7-a8ae-2264" name="Shotgun (Accutek ID-KFA)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3939-28b4-9f54-207e" name="Shotgun (Accutek ID-KFA)" hidden="false" targetId="f9d7-c4be-3aaa-0859" type="profile"/>
         <infoLink id="b5e7-e6c2-9b1f-55d2" name="Knockback" hidden="false" targetId="9b4e-17bd-61ab-7feb" type="rule"/>
@@ -2183,7 +2184,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c024-afd3-6a4c-14ae" name="Flamethrower" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c024-afd3-6a4c-14ae" name="Flamethrower" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f94e-4fa7-6279-d4fb" name="Flame Thrower" hidden="false" targetId="ed00-6f74-bde1-fd19" type="profile"/>
         <infoLink id="8981-7e61-8ceb-9bf5" name="Volatile" hidden="false" targetId="66b5-4831-9238-85aa" type="rule"/>
@@ -2194,7 +2195,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f865-2f7d-474b-8c3c" name="Grenade Launcher" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f865-2f7d-474b-8c3c" name="Grenade Launcher" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ae82-5039-9e26-b1a8" name="Grenade Launcher" hidden="false" targetId="82e5-6c7b-7a18-802e" type="profile"/>
         <infoLink id="9443-fbb0-89a0-2627" name="Indirect (n)" hidden="false" targetId="8fe0-f858-5940-b816" type="rule">
@@ -2208,7 +2209,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="78c3-4d51-12bd-6d66" name="Thermal Rifle" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="78c3-4d51-12bd-6d66" name="Thermal Rifle" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cf7b-9636-9eaa-db03" name="Thermal Rifle" hidden="false" targetId="2274-48b7-20d9-9480" type="profile"/>
       </infoLinks>
@@ -2217,7 +2218,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed1b-a6b3-c000-283f" name="Laser Carbine (Accutek LR-32)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ed1b-a6b3-c000-283f" name="Laser Carbine (Accutek LR-32)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="447f-68b3-7a37-f16a" name="Accutek LR-32 Laser Carbine" hidden="false" targetId="d5e5-44b9-df5c-4ffe" type="profile"/>
         <infoLink id="d08e-1918-ab21-2031" name="Rapid Fire" hidden="false" targetId="dd9c-58ef-1fec-28b8" type="rule"/>
@@ -2232,7 +2233,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6620-2cb8-6c9c-9948" name="Marksman Rifle (Accutek LR-45 DMR)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6620-2cb8-6c9c-9948" name="Marksman Rifle (Accutek LR-45 DMR)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="53c9-2285-a506-3ef7" name="Accutek LR-45 DMR" hidden="false" targetId="9c77-0a5f-102a-32c4" type="profile"/>
         <infoLink id="2406-3ad6-a20d-861e" name="Holo Sight" hidden="false" targetId="0657-6185-3ad2-0886" type="rule"/>
@@ -2242,7 +2243,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e671-2c75-86d3-cbd1" name="Heavy Laser Rifle (Accutek LR-AM)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e671-2c75-86d3-cbd1" name="Heavy Laser Rifle (Accutek LR-AM)" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8feb-5e49-70d4-f44c" name="Accutek LR-AM Heavy Rifle" hidden="false" targetId="9b33-3ca7-8da3-ee0e" type="profile"/>
         <infoLink id="6957-7db4-dd74-290b" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule"/>
@@ -2252,7 +2253,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6207-be6d-1fa0-dab8" name="Accutek LR-AWP" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6207-be6d-1fa0-dab8" name="Accutek LR-AWP" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="449c-3d74-a718-fb19" name="Accutek LR-AWP" hidden="false" targetId="2b27-ab66-56a1-902d" type="profile"/>
         <infoLink id="4689-3f02-6ae7-5721" name="Sniper Scope" hidden="false" targetId="e624-e443-da35-a014" type="rule"/>
@@ -2263,7 +2264,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1bd5-8b4b-24aa-2576" name="Autocannon" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1bd5-8b4b-24aa-2576" name="Autocannon" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8ce8-3dc2-98aa-b3e5" name="Autocannon" hidden="false" targetId="198e-6537-d880-3e8c" type="profile"/>
         <infoLink id="f09d-5fab-9ff5-7724" name="Suppression" hidden="false" targetId="bcf7-8697-e7d8-43ac" type="rule"/>
@@ -2279,7 +2280,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="97c1-0865-84b9-1fe2" name="Laser Cannon" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="97c1-0865-84b9-1fe2" name="Laser Cannon" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3fff-efe6-2fa3-fb73" name="Laser Cannon" hidden="false" targetId="4afd-cc3b-c22e-334b" type="profile"/>
         <infoLink id="3dd6-4d64-2cd9-803c" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule"/>
@@ -2289,7 +2290,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71e7-a2ca-d047-5e3c" name="Missile Launcher" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="71e7-a2ca-d047-5e3c" name="Missile Launcher" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5ca9-73da-b022-91a7" name="Missile Launcher" hidden="false" targetId="7e6e-d945-c50d-0e48" type="profile"/>
         <infoLink id="edb4-1557-2d59-7db5" name="Frag (n)" hidden="false" targetId="f7aa-fbc1-3217-1be0" type="rule">
@@ -2304,7 +2305,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bc5-1c5c-0b1c-ba18" name="Mortar" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8bc5-1c5c-0b1c-ba18" name="Mortar" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="215b-2767-c2e6-7b9a" name="Mortar" hidden="false" targetId="940a-73e7-0063-3aa5" type="profile"/>
         <infoLink id="0af2-a131-4333-423e" name="Indirect (n)" hidden="false" targetId="8fe0-f858-5940-b816" type="rule">
@@ -2319,7 +2320,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4459-65b2-c720-2dd2" name="Polaris Cannon **" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4459-65b2-c720-2dd2" name="Polaris Cannon **" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6be5-f381-a547-fb32" name="Polaris Cannon" hidden="false" targetId="6ded-fff3-0d17-0fb1" type="profile"/>
       </infoLinks>
@@ -2328,7 +2329,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4a6-e125-dc0c-0658" name="Chainsaw" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a4a6-e125-dc0c-0658" name="Chainsaw" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ab5f-121f-f2d9-ecf8" name="Chainsaw" hidden="false" targetId="f39a-3997-2828-df34" type="profile"/>
         <infoLink id="a204-398c-b4a9-a953" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
@@ -2342,7 +2343,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ae6-d9b7-fb3e-83cc" name="Assault Flamer" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1ae6-d9b7-fb3e-83cc" name="Assault Flamer" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="aaa1-114a-ebea-9df8" name="Assault Flamer" hidden="false" targetId="aae8-2378-e436-9959" type="profile"/>
         <infoLink id="dd36-6977-0cd3-5ecc" name="It Burns!" hidden="false" targetId="6b7c-f0a9-4644-398d" type="rule"/>
@@ -2353,7 +2354,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5be4-50fb-04b1-9f83" name="Heavy Burst Laser **" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5be4-50fb-04b1-9f83" name="Heavy Burst Laser **" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="42ed-125d-74e2-a2a8" name="Heavy Burst Laser" hidden="false" targetId="b7e2-0d67-0ca5-6873" type="profile"/>
         <infoLink id="7bcc-d51b-43bd-bdde" name="Suppression" hidden="false" targetId="bcf7-8697-e7d8-43ac" type="rule"/>
@@ -2368,7 +2369,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b90e-e868-81cc-3cb1" name="Energy Gauntlet" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b90e-e868-81cc-3cb1" name="Energy Gauntlet" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="137c-97cb-8dd4-f69d" name="Energy Gauntlet" hidden="false" targetId="6818-b1c2-18f9-527c" type="profile"/>
         <infoLink id="2365-0c4a-6ee1-26d9" name="Knockback" hidden="false" targetId="9b4e-17bd-61ab-7feb" type="rule"/>
@@ -2378,7 +2379,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71cc-3e0a-dac1-687e" name="Officer&apos;s Sword" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="71cc-3e0a-dac1-687e" name="Officer&apos;s Sword" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3db5-28f2-aca5-fa84" name="Officer&apos;s Sword" hidden="false" targetId="f9ad-a260-33a0-cc25" type="profile"/>
       </infoLinks>
@@ -2387,7 +2388,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5314-054e-3444-ac93" name="Genling 340 &apos;Frontiersman&apos;" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5314-054e-3444-ac93" name="Genling 340 &apos;Frontiersman&apos;" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="aaa5-9687-3b34-1c2c" name="Genling 340 Frontiersman" hidden="false" targetId="5b4b-ff8c-8e82-4f3e" type="profile"/>
         <infoLink id="a8c4-287f-d43a-6849" name="Weight of Fire (n)" hidden="false" targetId="fe68-94f5-c309-65bd" type="rule">
@@ -2402,7 +2403,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3fc4-557a-7714-8058" name="Grav-Ram Spear" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3fc4-557a-7714-8058" name="Grav-Ram Spear" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="aa7b-68cd-7e37-0930" name="Grav-Ram Spear (R)" hidden="false" targetId="3b79-0819-5dc7-c91c" type="profile"/>
         <infoLink id="79a8-9ccc-1cee-67c6" name="Grav-Ram Spear (RF)" hidden="false" targetId="5752-538f-9d30-e20f" type="profile"/>
@@ -2417,7 +2418,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2f3-3a4c-9c16-fcd3" name="Aggressor Shield" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f2f3-3a4c-9c16-fcd3" name="Aggressor Shield" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7630-86aa-abbb-0409" name="Walker Shield" hidden="false" targetId="bc2d-7c5f-2587-2e78" type="rule"/>
       </infoLinks>
@@ -2426,7 +2427,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7ce-4d49-a5b5-9f42" name="Shoulder Rockets ***" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d7ce-4d49-a5b5-9f42" name="Shoulder Rockets ***" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="0d92-1c5a-45c7-5bde" name="Shoulder Rockets" hidden="false" targetId="4cd9-be37-5f32-1eee" type="profile"/>
         <infoLink id="f854-b184-d6f8-4b2e" name="Frag (n)" hidden="false" targetId="f7aa-fbc1-3217-1be0" type="rule">
@@ -2442,7 +2443,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="05de-972b-a4e1-f44b" name="Smoke Launchers ***" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="05de-972b-a4e1-f44b" name="Smoke Launchers ***" publicationId="9491-c0e3-pubN79930" page="73" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f27c-7d5b-4d42-2a1a" name="Smoke Launchers" hidden="false" targetId="f080-a68c-9b17-6cfc" type="profile"/>
         <infoLink id="98b2-4da5-275b-fc8a" name="One-Use" hidden="false" targetId="dfd9-06aa-8e54-53af" type="rule"/>
@@ -2455,12 +2456,12 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="f4e6-a5ae-4107-e9be" name="Items" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false">
+    <selectionEntryGroup id="f4e6-a5ae-4107-e9be" name="Items" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a4b-3fc7-0b4b-8db2" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="4d6b-bd1d-4cea-9521" name="Ammo (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
+        <entryLink id="4d6b-bd1d-4cea-9521" name="Ammo (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="2"/>
           </modifiers>
@@ -2468,7 +2469,7 @@
             <categoryLink id="46e7-a745-d3fb-a754" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="f194-7caa-6eea-9fb6" name="Frag Grenade (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
+        <entryLink id="f194-7caa-6eea-9fb6" name="Frag Grenade (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="6"/>
           </modifiers>
@@ -2476,7 +2477,7 @@
             <categoryLink id="4c49-c5f9-4003-1dae" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="f25a-e216-e5f7-c5e0" name="Medi-Pack (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
+        <entryLink id="f25a-e216-e5f7-c5e0" name="Medi-Pack (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="4.0"/>
           </modifiers>
@@ -2484,7 +2485,7 @@
             <categoryLink id="b5a5-33e2-cd53-7c9e" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="fb56-f55d-8fd3-8637" name="Smoke Grenade (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
+        <entryLink id="fb56-f55d-8fd3-8637" name="Smoke Grenade (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="3"/>
           </modifiers>
@@ -2492,7 +2493,7 @@
             <categoryLink id="410c-ec55-32ee-2ccb" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="b12c-830a-923b-0822" name="AP Ammo (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
+        <entryLink id="b12c-830a-923b-0822" name="AP Ammo (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="4"/>
           </modifiers>
@@ -2500,7 +2501,7 @@
             <categoryLink id="5b6f-c2e9-b713-a685" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="4f67-df35-75e6-5500" name="Sentry Gun (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="f14a-836b-f443-b3c6" type="selectionEntry">
+        <entryLink id="4f67-df35-75e6-5500" name="Sentry Gun (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="f14a-836b-f443-b3c6" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="8"/>
           </modifiers>
@@ -2508,7 +2509,7 @@
             <categoryLink id="5d2d-4c36-1cd1-cdf1" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="f514-b76a-118b-d697" name="Thermal Mines (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="4e2e-2508-ee3b-6cc6" type="selectionEntry">
+        <entryLink id="f514-b76a-118b-d697" name="Thermal Mines (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="4e2e-2508-ee3b-6cc6" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="4"/>
           </modifiers>
@@ -2516,7 +2517,7 @@
             <categoryLink id="3af9-5282-e260-92c3" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="5ed5-7c7f-f26e-b6d2" name="Tripmine" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="af0c-5df6-5f3a-3754" type="selectionEntry">
+        <entryLink id="5ed5-7c7f-f26e-b6d2" name="Tripmine" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="af0c-5df6-5f3a-3754" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="6"/>
           </modifiers>
@@ -2524,7 +2525,7 @@
             <categoryLink id="6b7a-3a16-2f13-c303" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="cba0-3347-d2ac-d10f" name="Commlink" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="47dc-9794-d295-d82e" type="selectionEntry">
+        <entryLink id="cba0-3347-d2ac-d10f" name="Commlink" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="47dc-9794-d295-d82e" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="4"/>
           </modifiers>
@@ -2532,7 +2533,7 @@
             <categoryLink id="c8c5-e194-d2a9-1c3f" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="3583-1e8f-bfd8-346f" name="Stun Grenade (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="2ee6-1157-6672-3508" type="selectionEntry">
+        <entryLink id="3583-1e8f-bfd8-346f" name="Stun Grenade (+)" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="2ee6-1157-6672-3508" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="4.0"/>
           </modifiers>
@@ -2540,7 +2541,7 @@
             <categoryLink id="25b6-2c4e-a14f-42d4" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="e664-2569-15bc-e59e" name="Mono-Wheel Scout Bike" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" targetId="74f6-f5db-0b60-0d5c" type="selectionEntry">
+        <entryLink id="e664-2569-15bc-e59e" name="Mono-Wheel Scout Bike" publicationId="9491-c0e3-pubN79930" page="72" hidden="false" collective="false" import="true" targetId="74f6-f5db-0b60-0d5c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="5.0"/>
           </modifiers>
@@ -2550,12 +2551,12 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="36df-9cbd-392c-7aac" name="Items" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false">
+    <selectionEntryGroup id="36df-9cbd-392c-7aac" name="Items" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d95f-23fa-05bf-33bb" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="1a06-1391-5994-e841" name="Ammo (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
+        <entryLink id="1a06-1391-5994-e841" name="Ammo (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true" targetId="3e9e-f19c-0427-2a50" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="2"/>
           </modifiers>
@@ -2563,7 +2564,7 @@
             <categoryLink id="6758-c522-df14-5a88" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="684d-deb6-a31a-efe5" name="Frag Grenade (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
+        <entryLink id="684d-deb6-a31a-efe5" name="Frag Grenade (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true" targetId="07d6-cd01-55d9-79c0" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="6"/>
           </modifiers>
@@ -2571,7 +2572,7 @@
             <categoryLink id="6994-baac-f8df-335d" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="1448-8e49-bc5e-54b8" name="Medi-Pack (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
+        <entryLink id="1448-8e49-bc5e-54b8" name="Medi-Pack (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true" targetId="5de6-a08f-b836-0a50" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="5"/>
           </modifiers>
@@ -2579,7 +2580,7 @@
             <categoryLink id="7d44-2e95-23e3-980d" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="084f-a268-fe03-a169" name="Smoke Grenade (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
+        <entryLink id="084f-a268-fe03-a169" name="Smoke Grenade (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true" targetId="97f8-bc82-bd65-3d3f" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="3"/>
           </modifiers>
@@ -2587,7 +2588,7 @@
             <categoryLink id="359a-9f02-96ac-4609" name="New CategoryLink" hidden="false" targetId="fc32-7d2a-66f6-c2bb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="5c18-417e-b0b1-934e" name="AP Ammo (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
+        <entryLink id="5c18-417e-b0b1-934e" name="AP Ammo (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true" targetId="e73f-19f7-d7b2-06ba" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="4"/>
           </modifiers>
@@ -2595,7 +2596,7 @@
             <categoryLink id="84f8-c029-1f7d-70fc" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="1d4f-da8e-e230-32dc" name="Sentry Gun (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" targetId="f14a-836b-f443-b3c6" type="selectionEntry">
+        <entryLink id="1d4f-da8e-e230-32dc" name="Sentry Gun (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true" targetId="f14a-836b-f443-b3c6" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="8"/>
           </modifiers>
@@ -2603,7 +2604,7 @@
             <categoryLink id="6046-b300-ed8f-8405" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="26d4-b00a-87d9-e57a" name="Thermal Mines (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" targetId="4e2e-2508-ee3b-6cc6" type="selectionEntry">
+        <entryLink id="26d4-b00a-87d9-e57a" name="Thermal Mines (+)" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true" targetId="4e2e-2508-ee3b-6cc6" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="4"/>
           </modifiers>
@@ -2611,13 +2612,212 @@
             <categoryLink id="f7a8-8453-a062-f985" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="9b79-880a-7fb0-9ebc" name="Tripmine" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" targetId="af0c-5df6-5f3a-3754" type="selectionEntry">
+        <entryLink id="9b79-880a-7fb0-9ebc" name="Tripmine" publicationId="9491-c0e3-pubN72955" page="83" hidden="false" collective="false" import="true" targetId="af0c-5df6-5f3a-3754" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="61f9-fd84-cb0b-0306" value="6"/>
           </modifiers>
           <categoryLinks>
             <categoryLink id="4d22-ec41-9b33-6fbf" name="New CategoryLink" hidden="false" targetId="2f34-b4bd-9ae9-e66a" primary="false"/>
           </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1672-aca3-76a5-7650" name="Small Arms" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="3e3c-c49c-d74b-26ff" name="Pistol *" hidden="false" collective="false" import="true" targetId="bc4a-f30a-8fe0-9d31" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cc5-8cc2-fc7a-e370" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="230d-1511-098d-4fba" name="Laser Rifle (Accutek LR-45)" hidden="false" collective="false" import="true" targetId="300e-7914-ee40-3e1c" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da35-d217-929a-6282" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1e-c27d-dd0b-fa0f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6eec-2fe6-16d5-d923" name="Shotgun (Accutek ID-KFA)" hidden="false" collective="false" import="true" targetId="7fb2-a4e7-a8ae-2264" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc52-ea25-613d-008e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9d7c-8554-b205-89cd" name="Light (Assault)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="6f98-67b1-c37a-4b88" name="Flamethrower" hidden="false" collective="false" import="true" targetId="c024-afd3-6a4c-14ae" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="467a-f372-2172-5dab" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5f77-d0ca-6bae-914d" name="Thermal Rifle" hidden="false" collective="false" import="true" targetId="78c3-4d51-12bd-6d66" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4544-d49b-ac6a-d801" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="41ca-0541-8b21-4fff" name="Light (Explosive)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="d449-ffc4-3d1e-0ff7" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="f865-2f7d-474b-8c3c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5f7-6e51-8f6b-ec10" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="da7b-fa5f-b003-99d0" name="Light (Marksman)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="628c-323d-17e1-5fc6" name="Laser Carbine (Accutek LR-32)" hidden="false" collective="false" import="true" targetId="ed1b-a6b3-c000-283f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cad-195d-7711-80be" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a933-9ec4-5a91-5d17" name="Marksman Rifle (Accutek LR-45 DMR)" hidden="false" collective="false" import="true" targetId="6620-2cb8-6c9c-9948" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="691a-afba-0e98-e393" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e99a-1421-73ca-177e" name="Light (Sniper)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="67c8-7e17-3699-7023" name="Heavy Laser Rifle (Accutek LR-AM)" hidden="false" collective="false" import="true" targetId="e671-2c75-86d3-cbd1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a24-5ffc-dc92-0021" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9884-1836-b86e-00f8" name="Accutek LR-AWP" hidden="false" collective="false" import="true" targetId="6207-be6d-1fa0-dab8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943c-50a2-3f7d-6bf1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4ab8-9d02-7780-1662" name="Heavy (Crew Served Weapon)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="b7f8-28d1-a766-df91" name="Autocannon" hidden="false" collective="false" import="true" targetId="1bd5-8b4b-24aa-2576" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="774a-1623-1522-ed20" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a8f6-1fc3-6ceb-c483" name="Laser Cannon" hidden="false" collective="false" import="true" targetId="97c1-0865-84b9-1fe2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="481b-507e-02e6-d08a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7d05-7215-c9ab-523e" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="71e7-a2ca-d047-5e3c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daa5-8b21-4538-da24" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1eab-a6d3-b92d-1260" name="Mortar" hidden="false" collective="false" import="true" targetId="8bc5-1c5c-0b1c-ba18" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bde6-a1ce-0cc4-9421" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="73d3-0477-9282-4a82" name="Walker (Lance)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="38ad-09e6-3c36-04ad" name="Polaris Cannon **" hidden="false" collective="false" import="true" targetId="4459-65b2-c720-2dd2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f352-e5ab-4341-3406" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d43e-4377-4bff-71e7" name="Walker (Melee)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="e750-3e2b-eb61-cf66" name="Chainsaw" hidden="false" collective="false" import="true" targetId="a4a6-e125-dc0c-0658" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59bb-b8ec-35b2-487b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e5c6-3180-71a5-27fe" name="Walker (Assault)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="a067-b3f7-30dd-ca47" name="Assault Flamer" hidden="false" collective="false" import="true" targetId="1ae6-d9b7-fb3e-83cc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19cb-0669-f529-db10" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5bb4-dac1-5578-9ef4" name="Walker (Automatic)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="8b6a-545f-e2cd-f9e1" name="Heavy Burst Laser **" hidden="false" collective="false" import="true" targetId="5be4-50fb-04b1-9f83" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d8c-af5a-2eef-6834" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0c0a-2f6a-32bb-eb0e" name="Walker (Explosive)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="1daa-4ff3-fbb7-9733" name="Grav-Ram Spear" hidden="false" collective="false" import="true" targetId="3fc4-557a-7714-8058" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a13-769b-095e-9f62" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a735-e8bf-5f6e-8bab" name="Walker (Shield)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="fe9d-db87-2bb7-1af3" name="Aggressor Shield" hidden="false" collective="false" import="true" targetId="f2f3-3a4c-9c16-fcd3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a4-e3bb-37ed-6fcc" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a427-0828-c215-4e80" name="Support (Walker)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="e737-fba5-886f-93e6" name="Shoulder Rockets ***" hidden="false" collective="false" import="true" targetId="d7ce-4d49-a5b5-9f42" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f2-6d75-0fb3-cd68" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ab93-20cc-52b0-a732" name="Smoke Launchers ***" hidden="false" collective="false" import="true" targetId="05de-972b-a4e1-f44b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b06-e305-2de2-c589" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6843-b83d-81f2-2650" name="Leader (Melee)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="da4a-e942-7c62-404e" name="Energy Gauntlet" hidden="false" collective="false" import="true" targetId="b90e-e868-81cc-3cb1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cb1-0697-39b4-56ba" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2e9e-99a6-af1a-26f2" name="Officer&apos;s Sword" hidden="false" collective="false" import="true" targetId="71cc-3e0a-dac1-687e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e005-e022-6c85-146a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d03c-4bf1-4cfa-e1ee" name="Leader (Ranged)" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="e52f-0173-2cdc-c73f" name="Genling 340 &apos;Frontiersman&apos;" hidden="false" collective="false" import="true" targetId="5314-054e-3444-ac93" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a7f-f5c2-d4b1-64c1" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>

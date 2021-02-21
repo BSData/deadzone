@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9491-c0e3-ba03-047b" name="Deadzone Escalation" revision="3" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9491-c0e3-ba03-047b" name="Deadzone Escalation" revision="4" battleScribeVersion="2.03" authorName="Ben Edwards / Rob Whalley" authorContact="BAE2 (GitHub) HeWhoWatches (GitHub)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="9491-c0e3-pubN65537" name="Deadzone 2nd Ed Rulebook"/>
     <publication id="9491-c0e3-pubN72955" name="Deadzone: Outbreak"/>
@@ -8,8 +8,9 @@
     <publication id="9491-c0e3-pubN76421" name="Deadzone: Infestation"/>
     <publication id="9491-c0e3-pubN77313" name="Deadzone Errata v2.1"/>
     <publication id="9491-c0e3-pubN79283" name="Deadzone Errata v2.2"/>
-    <publication id="9491-c0e3-pubN79930" name="Deadzone Command Protocols: Escalation"/>
+    <publication id="9491-c0e3-pubN79930" name="Deadzone Command Protocols: Escalation + 2020 Update"/>
     <publication id="9491-c0e3-pubN91744" name="Deadzone 2nd Ed Rulebook + Errata v2.1"/>
+    <publication id="9a35-6b64-3454-b1e3" name="Deadzone Errata v2.3"/>
   </publications>
   <costTypes>
     <costType id="61f9-fd84-cb0b-0306" name="pts" defaultCostLimit="-1.0" hidden="false"/>
@@ -64,6 +65,10 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8862-18ac-1675-9fa0" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="a477-8106-d022-1a81" name="Infestation: Leader" publicationId="9491-c0e3-pubN76421" hidden="false"/>
+    <categoryEntry id="c409-9ab6-3504-65c0" name="Nexus Psi: Leader" publicationId="9491-c0e3-pubN76000" hidden="false"/>
+    <categoryEntry id="3e80-d02e-d6bf-21ad" name="Outbreak: Leader" hidden="false"/>
+    <categoryEntry id="e4ec-14fd-4c82-2af9" name="Escalation: Leader" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="f50e-a206-6fe2-e2a0" name="Strike Team" hidden="false">
@@ -422,62 +427,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e9ce-4547-e43d-deec" name="Aqissiaq" publicationId="9491-c0e3-pubN65537" page="91" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="9abf-e224-0da9-3640" name="Aqissiaq" publicationId="9491-c0e3-pubN65537" page="91" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
-          <characteristics>
-            <characteristic name="Speed" typeId="df17-4b5c-638f-0807">1-2</characteristic>
-            <characteristic name="Armour" typeId="0274-bb56-5442-a0f1">0</characteristic>
-            <characteristic name="Size" typeId="2623-46e7-250f-eacf">1</characteristic>
-            <characteristic name="Shoot" typeId="68ea-7e51-32e7-70c8">-</characteristic>
-            <characteristic name="Fight" typeId="cf38-e165-7d39-0773">3+</characteristic>
-            <characteristic name="Survive" typeId="ecb0-eafd-b6fa-91a0">5+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="a583-8fd8-f91a-3f52" name="Tough" hidden="false" targetId="df54-2d71-8800-b15f" type="rule"/>
-        <infoLink id="6dd8-0806-bfc1-0d3d" name="Frenzy (n)" hidden="false" targetId="219b-0be5-51f9-8d8e" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Frenzy (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="1b02-0fc1-c2b7-3773" name="Rampage" hidden="false" targetId="74a7-f706-2c69-be6e" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="4769-5554-43d5-780e" name="New CategoryLink" hidden="false" targetId="57d9-c2d2-8f65-b623" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7ac3-e0af-e265-92f6" name="Nuke" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0354-e1bd-1a02-054d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64a8-025a-69d3-b0cd" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="62de-5b10-ffbb-f778" name="Nuke" publicationId="9491-c0e3-pubN65537" page="91" hidden="false" typeId="2421-adf7-5cec-846a" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="df8a-ee5b-d620-4246">RF</characteristic>
-                <characteristic name="AP" typeId="3ef9-9c4e-a280-fccb">AP2</characteristic>
-                <characteristic name="Abilities" typeId="faf9-0187-1806-7214">Knockback</characteristic>
-                <characteristic name="Type" typeId="90af-0797-a0fd-965c"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="ae7b-0b89-540b-23be" name="Knockback" hidden="false" targetId="9b4e-17bd-61ab-7feb" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
-            <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="1.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="15.0"/>
-        <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e67f-3025-4142-b721" name="Blaine [1]" publicationId="9491-c0e3-pubN65537" page="93" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e67f-3025-4142-b721" name="Blaine [1]" publicationId="9491-c0e3-pubN79930" page="31" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="23f9-04e4-8f5b-cb44" name="Blaine" publicationId="9491-c0e3-pubN79930" page="31" hidden="false" typeId="a9aa-7e6b-1b30-f1b0" typeName="Leader">
           <characteristics>
@@ -1700,7 +1650,7 @@
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7522-8e53-d79e-f4e6" name="Dr Simmonds" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7522-8e53-d79e-f4e6" name="Dr Simmonds" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="287b-e0bb-cdde-f05e" name="Dr Simmonds" publicationId="9491-c0e3-pubN75569" page="20" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
           <characteristics>
@@ -1870,7 +1820,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8f6-fc7c-678c-5fb7" name="Blaine in Peacekeeper Armour [1]" publicationId="9491-c0e3-pubN79930" page="31" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a8f6-fc7c-678c-5fb7" name="Blaine in Peacekeeper Armour [1]" publicationId="9491-c0e3-pubN79930" page="31" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d87b-dbfd-f9a7-f253" name="Blaine in Peacekeeper Armour" publicationId="9491-c0e3-pubN79930" page="31" hidden="false" typeId="a9aa-7e6b-1b30-f1b0" typeName="Leader">
           <characteristics>
@@ -2150,7 +2100,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1529-c4f4-9a3b-7e3d" name="Arkoline [1]" publicationId="9491-c0e3-pubN79930" page="32" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1529-c4f4-9a3b-7e3d" name="Arkoline [1]" publicationId="9491-c0e3-pubN79930" page="32" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8ad6-d03c-4c52-58cc" name="Arkoline" publicationId="9491-c0e3-pubN79930" page="32" hidden="false" typeId="a9aa-7e6b-1b30-f1b0" typeName="Leader">
           <characteristics>
@@ -2407,7 +2357,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c6a-e454-2b67-15ef" name="Sergeant Ugurik [1]" publicationId="9491-c0e3-pubN79930" page="34" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0c6a-e454-2b67-15ef" name="Sergeant Ugurik [1]" publicationId="9491-c0e3-pubN79930" page="34" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="83ac-3ef0-632d-ddde" name="Sergeant Ugurik" publicationId="9491-c0e3-pubN79930" page="34" hidden="false" typeId="a9aa-7e6b-1b30-f1b0" typeName="Leader">
           <characteristics>
@@ -2571,7 +2521,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1496-0a3d-8806-b8a1" name="C.U.R.B07153 - &apos;Curby&apos; [1]" publicationId="9491-c0e3-pubN79930" page="35" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1496-0a3d-8806-b8a1" name="C.U.R. B07153 - &apos;Curby&apos; [1]" publicationId="9491-c0e3-pubN79930" page="35" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4354-ed0c-b305-57dd" name="C.U.R.B07153 - &apos;Curby&apos;" publicationId="9491-c0e3-pubN79930" page="35" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
           <characteristics>
@@ -2643,7 +2593,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9965-723b-8710-2e5e" name="Ector Zanchez [1]" publicationId="9491-c0e3-pubN79930" page="32" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9965-723b-8710-2e5e" name="Ector Zanchez [1]" publicationId="9491-c0e3-pubN79930" page="32" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="33c8-826a-becd-3e2a" name="Ector Zanchez" publicationId="9491-c0e3-pubN79930" page="32" hidden="false" typeId="a9aa-7e6b-1b30-f1b0" typeName="Leader">
           <characteristics>
@@ -2823,7 +2773,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e68-4f54-e946-99be" name="Kizai Uro [1]" publicationId="9491-c0e3-pubN79930" page="35" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3e68-4f54-e946-99be" name="Kizai Uro [1]" publicationId="9491-c0e3-pubN79930" page="35" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0f40-ee05-3e1e-bec5" name="Kizai  Uro" publicationId="9491-c0e3-pubN79930" page="35" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
           <characteristics>
@@ -2926,7 +2876,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6223-aa7a-fd05-1084" name="Kr-0m3 [1]" publicationId="9491-c0e3-pubN79930" page="36" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6223-aa7a-fd05-1084" name="Kr-0m3 [1]" publicationId="9491-c0e3-pubN79930" page="36" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="dc67-0912-7b97-abc7" name="Kr-0m3" publicationId="9491-c0e3-pubN79930" page="36" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
           <characteristics>
@@ -3057,7 +3007,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea81-3dbf-cea3-9648" name="Leesh&apos;ma [1]" publicationId="9491-c0e3-pubN79930" page="36" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ea81-3dbf-cea3-9648" name="Leesh&apos;ma [1]" publicationId="9491-c0e3-pubN79930" page="36" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b79d-7854-8a3c-1c2b" name="Leesh&apos;ma" publicationId="9491-c0e3-pubN79930" page="36" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
           <characteristics>
@@ -3255,7 +3205,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b4e6-eacb-5781-a8e8" name="Ota Sora [1]" publicationId="9491-c0e3-pubN79930" page="37" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b4e6-eacb-5781-a8e8" name="Ota Sora [1]" publicationId="9491-c0e3-pubN79930" page="37" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d261-f841-c87f-5e3b" name="Ota Sora" publicationId="9491-c0e3-pubN79930" page="37" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
           <characteristics>

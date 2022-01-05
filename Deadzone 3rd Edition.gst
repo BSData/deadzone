@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="914e-8a95-25ac-174f" name="Deadzone 3rd Edition" revision="1" battleScribeVersion="2.03" authorName="James Moyon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="914e-8a95-25ac-174f" name="Deadzone 3rd Edition" revision="2" battleScribeVersion="2.03" authorName="James Moyon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -74,6 +74,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d249-a728-1286-622b" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="6072-dcb2-6eb9-1e71" name="Special" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="373b-5688-1564-08f6" name="Strike Team" publicationId="2fce-908e-d96c-e6cc" page="4" hidden="false">
@@ -211,13 +212,41 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b0a2-2160-3441-c5a7" name="Defender Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4ea4-aa86-207a-ab85" name="Defender Shield" hidden="false" targetId="db2d-083d-54bb-2def" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="5.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8bab-43bc-bed3-6a2e" name="Energy Shield (3)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d663-f960-4eeb-78d7" name="Energy Shield (n)" hidden="false" targetId="6a25-386d-4154-0a3d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule id="6932-6558-0a3f-0f92" name="Jump Pack" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false"/>
+    <rule id="6932-6558-0a3f-0f92" name="Jump Pack" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+      <description>Short distance aeronautical gravitation devices can allow rapid movement around the battlefield.
+A model that has the Jump Pack keyword takes no damage and is not Pinned by falling.
+In addition, a model with a Jump Pack can:
+- Move up or down levels without needing a wall to climb.
+- Jump over solid full cube height walls on the same level counting as a single cube of movement.
+- Jump over gaps in the floow of the same level (up to one cube wide), provided it has enough cubes of movement to do so.</description>
+    </rule>
     <rule id="eb06-6d59-6705-ed49" name="Scout" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false">
       <description>After deployment, but before the first Turn of the first Round, a model with the Scout keyword may make a free Sprint action. If both sides have models with Scout then the player with Initiative moves all their scouts first. A scout may not enter a cube containing another model during this pre-battle movement but may pick up items.</description>
     </rule>
-    <rule id="2249-d210-753f-645c" name="Tactician (n)" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false"/>
+    <rule id="2249-d210-753f-645c" name="Tactician (n)" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+      <description>A model with this keyword is a great leader and intuitively understands how to get the most out of a combat situation. Its player adds (n) Command Dice to their Command Dice roll while the Tactician model remains in play (not left the game, or killed).
+Having more than one Tactician in a Strike Team provides no additional benefit beyond having a replacement if the first one is killed. Simply select the model you wish to use (probably the one that gives the most extra dice!).</description>
+    </rule>
     <rule id="51fc-d184-87b2-8c6b" name="Combat Team Training" publicationId="c22e-0818-c8c6-fe86" page="32" hidden="false">
       <description>As long as a model with this keyword remains in play their Strike Team may re-roll Command Dice, even if it has lost more than 50% of its models.</description>
     </rule>
@@ -225,7 +254,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <description>A model with this keyword is able to act as a spotter for their comrades. The model may use a Special Action to call in the co-ordinates of a target. Place a suitable marker in a cube within the comm-link model&apos;s LOS. Models using Indirect weapons treat this cube as being within their LOS.
 Note that this does not allow models to target cubes outside of their weapon&apos;s range, or to otherwise fire into cubes that are not valid targets.</description>
     </rule>
-    <rule id="4b50-9c03-3fe6-8ebd" name="Sniper Scope" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false"/>
+    <rule id="4b50-9c03-3fe6-8ebd" name="Sniper Scope" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false">
+      <description>This weapon may be used with either a short or long Shoot action. Declare before rolling any dice. If a long action is selected, the Ranged test gains a +2 dice modifier. No bonus applies to short Shoot actions. A weapon with Sniper Scope may not also benefit form a Holo-Sight (page 35).</description>
+    </rule>
     <rule id="f27b-373b-8a43-f98c" name="Walker" publicationId="c22e-0818-c8c6-fe86" page="41" hidden="false">
       <description>A model with this keyword is a type of vehicle. The model follows all the rules that apply to the Vehicle keyword. However, a Walker is permitted to climb.</description>
     </rule>
@@ -240,7 +271,17 @@ Weight of Fire is cumulative, If more than one Weight of Fire modifier applies t
       <description>A model with this keyword may re-roll (n) dice when making Fight tests.
 Frenzy is cumulative. If more than one Frenzy modifier applies to the test then add together the (n) value from each source.</description>
     </rule>
-    <rule id="2719-d1a9-0852-f952" name="It Burns!" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false"/>
+    <rule id="2719-d1a9-0852-f952" name="It Burns!" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+      <description>Weapons with this keyword unleash indiscriminate sheets of flame, acid, or similar lethal concoctions.
+It Burns! weapons attack every model in the same cube as the primary target, regardless of which side they are on or whether they are visible to the Shooter. In reality, the weapon fires great gouts of flame that fill the cube, and even near-misses set things alight.
+Choose one visible model as the primary target and roll a 3 dice Ranged test (X) with no modifiers or re-rolls allowed of any kind. Roll a 3 dice Survive test (X) separately for each model in the target cube. Compare each individually to the attack roll to see the results as per a normal ranged attack.
+Whatever the result of the attack (even if it misses) all models in the target cube are set on fire (mark them with a fire marker). A model can have a maximum of one fire marker at any one time.
+A model with a fire marker must attempt to put out the fire when it is activated. This is a free Special action that the model must take (before even a Stand Up action) but will not count towards its normal action limit this activation. It is resolved as follows:
+The fire rolls a 3 dice 4+ test (X).
+The target rolls a 3 dice Survive test (X).
+Draw or Survive has more successes: The target puts out the fire before it does any real damage. The model may continue with any remaining actions as normal.
+Fire has more successes: The target manages to put out the flames and is no longer on fire, but suffers damage in the process. The number of HP lost is equal to the difference in total successes. Armour can reduce damage as normal (resolved using AP0, regardless of the AP of the original attack). The model&apos;s activation ends immediately.</description>
+    </rule>
     <rule id="0e5c-2182-6e56-7595" name="Explosive" publicationId="c22e-0818-c8c6-fe86" page="33" hidden="false">
       <description>When an Explosive attack is used it may injure or kill models in the target cube, and the force of the explosion will throw survivors to the ground. There will always be a second keyword to denote the type of explosive attack e.g. Frag (3), Blast etc.
 Perform a Shoot action automatically hitting the target cube that is in LOS; you do not need to be able to see an individual model within the cube. Now resolve the type of attack using the secondary keyword.</description>
@@ -250,7 +291,12 @@ Perform a Shoot action automatically hitting the target cube that is in LOS; you
 While in a cube with a friendly model with the Defender Shield keyword, all Size 1 or 2 friendly models gain +1 to their Armour value. Each model can only benefit from a single Defender Shield bonus at at time.
 Rarely a Strider may carry an enlarged Defender Shield (see Force lists). When it does, the Strider will benefit from +1 Armour but no other models friendly in the same cube will.</description>
     </rule>
-    <rule id="34c6-c132-53f6-00a9" name="Grenade" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false"/>
+    <rule id="34c6-c132-53f6-00a9" name="Grenade" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
+      <description>Grenades are thrown using a Shoot action. Choose a target cube. You do not need LOS to an enemy model, though if you do not have LOS then both the shooting model and the target cube must be visible when viewed by the throwing player from directly above.
+Roll a 3 dice Ranged test (1) with no modifiers or re-rolls allowed of any kind. Success means that the Grenade has landed in the target cube. Failure requires a Scatter roll (see page 27) to determine which cube the Grenade detonates in. An inaccurate Grenade will Scatter onto the same or lower level (never up).
+A Grenade that would scatter into a wall or other solid object will bounce off that object and stay in the original target cube.
+Unless specified otherwise, all grenades are One-Use and have a Range of 3. The effect the Grenade has varies by type (Frag, Smoke, Stun, Toxic Cloud).</description>
+    </rule>
     <rule id="af4a-32a8-dd1e-ee74" name="Frag (n)" publicationId="c22e-0818-c8c6-fe86" page="34" hidden="false">
       <description>Roll a (n) dice 4+ test (X) for the strength of the attack. No additional dice can be added for any reason. For example, a Frag (5) weapon would roll 5 dice for the test. Models in the target cube must roll a 3 dice Survive test (X).
 Roll one for the attack and separately for each affected target model&apos;s Survive test.
@@ -265,7 +311,9 @@ A model may always aerially deploy into the player&apos;s own deployment zone (i
     <rule id="8bbb-091d-a481-381c" name="Fire Control" publicationId="c22e-0818-c8c6-fe86" page="34" hidden="false">
       <description>When the model takes a Shoot action it can use two weapons instead of one. Each weapon may choose the same or a different target. Declare the target of both weapons before rolling any attack dice. A model with Fire Control that uses a Shoot symbol on a Command Die only benefits from a single extra Shoot action from only one of the available weapons.</description>
     </rule>
-    <rule id="bddf-77c1-55be-e183" name="Knockback" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false"/>
+    <rule id="bddf-77c1-55be-e183" name="Knockback" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+      <description>When a weapon or model with this keyword attacks and rolls more successes than the target model (even if no damage is caused) it will knock the target back into a different cube. Resolve the attack as normal, then move the target one cube directly away from the attacker (see page 27). If the knocked-back model&apos;s route is blocked by a wall, the model is slammed into it (see page 26). For Shoot actions back is directly away from the firing model&apos;s cube. For Assault actions the model with Knockback can choose which direction to move the target model.</description>
+    </rule>
     <rule id="7109-f790-bebd-317f" name="Headstrong" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
       <description>If a model with this keyword is Pinned at the beginning of its activation, roll a D8. On a result of 5 or more, the model may perform a free Stand Up action, then continue the Turn as normal.</description>
     </rule>
@@ -275,15 +323,27 @@ A model may always aerially deploy into the player&apos;s own deployment zone (i
     <rule id="dfe5-1629-84e5-f3f5" name="Heavy" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
       <description>The weapon is cumbersome and takes time to set up and sight in. Any Shoot action made with this weapon is as a long action.</description>
     </rule>
-    <rule id="316b-2af6-278b-e591" name="Indirect (n)" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false"/>
-    <rule id="76af-91a0-678c-8278" name="Rapid Fire" publicationId="c22e-0818-c8c6-fe86" page="38" hidden="false"/>
+    <rule id="316b-2af6-278b-e591" name="Indirect (n)" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+      <description>For Indirect weapons Shoot becomes a long action and you may not target models within 2 cubes of the shooting model.
+Indirect weapons can shoot at models within Line of Sight, or they can choose to shoot at targets they cannot see.
+To shoot, choose a target cube within range and more than 2 cubes from the shooting model.
+If the firing model has LOS to an enemy model in the target cube, roll a 3 dice Ranged test (1). No other dice can be added, or re-rolls of any kind made, for any reason.
+If the firing model does not have LOS to an enemy model, then a Shoot action may still be undertaken if both the shooting model and the target cube are visible when viewed from directly above. If a Shoot is possible but there is no LOS then the test becomes 3 dice Ranged test (2).
+Success for either test means that the shot has landed in the target cube. Failure requires a Scatter roll to determine which cube the shot explodes in. An inacurrate shot will Scatter (see Page 27) onto the highest level of the stack it scatters onto.
+Indirect will always be listed by the type of missile being fired as Indirect (n) e.g. Indirect (Frag (3)).</description>
+    </rule>
+    <rule id="76af-91a0-678c-8278" name="Rapid Fire" publicationId="c22e-0818-c8c6-fe86" page="38" hidden="false">
+      <description>A model using a weapon with the Rapid Fire keyword may choose to fire it normally, or Blaze Away with a Shoot action in an attempt to pin models, but cause no damage. Rules that affect Shoot actions still apply (Evade, Smoke, etc.).</description>
+    </rule>
     <rule id="9dfa-4b05-f18a-4b11" name="Beast" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
       <description>A model with this keyword cannot pick up, carry/use Items or Equipment, or interact with control panels. All of its weapons and equipment are either natural or have been grafted on permanently by skilled bio-technicians. A model with this keyword can still claim objective cubes.</description>
     </rule>
     <rule id="1003-75e6-6b59-d8d9" name="Construct" publicationId="c22e-0818-c8c6-fe86" page="32" hidden="false">
       <description>This model is an artificial creature and as such is immune to certain keywords. Additionally, the model can never be Pinned. If hit by an attack that has effects in addition to pinning, such as Blast, the additional effects still apply.</description>
     </rule>
-    <rule id="6bdd-eb66-94f3-a79e" name="Remote" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false"/>
+    <rule id="6bdd-eb66-94f3-a79e" name="Remote" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false">
+      <description>A model with this keyword acts under remote control. To take this model in your Strike Team, at least one friendly model with the Engineer keyword must be part of hte Strike Team when the game starts. Remote models are deployed with the rest of your Strike Team and are activated in your Turns like any other model.</description>
+    </rule>
     <rule id="dc27-fead-d459-b185" name="Bike" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
       <description>A model with this keyword is a type of vehicle. The model follows all the rules that apply to the Vehicle keyword. However, a Bike can be Pinned.</description>
     </rule>
@@ -293,13 +353,20 @@ A model may always aerially deploy into the player&apos;s own deployment zone (i
     <rule id="a546-aaa9-c4fe-7b42" name="Hacker" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
       <description>A model with this keyword is skilled at accessing terminals and intel. This keyword is used in conjunction with Tactical Asset Missions and Interactive Scenery. In addition, a model with this keyword which finds an Intel item will gain an additional VP.</description>
     </rule>
-    <rule id="c3b4-0c3c-d63b-b757" name="Stun" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false"/>
-    <rule id="acc7-4fab-9dcd-fb81" name="Medic" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false"/>
+    <rule id="c3b4-0c3c-d63b-b757" name="Stun" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+      <description>A weapon with this keyword does not cause any damage and lost HP. AP and Armour are not considered.
+Instead, if the attacker rolls more successes, the target model is immediately marked as Activated. If an active model is stunned, it mya not perform any more actions - its Turn is immediately over. If the model was attempting to Break Away from an enemy-occupied cube, it fails and the model is not moved.</description>
+    </rule>
+    <rule id="acc7-4fab-9dcd-fb81" name="Medic" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+      <description>A model with this keyword may use a Special Action to heal a single injured friendly model in the same cube (which may be the Medic themselves). No test is required and all damage counters are removed from the model. In addition, friendly models will gain Resilient (1) whilst in the same cube as the Medic. Note however that this keyword only affects living models and cannot repair models with either the Vehicle, Walker or Construct keywords (nor do they gain Resilient).</description>
+    </rule>
     <rule id="2c6c-0b74-ce9d-4e45" name="Engineer" publicationId="c22e-0818-c8c6-fe86" page="33" hidden="false">
       <description>The model is experienced with tripwires and mines. If they reveal a Booby Trap item or enter a cube with a Trap (x), then the trap is defused and discarded. The model&apos;s activation then ends immediately.
 In addition, some units may only be taken if you also take a model with Engineer in your Strike Team.</description>
     </rule>
-    <rule id="5640-56e6-bb10-453d" name="Recon n+" publicationId="c22e-0818-c8c6-fe86" page="46-47" hidden="false"/>
+    <rule id="5640-56e6-bb10-453d" name="Recon n+" publicationId="c22e-0818-c8c6-fe86" page="46-47" hidden="false">
+      <description>Recon is used to determine which player deploys their Strike Team to the battlefield first. The winner of the Recon test also benefits from Recon Effects.</description>
+    </rule>
     <rule id="401b-9df8-8946-4135" name="One-Use" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
       <description>This keyword, item, or weapon, may be used only once during a game.</description>
     </rule>
@@ -373,8 +440,14 @@ If a model is protected by more than one Energy Shield/Shield Generator then all
     <rule id="c6cc-1df9-937e-665e" name="Holo-Sight" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
       <description>Specialised range finder and targeting optical equipment. A model that has the Holo-Sight keyword adds a +1 dice modifier to their Shoot actions. A Holo-Sight may not be used with Indirect, Explosive or It Burns! weapons. A weapon with the Sniper Scope keyword may not benefit from Holo-Sight.</description>
     </rule>
-    <rule id="9f29-41c5-23d5-fecd" name="Prey" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false"/>
-    <rule id="c459-7da3-ba67-ef64" name="Trap" publicationId="c22e-0818-c8c6-fe86" page="41" hidden="false"/>
+    <rule id="9f29-41c5-23d5-fecd" name="Prey" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+      <description>Some factions mark targets with tricilinc shards or pheromones to attract predators. If this weapon rolls a success on a Shoot or Assault action (but not a Blaze Away), place a Prey marker on the target model. Friendly models targeting a model with a Prey marker receive +1 dice to Fight tests. This effect is not cumulative.</description>
+    </rule>
+    <rule id="c459-7da3-ba67-ef64" name="Trap" publicationId="c22e-0818-c8c6-fe86" page="41" hidden="false">
+      <description>When a weapon with the Trap rule is used, place a Trap marker in the target cube. Whenever an enemy model enters a cube with a Trap token, the player who placed the token may choose to detonate it; if they do so, immediately resolve the effect of the Trap (i.e. if a weapon is listed as Trap [Frag (3)]. resolve a Frag (3) attack in the cube). This ends the active model&apos;s activation, and the token is removed from play.
+If a model with the Engineer keyword enters the cube then the trap is defused and discarded. The engineer&apos;s activation ends immediately.
+If a model or weapon has the ability to shoot a trap into a target cube, roll a 3 dice Ranged test (1). If the test is successful, place the trap in the target cube as normal. If the test is failed, roll for scatter to see where the trap is placed.</description>
+    </rule>
     <rule id="43e1-1a23-ca38-b7f2" name="Firing Platform (n)" publicationId="c22e-0818-c8c6-fe86" page="34" hidden="false">
       <description>A Vehicle firing a weapon with the Firing Platform keyword gains +n dice when performing a Shoot action.</description>
     </rule>
@@ -405,21 +478,53 @@ A Vehicle has the Solid keyword.</description>
 While in the cube, models are subject to the Toxic (n) keyword if they lose any HP - where n is the value of the Toxic Gas Cloud. Adjacent cubes are not affected by this Toxic effect but are affected by the smoke for LOS.
 Regardless of type, if the model moves away, the Gas Cloud remains in the cube if it was deployed in. It may dissipate as normal at the end of a Round (see Smoke on page 39).</description>
     </rule>
-    <rule id="8cc6-e230-abe5-de1d" name="Honourable" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false"/>
-    <rule id="9b72-c451-cddf-4b0f" name="Horde" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false"/>
-    <rule id="5aaa-ae0a-ed2b-a16d" name="Ink Sac" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false"/>
-    <rule id="b49a-01ff-272b-16e4" name="Invigorate" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false"/>
-    <rule id="d1d1-b2f0-2ca7-f3b8" name="Life Drain" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false"/>
-    <rule id="ac14-bd52-c8cc-3e11" name="Life Support" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false"/>
-    <rule id="8631-8a95-36cb-5e6e" name="Psychic" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false"/>
+    <rule id="8cc6-e230-abe5-de1d" name="Honourable" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
+      <description>A model with this keyword may not target a Pinned model with an Assault or Shoot action. In addition, an enemy model attempting to leave a cube cannot be attacked with the normal free Assault action by any model in that cube with the Honourable keyword. If another friendly model is in the same cube that doesn&apos;t have the Honourable keyword it may make an Assault action against the moving enemy model as normal.</description>
+    </rule>
+    <rule id="9b72-c451-cddf-4b0f" name="Horde" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
+      <description>During a close combat fight, models with the Horde keyword will gain the friendly model bonus as normal, plus an additional +1 die modifier for each friendly model in the same cube (not counting itself) that also has the Horde keyword.</description>
+    </rule>
+    <rule id="5aaa-ae0a-ed2b-a16d" name="Ink Sac" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+      <description>Once per game a model with this keyword can deploy a Smoke marker in its cube at the beginning or end of its activation. In addition, when this model is killed place a Smoke marker in its cube.</description>
+    </rule>
+    <rule id="b49a-01ff-272b-16e4" name="Invigorate" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+      <description>Weapons with this keyword deliver a jolt of energy to their target, whether through a cocktail of combat drugs or through Psychic unleashing of a soldier&apos;s hidden potential. Weapons with Invigorate may target a single friendly model in the same cube as the active model. The firing model makes a 3 dice Ranged test (2) with no modifiers or re-rolls allowed of any kind. If successful, the target model removes an activation token. A model may only benefit from the Invigorate keyword once per Round.</description>
+    </rule>
+    <rule id="d1d1-b2f0-2ca7-f3b8" name="Life Drain" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+      <description>A model or weapon with this keyword may make a Psychic attack against a target enemy model within range. For each HP lost, up to the number needed to kill the target, you may recover 1 HP previously suffered by a friendly model within 2 cubes of the Psychic model making the attack. This keyword has no effect on models with the Vehicle or Construct keywords.</description>
+    </rule>
+    <rule id="ac14-bd52-c8cc-3e11" name="Life Support" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+      <description>A model with this keyword has an in-built automated life support system designed to keep them alive even when gravely wounded. If the model loses HP, but is not killed, then the Life Support automatically kicks in. The model is immediately returned to an undamaged state. This happens automatically and does not cost an action.
+Life Support is always One-Use.
+Life Support only works on the model itself and cannot be used to resurrect models that have been killed outright.</description>
+    </rule>
+    <rule id="8631-8a95-36cb-5e6e" name="Psychic" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+      <description>A model with this keyword possesses mental abilities that allow it to influence objects and creatures in its environment. Whether these abilities are natural, such as those possessed by the Chovar, or the product or forbidden scientific research, they are all represented in-game in the same way.
+Weapons listed with the Psychic weapon keyword. These abilities are, in effect, another weapon that the model can use: they will have a Range characteristice, are used in Ranged tests just like other weapons, and receive the same modifiers as standard Ranged tests.
+The only exception is that a Psychic weapon does not need Line of Sight to its target in order to be used.</description>
+    </rule>
     <rule id="d3bb-c0a0-a253-cd9d" name="Resilient (n)" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false">
       <description>A model with this keyword may re-roll (n) dice when making Survive tests.
 Resilient is cumulative. If more than one Resilient modifier applies to the test then add together the (n) value from each source.</description>
     </rule>
-    <rule id="18c6-f29b-f689-6ee2" name="Shield Generator (n)" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false"/>
-    <rule id="2e53-612f-9e49-b895" name="Smoke" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false"/>
-    <rule id="5cf8-eb2f-a0ff-003b" name="Solid" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false"/>
-    <rule id="605c-e354-0ffd-fd9f" name="Teleport" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false"/>
+    <rule id="18c6-f29b-f689-6ee2" name="Shield Generator (n)" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false">
+      <description>This is a more advanced version of the Energy Shield (see page 33) and works in the same way. Instead of covering a single model however, a model with the Shield Generator keyword provides protection for every model, friend or foe, in the same cube.
+If a model is protected by more than one Energy Shield/Shield Generator then all apply. Roll for each separately and reduce the HP lost by the total number of successes.</description>
+    </rule>
+    <rule id="2e53-612f-9e49-b895" name="Smoke" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false">
+      <description>Smoke can be deployed by grenades, grenade launchers, devices some soldiers carry and from some creatures.
+No HP are lost by models in the target cube. Instead, the smoke filled cube blocks all LOS, including to and from models inside it.
+Note, however, that it does not block LOS to the cube itself. Any Shoot attacks that trace a LOS through a cube that is adjacent to a smoke filled cube suffer a -1 dice modifier (regardless of how many such cubes they cross).
+At the end of each Round roll one die per smoke filled cube. On a 1-4 the smoke in that cube remains in place. On a 5-8 the smoke dissipates and is removed.</description>
+    </rule>
+    <rule id="5cf8-eb2f-a0ff-003b" name="Solid" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false">
+      <description>A model with this keyword is not affected by weapon effects that move their target to a new cube, such as Blast, Frag or a Knockback. It may still lost HP from such attacks however. In addition, the model is never Pinned for any reason.</description>
+    </rule>
+    <rule id="605c-e354-0ffd-fd9f" name="Teleport" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+      <description>A model with this keyword may teleport as a long action.
+Teleport allows the model to move up to 3 cubes in any direction irrespective of LOS, terrain and models. A model using Teleport must end its move in a cube where it can be physically placed on the table and respecting the normal cube capacity rules. If a teleporting model ends this move in the same cube as an enemy model then they will trigger a close combat fight as if it had moved into the cube normally.
+A model may teleport out of a cube containing an enemy model but will be subject to the Breaking Away rule.</description>
+    </rule>
     <rule id="a3aa-4f8e-9ad9-108f" name="Tenacious" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
       <description>An enemy model attempting to leave a cube that includes a model with this keyword, suffers -1 die to their Survive test.</description>
     </rule>

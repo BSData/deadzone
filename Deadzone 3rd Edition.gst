@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="914e-8a95-25ac-174f" name="Deadzone 3rd Edition" revision="2" battleScribeVersion="2.03" authorName="James Moyon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="914e-8a95-25ac-174f" name="Deadzone 3rd Edition" revision="3" battleScribeVersion="2.03" authorName="James Moyon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -84,6 +84,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <categoryLink id="8985-2494-aae9-dde2" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
         <categoryLink id="1018-92a2-3b87-b583" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="false"/>
         <categoryLink id="7443-ad64-64dc-dcec" name="Living Legend" hidden="false" targetId="c049-07ca-32fa-da63" primary="false"/>
+        <categoryLink id="048d-3551-c238-a31a" name="Special" hidden="false" targetId="6072-dcb2-6eb9-1e71" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

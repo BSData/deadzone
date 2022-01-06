@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="04fb-2bfa-9377-3b06" name="Rebs" revision="2" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="04fb-2bfa-9377-3b06" name="Rebs" revision="3" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -61,6 +61,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         </entryLink>
         <entryLink id="33eb-acc5-5dee-d228" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="77ea-b3e9-3f65-e9ef" name="Sphyr Cell Leader" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -142,6 +146,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         </entryLink>
         <entryLink id="1049-d3d6-0ca7-b8b1" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="16c6-8ab4-3ca3-8881" name="Sphyr Hunter" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -676,12 +684,27 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031b-d247-c7ab-f999" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="cf2e-daae-a271-4283" name="Strider Options" hidden="false" collective="false" import="true" targetId="715f-0837-1645-17cf" type="selectionEntryGroup"/>
         <entryLink id="f719-2bc9-0a0b-00f5" name="Chainsaw" hidden="false" collective="false" import="true" targetId="67ae-1281-d9fb-b0ef" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a9-65c1-f91f-67dc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6048-8a27-b004-7487" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink id="c439-4fa7-0b8e-63df" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="bfea-0b16-ac37-262b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcd5-35e3-659f-6974" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="34e3-e203-bd8c-63fd" name="Shoulder Rockets" hidden="false" collective="false" import="true" targetId="aad2-0a14-fcec-bdfe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce4b-b438-4e0e-985d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -705,7 +728,22 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bc0-3ade-fc9a-a4c3" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="8ab7-7346-7a11-8d28" name="Strider Options" hidden="false" collective="false" import="true" targetId="715f-0837-1645-17cf" type="selectionEntryGroup"/>
+        <entryLink id="ad5a-001b-d614-6043" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="bfea-0b16-ac37-262b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84f1-aa09-87c2-a43a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="fd66-db21-b864-3704" name="Shoulder Rockets" hidden="false" collective="false" import="true" targetId="aad2-0a14-fcec-bdfe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e51-a30a-4887-999b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="39.0"/>
@@ -728,7 +766,22 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ee7-c14c-c13d-a278" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="8e3d-7238-5046-ed03" name="Strider Options" hidden="false" collective="false" import="true" targetId="715f-0837-1645-17cf" type="selectionEntryGroup"/>
+        <entryLink id="f27a-2983-9bf1-6f26" name="Shoulder Rockets" hidden="false" collective="false" import="true" targetId="aad2-0a14-fcec-bdfe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cbc-9311-81c9-759e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="336c-c189-6de6-b151" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="bfea-0b16-ac37-262b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f7-8df1-22b8-3fc2" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="38.0"/>
@@ -1294,70 +1347,96 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbcf-4bfc-ba2a-6270" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="90aa-0ccc-4c1c-23c2" name="AP Ammo (max 2)" hidden="false" collective="false" import="true" targetId="ae96-884e-4c50-fd84" type="selectionEntry">
+        <entryLink id="90aa-0ccc-4c1c-23c2" name="AP Ammo" hidden="false" collective="false" import="true" targetId="ae96-884e-4c50-fd84" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a30f-8041-28d4-5837" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="8c43-2606-c64c-9ce1" name="Ammo" hidden="false" collective="false" import="true" targetId="c275-654b-b7c4-f92d" type="selectionEntry"/>
-        <entryLink id="6742-d6f7-5786-b835" name="Grenade (Frag (3))" hidden="false" collective="false" import="true" targetId="ffd5-4d16-3edf-5df5" type="selectionEntry"/>
-        <entryLink id="71f8-314c-66df-4d4a" name="Grenade (Smoke)" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry"/>
-        <entryLink id="b7c4-09f1-48d9-edbc" name="Grenade (Stun) (max 1)" hidden="false" collective="false" import="true" targetId="3372-7a06-2306-a0ee" type="selectionEntry">
+        <entryLink id="8c43-2606-c64c-9ce1" name="Ammo" hidden="false" collective="false" import="true" targetId="c275-654b-b7c4-f92d" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="6742-d6f7-5786-b835" name="Grenade (Frag (3))" hidden="false" collective="false" import="true" targetId="ffd5-4d16-3edf-5df5" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="71f8-314c-66df-4d4a" name="Grenade (Smoke)" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="b7c4-09f1-48d9-edbc" name="Grenade (Stun)" hidden="false" collective="false" import="true" targetId="3372-7a06-2306-a0ee" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0a7-85f9-9c08-4307" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="9a53-223c-d88e-3dba" name="Medi Pack (max 1)" hidden="false" collective="false" import="true" targetId="a6e6-b1be-5491-5c24" type="selectionEntry">
+        <entryLink id="9a53-223c-d88e-3dba" name="Medi Pack" hidden="false" collective="false" import="true" targetId="a6e6-b1be-5491-5c24" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b65-d296-3140-366f" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="a9c9-adf5-6a44-d737" name="Trip Mines (max 1)" hidden="false" collective="false" import="true" targetId="83a7-6d43-753d-a30f" type="selectionEntry">
+        <entryLink id="a9c9-adf5-6a44-d737" name="Trip Mines" hidden="false" collective="false" import="true" targetId="83a7-6d43-753d-a30f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4883-30ac-0919-37b1" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="0596-51a8-4c9b-4960" name="Thermal Mines (max 1)" hidden="false" collective="false" import="true" targetId="40da-677f-806c-05e4" type="selectionEntry">
+        <entryLink id="0596-51a8-4c9b-4960" name="Thermal Mines" hidden="false" collective="false" import="true" targetId="40da-677f-806c-05e4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a31-3013-373f-2e61" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="fe8d-e94c-4c6e-5760" name="Combat Blades" hidden="false" collective="false" import="true" targetId="73b1-24e3-20e7-5287" type="selectionEntry"/>
-        <entryLink id="5bba-91b0-820a-e00b" name="Stimulant Shot (max 2)" hidden="false" collective="false" import="true" targetId="cb8b-a024-4666-c724" type="selectionEntry">
+        <entryLink id="fe8d-e94c-4c6e-5760" name="Combat Blades" hidden="false" collective="false" import="true" targetId="73b1-24e3-20e7-5287" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="5bba-91b0-820a-e00b" name="Stimulant Shot" hidden="false" collective="false" import="true" targetId="cb8b-a024-4666-c724" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6088-691d-02ea-f888" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="87e5-3d73-4cbc-b7a7" name="Adrenaline Shot (max 2)" hidden="false" collective="false" import="true" targetId="26be-b24b-1f9e-af5c" type="selectionEntry">
+        <entryLink id="87e5-3d73-4cbc-b7a7" name="Adrenaline Shot" hidden="false" collective="false" import="true" targetId="26be-b24b-1f9e-af5c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6b3-bcdc-ad97-4238" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
         </entryLink>
         <entryLink id="cf0f-9bef-5fac-8362" name="Energy Shield (3)" hidden="false" collective="false" import="true" targetId="8bab-43bc-bed3-6a2e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5f5-632d-80e5-78d9" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="d3d3-1297-6fe9-723b" name="Defender Shield (max 1)" hidden="false" collective="false" import="true" targetId="b0a2-2160-3441-c5a7" type="selectionEntry">
+        <entryLink id="d3d3-1297-6fe9-723b" name="Defender Shield" hidden="false" collective="false" import="true" targetId="b0a2-2160-3441-c5a7" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0433-c685-7533-9fc4" type="max"/>
           </constraints>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="715f-0837-1645-17cf" name="Strider Options" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d47-1954-9aac-f9d6" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="8112-86d4-04fb-3e53" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="bfea-0b16-ac37-262b" type="selectionEntry">
           <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="7577-69c5-cc26-e163" name="Shoulder Rockets" hidden="false" collective="false" import="true" targetId="aad2-0a14-fcec-bdfe" type="selectionEntry">
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="5.0"/>
           </costs>
         </entryLink>
       </entryLinks>

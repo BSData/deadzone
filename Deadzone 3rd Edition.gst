@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="914e-8a95-25ac-174f" name="Deadzone 3rd Edition" revision="3" battleScribeVersion="2.03" authorName="James Moyon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="914e-8a95-25ac-174f" name="Deadzone 3rd Edition" revision="4" battleScribeVersion="2.03" authorName="James Moyon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -95,8 +95,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="a57b-28eb-348c-1b1e" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae96-884e-4c50-fd84" name="AP Ammo" hidden="false" collective="false" import="true" type="upgrade">
@@ -105,8 +105,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="1383-98a1-9f12-7f9e" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3372-7a06-2306-a0ee" name="Grenade (Stun)" hidden="false" collective="false" import="true" type="upgrade">
@@ -117,8 +117,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="b4dc-7d71-6da8-dcb5" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ffd5-4d16-3edf-5df5" name="Grenade (Frag (3))" hidden="false" collective="false" import="true" type="upgrade">
@@ -129,8 +129,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="e5bb-ad8c-4868-5106" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="23b2-fe72-6f20-d935" name="Grenade (Smoke)" hidden="false" collective="false" import="true" type="upgrade">
@@ -141,8 +141,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="df91-c863-4f75-6916" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a6e6-b1be-5491-5c24" name="Medi Pack" hidden="false" collective="false" import="true" type="upgrade">
@@ -151,7 +151,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="7c80-afff-45ca-07a9" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="40.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -160,8 +160,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="e3aa-f89e-94cc-6e85" name="Comm-link" hidden="false" targetId="c38b-d36f-d26f-801d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83a7-6d43-753d-a30f" name="Trip Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -170,8 +170,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="5e7d-ff00-a81d-0989" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="40da-677f-806c-05e4" name="Thermal Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -180,8 +180,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="740d-78aa-763e-164d" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="73b1-24e3-20e7-5287" name="Combat Blades" hidden="false" collective="false" import="true" type="upgrade">
@@ -189,8 +189,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="220b-3f04-f739-1a20" name="Combat Blades" hidden="false" targetId="f1e5-095c-de78-8c98" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb8b-a024-4666-c724" name="Stimulant Shot" publicationId="c22e-0818-c8c6-fe86" page="43" hidden="false" collective="false" import="true" type="upgrade">
@@ -199,8 +199,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="31bc-e31b-83e5-6738" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="26be-b24b-1f9e-af5c" name="Adrenaline Shot" publicationId="c22e-0818-c8c6-fe86" page="42" hidden="false" collective="false" import="true" type="upgrade">
@@ -209,8 +209,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="6eda-b6c1-324f-c6c7" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b0a2-2160-3441-c5a7" name="Defender Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -218,8 +218,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="4ea4-aa86-207a-ab85" name="Defender Shield" hidden="false" targetId="db2d-083d-54bb-2def" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="5.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bab-43bc-bed3-6a2e" name="Energy Shield (3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -227,9 +227,26 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="d663-f960-4eeb-78d7" name="Energy Shield (n)" hidden="false" targetId="6a25-386d-4154-0a3d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="1b1e-9d91-4dca-0285" name="Energy Shield (2)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4033-014d-9cc1-84c3" name="Energy Shield (n)" hidden="false" targetId="6a25-386d-4154-0a3d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="543d-7b36-698e-ebd8" name="Grenade (Gas Cloud (Toxic (1)))" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dc78-f17e-5821-5213" name="Grenade" hidden="false" targetId="34c6-c132-53f6-00a9" type="rule"/>
+        <infoLink id="1cfe-68f1-b666-d8eb" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
+        <infoLink id="bb5f-ad9f-ae5d-fc9b" name="Gas Cloud (Toxic (n))" hidden="false" targetId="b195-5d2d-f3da-1a4d" type="rule"/>
+        <infoLink id="ac00-f0ee-2ad8-057a" name="Toxic (n)" hidden="false" targetId="38f2-a52a-27bf-26d1" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

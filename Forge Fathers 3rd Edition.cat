@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="1" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="2" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -1488,19 +1488,41 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f727-0fc3-abc8-9eac" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="4424-337c-3f88-a6e2" name="Ammo" hidden="false" collective="false" import="true" targetId="c275-654b-b7c4-f92d" type="selectionEntry"/>
-        <entryLink id="db1c-87c0-998b-540b" name="AP Ammo" hidden="false" collective="false" import="true" targetId="ae96-884e-4c50-fd84" type="selectionEntry"/>
-        <entryLink id="f2ce-ecec-9251-5b35" name="Grenade (Frag (3))" hidden="false" collective="false" import="true" targetId="ffd5-4d16-3edf-5df5" type="selectionEntry"/>
-        <entryLink id="8cce-0cef-4ae7-988a" name="Grenade (Smoke)" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry"/>
-        <entryLink id="eb87-f382-b43e-4d15" name="Medi Pack (max 2)" hidden="false" collective="false" import="true" targetId="a6e6-b1be-5491-5c24" type="selectionEntry">
+        <entryLink id="4424-337c-3f88-a6e2" name="Ammo" hidden="false" collective="false" import="true" targetId="c275-654b-b7c4-f92d" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="db1c-87c0-998b-540b" name="AP Ammo" hidden="false" collective="false" import="true" targetId="ae96-884e-4c50-fd84" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f2ce-ecec-9251-5b35" name="Grenade (Frag (3))" hidden="false" collective="false" import="true" targetId="ffd5-4d16-3edf-5df5" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8cce-0cef-4ae7-988a" name="Grenade (Smoke)" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="eb87-f382-b43e-4d15" name="Medi Pack" hidden="false" collective="false" import="true" targetId="a6e6-b1be-5491-5c24" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed7d-2b8a-e78e-31f8" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="5379-da51-3777-a4aa" name="Thermal Mines (max 2)" hidden="false" collective="false" import="true" targetId="40da-677f-806c-05e4" type="selectionEntry">
+        <entryLink id="5379-da51-3777-a4aa" name="Thermal Mines" hidden="false" collective="false" import="true" targetId="40da-677f-806c-05e4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe27-85cf-c351-d3e0" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="2" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="3" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -957,6 +957,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="35e4-f870-469e-d93b" name="The Helfather" publicationId="2fce-908e-d96c-e6cc" page="40" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="492f-3caa-c7bb-6c9a" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="2f8b-e3a5-a5bf-0d9c" name="The Helfather" hidden="false" targetId="4afb-358d-890c-3f0e" type="profile"/>
         <infoLink id="cdcb-3246-1e43-d729" name="Headstrong" hidden="false" targetId="7109-f790-bebd-317f" type="rule"/>
@@ -985,6 +988,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="6b40-4b41-50e2-d17f" name="Bjarn Starnafall" publicationId="2fce-908e-d96c-e6cc" page="40" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9049-ac5f-3b82-f003" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="818b-dc0e-2810-57b1" name="Bjarn Starnafall" hidden="false" targetId="405e-8b3a-aaac-8f91" type="profile"/>
         <infoLink id="15f0-af21-7085-64a2" name="Drop Suit" hidden="false" targetId="c3ce-30f6-4349-198d" type="rule"/>
@@ -1007,6 +1013,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="99fb-68d6-d333-45fa" name="Ogan Helkkare" publicationId="2fce-908e-d96c-e6cc" page="40" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="047b-3604-ff2b-4e00" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="55e1-34c6-6a08-25ee" name="Ogan Helkkare" hidden="false" targetId="5a96-c0b5-5880-21b2" type="profile"/>
         <infoLink id="62df-58f6-79d1-aa04" name="Energy Shield (n)" hidden="false" targetId="6a25-386d-4154-0a3d" type="rule"/>
@@ -1051,6 +1060,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="568f-2a9a-396d-ca8a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="126f-9cc9-eba2-225b" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="9506-c590-fa9c-3d1f" name="Padd" hidden="false" targetId="0237-af7d-7f72-c4cc" type="profile"/>
@@ -1074,7 +1084,11 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="234b-f062-ad1a-a98d" name="Ingulf Krestursson" hidden="false" collective="false" import="true" targetId="e845-cf1a-1fd8-0d67" type="selectionEntry"/>
+    <entryLink id="234b-f062-ad1a-a98d" name="Ingulf Krestursson" hidden="false" collective="false" import="true" targetId="e845-cf1a-1fd8-0d67" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="61e6-6682-73e2-b02b" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="be9f-4e4d-8ef0-86b5" name="Burst Pistol" hidden="false" collective="false" import="true" type="upgrade">

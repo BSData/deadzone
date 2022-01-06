@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="04fb-2bfa-9377-3b06" name="Rebs" revision="3" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="04fb-2bfa-9377-3b06" name="Rebs" revision="4" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -819,6 +819,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="cc45-523a-768e-3749" name="Sergeant Erriq Umunsar" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6f75-e5b2-8a81-3ce0" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="1d7f-6273-2bb6-23c7" name="Sergeant Erriq Umunsar" hidden="false" targetId="871e-61ad-e98b-4bd0" type="profile"/>
         <infoLink id="df9c-976c-d6d1-b4c9" name="Resilient (n)" hidden="false" targetId="d3bb-c0a0-a253-cd9d" type="rule"/>
@@ -846,6 +849,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="b060-b068-9b06-8458" name="Hund, Rebel Bounty Hunter" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8ca0-f8ee-c06f-6b68" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="ef5d-cc50-eaa8-a9d2" name="Hund, Rebel Bounty Hunter" hidden="false" targetId="41ca-ef90-5b67-8991" type="profile"/>
         <infoLink id="785e-2d49-46ad-fddb" name="Fire Control" hidden="false" targetId="8bbb-091d-a481-381c" type="rule"/>
@@ -874,6 +880,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="4b26-6e1d-637c-a7da" name="Eddak P&apos;Mera" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="51fb-ba64-ca78-2ec8" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="602d-fbea-9600-83e6" name="Eddak P&apos;Mera" hidden="false" targetId="3514-3977-76c6-1e83" type="profile"/>
         <infoLink id="7b2c-30ae-9a19-a624" name="Scout" hidden="false" targetId="eb06-6d59-6705-ed49" type="rule"/>
@@ -900,6 +909,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="b533-382e-2759-d2e0" name="Adrienne Nikolovski" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b363-56eb-3d20-5e4b" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="bda5-17f4-845e-69f6" name="Adrienne Nikolovski" hidden="false" targetId="6393-e70a-8b0f-0d36" type="profile"/>
         <infoLink id="690a-8af5-5d44-0cd0" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
@@ -927,6 +939,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="0877-8b4a-94cf-9135" name="Kira Nikolovski" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eb30-f413-a243-b3cc" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="134d-d849-5062-8750" name="Kira Nikolovski" hidden="false" targetId="114d-11db-a228-41ef" type="profile"/>
         <infoLink id="474e-82cd-9138-3dd5" name="Adrenaline Shot" hidden="false" targetId="7f5b-e552-25b2-3d86" type="rule"/>

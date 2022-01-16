@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539a-3a9a-e9c0-b700" name="Mazon Labs" revision="1" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539a-3a9a-e9c0-b700" name="Mazon Labs" revision="2" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -565,6 +565,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="7.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e470-0549-cfae-ec73" name="Mazon Security Guard" hidden="false" collective="false" import="true" type="model">
@@ -751,6 +752,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <entryLinks>
         <entryLink id="c062-efbb-8292-0a8d" name="Equipment" hidden="false" collective="false" import="true" targetId="0e60-565c-f9c8-9628" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9892-f602-47a2-b3af" name="Urbana Black Wing Ranger" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -947,22 +952,38 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="4d00-9449-73d9-095e" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
         <infoLink id="5d4e-7c69-3619-4ea3" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="03c2-2f91-cfee-cf96" name="Electric Shock" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="522c-92c5-d2f9-83a7" name="Stun" hidden="false" targetId="c3b4-0c3c-d63b-b757" type="rule"/>
         <infoLink id="5c3d-8dff-067b-b743" name="Electric Shock" hidden="false" targetId="277f-c581-faea-39f4" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4ea9-e2d1-746b-8010" name="Teeth and Claws" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cd81-6f2c-59c8-e1b6" name="Teeth and Claws" hidden="false" targetId="7c52-6cbf-7f69-7dbd" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="45aa-de55-fd6f-6119" name="Heavy Laser Rifle" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="0e74-e895-7634-4984" name="Heavy Laser Rifle" hidden="false" targetId="7a19-8ca5-339f-88b7" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6b6c-197b-5ddf-8a07" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -970,6 +991,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="b309-3ac8-7e28-5b01" name="Explosive" hidden="false" targetId="0e5c-2182-6e56-7595" type="rule"/>
         <infoLink id="6ca8-1fa2-fece-6723" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e8f7-450a-f445-9e33" name="Auto Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -977,6 +1002,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="5042-b50b-5c35-3e38" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
         <infoLink id="cd6f-c1db-ba83-be45" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bde4-14d6-e6ae-e678" name="Anaesthetic Injectors" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -984,12 +1013,20 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="b84e-fe30-8a93-8b1f" name="Stun" hidden="false" targetId="c3b4-0c3c-d63b-b757" type="rule"/>
         <infoLink id="bf35-6cb8-b4d8-1c25" name="Under Control" hidden="false" targetId="0353-6cbf-4038-61ba" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dabc-5730-6f42-7079" name="Anaesthetic Shot" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="36a4-9e24-92c8-56b3" name="Anaesthetic Shot" hidden="false" targetId="5bad-44ad-d8ac-6b22" type="profile"/>
         <infoLink id="1c7e-d0a5-2c6d-a236" name="Stun" hidden="false" targetId="c3b4-0c3c-d63b-b757" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2071-32b7-a1ad-d1cf" name="Laser Cutter" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1007,6 +1044,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="e240-e34c-fbab-9b33" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
         <infoLink id="d018-173b-0870-131c" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cbbf-2d6e-8adf-4c8c" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1042,6 +1083,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="c296-efb1-3163-c81a" name="Shock Baton" hidden="false" targetId="dfe4-d8dc-e6d3-2fd9" type="profile"/>
         <infoLink id="e56e-9db6-e0c6-903a" name="Under Control" hidden="false" targetId="0353-6cbf-4038-61ba" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fa9c-2c5b-8a19-409d" name="Rifle" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1058,12 +1103,20 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="4dff-34ea-c2ea-cacc" name="Poisoned Fangs" hidden="false" targetId="0c5b-24d0-3fbd-b98d" type="profile"/>
         <infoLink id="8536-1fe0-7759-6500" name="Toxic (n)" hidden="false" targetId="38f2-a52a-27bf-26d1" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="23ca-1e39-c942-73b1" name="Web Spinner" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d9b1-9759-fff5-ac7b" name="Stun" hidden="false" targetId="c3b4-0c3c-d63b-b757" type="rule"/>
         <infoLink id="cee7-655e-e226-5939" name="Web Spinner" hidden="false" targetId="0185-e232-c394-3005" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0bcb-d09a-9fb4-9a11" name="Hyperkinesis" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1112,11 +1165,19 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <infoLinks>
         <infoLink id="9ce4-b993-1a44-6afc" name="Claws" hidden="false" targetId="6f93-23d9-d6ce-73db" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d417-046b-e5ae-aa43" name="Claw" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5378-adc6-e978-e16d" name="Claw" hidden="false" targetId="21ff-12a9-9708-fb18" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1125,49 +1186,89 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0ea-af94-0058-8636" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="8706-b8d8-4179-ee7b" name="Ammo" hidden="false" collective="false" import="true" targetId="c275-654b-b7c4-f92d" type="selectionEntry"/>
+        <entryLink id="8706-b8d8-4179-ee7b" name="Ammo" hidden="false" collective="false" import="true" targetId="c275-654b-b7c4-f92d" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
+        </entryLink>
         <entryLink id="9439-60f7-ce2d-dce7" name="AP Ammo" hidden="false" collective="false" import="true" targetId="ae96-884e-4c50-fd84" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a66-a0b3-6b01-8c55" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="f8a5-7d32-5302-8894" name="Grenade (Frag (3))" hidden="false" collective="false" import="true" targetId="ffd5-4d16-3edf-5df5" type="selectionEntry"/>
-        <entryLink id="4726-013a-7d5f-7ee3" name="Grenade (Smoke)" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry"/>
+        <entryLink id="f8a5-7d32-5302-8894" name="Grenade (Frag (3))" hidden="false" collective="false" import="true" targetId="ffd5-4d16-3edf-5df5" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4726-013a-7d5f-7ee3" name="Grenade (Smoke)" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3.0"/>
+          </costs>
+        </entryLink>
         <entryLink id="c220-dca0-7573-c479" name="Grenade (Stun)" hidden="false" collective="false" import="true" targetId="3372-7a06-2306-a0ee" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c7d-cb00-8d39-0d7f" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
         <entryLink id="5ae4-2c4f-727b-60b0" name="Medi Pack" hidden="false" collective="false" import="true" targetId="a6e6-b1be-5491-5c24" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6b6b-7cc1-eca9-7524" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
         <entryLink id="5418-7a37-4122-d329" name="Comm-link" hidden="false" collective="false" import="true" targetId="2235-07cb-e527-59a0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9ef0-9470-691c-167d" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
         <entryLink id="fa53-d040-fd0e-e524" name="Trip Mines" hidden="false" collective="false" import="true" targetId="83a7-6d43-753d-a30f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d4a1-d06b-1b99-3d2f" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
         <entryLink id="4306-35ef-9635-5c52" name="Thermal Mines" hidden="false" collective="false" import="true" targetId="40da-677f-806c-05e4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c069-28d7-0554-7eec" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+          </costs>
         </entryLink>
-        <entryLink id="f928-c443-7a05-d82a" name="Combat Blades" hidden="false" collective="false" import="true" targetId="73b1-24e3-20e7-5287" type="selectionEntry"/>
+        <entryLink id="f928-c443-7a05-d82a" name="Combat Blades" hidden="false" collective="false" import="true" targetId="73b1-24e3-20e7-5287" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
+        </entryLink>
         <entryLink id="156a-411d-be82-b6ba" name="Stimulant Shot" hidden="false" collective="false" import="true" targetId="cb8b-a024-4666-c724" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1356-d857-31da-611a" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
         </entryLink>
         <entryLink id="9cd5-4e11-fbcb-37c0" name="Adrenaline Shot" hidden="false" collective="false" import="true" targetId="26be-b24b-1f9e-af5c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d14b-bcb6-fe41-3da6" type="max"/>
           </constraints>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>

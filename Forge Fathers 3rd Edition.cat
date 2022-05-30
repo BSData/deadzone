@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="4" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="5" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -741,7 +741,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <categoryLink id="8245-2301-516a-dc99" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3af2-9da0-5ce2-bcc9" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3af2-9da0-5ce2-bcc9" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="63a3-d456-b58c-df47">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a696-a5dc-b8c9-44a3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cb1-52d5-7b96-de98" type="max"/>
@@ -749,7 +749,6 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
           <entryLinks>
             <entryLink id="63a3-d456-b58c-df47" name="Heavy Heat Hammer" hidden="false" collective="false" import="true" targetId="01da-6297-8a06-8c2a" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99e-05e9-5f00-2e78" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743e-cda4-bb18-662c" type="max"/>
               </constraints>
               <costs>
@@ -759,7 +758,6 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             </entryLink>
             <entryLink id="fb00-85eb-bc0b-5b25" name="Magma Rifle" hidden="false" collective="false" import="true" targetId="4686-8829-0c46-1322" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d2-68bb-363b-4a54" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ea-8810-0d48-2542" type="max"/>
               </constraints>
               <costs>

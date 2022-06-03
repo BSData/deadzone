@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="53be-b645-c5c7-7396" name="Enforcers" revision="1" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="53be-b645-c5c7-7396" name="Enforcers" revision="2" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -309,6 +309,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <entryLinks>
         <entryLink id="0fc9-1060-d129-7834" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b3de-aff8-a9d2-a434" name="Enforcer" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -358,6 +362,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <entryLinks>
         <entryLink id="a7aa-08bd-840c-a7a8" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="35c3-b8b5-8bd7-baa6" name="Engineer" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -405,6 +413,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <entryLinks>
         <entryLink id="f7dd-edb0-90d8-a3ad" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0008-4b2e-5e47-a88d" name="Medic" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -488,6 +500,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <entryLinks>
         <entryLink id="3ae7-86ae-f5d6-a2d7" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e8da-4cfe-2b50-071e" name="Breach &amp; Eradicate Enforcer" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -505,6 +521,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
           </constraints>
         </entryLink>
         <entryLink id="23dc-056d-0152-5373" name="Thermal Mines" hidden="false" collective="false" import="true" targetId="40da-677f-806c-05e4" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="69b0-482f-35d5-9309" value="0.0"/>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d3b-069c-67a2-6b5c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe90-293b-0bbe-64c1" type="min"/>
@@ -579,6 +598,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <entryLinks>
         <entryLink id="3a2b-dcc8-4940-5103" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="35ae-9eea-7158-0764" name="Pathfinder" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -623,6 +646,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="8.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d295-ab3c-3a7f-41a8" name="Peacekeeper" hidden="false" collective="false" import="true" type="model">
@@ -867,6 +891,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="20bb-1327-1680-ef91" name="Urban Assault Strider" hidden="false" collective="false" import="true" type="model">
       <infoLinks>

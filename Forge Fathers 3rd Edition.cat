@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="5" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="6" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -1357,7 +1357,6 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
     <selectionEntry id="8517-3c5a-172f-cecc" name="Power Hammer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7784-fbdd-3339-6308" name="Power Hammer" hidden="false" targetId="4012-36bb-1083-d823" type="profile"/>
-        <infoLink id="435f-6dac-6a0b-1716" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
         <infoLink id="01f2-a39e-6ae4-afd5" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
       </infoLinks>
       <costs>
@@ -1602,7 +1601,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <description>The active model recovers one HP if it makes a successful Survive test (2). May not be used on a model with the Vehicle or Walker keywords.</description>
     </rule>
     <rule id="b09b-977a-b726-b612" name="Special Order: Thunder Strike" publicationId="2fce-908e-d96c-e6cc" page="33" hidden="false">
-      <description>A model with a Forge Hammer or Heavy Heat Hammer can perform a R2, Frag (2) attack as a Free Action once during its activation. This ability may not be used by an Iron Ancestor.</description>
+      <description>A model with a Forge Hammer, Heavy Forge Hammer, or Heavy Hammer can perform a R2, Frag (2) attack as a Free Action once during its activation. This ability may not be used by an Iron Ancestor.</description>
     </rule>
     <rule id="4421-aeab-ffe2-afe5" name="Special Order: Gun-Toting" publicationId="2fce-908e-d96c-e6cc" page="34" hidden="false">
       <description>The active Artificer or Brokkr model gains Fire Control or Weight of Fire (2).</description>
@@ -1826,7 +1825,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP3</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1), Smash (1)</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Smash (1)</characteristic>
       </characteristics>
     </profile>
     <profile id="a2a3-baca-b8b3-d2bd" name="Xerxes Cannon" publicationId="2fce-908e-d96c-e6cc" page="40" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">

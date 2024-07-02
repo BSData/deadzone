@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="6" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="7" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -32,8 +32,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="50.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="44.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7683-bd67-043f-fabc" name="Forge Guard Huscarl" publicationId="2fce-908e-d96c-e6cc" page="32" hidden="false" collective="false" import="true" type="model">
@@ -73,7 +73,6 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="a6f9-721d-648f-2cd9" name="Chief Brokkr" hidden="false" targetId="fd26-9623-50ac-687c" type="profile"/>
         <infoLink id="b211-7642-b886-e132" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
         <infoLink id="5604-614a-70e5-9d8d" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
-        <infoLink id="b5a9-05d3-6d96-7b01" name="Engineer" hidden="false" targetId="2c6c-0b74-ce9d-4e45" type="rule"/>
         <infoLink id="d432-ddea-561a-018b" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
         <infoLink id="af44-7c12-5972-3831" name="Special Order: Strike It Lucky" hidden="false" targetId="63cb-fe43-f906-a867" type="rule"/>
         <infoLink id="3724-aec1-3b44-8e4c" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
@@ -178,7 +177,6 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
     <selectionEntry id="d0d6-f432-4fa1-f09f" name="Thorgarim Huscarl" publicationId="2fce-908e-d96c-e6cc" page="33" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="fc0e-0912-962b-e1fa" name="Thorgarim Huscarl" hidden="false" targetId="f4dd-53b2-4ba0-2b08" type="profile"/>
-        <infoLink id="06ba-9c22-ca98-9933" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
         <infoLink id="3e88-82a7-a570-8b10" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
         <infoLink id="1ef5-1852-5f5c-f025" name="Headstrong" hidden="false" targetId="7109-f790-bebd-317f" type="rule"/>
         <infoLink id="17ae-d91d-aadc-39ed" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
@@ -203,8 +201,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="30.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="28.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ad6-1771-58e3-b0f6" name="Master Artificer" publicationId="2fce-908e-d96c-e6cc" page="34" hidden="false" collective="false" import="true" type="model">
@@ -329,7 +327,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <entryLink id="05e0-24cc-3ea8-f27d" name="Equipment" hidden="false" collective="false" import="true" targetId="a560-8797-28c1-896c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="17.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="19.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
@@ -505,21 +503,32 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="6227-0dd1-9a2c-1c35" name="Evade" hidden="false" targetId="b1bd-a2c4-cd75-d623" type="rule"/>
         <infoLink id="072b-d3cb-0c0b-5cca" name="Resilient (n)" hidden="false" targetId="d3bb-c0a0-a253-cd9d" type="rule"/>
         <infoLink id="6ca4-4930-e5d6-5942" name="Bike" hidden="false" targetId="dc27-fead-d459-b185" type="rule"/>
-        <infoLink id="24e4-b6bf-26e1-e2ac" name="Vehicle" hidden="false" targetId="bd02-8a7f-60ba-dbb5" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cdff-76dc-a8ca-3758" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4ddc-293d-5fdf-6eeb" name="Twin Hailstorm Rifles" hidden="false" collective="false" import="true" targetId="d665-d985-e3bd-50ac" type="selectionEntry">
+        <entryLink id="4ddc-293d-5fdf-6eeb" name="Burst Pistol" hidden="false" collective="false" import="true" targetId="be9f-4e4d-8ef0-86b5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b45d-d4b9-ba25-ad10" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b690-eb10-580c-5221" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="6c7f-2613-5b3d-5704" name="Ramming" hidden="false" collective="false" import="true" targetId="d473-d246-d7ea-c19b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3de-937c-e994-975a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a2b-d8e2-298e-8b9f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="efd1-bb1c-c49e-fa32" name="Twin Hailstorm Rifles" hidden="false" collective="false" import="true" targetId="d665-d985-e3bd-50ac" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a523-fb5f-1c84-3947" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b74d-f068-0402-b042" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
@@ -673,7 +682,6 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <infoLinks>
         <infoLink id="d643-bc60-6644-48c2" name="Excavator Robot" hidden="false" targetId="d297-a37a-eb92-ec88" type="profile"/>
         <infoLink id="d95a-c6b3-8797-3b0a" name="Construct" hidden="false" targetId="1003-75e6-6b59-d8d9" type="rule"/>
-        <infoLink id="4a03-d98d-f0de-7a10" name="Remote" hidden="false" targetId="6bdd-eb66-94f3-a79e" type="rule"/>
         <infoLink id="0784-b3e5-be88-0be8" name="Tenacious" hidden="false" targetId="a3aa-4f8e-9ad9-108f" type="rule"/>
         <infoLink id="0e28-926d-c21c-a931" name="Vehicle" hidden="false" targetId="bd02-8a7f-60ba-dbb5" type="rule"/>
       </infoLinks>
@@ -1045,7 +1053,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="24.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfd2-31ed-e785-e7e1" name="Padd" publicationId="2fce-908e-d96c-e6cc" page="41" hidden="false" collective="false" import="true" type="model">
@@ -1492,6 +1500,13 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d473-d246-d7ea-c19b" name="Ramming" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0986-6c20-e27a-9b68" name="Ramming" hidden="false" targetId="1372-fc77-3774-0240" type="profile"/>
+        <infoLink id="76ff-5fbe-34b5-6eff" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="61ae-0f22-2e8e-a398" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="a560-8797-28c1-896c" name="Equipment" hidden="false" collective="false" import="true">
@@ -1860,13 +1875,13 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <characteristics>
         <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
         <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+        <characteristic name="SV" typeId="beab-fc63-a14f-0242">3+</characteristic>
         <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">2</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Life Support, Recon 4+, Solid, Tactician (3)
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Life Support, Recon 5+, Solid, Tactician (3)
 Special Order: Defender of the Star Realm</characteristic>
       </characteristics>
     </profile>
@@ -1894,7 +1909,7 @@ Special Order: Starforged Armour</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Dismantle, Engineer, Frenzy (1), Headstrong, Recon 5+, Tactician (1), Tough
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Dismantle, Frenzy (1), Headstrong, Recon 5+, Tactician (1), Tough
 Special Order: Strike It Lucky</characteristic>
       </characteristics>
     </profile>
@@ -1916,13 +1931,13 @@ Special Order: Too Stubborn To Die</characteristic>
       <characteristics>
         <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
         <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
         <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
         <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Frenzy (1), Headstrong, Recon 5+, Tactician (1)
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Headstrong, Recon 4+, Tactician (1)
 Special Order: Thunder Strike</characteristic>
       </characteristics>
     </profile>
@@ -2003,7 +2018,7 @@ Special Order: Gun-Toting</characteristic>
       <characteristics>
         <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
         <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
         <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
         <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
@@ -2074,7 +2089,7 @@ Special Order: Gun-Toting</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Construct, Remote, Tenacious, Vehicle</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Construct, Tenacious, Vehicle</characteristic>
       </characteristics>
     </profile>
     <profile id="2198-e38e-3d2a-f111" name="Artificer" publicationId="2fce-908e-d96c-e6cc" page="38" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
@@ -2179,6 +2194,13 @@ Special Order: Gun-Toting</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
         <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Faithful Companion</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1372-fc77-3774-0240" name="Ramming" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Smash (1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

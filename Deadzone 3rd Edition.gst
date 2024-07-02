@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="914e-8a95-25ac-174f" name="Deadzone 3rd Edition" revision="7" battleScribeVersion="2.03" authorName="James Moyon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="914e-8a95-25ac-174f" name="Deadzone 3rd Edition" revision="8" battleScribeVersion="2.03" authorName="James Moyon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -81,6 +81,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f0a-e3f2-dc50-28fb" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="f15c-6b81-bdf4-aed2" name="Preset" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="373b-5688-1564-08f6" name="Strike Team" publicationId="2fce-908e-d96c-e6cc" page="4" hidden="false">
@@ -92,6 +93,16 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <categoryLink id="7443-ad64-64dc-dcec" name="Living Legend" hidden="false" targetId="c049-07ca-32fa-da63" primary="false"/>
         <categoryLink id="048d-3551-c238-a31a" name="Special" hidden="false" targetId="6072-dcb2-6eb9-1e71" primary="false"/>
         <categoryLink id="5693-eeeb-6e60-a18d" name="Merc" hidden="false" targetId="6163-9854-9b33-15c5" primary="false"/>
+        <categoryLink id="64b7-d242-ea6e-30d7" name="Preset" hidden="false" targetId="f15c-6b81-bdf4-aed2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e59f-f27b-eaad-c74e" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="39f7-ec5f-d717-438a" name="Strike Team (Preset)" hidden="false">
+      <categoryLinks>
+        <categoryLink id="dfd6-fc7b-15c4-7c12" name="Preset" hidden="false" targetId="f15c-6b81-bdf4-aed2" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

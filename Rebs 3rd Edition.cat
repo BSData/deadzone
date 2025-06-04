@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="04fb-2bfa-9377-3b06" name="Rebs" revision="4" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="04fb-2bfa-9377-3b06" name="Rebs" revision="5" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -21,16 +21,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d61-6a1c-cba9-f49e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a6a-3776-cd15-635d" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="34.0"/>
-          </costs>
         </entryLink>
         <entryLink id="32d4-d633-fd86-31d1" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="34.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d648-cc90-e90c-6ead" name="Human Cell Leader" hidden="false" collective="false" import="true" type="model">
@@ -54,16 +50,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12fa-793d-bd1a-b5ad" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a31-f0a7-43f5-b7fe" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="28.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
-          </costs>
         </entryLink>
         <entryLink id="33eb-acc5-5dee-d228" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="28.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77ea-b3e9-3f65-e9ef" name="Sphyr Cell Leader" hidden="false" collective="false" import="true" type="model">
@@ -139,16 +131,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd23-aba6-def8-6bd3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dba8-664f-5676-c0e8" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
-          </costs>
         </entryLink>
         <entryLink id="1049-d3d6-0ca7-b8b1" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16c6-8ab4-3ca3-8881" name="Sphyr Hunter" hidden="false" collective="false" import="true" type="model">
@@ -191,16 +179,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d13-3bb6-d061-32e7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4644-9236-4213-9642" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="8.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-          </costs>
         </entryLink>
         <entryLink id="4868-c27b-6990-4166" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="8.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b5f-0dcf-a417-b332" name="Rebel Sorak" hidden="false" collective="false" import="true" type="model">
@@ -216,16 +200,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2136-52aa-45f7-c822" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1234-4acd-538c-657b" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-          </costs>
         </entryLink>
         <entryLink id="2c68-e6fb-a029-1beb" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da91-f9e8-8ba9-7b18" name="Rebel Yndij" hidden="false" collective="false" import="true" type="model">
@@ -244,16 +224,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d91a-48ad-7d5c-0680" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a079-4b5b-7caa-1d4d" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-          </costs>
         </entryLink>
         <entryLink id="86c9-fdc3-e92f-ef4c" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8822-6275-116d-e629" name="Rebel Trooper" hidden="false" collective="false" import="true" type="model">
@@ -269,16 +245,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c9e-b57e-3e7f-769c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a330-7e55-5f54-9347" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="7.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-          </costs>
         </entryLink>
         <entryLink id="516b-2d8a-5b6d-b852" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="7.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ecee-3c2f-f281-c562" name="Sphyr Hunter Mako" hidden="false" collective="false" import="true" type="model">
@@ -323,14 +295,11 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1c0-ce4d-287f-f6af" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6903-1cd2-e31a-87a4" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
-          </costs>
         </entryLink>
         <entryLink id="a771-612a-27dc-4e2d" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -349,16 +318,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b29-9593-c178-2cc8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f70a-a1b5-9be2-2a12" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-          </costs>
         </entryLink>
         <entryLink id="06ad-bf2a-d32e-3752" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d368-00f7-38e5-f99a" name="Grogan Desolator" hidden="false" collective="false" import="true" type="model">
@@ -376,16 +341,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e57e-8f0f-4bb8-2d82" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77c1-5420-8a1e-2d06" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-          </costs>
         </entryLink>
         <entryLink id="39c7-c754-cfcc-c515" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e1ca-16e5-5433-6e31" name="Kraaw Warrior" hidden="false" collective="false" import="true" type="model">
@@ -404,16 +365,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa94-a0b0-bac9-f28b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ce-6d5e-e750-2dd6" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-          </costs>
         </entryLink>
         <entryLink id="c871-4976-40a4-92e2" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e516-3679-991b-f705" name="Alpha Simian Brawler" hidden="false" collective="false" import="true" type="model">
@@ -431,16 +388,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58c6-ada7-4ace-a613" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b7-ad5c-2ce0-1376" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="26.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
-          </costs>
         </entryLink>
         <entryLink id="4e7b-9f97-3ea1-e640" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="26.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b601-3382-54d5-e259" name="Rebel Teraton" hidden="false" collective="false" import="true" type="model">
@@ -633,16 +586,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f76-e30a-ef17-028c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9760-2e6b-9ce2-bf2b" type="min"/>
           </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="17.0"/>
-            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
-          </costs>
         </entryLink>
         <entryLink id="3953-4878-62ed-1f5c" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="17.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f5f-4042-28cb-fcf9" name="Rebel Sniper" hidden="false" collective="false" import="true" type="model">
@@ -746,7 +695,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="39.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="40.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
       </costs>
     </selectionEntry>
@@ -944,10 +893,10 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </constraints>
       <infoLinks>
         <infoLink id="134d-d849-5062-8750" name="Kira Nikolovski" hidden="false" targetId="114d-11db-a228-41ef" type="profile"/>
-        <infoLink id="474e-82cd-9138-3dd5" name="Adrenaline Shot" hidden="false" targetId="7f5b-e552-25b2-3d86" type="rule"/>
-        <infoLink id="0e76-ea80-d3b7-7b9b" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="0e76-ea80-d3b7-7b9b" name="Stimulant Shot" hidden="false" targetId="deaa-c969-eec3-eeda" type="rule"/>
         <infoLink id="bd05-7bb5-2e23-1a75" name="Medic" hidden="false" targetId="acc7-4fab-9dcd-fb81" type="rule"/>
-        <infoLink id="cace-cfbd-944b-52da" name="Stimulant Shot" hidden="false" targetId="efea-6343-5952-6393" type="rule"/>
+        <infoLink id="aa20-a1d1-6afa-4591" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="e909-5510-e458-73fa" name="Adrenaline Shot" hidden="false" targetId="d955-076d-2c7e-091a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f55f-469f-3aa5-fba7" name="Living Legend" hidden="false" targetId="c049-07ca-32fa-da63" primary="true"/>
@@ -969,6 +918,36 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b10-84f4-ed9e-6726" name="Rebel Engineer" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="cdce-f536-a451-715c" name="Rebel Engineer" hidden="false" targetId="8eda-ce66-e907-67b1" type="profile"/>
+        <infoLink id="46cf-5404-ab29-8fad" name="Engineer" hidden="false" targetId="2c6c-0b74-ce9d-4e45" type="rule"/>
+        <infoLink id="01b2-a0c1-2309-9361" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1ef2-56c4-d771-b2bd" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+        <categoryLink id="ea15-fa59-04c7-f7fe" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a146-236f-740d-99d2" name="Welding Torch" hidden="false" collective="false" import="true" targetId="c6d3-5940-254b-91e7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f24f-c840-55a9-51d8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07a8-1eea-c109-809a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="060d-fb51-0370-63c4" name="Equipment" hidden="false" collective="false" import="true" targetId="feb1-fff2-025e-997c" type="selectionEntryGroup"/>
+        <entryLink id="5b4d-e282-430e-279b" name="Power Claw" hidden="false" collective="false" import="true" targetId="48cd-d02b-31a4-8b00" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a64-4161-596a-949f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="268a-5dd9-2d47-5653" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1466,6 +1445,12 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
     </rule>
     <rule id="33a7-a8aa-3943-14c7" name="Special Order: Hide in Shadows" publicationId="2fce-908e-d96c-e6cc" page="103" hidden="false">
       <description>At the end of the active model&apos;s activation, and for the rest of the Round, the model cannot be targeted by Shoot actions, and cannot have Line of Sight drawn to it. The model is still affected by keywords that target every model in the cube (such as Frag, Indirect, It Burns! or Blast) and can still be the  target of Assault actions.</description>
+    </rule>
+    <rule id="d955-076d-2c7e-091a" name="Adrenaline Shot" hidden="false">
+      <description>The Adrenaline Shot increases the heart rate and blood supply to drive the user to higher degrees of physical activity. Use the item to increase the model’s Speed by +1/+1 for this Round. Can be used once per round.</description>
+    </rule>
+    <rule id="deaa-c969-eec3-eeda" name="Stimulant Shot" hidden="false">
+      <description>Many stimulants are banned within civilized GCPS space, but in the carnage of a Deadzone survival is all that matters. Weaponised stimulants drive combat soldiers to incredible feats of violence. Use the item to gain +1 die for a single Fight or Ranged test. Can be used once per round.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2073,6 +2058,19 @@ Special Order: Hide in Shadows</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
         <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Adrenaline Shot, Hacker, Medic, Stimulant Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8eda-ce66-e907-67b1" name="Rebel Engineer" publicationId="2fce-908e-d96c-e6cc" page="108" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+      <characteristics>
+        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+        <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Engineer, Hacker</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

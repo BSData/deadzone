@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ea07-27ad-c089-1f24" name="Veer-Myn" revision="9" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ea07-27ad-c089-1f24" name="Veer-Myn" revision="10" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -170,7 +170,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a963-a2ce-a1bd-d532" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="b360-6bcb-dcba-c4bf" name="Ray Pistol" hidden="false" collective="false" import="true" targetId="b42d-8428-4080-994e" type="selectionEntry">
+        <entryLink id="b360-6bcb-dcba-c4bf" name="Ray Pistol" hidden="false" collective="false" import="true" targetId="7df2-1cea-7308-0308" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5122-c595-d190-8781" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f76-d169-b565-dd7f" type="min"/>
@@ -222,42 +222,24 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <categoryLinks>
         <categoryLink id="cdcd-02b1-eb35-5e97" name="Leader" hidden="false" targetId="93f0-5c07-b9f5-ed97" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="21e0-4726-e470-0053" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a2b-b425-0165-e8c4">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="374c-9eee-944c-c01a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98b4-2d6b-e640-754b" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="3a2b-b425-0165-e8c4" name="Chem Staff &amp; Claws" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-                <entryLink id="5b32-af36-d5c8-a7b8" name="Chem Staff" hidden="false" collective="false" import="true" targetId="ec2a-b657-59a6-780b" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6791-2596-fd90-b164" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cafe-c51d-e25e-9627" type="min"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="5142-840d-b30d-ac29" name="Claws" hidden="false" collective="false" import="true" targetId="5270-887d-90cf-cb03" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a742-81c4-e708-f1de" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e4-338f-39a7-5afd" type="min"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="32.0"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="cda3-529d-6c3c-1a38" name="Equipment" hidden="false" collective="false" import="true" targetId="e2c7-653e-5f60-4f6b" type="selectionEntryGroup"/>
+        <entryLink id="760d-f0f8-1807-b66e" name="Chem Staff" hidden="false" collective="false" import="true" targetId="ec2a-b657-59a6-780b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a8-f5f8-fe67-c7de" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3203-e6f5-50ba-69da" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d472-540b-d9c0-133b" name="Claws" hidden="false" collective="false" import="true" targetId="5270-887d-90cf-cb03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc0-9b34-a2ac-d557" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3fa-285f-3d91-edf5" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="32.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec2a-b657-59a6-780b" name="Chem Staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -765,26 +747,18 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <categoryLinks>
         <categoryLink id="5625-9c3d-c448-618b" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5ce7-8f1c-50f3-1c3e" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ea5-f7ef-128f-28e1">
+      <entryLinks>
+        <entryLink id="ac1c-3c37-55de-20ef" name="Scythes" hidden="false" collective="false" import="true" targetId="0611-9f79-12a9-20c0" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc9-6858-2708-9748" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de10-fe73-0c33-2d82" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a826-0e91-ba2c-1f6f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d701-9fb2-a5ca-7a92" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="2ea5-f7ef-128f-28e1" name="Scythes" hidden="false" collective="false" import="true" targetId="0611-9f79-12a9-20c0" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7643-d94b-4b18-7755" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5209-4d4d-8ffc-463a" type="min"/>
-              </constraints>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="26.0"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="26.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
@@ -810,26 +784,18 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <categoryLinks>
         <categoryLink id="df85-3edf-c258-7554" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="c6bf-2e57-939e-74f2" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ebc-807a-f922-6d88">
+      <entryLinks>
+        <entryLink id="84fa-d509-4994-1f02" name="Heavy Chem Spitter" hidden="false" collective="false" import="true" targetId="540f-89df-9f68-6f39" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20d6-4a22-b1f2-85d3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6f1-80a6-d2d6-bab1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bb4-38a5-4f09-658c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4240-970b-ae98-dd96" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="9ebc-807a-f922-6d88" name="Heavy Chem Spitter" hidden="false" collective="false" import="true" targetId="540f-89df-9f68-6f39" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3965-f254-1eb0-0eae" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a9-5053-bd0a-ef19" type="min"/>
-              </constraints>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22.0"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
@@ -870,7 +836,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
     <selectionEntry id="c40c-ac5d-302e-fadf" name="Razor Claws" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="34a4-31a8-f0fa-b9bb" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
-        <infoLink id="ae78-6f97-7f21-e307" name="Razor Claws (Frenzy (1))" hidden="false" targetId="61e2-5753-a421-a053" type="profile"/>
+        <infoLink id="ae78-6f97-7f21-e307" name="Razor Claws " hidden="false" targetId="61e2-5753-a421-a053" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
@@ -962,7 +928,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <categoryLink id="1e12-1120-b907-7f59" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ce04-561b-f075-0408" name="Razor Claws" hidden="false" collective="false" import="true" targetId="c40c-ac5d-302e-fadf" type="selectionEntry">
+        <entryLink id="ce04-561b-f075-0408" name="Razor Claws" hidden="false" collective="false" import="true" targetId="7e3c-2b80-1aa6-5d88" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b82e-501c-a513-70b7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f474-d370-562e-f32d" type="min"/>
@@ -981,46 +947,24 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <categoryLinks>
         <categoryLink id="88cb-5f02-ca51-ebf8" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="27fa-2394-1295-c038" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7268-c859-c287-1a53">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5457-6bd4-1765-46f6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb35-14b2-5cd1-19b1" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="7268-c859-c287-1a53" name="Chem Thrower &amp; Halberd" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65c1-6ed7-5a50-0555" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1b-87da-5076-0c7f" type="min"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="829c-1830-c131-e84a" name="Chem Thrower" hidden="false" collective="false" import="true" targetId="3f0b-0769-5753-509e" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30ec-00cf-4dff-0f2a" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d8-ee3b-efd5-a4ca" type="min"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="cc9c-3b0b-1770-ef5a" name="Halberd" hidden="false" collective="false" import="true" targetId="6d56-a132-34dc-ba4c" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e330-28b6-9c15-4f14" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d477-3c3d-1a6a-998a" type="min"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="17.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="52f4-7909-9a36-1d7c" name="Equipment" hidden="false" collective="false" import="true" targetId="e2c7-653e-5f60-4f6b" type="selectionEntryGroup"/>
+        <entryLink id="8fc7-d9f7-6521-530c" name="Chem Thrower" hidden="false" collective="false" import="true" targetId="3f0b-0769-5753-509e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb85-1a16-4890-45ba" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20c5-c23a-1726-e848" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="82d8-0af7-5f11-8c78" name="Halberd" hidden="false" collective="false" import="true" targetId="6d56-a132-34dc-ba4c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a19e-bcef-203e-63a2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3b1-5462-3175-8f94" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="17.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d56-a132-34dc-ba4c" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
@@ -1117,7 +1061,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <categoryLink id="9bf0-94e2-b22a-a88b" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="fb30-5537-5315-3a6b" name="Scythes" hidden="false" collective="false" import="true" targetId="0611-9f79-12a9-20c0" type="selectionEntry">
+        <entryLink id="fb30-5537-5315-3a6b" name="Scythes" hidden="false" collective="false" import="true" targetId="cdeb-ae56-5eb1-94c0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1a5-3682-6db7-afff" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0de-29f0-50c4-8fbc" type="min"/>
@@ -1310,10 +1254,38 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
     </selectionEntry>
     <selectionEntry id="81bf-d651-7bb1-8f56" name="Shock Baton" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="cf0f-199c-234e-d55d" name="Shock Baton" hidden="false" targetId="3b8c-de6e-9a68-a928" type="rule"/>
         <infoLink id="e0c1-ba0c-23a2-878d" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
         <infoLink id="f0b3-0760-e26d-e4ff" name="Under Control" hidden="false" targetId="0353-6cbf-4038-61ba" type="rule"/>
         <infoLink id="ecfe-ba1d-e6b7-a042" name="Shock Baton" hidden="false" targetId="40bf-d766-f76e-fdc4" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e3c-2b80-1aa6-5d88" name="Razor Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3bbc-8973-761b-5b98" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="914c-c561-7bf1-d17c" name="Razor Claws " hidden="false" targetId="87e4-0eed-b9b5-2f7f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cdeb-ae56-5eb1-94c0" name="Scythes" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="24bf-35ba-44cf-e41a" name="Scythes" hidden="false" targetId="21cf-6983-eddf-9ed2" type="profile"/>
+        <infoLink id="797c-7dcf-625f-958d" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7df2-1cea-7308-0308" name="Ray Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3530-72a7-5176-419a" name="Ray Pistol" hidden="false" targetId="eac0-ae6f-563f-1d41" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
@@ -1384,7 +1356,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="af46-0f3d-c36a-3a64" name="Special Order: Surge" publicationId="2fce-908e-d96c-e6cc" page="116" hidden="false">
-      <description>A Veer-Myn model that was already marked as activated at the start of this Turn may make a 1 cube Move. This may trigger Assaults as normal.</description>
+      <description>A Veer-Myn model that was already marked as activated at the start of this Turn may make a 1 cube Advance action. This may trigger Assaults as normal.</description>
     </rule>
     <rule id="128d-2e7d-90a5-d707" name="Special Order: Bomb Expert" publicationId="2fce-908e-d96c-e6cc" page="116" hidden="false">
       <description>The active model may make a free Shoot action with R2, Explosive - Frag (2).</description>
@@ -1393,7 +1365,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <description>The active model gains Weight of Fire (1) and Resilient (1) until the end of the round.</description>
     </rule>
     <rule id="4950-3831-d8ea-c1fa" name="Special Order: Feral Rush" publicationId="2fce-908e-d96c-e6cc" page="117" hidden="false">
-      <description>Select a non-Pinned model from your Strike Team that is within 3 cubes of the active model. Move it 1 cube towards the active model. If this move triggers an Assault, the moved model will gain Frenzy (1) in the subsequent Assault action. The moved model is not marked as activated unless it already was.</description>
+      <description>Select a non-Pinned model from your Strike Team that is within 3 cubes of the active friendly model. Move it 1 cube towards the active model. If this move triggers an Assault, the moved model will gain Frenzy (1) in the subsequent Assault action. The moved model is not marked as activated, unless it already was.</description>
     </rule>
     <rule id="da81-95be-6c3d-da11" name="Swarm Lord" publicationId="2fce-908e-d96c-e6cc" page="124" hidden="false">
       <description>When deploying this model, also deploy up to two Rat Swarms in your deployment zone. If there are ever fewer than two Rat Swarms in play when The Piper activates, The Piper may use a Special action to summon a new swarm. Place the new Rat Swarm in The Piper&apos;s cube. There must be enough capacity in the cube for the new Rat Swarm, or it cannot be summoned. New Rat Swarms are a part of the Strike Team and have the normal profile and VP cost.
@@ -1506,7 +1478,7 @@ Special Order: Inspiring Presence</characteristic>
         <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="9783-2f5f-29e9-6cfe" name="Razor Claws (Frenzy (2))" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+    <profile id="9783-2f5f-29e9-6cfe" name="Razor Claws" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
@@ -1780,7 +1752,7 @@ Special Order: Feral Rush</characteristic>
         <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged</characteristic>
       </characteristics>
     </profile>
-    <profile id="61e2-5753-a421-a053" name="Razor Claws (Frenzy (1))" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+    <profile id="61e2-5753-a421-a053" name="Razor Claws " hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
@@ -1992,6 +1964,27 @@ Special Order: Feral Rush</characteristic>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
         <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Under Control</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="87e4-0eed-b9b5-2f7f" name="Razor Claws " hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="21cf-6983-eddf-9ed2" name="Scythes" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eac0-ae6f-563f-1d41" name="Ray Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

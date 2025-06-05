@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="8" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="7d60-5cce-fcb8-e662" name="Forge Fathers" revision="9" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
-Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
+Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/</readme>
   <selectionEntries>
     <selectionEntry id="0718-4a11-62ef-4e78" name="Forge Lord" publicationId="2fce-908e-d96c-e6cc" page="32" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -456,7 +456,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="30"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f3c-bbdf-4309-9824" name="Thorgarim" publicationId="2fce-908e-d96c-e6cc" page="36" hidden="false" collective="false" import="true" type="model">
@@ -826,19 +826,19 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <categoryLink id="930e-a5f9-74cd-73d6" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a388-657a-4ee7-ba8c" name="Twin Hailstorm Autocannons" hidden="false" collective="false" import="true" targetId="dd92-c73e-473d-0285" type="selectionEntry">
+        <entryLink id="a0a8-ff68-0dc6-e4b3" name="Iron Ancestor Optional Upgrades" hidden="false" collective="false" import="true" targetId="5bc8-0b08-ac70-ff51" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Twin Hailstorm Autocannons " hidden="false" id="c45e-5517-1cbb-67e7" type="selectionEntry" targetId="41aa-3cf1-22c3-3032">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1f9-76dd-c2d2-2747" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3e1-2784-ae46-ca52" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5c20-92e1-23b4-647c" name="Twin Hailstorm Autocannons" hidden="false" collective="false" import="true" targetId="dd92-c73e-473d-0285" type="selectionEntry">
+        <entryLink import="true" name="Twin Hailstorm Autocannons" hidden="false" id="321a-dff5-1655-f068" type="selectionEntry" targetId="dd92-c73e-473d-0285">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b1b-2084-1cc2-27c1" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47aa-5e6a-35e7-ec43" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a0a8-ff68-0dc6-e4b3" name="Iron Ancestor Optional Upgrades" hidden="false" collective="false" import="true" targetId="5bc8-0b08-ac70-ff51" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="52"/>
@@ -1506,6 +1506,17 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="76ff-5fbe-34b5-6eff" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
         <infoLink id="61ae-0f22-2e8e-a398" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="41aa-3cf1-22c3-3032" name="Twin Hailstorm Autocannons " hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7380-00a1-9dec-caa6" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
+        <infoLink id="fd2c-7790-da45-85b1" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+        <infoLink id="bef3-e6b0-e011-8ccd" name="Twin Hailstorm Autocannons " hidden="false" targetId="90cb-f9a6-2e70-b8dc" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2201,6 +2212,13 @@ Special Order: Gun-Toting</characteristic>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
         <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Smash (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="90cb-f9a6-2e70-b8dc" name="Twin Hailstorm Autocannons " publicationId="2fce-908e-d96c-e6cc" page="39" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R8</characteristic>
+        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Suppression, Weight of Fire (1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

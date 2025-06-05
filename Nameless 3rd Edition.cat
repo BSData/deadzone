@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d30f-ae47-107e-f058" name="Nameless" revision="2" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d30f-ae47-107e-f058" name="Nameless" revision="3" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
-Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
+Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/</readme>
   <selectionEntries>
     <selectionEntry id="7867-ba37-fbff-1e68" name="Assassin" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -15,7 +15,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <categoryLink id="76c5-0a56-d4e8-d417" name="New CategoryLink" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0989-cce1-f063-cf2e" name="Claws" hidden="false" collective="false" import="true" targetId="b95e-a288-2109-70ef" type="selectionEntry">
+        <entryLink id="0989-cce1-f063-cf2e" name="Claws" hidden="false" collective="false" import="true" targetId="aa21-cbce-a416-4882" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9702-79f5-c72f-0d23" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f628-3b7d-f832-abec" type="max"/>
@@ -123,6 +123,11 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="786f-3928-4082-03e3" name="Feromite Prime" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="7123-8f5c-d00a-c642" name="Special Order: Hunker Down" hidden="false">
+          <description>The active model gains the Solid and Tough abilities for the Round. The active model may not perform an Advance or Sprint action this activation.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="db0c-26c3-67f6-5fb4" name="Feromite Prime" hidden="false" targetId="f293-9863-4686-879c" type="profile"/>
         <infoLink id="298b-222f-3b4e-4078" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
@@ -250,6 +255,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="9681-3082-1449-dc20" name="Agile" hidden="false" targetId="904a-6711-43cf-1f83" type="rule"/>
         <infoLink id="14b5-2727-627a-dd7e" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
         <infoLink id="ca4a-bd99-5caf-6b43" name="Psychic" hidden="false" targetId="8631-8a95-36cb-5e6e" type="rule"/>
+        <infoLink id="5c6d-7b8f-b527-589f" name="Explosive" hidden="false" targetId="0e5c-2182-6e56-7595" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e36f-98c5-b431-5bc0" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
@@ -276,6 +282,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="6424-3caf-6bf6-c1a8" name="Resilient (n)" hidden="false" targetId="d3bb-c0a0-a253-cd9d" type="rule"/>
         <infoLink id="8213-52c4-40c0-c4f4" name="Scout" hidden="false" targetId="eb06-6d59-6705-ed49" type="rule"/>
         <infoLink id="d10d-c8f8-1cb4-cd97" name="Stealthy" hidden="false" targetId="4d6e-0ce3-e89e-abb2" type="rule"/>
+        <infoLink id="2c2a-103c-c849-9355" name="Project Oberon" hidden="false" targetId="a498-4881-e2d5-3a79" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="35e7-8479-c405-b72b" name="New CategoryLink" hidden="false" targetId="c049-07ca-32fa-da63" primary="true"/>
@@ -300,6 +307,11 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="cfcc-b54f-c175-3f4d" name="Psychotroid" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="2583-9dd7-e778-615e" name="Special Order: Aura of Dread" hidden="false">
+          <description>Aura of Dread: Choose one non-pinned enemy model within 2 cubes and LoS of the active model. Move the target model 1 cube directly away from the active model. If the model enters a cube with an enemy model it will initiate an Assault action but may only roll to Survive. At the end of the move mark the moved model as Pinned. If the model was in an occupied cube it must Breakaway to leave the cube. Models with the Construct, Solid or Vehicle keywords are unaffected by this rule.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="cf45-1573-d5e4-8bb8" name="Psychotroid" hidden="false" targetId="8b17-9fd4-01bf-5409" type="profile"/>
         <infoLink id="0450-14b2-5103-737d" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
@@ -383,6 +395,11 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="60c9-5cf2-d4ab-8626" name="Spawn" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="4f32-3304-b2b7-a269" name="Special Order: From the Depths" hidden="false">
+          <description>Deploy a free, unactivated Scuttler model into a cube that contains a model from your Strike Team and no enemy models. In all ways this new model acts as a member of your Strike Team and VPs will be gained for killing it.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="9a98-da56-7b96-e575" name="Spawn" hidden="false" targetId="2187-0f77-25e2-f493" type="profile"/>
         <infoLink id="531a-4cf9-fad9-28bd" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
@@ -414,6 +431,11 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       </costs>
     </selectionEntry>
     <selectionEntry id="2a99-217f-ead3-5f01" name="The Blight" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="8422-699f-cc52-e190" name="Special Order: Caustic Spittle" hidden="false">
+          <description>The active model may perform a free Shoot action with R2, It Burns!. If the active model has no Shoot stat it will use a Shoot stat of 7+.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="c61f-927a-41f4-d780" name="The Blight" hidden="false" targetId="3d6c-eb5f-9bed-95c9" type="profile"/>
         <infoLink id="6ec3-c0a9-1752-1d54" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
@@ -762,6 +784,16 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="aa21-cbce-a416-4882" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7a3d-ff10-4d61-d363" name="Claws" hidden="false" targetId="9e83-e2fc-03bc-a74a" type="profile"/>
+        <infoLink id="bd26-fbbb-330d-4d3e" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="dc32-5738-dbd1-823a" name="Equipment" hidden="false" collective="false" import="true">
@@ -936,7 +968,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic - Blast</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic - Explosive (Blast)</characteristic>
       </characteristics>
     </profile>
     <profile id="53dc-36f9-6ee9-5dea" name="Crystal Cannon" publicationId="2fce-908e-d96c-e6cc" page="86" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
@@ -1018,7 +1050,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">4	0mm</characteristic>
+        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
         <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Recon 4+, Resilient (2), Tactician (2), Tenacious
 Special Order: Aura of Dread</characteristic>
       </characteristics>
@@ -1033,7 +1065,8 @@ Special Order: Aura of Dread</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Defender Shield, Drop Suit, Recon 5+, Tactician (1), Tenacious</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Defender Shield, Drop Suit, Recon 5+, Tactician (1), Tenacious
+Special Order: Hunker Down</characteristic>
       </characteristics>
     </profile>
     <profile id="3d6c-eb5f-9bed-95c9" name="The Blight" publicationId="2fce-908e-d96c-e6cc" page="82" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
@@ -1046,7 +1079,8 @@ Special Order: Aura of Dread</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 5+, Resilient (1), Tactician (1), Tough</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 5+, Resilient (1), Tactician (1), Tough
+Special Order: Caustic Spittle</characteristic>
       </characteristics>
     </profile>
     <profile id="2187-0f77-25e2-f493" name="Spawn" publicationId="2fce-908e-d96c-e6cc" page="83" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
@@ -1059,7 +1093,8 @@ Special Order: Aura of Dread</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 6+, Resilient (1), Tactician (1), Tenacious</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 6+, Resilient (1), Tactician (1), Tenacious
+Special Order: From the Depths</characteristic>
       </characteristics>
     </profile>
     <profile id="8229-d746-8dda-705e" name="Inker" publicationId="2fce-908e-d96c-e6cc" page="83" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
@@ -1242,6 +1277,13 @@ Special Order: Aura of Dread</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
         <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Resilient (1), Scout, Stealthy</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9e83-e2fc-03bc-a74a" name="Claws" publicationId="2fce-908e-d96c-e6cc" page="84" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (2)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -376,7 +376,6 @@ Please consider supporting Mantic by purchasing a subscription to the Companion 
         </infoLink>
         <infoLink id="12a1-79cc-96ef-267e" name="Jump Pack" hidden="false" targetId="6932-6558-0a3f-0f92" type="rule"/>
         <infoLink id="5ed8-2981-f62d-0805" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
-        <infoLink id="1310-0a3d-a418-a51c" name="Engineer" hidden="false" targetId="2c6c-0b74-ce9d-4e45" type="rule"/>
         <infoLink id="f36a-ec50-dd33-4400" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -412,6 +411,7 @@ Please consider supporting Mantic by purchasing a subscription to the Companion 
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f7dd-edb0-90d8-a3ad" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
+        <entryLink id="6e7e-3880-f25f-2801" name="Engineer" hidden="false" collective="false" import="true" targetId="18f5-f36f-c27c-0d4a" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
@@ -627,6 +627,16 @@ Please consider supporting Mantic by purchasing a subscription to the Companion 
       </costs>
     </selectionEntry>
     <selectionEntry id="2c99-af5b-d115-d337" name="Sentry Gun" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="aec6-ce6d-7c91-3fcd" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35c3-b8b5-8bd7-baa6" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aec6-ce6d-7c91-3fcd" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="055e-0dd7-52cf-8a8e" name="Sentry Gun" hidden="false" targetId="8880-2b04-631c-7c3d" type="profile"/>
         <infoLink id="3cec-bd74-ca34-bbb6" name="Construct" hidden="false" targetId="1003-75e6-6b59-d8d9" type="rule"/>
@@ -695,6 +705,10 @@ Please consider supporting Mantic by purchasing a subscription to the Companion 
         </entryLink>
         <entryLink id="65cc-8454-e184-491e" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="957a-a27e-97b4-66a4" name="Peacekeeper" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -730,9 +744,10 @@ Please consider supporting Mantic by purchasing a subscription to the Companion 
               <infoLinks>
                 <infoLink id="0977-b698-e2c2-1d39" name="Peacekeeper" hidden="false" targetId="6f5e-8795-7d03-57df" type="profile">
                   <modifiers>
-                    <modifier type="set" field="df9b-440a-5556-92eb" value="Jump Pack, Solid, Defender Shield"/>
+                    <modifier type="append" field="df9b-440a-5556-92eb" value=", Defender Shield"/>
                   </modifiers>
                 </infoLink>
+                <infoLink id="0b84-21c8-80c3-e59f" name="Defender Shield" hidden="false" targetId="db2d-083d-54bb-2def" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="24.0"/>
@@ -763,6 +778,10 @@ Please consider supporting Mantic by purchasing a subscription to the Companion 
         </entryLink>
         <entryLink id="9f24-1cef-f458-e26f" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="83da-5efc-1087-5ea3" name="Medi-Bot" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -1194,6 +1213,338 @@ Please consider supporting Mantic by purchasing a subscription to the Companion 
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a9ee-6f75-0f6d-8c76" name="Damantor Sniper Platform" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4ea2-c2f2-0d13-7006" name="Damantor Sniper Platform" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-1</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Bike, Resilient (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e48c-7055-1fda-1e09" name="Polaris Railgun" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R8</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Firing Platform (1), Knockback</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5237-941d-f748-6c65" name="Bike" hidden="false" targetId="dc27-fead-d459-b185" type="rule"/>
+        <infoLink id="2cde-e001-d8cc-7742" name="Vehicle" hidden="false" targetId="bd02-8a7f-60ba-dbb5" type="rule"/>
+        <infoLink id="4d5a-f917-315b-1522" name="Resilient (n)" hidden="false" targetId="d3bb-c0a0-a253-cd9d" type="rule"/>
+        <infoLink id="4990-9963-9320-bc00" name="Firing Platform (n)" hidden="false" targetId="43e1-1a23-ca38-b7f2" type="rule"/>
+        <infoLink id="0438-30aa-03b2-86b4" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="da4d-7578-32c4-134c" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b16b-3edd-31da-28f7" name="Mk IV Novashock Peacekeeper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4ff0-5075-52b7-3677" name="Mk IV Novashock Peacekeeper" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-1</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">3+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">2</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Solid</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6546-74b8-4df7-981e" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="8cd6-6367-b172-fa1a" name="Solid" hidden="false" targetId="5cf8-eb2f-a0ff-003b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c833-6dc1-a2d2-dbdd" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9e72-17ec-c924-da04" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="aeac-119e-554b-8d5c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a497-3fe8-56ae-0d80" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc90-a160-fc0b-3c3e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b8be-d1d5-79ba-b7c0" name="Heavy Fusion Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="17c9-6607-feee-2360" name="Heavy Fusion Gun" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Explosive - Frag (4)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0338-5b56-7428-89b6" name="Explosive" hidden="false" targetId="0e5c-2182-6e56-7595" type="rule"/>
+                <infoLink id="298c-fa6c-e14a-6a34" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="25.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aeac-119e-554b-8d5c" name="Heavy Thermal Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e245-f251-55fa-9486" name="Heavy Thermal Rifle" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Dismantle, Holo-Sight</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ee81-2d97-a092-2299" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
+                <infoLink id="8878-ac30-9f71-7c05" name="Holo-Sight" hidden="false" targetId="c6cc-1df9-937e-665e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="25.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4bad-6ef2-1fec-f124" name="Enforcer Drone" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="bd89-9734-141d-731c" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35c3-b8b5-8bd7-baa6" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd89-9734-141d-731c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c428-428d-666e-4d14" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="b92b-f35a-fd48-61bb" name="Construct" hidden="false" targetId="1003-75e6-6b59-d8d9" type="rule"/>
+        <infoLink id="2d00-0fbd-8a6a-9520" name="Flight" hidden="false" targetId="eee1-3e1f-8b8b-8e38" type="rule"/>
+        <infoLink id="1bd7-a018-71df-889f" name="Remote" hidden="false" targetId="6bdd-eb66-94f3-a79e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d9cf-2912-f7a8-f980" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a29e-22d4-a440-bb55" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ee4b-6a47-6347-f19d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="855c-e00a-3695-6783" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e10a-4fb2-6a83-f160" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ee4b-6a47-6347-f19d" name="Accutek Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e496-2994-fbcd-a8d2" name="Accutek Shotgun" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="4de2-fb80-5a9c-669f" name="Enforcer Drone" hidden="false" targetId="bf35-757d-6189-14db" type="profile"/>
+                <infoLink id="bb4b-00c7-2b70-821b" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="555d-a44f-d39a-7a32" name="Command Drone" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b9b0-1ae5-ec0c-a793" name="Command Drone" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="feba-12da-205e-b4a9" name="Enforcer Drone" hidden="false" targetId="bf35-757d-6189-14db" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="df9b-440a-5556-92eb" value=", Combat Team Training, Tactician(1)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="6604-9fc9-15cb-6800" name="Combat Team Training" hidden="false" targetId="51fc-d184-87b2-8c6b" type="rule"/>
+                <infoLink id="8be2-6d70-d203-7ef0" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="9.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1200-f52a-0cf1-d728" name="Enforcer Drone" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="1d76-b1b3-acd1-babf" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35c3-b8b5-8bd7-baa6" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d76-b1b3-acd1-babf" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1e6c-0eae-3135-a74e" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="7896-bd09-3d00-0ee1" name="Construct" hidden="false" targetId="1003-75e6-6b59-d8d9" type="rule"/>
+        <infoLink id="3aa1-b341-eadc-3e3b" name="Flight" hidden="false" targetId="eee1-3e1f-8b8b-8e38" type="rule"/>
+        <infoLink id="f630-bea2-f8a7-33f9" name="Remote" hidden="false" targetId="6bdd-eb66-94f3-a79e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="49d0-a121-8545-1186" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9a4d-0629-bfa1-7255" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="27a1-b94e-1fad-3a82">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a2-6fc5-e05c-476e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8884-b85b-08b4-e1f3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="27a1-b94e-1fad-3a82" name="Minelayer" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9e4a-cf25-bd2a-79a5" name="Minelayer" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Trap - Frag (3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="f3e6-65da-1ca0-b094" name="Enforcer Drone" hidden="false" targetId="bf35-757d-6189-14db" type="profile"/>
+                <infoLink id="5d6d-63f7-5041-0f3b" name="Trap" hidden="false" targetId="c459-7da3-ba67-ef64" type="rule"/>
+                <infoLink id="1fd0-82c1-ba5b-949c" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="12.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ad7a-ea52-6e70-4a2b" name="Stealth Drone" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a740-566c-f994-799f" name="Stealth Drone" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="10e0-0f15-584b-eb0e" name="Enforcer Drone" hidden="false" targetId="bf35-757d-6189-14db" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="df9b-440a-5556-92eb" value=", Shield Generator (2)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="b650-f15f-5cdd-934b" name="Shield Generator (n)" hidden="false" targetId="18c6-f29b-f689-6ee2" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="12.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a007-5078-8bbe-7a7c" name="Assault Peacekeeper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3cd4-3c81-1642-eaf4" name="Dominator Rifle" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire, Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="724b-d17d-76e6-d1fa" name="Wristblade" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="536b-fa20-77e0-3e0e" name="Jump Pack" hidden="false" targetId="6932-6558-0a3f-0f92" type="rule"/>
+        <infoLink id="b8f8-01ff-f2cf-2e50" name="Solid" hidden="false" targetId="5cf8-eb2f-a0ff-003b" type="rule"/>
+        <infoLink id="edfb-d4e7-ce31-3751" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
+        <infoLink id="babf-483f-b3e5-2848" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+        <infoLink id="4c20-1df6-d6b5-0807" name="Assault Peacekeeper" hidden="false" targetId="e1a4-e3ba-3aec-548f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8f9c-6644-0c42-e42f" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="36e8-b4a3-ec4a-482f" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6c5-d3e9-068c-65d2" name="Assault Peacekeeper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1541-1b2f-8668-17e0" name="Phase Claws" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="03f7-671d-5c1a-52a4" name="Jump Pack" hidden="false" targetId="6932-6558-0a3f-0f92" type="rule"/>
+        <infoLink id="5b22-8f2e-06a8-8095" name="Solid" hidden="false" targetId="5cf8-eb2f-a0ff-003b" type="rule"/>
+        <infoLink id="84f9-24e6-9882-0b5b" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="db3a-adc1-ca62-9a48" name="Assault Peacekeeper" hidden="false" targetId="e1a4-e3ba-3aec-548f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a88e-3dd7-b088-251f" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="de6a-288a-cce2-73fd" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="b6c1-9147-184d-6427" name="Dominator Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -1494,6 +1845,19 @@ Please consider supporting Mantic by purchasing a subscription to the Companion 
     <selectionEntry id="b144-0d80-01ba-e5c1" name="Thermal Mines" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="95d2-7dbc-9281-7469" name="Thermal Mines" hidden="false" targetId="ab0d-3b97-cd77-4cf8" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="18f5-f36f-c27c-0d4a" name="Engineer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bfa-389d-e97d-2f75" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3f5-1d5c-4deb-8b54" type="min"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e034-9422-b99f-a1ad" name="Engineer" hidden="false" targetId="2c6c-0b74-ce9d-4e45" type="rule"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2020,6 +2384,32 @@ Special Order: Bastion</characteristic>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP3</characteristic>
         <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bf35-757d-6189-14db" name="Enforcer Drone" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+      <characteristics>
+        <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">-</characteristic>
+        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">1</characteristic>
+        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Construct, Flight, Remote</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e1a4-e3ba-3aec-548f" name="Assault Peacekeeper" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+      <characteristics>
+        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">2</characteristic>
+        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Jump Pack, Solid</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

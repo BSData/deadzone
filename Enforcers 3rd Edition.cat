@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="53be-b645-c5c7-7396" name="Enforcers" revision="2" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="53be-b645-c5c7-7396" name="Enforcers" revision="3" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
-Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
+Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/</readme>
   <selectionEntries>
     <selectionEntry id="89d2-c7e9-8199-8e45" name="Pathfinder Sergeant" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -520,7 +520,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="930b-1bf2-2c7e-af49" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="23dc-056d-0152-5373" name="Thermal Mines" hidden="false" collective="false" import="true" targetId="40da-677f-806c-05e4" type="selectionEntry">
+        <entryLink id="23dc-056d-0152-5373" name="Thermal Mines" hidden="false" collective="false" import="true" targetId="b144-0d80-01ba-e5c1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="69b0-482f-35d5-9309" value="0.0"/>
           </modifiers>
@@ -669,13 +669,18 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4354-7c3b-ce3d-5e49" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+              </costs>
             </entryLink>
             <entryLink id="9fd2-113f-e8c8-9b51" name="Wristblade" hidden="false" collective="false" import="true" targetId="1530-2cac-a5ba-1080" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f282-be8c-2b6f-3f6e" type="max"/>
               </constraints>
               <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -690,14 +695,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         </entryLink>
         <entryLink id="65cc-8454-e184-491e" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
       </entryLinks>
-      <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="957a-a27e-97b4-66a4" name="Peacekeeper" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="3db5-d06e-03b7-cc6c" name="Peacekeeper" hidden="false" targetId="6f5e-8795-7d03-57df" type="profile"/>
         <infoLink id="eb5a-6dd2-5994-c3f4" name="Jump Pack" hidden="false" targetId="6932-6558-0a3f-0f92" type="rule"/>
         <infoLink id="4c0e-c1a1-e51d-1a24" name="Solid" hidden="false" targetId="5cf8-eb2f-a0ff-003b" type="rule"/>
       </infoLinks>
@@ -715,21 +715,40 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="195d-b0a8-2f8d-0a20" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a30a-23a4-88e3-84c2" name="Peacekeeper" hidden="false" targetId="6f5e-8795-7d03-57df" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+              </costs>
             </entryLink>
             <entryLink id="6162-06ae-b558-9743" name="Dominator Rifle &amp; Defender Shield" hidden="false" collective="false" import="true" targetId="d1c3-85ea-6259-f101" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22d0-89cc-f526-07b4" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="0977-b698-e2c2-1d39" name="Peacekeeper" hidden="false" targetId="6f5e-8795-7d03-57df" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="df9b-440a-5556-92eb" value="Jump Pack, Solid, Defender Shield"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="24.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
               </costs>
             </entryLink>
             <entryLink id="12eb-31e7-6436-503d" name="Burst Laser" hidden="false" collective="false" import="true" targetId="96a2-fa94-9923-8e58" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d8d-216e-3c91-3206" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="a8ef-2ad5-bd9b-0dcf" name="Peacekeeper" hidden="false" targetId="6f5e-8795-7d03-57df" type="profile"/>
+              </infoLinks>
               <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="24.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -744,10 +763,6 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         </entryLink>
         <entryLink id="9f24-1cef-f458-e26f" name="Equipment" hidden="false" collective="false" import="true" targetId="2468-2594-162a-83f9" type="selectionEntryGroup"/>
       </entryLinks>
-      <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="83da-5efc-1087-5ea3" name="Medi-Bot" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -855,7 +870,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <categoryLink id="2785-21a4-3ae2-936c" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6f55-d186-5197-81b7" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b0c9-d9bf-ce54-5063">
+        <selectionEntryGroup id="6f55-d186-5197-81b7" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2104-444e-8e60-3675">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9197-1605-3101-4830" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5404-bc8d-8154-cfa4" type="min"/>
@@ -1351,9 +1366,9 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a750-4f6f-e179-b7fa" name="Grav-Ram Spear" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a750-4f6f-e179-b7fa" name="Grav-Ram Spear " hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c5fb-c534-b9a2-6448" name="Grav-Ram Spear" hidden="false" targetId="6a1d-d606-b9e0-b6c1" type="profile"/>
+        <infoLink id="c5fb-c534-b9a2-6448" name="Grav-Ram Spear " hidden="false" targetId="6a1d-d606-b9e0-b6c1" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
@@ -1466,11 +1481,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
     </selectionEntry>
     <selectionEntry id="d1c3-85ea-6259-f101" name="Dominator Rifle &amp; Defender Shield" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="f412-bfb0-9712-9316" name="Dominator Rifle" hidden="false" targetId="2428-42a5-6e6a-6bc2" type="profile">
-          <modifiers>
-            <modifier type="set" field="5f44-a8dd-9156-8d05" value="Defender Shield, Rapid Fire, Weight of Fire (1)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="f412-bfb0-9712-9316" name="Dominator Rifle" hidden="false" targetId="2428-42a5-6e6a-6bc2" type="profile"/>
         <infoLink id="ece8-69dc-8002-7713" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
         <infoLink id="a594-fa54-40bc-ab07" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
         <infoLink id="d82c-c7e3-89ae-02de" name="Defender Shield" hidden="false" targetId="db2d-083d-54bb-2def" type="rule"/>
@@ -1479,6 +1490,11 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="b144-0d80-01ba-e5c1" name="Thermal Mines" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="95d2-7dbc-9281-7469" name="Thermal Mines" hidden="false" targetId="ab0d-3b97-cd77-4cf8" type="profile"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1699,7 +1715,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="6a1d-d606-b9e0-b6c1" name="Grav-Ram Spear" publicationId="2fce-908e-d96c-e6cc" page="25" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+    <profile id="6a1d-d606-b9e0-b6c1" name="Grav-Ram Spear " publicationId="2fce-908e-d96c-e6cc" page="25" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
@@ -1978,7 +1994,7 @@ Special Order: Bastion</characteristic>
         <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
         <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
         <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">3+</characteristic>
+        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
         <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
@@ -1997,6 +2013,13 @@ Special Order: Bastion</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
         <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Frenzy (1), Jump Pack, Tough</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ab0d-3b97-cd77-4cf8" name="Thermal Mines" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP3</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

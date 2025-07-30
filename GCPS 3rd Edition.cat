@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6598-31ea-0dc7-1211" name="GCPS" revision="5" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6598-31ea-0dc7-1211" name="GCPS" revision="6" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -268,7 +268,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16.0"/>
                 <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
               </costs>
             </selectionEntry>
@@ -1156,6 +1156,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="8e55-55c2-0deb-27f8" name="Explosive - Frag (n)" hidden="false" targetId="0e5c-2182-6e56-7595" type="rule"/>
         <infoLink id="0ea3-deae-e6d4-06bc" name="Missile Launcher" hidden="false" targetId="f902-bf15-555b-35b8" type="profile"/>
         <infoLink id="efc6-9099-c23c-0370" name="Grenade (Frag (n))" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+        <infoLink id="e29d-8ec9-28c9-7ee2" name="Heavy" hidden="false" targetId="dfe5-1629-84e5-f3f5" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
@@ -1167,6 +1168,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="16b4-c18f-64aa-f921" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
         <infoLink id="99d3-393b-21c9-ebf2" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
         <infoLink id="d4c4-aed6-83d8-3297" name="Auto Cannon" hidden="false" targetId="4885-ef04-5414-fd40" type="profile"/>
+        <infoLink id="7803-8c02-1745-6b7a" name="Heavy" hidden="false" targetId="dfe5-1629-84e5-f3f5" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
@@ -1621,14 +1623,14 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">R8</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Explosive - Frag (3)</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Heavy, Explosive - Frag (3)</characteristic>
       </characteristics>
     </profile>
     <profile id="4885-ef04-5414-fd40" name="Auto Cannon" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Suppression, Weight of Fire (1)</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Heavy, Suppression, Weight of Fire (1)</characteristic>
       </characteristics>
     </profile>
     <profile id="0a99-6a69-49f0-4214" name="Medi-Bot" publicationId="2fce-908e-d96c-e6cc" page="49" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
@@ -1648,7 +1650,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Sun</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Stun</characteristic>
       </characteristics>
     </profile>
     <profile id="fca5-cc57-0641-52eb" name="Corporation Major" publicationId="2fce-908e-d96c-e6cc" page="46" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
@@ -1923,7 +1925,7 @@ Special Order: Overwatch</characteristic>
         <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05"/>
       </characteristics>
     </profile>
-    <profile id="7e17-8a5f-fdb2-db2a" name="Grav-Ram Spear" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+    <profile id="7e17-8a5f-fdb2-db2a" name="Grav-Ram Spear " hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>

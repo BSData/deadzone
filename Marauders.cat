@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9552-5129-31d6-8241" name="Marauders" revision="1" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" library="false" gameSystemId="9491-c0e3-ba03-047b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9552-5129-31d6-8241" name="Marauders" revision="2" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" library="false" gameSystemId="9491-c0e3-ba03-047b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="6408-255e-57f1-39fd" name="Commando Captain" publicationId="9491-c0e3-pubN79930" page="74" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1133,7 +1133,7 @@
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d35-2bee-847b-650a" name="Sky Scraper" publicationId="9491-c0e3-pubN79930" page="76" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="8d35-2bee-847b-650a" name="Commando Sky Scraper" publicationId="9491-c0e3-pubN79930" page="76" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1162,7 +1162,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="4715-f7b5-2bdd-31b1" name="Sky Scraper" publicationId="9491-c0e3-pubN79930" page="76" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
+        <profile id="4715-f7b5-2bdd-31b1" name="Commando Sky Scraper" publicationId="9491-c0e3-pubN79930" page="76" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
           <characteristics>
             <characteristic name="Speed" typeId="df17-4b5c-638f-0807">1-2</characteristic>
             <characteristic name="Armour" typeId="0274-bb56-5442-a0f1">0</characteristic>
@@ -1251,7 +1251,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="2.0"/>
-        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="18.0"/>
+        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07aa-6ace-5ead-f69b" name="Guntrack" publicationId="9491-c0e3-pubN79930" page="80" hidden="true" collective="false" import="true" type="unit">

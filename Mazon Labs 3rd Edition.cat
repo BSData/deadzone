@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539a-3a9a-e9c0-b700" name="Mazon Labs" revision="3" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539a-3a9a-e9c0-b700" name="Mazon Labs" revision="4" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
-Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
+Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/</readme>
   <selectionEntries>
     <selectionEntry id="7c8a-e9cd-d27d-32f9" name="Ajax Strider" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -1134,6 +1134,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <infoLink id="b459-7a8f-6684-411a" name="Mind Blast" hidden="false" targetId="607f-d9c9-461c-6a4b" type="profile"/>
         <infoLink id="c614-3c4d-a272-d319" name="Psychic" hidden="false" targetId="8631-8a95-36cb-5e6e" type="rule"/>
         <infoLink id="3153-ad79-b180-22b3" name="Blast" hidden="false" targetId="f6c0-bcd7-b014-fdd5" type="rule"/>
+        <infoLink id="f70c-a53b-4b9d-ad5e" name="Explosive" hidden="false" targetId="0e5c-2182-6e56-7595" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
@@ -1318,7 +1319,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <characteristics>
         <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-5</characteristic>
         <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
+        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
         <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
         <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
@@ -1381,7 +1382,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns!</characteristic>
       </characteristics>
     </profile>
-    <profile id="84e0-387f-e3f4-d542" name="Grav-Ram Spear" publicationId="2fce-908e-d96c-e6cc" page="75" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+    <profile id="84e0-387f-e3f4-d542" name="Grav-Ram Spear " publicationId="2fce-908e-d96c-e6cc" page="75" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
@@ -1614,7 +1615,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic - Blast</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic - Explosive (Blast)</characteristic>
       </characteristics>
     </profile>
     <profile id="f21b-a2f8-6db7-4d2c" name="Shockwave" publicationId="2fce-908e-d96c-e6cc" page="73" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
@@ -1752,7 +1753,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Construct, Engineer, Recon 5+, Resilient (1), Tactician (1)</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Construct, Engineer, Recon 5+, Resilient (1), Tactician (1)
+Special Order: Networked</characteristic>
       </characteristics>
     </profile>
     <profile id="240e-55f8-670c-55dd" name="Doctor Gayle Simmonds" publicationId="2fce-908e-d96c-e6cc" page="70" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
@@ -1765,7 +1767,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Medic, Recon 5+, Tactician (1), Tough</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Medic, Recon 5+, Tactician (1), Tough
+Special Order: Bio-engineered Meds</characteristic>
       </characteristics>
     </profile>
     <profile id="cae5-f348-801b-36a2" name="Guard Commander Graves" publicationId="2fce-908e-d96c-e6cc" page="70" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
@@ -1778,7 +1781,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 5+, Tactician (1)</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 5+, Tactician (1)
+Special Order: Head of Security</characteristic>
       </characteristics>
     </profile>
     <profile id="a300-4d17-45d7-c860" name="Dr. Lukas Koyner" publicationId="2fce-908e-d96c-e6cc" page="70" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
@@ -1791,7 +1795,8 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Companion, Engineer, Medic, Recon 6+, Tactician (2)</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Companion, Engineer, Medic, Recon 6+, Tactician (2)
+Special Order: Fast-Acting Serum</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

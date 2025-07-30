@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6f9a-5a69-c27c-9737" name="Marauders" revision="5" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6f9a-5a69-c27c-9737" name="Marauders" revision="6" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
@@ -144,19 +144,11 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="922a-b4a4-4170-410e" type="max"/>
               </constraints>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="11.0"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-              </costs>
             </entryLink>
             <entryLink id="b833-5887-ab27-d65c" name="Flamer" hidden="false" collective="false" import="true" targetId="af6c-593d-7351-cc94" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d44f-d732-16f4-7cb2" type="max"/>
               </constraints>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="11.0"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -165,51 +157,44 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <entryLink id="9964-adce-18a9-1d56" name="Equipment" hidden="false" collective="false" import="true" targetId="0410-3711-cdb1-ffa2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="11.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9e21-c3ad-d7df-a360" name="Commando" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9e21-c3ad-d7df-a360" name="Commando Grenadier (Beta)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="184e-85c9-851d-cfca" name="Thermobaric Grenade" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade - Frag (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e223-8b98-a3de-c9cb" name="Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="cddc-2278-88fd-df69" name="Commando" hidden="false" targetId="5c3b-386a-ce10-3260" type="profile"/>
+        <infoLink id="4799-d8ec-8caa-3b81" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
+        <infoLink id="0be6-c55d-ade6-7dc2" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="2fdb-3e65-9fd9-07cc" name="Scout" hidden="false" targetId="eb06-6d59-6705-ed49" type="rule"/>
+        <infoLink id="0a89-d2b5-7117-2c2b" name="Commando Scrapper" hidden="false" targetId="4c35-0656-d84c-91e9" type="profile"/>
+        <infoLink id="1f5c-7a40-1dde-e2ae" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+        <infoLink id="f469-6d8f-2aee-2df5" name="Grenade" hidden="false" targetId="34c6-c132-53f6-00a9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3fe3-5d29-9109-e746" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+        <categoryLink id="cf65-e518-120c-a0d2" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="80ab-cc92-1d01-df51" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b372-96fa-b169-dec7">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce85-e8e1-45b5-2bf9" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5059-2d17-c3c3-faf9" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="e29b-a351-c065-2d6e" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="fd9c-26db-761b-032a" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b481-c1b3-b1b7-bf72" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16.0"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="b372-96fa-b169-dec7" name="HMG" hidden="false" collective="false" import="true" targetId="855e-fcc4-4703-62ef" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46e2-e742-34b0-8a2f" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c192-eefd-9648-c171" name="Equipment" hidden="false" collective="false" import="true" targetId="0410-3711-cdb1-ffa2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="15.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5be8-5110-9742-f92b" name="Commando Brawler" hidden="false" collective="false" import="true" type="model">
@@ -291,7 +276,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9854-bb44-ba61-44e8" name="Mawbeast" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9854-bb44-ba61-44e8" name="Mawbeast Bomber" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="9c8c-cb11-d668-c9de" name="Mawbeast" hidden="false" targetId="303a-7731-b210-34c7" type="profile">
           <modifiers>
@@ -811,10 +796,46 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e41e-d444-4235-f037" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="93ec-0e05-9406-e2a1" name="Frag Grenades" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade - Frag (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="845f-ab50-3f40-aec8" name="Smoke Grenades" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade - Smoke</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8873-662a-83f9-822a" name="Stun Grenade" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade - Stun</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9eec-80e5-b8ab-75b0" name="Toxic Grenades" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade - Gas Cloud Toxic (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="3d1c-2196-2e28-9790" name="Boomer" hidden="false" targetId="a684-f01a-4608-d752" type="profile"/>
         <infoLink id="ce2f-dc99-d16c-8c43" name="BOOM! (n)" hidden="false" targetId="14f3-b8e4-aa43-c969" type="rule"/>
         <infoLink id="d5aa-87af-75ac-04a9" name="Engineer" hidden="false" targetId="2c6c-0b74-ce9d-4e45" type="rule"/>
+        <infoLink id="405f-b68c-959d-d923" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+        <infoLink id="15d5-4c3a-87ee-ee27" name="Grenade" hidden="false" targetId="34c6-c132-53f6-00a9" type="rule"/>
+        <infoLink id="662f-6987-ef2c-7f73" name="Smoke" hidden="false" targetId="2e53-612f-9e49-b895" type="rule"/>
+        <infoLink id="0d53-bbd9-13e9-86a0" name="Stun Grenade" hidden="false" targetId="7ef1-4b4a-3b3c-ac3e" type="rule"/>
+        <infoLink id="f90c-48ec-98f0-0100" name="Gas Cloud (Toxic (n))" hidden="false" targetId="b195-5d2d-f3da-1a4d" type="rule"/>
+        <infoLink id="8de4-04e6-fd8c-829f" name="Toxic (n)" hidden="false" targetId="38f2-a52a-27bf-26d1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7c9a-a98c-a078-1194" name="New CategoryLink" hidden="false" targetId="c049-07ca-32fa-da63" primary="true"/>
@@ -824,42 +845,6 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eb3-3353-ca51-8ee6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a6-ca1b-737f-4bf6" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="9562-cb8e-7a6d-0b26" name="Grenade (Frag (3))" hidden="false" collective="false" import="true" targetId="ffd5-4d16-3edf-5df5" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="69b0-482f-35d5-9309" value="0.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a194-5c20-b194-c8e8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0842-1b44-8bdc-c5bf" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="b007-af6f-1758-af37" name="Grenade (Gas Cloud (Toxic (1)))" hidden="false" collective="false" import="true" targetId="543d-7b36-698e-ebd8" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="69b0-482f-35d5-9309" value="0.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e5-dc13-f8d5-7aa3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f363-b232-da1a-7f61" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="24cc-f98c-8411-f3f0" name="Grenade (Smoke)" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="69b0-482f-35d5-9309" value="0.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ace9-7cc8-fc62-fabe" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="479e-2054-00c1-d143" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a433-d55c-52bb-0f83" name="Grenade (Stun)" hidden="false" collective="false" import="true" targetId="3372-7a06-2306-a0ee" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="69b0-482f-35d5-9309" value="0.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da79-cbec-9c39-6d39" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc5f-81c2-a2c0-8f64" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -926,7 +911,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3185-968a-fc16-3019" name="Goblin Weapon Team" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3185-968a-fc16-3019" name="Goblin HEW Beamer Targeter Team" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="69d1-b332-e844-d930" name="Bike" hidden="false" targetId="dc27-fead-d459-b185" type="rule"/>
         <infoLink id="d7b8-b1a2-b307-7989" name="Vehicle" hidden="false" targetId="bd02-8a7f-60ba-dbb5" type="rule"/>
@@ -935,37 +920,154 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <categoryLinks>
         <categoryLink id="7297-ce55-d357-54a3" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="4ec1-4d3d-ca98-0974" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7d3e-f08d-cdd3-effb">
+      <entryLinks>
+        <entryLink id="213b-28d1-9f07-9613" name="HEW Beamer Targeter" hidden="false" collective="false" import="true" targetId="207e-299d-3f01-24e5" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="000d-d772-7f7f-c496" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a0a-8a20-6bb2-e925" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91bd-b0d8-9282-6fbe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72f7-9794-bd5d-8bd2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="18.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e960-5d6a-cd2f-d454" name="Commando" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="295d-8355-1a45-a384" name="Commando" hidden="false" targetId="5c3b-386a-ce10-3260" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e528-7e6a-5bc1-be80" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bdce-e890-835c-99fb" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="beba-275f-32de-6739">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff7c-3bfb-580d-a2e7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e9d-64e8-d700-5822" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7d3e-f08d-cdd3-effb" name="HEW Beamer Targeter" hidden="false" collective="false" import="true" targetId="207e-299d-3f01-24e5" type="selectionEntry">
+            <entryLink id="f6ab-bc8a-0f73-4755" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="fd9c-26db-761b-032a" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ce-f4e0-c184-9844" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3814-4e43-cfe5-477c" type="max"/>
               </constraints>
               <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="18.0"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
               </costs>
             </entryLink>
-            <entryLink id="14f8-9c91-a3ca-f636" name="Wheeled Missile Launcher" hidden="false" collective="false" import="true" targetId="8b82-1111-bc7c-1d1e" type="selectionEntry">
+            <entryLink id="beba-275f-32de-6739" name="HMG" hidden="false" collective="false" import="true" targetId="855e-fcc4-4703-62ef" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6372-9619-a6ab-075f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d883-43df-5cf1-452b" type="max"/>
               </constraints>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
-              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c057-071c-0aae-e4e4" name="Equipment" hidden="false" collective="false" import="true" targetId="0410-3711-cdb1-ffa2" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af5a-8dd2-afa8-b837" name="Commando Engineer (Beta)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2d10-011d-c227-c88c" name="Commando Engineer" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Dismantle, Hacker, Scout, Engineer</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e5e7-b350-965f-91bb" name="Plasma Cutter" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ec84-4cc5-08b5-3245" name="Plasma Cutter " hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R1</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2c4a-0870-a2f4-79b2" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
+        <infoLink id="6b67-4926-682f-93f7" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="ccc4-ead3-029c-b779" name="Scout" hidden="false" targetId="eb06-6d59-6705-ed49" type="rule"/>
+        <infoLink id="b9fe-4b34-7273-0b37" name="It Burns!" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
+        <infoLink id="bd4a-d33e-0161-afeb" name="Engineer" hidden="false" targetId="2c6c-0b74-ce9d-4e45" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ba0c-04aa-9da2-085c" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1c71-039e-45d9-708f" name="Equipment" hidden="false" collective="false" import="true" targetId="0410-3711-cdb1-ffa2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="12.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce0d-bcfd-be92-ca97" name="Commando Breacher (Beta)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2b57-0d54-5acb-3f74" name="Breaching Axe" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP3</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7fda-dc4f-5ea2-0293" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
+        <infoLink id="7696-5eeb-9332-6b9e" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="3834-7201-58c5-cb31" name="Scout" hidden="false" targetId="eb06-6d59-6705-ed49" type="rule"/>
+        <infoLink id="37f0-2679-e980-9c24" name="Commando Scrapper" hidden="false" targetId="4c35-0656-d84c-91e9" type="profile"/>
+        <infoLink id="02d7-e77a-eb13-c53b" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="61e6-3919-c090-9caa" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3ed3-e77b-624a-cf30" name="Equipment" hidden="false" collective="false" import="true" targetId="0410-3711-cdb1-ffa2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="15.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37cd-7459-6f39-2ca2" name="Goblin Missile Launcher Team" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="0f09-d0c0-132c-75f0" name="Bike" hidden="false" targetId="dc27-fead-d459-b185" type="rule"/>
+        <infoLink id="967b-6f8b-8380-007d" name="Vehicle" hidden="false" targetId="bd02-8a7f-60ba-dbb5" type="rule"/>
+        <infoLink id="03a4-6d41-f536-e190" name="Goblin Weapon Team" hidden="false" targetId="ce2f-0ecb-c618-cd5c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4258-f2dc-afe5-1b03" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2ba2-c052-1d78-67d8" name="Wheeled Missile Launcher" hidden="false" collective="false" import="true" targetId="8b82-1111-bc7c-1d1e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c241-f4b6-1c5f-e73f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="726b-178c-191f-ca4d" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1375,7 +1477,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="20af-c6e1-a900-3779" name="Special Order: Tactical Genius" publicationId="2fce-908e-d96c-e6cc" page="58" hidden="false">
-      <description>An active friendly model may immediately use and discard one of your opponent&apos;s Command Dice showing a Move, Shoot or Fight result, as if it were your own dice.</description>
+      <description>An active friendly model may immediately use and discard one of your opponent&apos;s Command Dice showing an Advance, Shoot or Assault result, as if it were your own dice.</description>
     </rule>
     <rule id="b94a-9af0-3c91-dd1e" name="Special Order: By The Numbers" publicationId="2fce-908e-d96c-e6cc" page="58" hidden="false">
       <description>A Commando may re-roll any dice as part of a Fight, Shoot or Survive test.</description>
@@ -1563,7 +1665,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <characteristics>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns! (One Use)</characteristic>
+        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">One Use, It Burns!</characteristic>
       </characteristics>
     </profile>
     <profile id="4797-3ccf-2402-3564" name="Thermal Cannon" publicationId="2fce-908e-d96c-e6cc" page="63" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
@@ -1765,7 +1867,7 @@ Special Order: Tinkerer</characteristic>
       <characteristics>
         <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-1</characteristic>
         <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">-</characteristic>
         <characteristic name="SV" typeId="beab-fc63-a14f-0242">6+</characteristic>
         <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">5</characteristic>
@@ -1842,7 +1944,7 @@ Special Order: None Shall Pass</characteristic>
     </profile>
     <profile id="9ece-a03e-0960-7eb8" name="Missile Launcher" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R8</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
         <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Explosive - Frag (3)</characteristic>
       </characteristics>
@@ -1872,6 +1974,19 @@ Special Order: None Shall Pass</characteristic>
         <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
         <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
         <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Explosive - Frag (3), Heavy</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4c35-0656-d84c-91e9" name="Commando Scrapper" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+      <characteristics>
+        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+        <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Dismantle, Hacker, Scout</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

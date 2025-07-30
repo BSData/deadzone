@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4c93-ab3d-bb7c-511f" name="Veer-Myn" revision="2" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" library="false" gameSystemId="9491-c0e3-ba03-047b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4c93-ab3d-bb7c-511f" name="Veer-Myn" revision="3" battleScribeVersion="2.03" authorName="Ben Edwards" authorContact="BAE2 (Github)" library="false" gameSystemId="9491-c0e3-ba03-047b" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d271-b0ee-5ae3-b438" name="Brood Mother" publicationId="9491-c0e3-pubN79930" page="113" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -538,7 +538,7 @@
       </entryLinks>
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="1.0"/>
-        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="8.0"/>
+        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15ad-4f5a-94e9-c51a" name="Malignus" publicationId="9491-c0e3-pubN79930" page="116" hidden="true" collective="false" import="true" type="unit">
@@ -1714,8 +1714,8 @@ Rat Swarms brought into play using the Swarm Lord ability do not count for strik
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="3.0"/>
-        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="26.0"/>
+        <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="26.0"/>
+        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd8e-f387-ba37-309d" name="Thorn [1]" publicationId="9491-c0e3-pubN79930" page="114" hidden="false" collective="false" import="true" type="unit">
@@ -2817,6 +2817,131 @@ Rat Swarms brought into play using the Swarm Lord ability do not count for strik
       <costs>
         <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="2.0"/>
         <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4481-06da-a09a-3b98" name="Thrall" publicationId="9491-c0e3-pubN79930" page="" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d49-05b9-c9ca-77e2" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d271-b0ee-5ae3-b438" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6883-61f2-bcc4-c9dc" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52a3-ace3-8014-41cb" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6438-ba41-39e9-8ee2" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03d2-bb3a-e3b0-40f3" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd8e-f387-ba37-309d" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ddf-14ec-380d-da79" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="2a35-500f-d665-360e" name="Thrall" publicationId="9491-c0e3-pubN79930" page="" hidden="false" typeId="bd3d-1b17-592d-9a6f" typeName="Unit">
+          <characteristics>
+            <characteristic name="Speed" typeId="df17-4b5c-638f-0807">2-3</characteristic>
+            <characteristic name="Armour" typeId="0274-bb56-5442-a0f1">-</characteristic>
+            <characteristic name="Size" typeId="2623-46e7-250f-eacf">1</characteristic>
+            <characteristic name="Shoot" typeId="68ea-7e51-32e7-70c8">-</characteristic>
+            <characteristic name="Fight" typeId="cf38-e165-7d39-0773">6+</characteristic>
+            <characteristic name="Survive" typeId="ecb0-eafd-b6fa-91a0">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e146-d174-bd14-6565" name="Teeth &amp; Claws" hidden="false" typeId="2421-adf7-5cec-846a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="df8a-ee5b-d620-4246">RF</characteristic>
+            <characteristic name="AP" typeId="3ef9-9c4e-a280-fccb">-</characteristic>
+            <characteristic name="Abilities" typeId="faf9-0187-1806-7214">-</characteristic>
+            <characteristic name="Type" typeId="90af-0797-a0fd-965c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ea15-533b-df7b-0cb3" name="New CategoryLink" hidden="false" targetId="c0f1-1275-7f1c-b9b7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a134-22f5-bece-da9a" name="Items" hidden="true" collective="false" import="true" targetId="4e59-3b09-6cb8-5068" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d271-b0ee-5ae3-b438" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6883-61f2-bcc4-c9dc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d49-05b9-c9ca-77e2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03d2-bb3a-e3b0-40f3" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd8e-f387-ba37-309d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ddf-14ec-380d-da79" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="d14c-cc41-3f46-7a93" name="Items (Hacker)" hidden="true" collective="false" import="true" targetId="a86f-03db-0555-90e5" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6438-ba41-39e9-8ee2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="7455-0a9d-4b4e-a8a2" name="Items (Piper)" hidden="true" collective="false" import="true" targetId="2a52-dbaa-1b62-b72a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52a3-ace3-8014-41cb" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="1.0"/>
+        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="6.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -4085,8 +4210,8 @@ Rat Swarms brought into play using the Swarm Lord ability do not count for strik
         <infoLink id="c371-6766-9d8a-b34e" name="Heavy" hidden="false" targetId="20eb-5380-3d00-044b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="1.0"/>
-        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="9.0"/>
+        <cost name="pts" typeId="61f9-fd84-cb0b-0306" value="6.0"/>
+        <cost name="VPs" typeId="02a0-6bab-fa73-4a98" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a6b1-c061-7450-ab40" name="Super Heavy Chem Thrower" publicationId="9491-c0e3-pubN79930" page="120" hidden="false" collective="false" import="true" type="upgrade">

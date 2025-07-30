@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9e8c-08e0-ed41-e7f3" name="­ Vector-P" revision="1" battleScribeVersion="2.03" authorName="Panner" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
+
+Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/</readme>
+  <selectionEntries>
+    <selectionEntry id="1c86-5819-53b3-e2b7" name="- Faction Special Rules" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="513d-39e9-3719-b982" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37d4-5518-fe2a-93b5" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="4388-e0d8-0c86-267b" name="Specialised Operations" hidden="false">
+          <description>After deciding which scenario to play, but before Recon rolls, choose one of the following army wide special rules.  If more players have this option, choose in secret and reveal it simultaneously. 
+
+- Volatile Vector-P Strain: Every Specimen unit gains BOOM!(2) keyword.
+
+- Slow-Acting Serum:  At the start of the second round, before rolling for command, you may replace any Containment Guard from your Strike Team with a Plague Victim Specimen model.  At the start of the third round, you must replace any remaining Containment Guards.  When a Containment Guard dies before using this ability, it is replaced by an activated and pinned Plague Victim Specimen.
+
+- Maximum Security: Instead of placing Hellhounds when using Unleash the Hounds, you may place a Containment Guard Instead (Using either Anya or Marcus profiles), Containment Guards may re-roll a single dice when testing for Keeping Them In Line.
+
+- Taking over Control: Friendly Specimen models may treat any non-specimen models as enemies, gaining VPs when eliminating them (instead of your opponent gaining them).  Specimen eliminated while Taking over Control still give your opponent the VPs as normal.  Once you make use of Taking over Control, you may only use the Tactician value from Subject 901, and all friendly Specimen except the Aberration lose the Rampage keyword.
+</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f67-ff34-c00b-6793" name="Dr. Lucas Koyner, Lead Scientist" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df66-88e7-878a-128c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a6-5a57-1387-bf43" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e316-ce58-488f-adbc" name="Koyner" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Companion, Medic, Tactician (2)
+Special Orders: Unleash the Hounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2630-bbd8-6240-2198" name="Anaesthetic Injectors" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Stun, Under Control</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="576e-b402-b4b8-a18a" name="Anaesthetic Shots" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R1</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Stun</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb83-2244-6a47-b73d" name="Laser Cutter" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Dismantle</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="abe1-b145-99e1-88ab" name="Special Orders: Unleash the Hounds" hidden="false">
+          <description>When a friendly model is the target of an assault by the active enemy model, you may spend a Special Order result to place an additional Hellhound Specimen in the cube before the assault is resolved. After the enemy&apos;s assault is resolved, the Hellhound Specimen may immediately make a Fight action against the active enemy. In all ways this new model acts as a member of your strike team and VPs are scored for killing it. The Hellhound profile is only part of this roster when added this way, not during deployment.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1cff-4e6c-d450-2614" name="Companion" hidden="false" targetId="9df4-1505-932d-a135" type="rule"/>
+        <infoLink id="9b09-9732-640a-74b5" name="Medic" hidden="false" targetId="acc7-4fab-9dcd-fb81" type="rule"/>
+        <infoLink id="c18f-2eb2-b8c2-799b" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+        <infoLink id="b576-3edd-60e2-a9be" name="Stun" hidden="false" targetId="c3b4-0c3c-d63b-b757" type="rule"/>
+        <infoLink id="10e2-94e1-f06f-3692" name="Under Control" hidden="false" targetId="0353-6cbf-4038-61ba" type="rule"/>
+        <infoLink id="86dc-72ad-9826-e0b6" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cceb-8b5e-6788-8acc" name="Leader" hidden="false" targetId="93f0-5c07-b9f5-ed97" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="200.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98f5-30f7-ec0d-1c89" name="Commander Graves, Head of Containment" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1c-9d42-011e-9b84" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac24-8082-91d2-aec0" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="9ee8-5df4-8718-52bb" name="Graves" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 5+, Tactician (1), Under Control
+Special Orders: Keeping them in Line</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="122b-fff8-9f5d-c9d9" name="Bionic Arm" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3cf2-cdb0-37d8-ad01" name="Heavy Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0fe4-717b-64c9-1633" name="Special Orders: Keeping them in Line" hidden="false">
+          <description>The active friendly model with the Under Control keyword may spend a Special Order result to perform a free 3 dice Ranged test (1) targeting a friendly Specimen in line of sight and up to Range 4. If passed you may move the target model one cube or stand up if it&apos;s pinned instead. Each Specimen model may only be targeted once per round by this.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5206-49ac-17d7-5046" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
+        <infoLink id="6b02-1bc0-c81b-5075" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+        <infoLink id="50ae-336a-4c24-7c06" name="Under Control" hidden="false" targetId="0353-6cbf-4038-61ba" type="rule"/>
+        <infoLink id="71a3-1459-b6d5-d586" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="fe8d-7cfd-8b34-e5ea" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
+        <infoLink id="23b4-5b46-c446-4ccb" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5f9d-3ca3-2413-b13e" name="Living Legend" hidden="false" targetId="c049-07ca-32fa-da63" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef6d-a8eb-a912-51e6" name="Anya, Containment Guard" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f0b-93eb-af13-dcd0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="313e-bada-3428-4664" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="daa5-7e8d-18cf-4881" name="Anya" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Hacker, Under Control</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9e0d-5d21-1886-0b6d" name="SMG" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e656-0ccd-4383-34e3" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="ee81-2328-2e4e-9a74" name="Under Control" hidden="false" targetId="0353-6cbf-4038-61ba" type="rule"/>
+        <infoLink id="3795-592f-b45d-c2db" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2f6a-b643-eb46-0f82" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3b1-93a9-e3c9-a362" name="TAC Drone" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d273-442e-2b9f-149b" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccdc-6e8d-8501-2a0c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="61e8-cab3-5b69-8545" name="Missile Launcher" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Explosive - Frag (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="31af-b21c-d7a4-4eef" name="TAC Drone" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Construct</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5af2-6644-b6ec-743b" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="18c3-06e1-6e2f-56cc" name="Construct" hidden="false" targetId="1003-75e6-6b59-d8d9" type="rule"/>
+        <infoLink id="d1f2-288d-f68e-7fe2" name="Explosive" hidden="false" targetId="0e5c-2182-6e56-7595" type="rule"/>
+        <infoLink id="7ee9-f934-7a32-b283" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3048-763c-69d0-bb72" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1aeb-7b42-1b82-2fe2" name="Plague Victim Specimen" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc73-636e-ae73-e78a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f32-c709-acd0-0af3" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="924a-b547-b5cf-d492" name="Plague Victim Specimen" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Frenzy (1), Rampage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="141c-6f08-89da-7196" name="Claws" publicationId="2fce-908e-d96c-e6cc" page="74" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c15b-b625-714d-b8ec" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="73cb-6611-1dc0-69b3" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="174c-c615-d7f8-7e3c" name="Rampage" hidden="false" targetId="d5f6-f0d3-1597-02c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7de2-6d4b-f238-b945" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a44-23c8-98f8-7fa3" name="Hellhound Specimen" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d66-ce29-0675-109d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e45d-159b-f319-70b9" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="dbb4-8d86-a089-d8f9" name="Hellhound" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Rampage
+Special Orders: Special Operations ONLY</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="040b-792b-addd-d58e" name="Hellhound Teeth" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f226-1570-c571-fc33" name="Special Orders: Special Operations ONLY" hidden="false">
+          <description>This Unit can only be used through Special Order (Unleash the Hounds)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="06c5-72e2-b19f-036e" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="c068-38cd-7ff5-4f4b" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="5a62-cbe9-e451-a4f2" name="Rampage" hidden="false" targetId="d5f6-f0d3-1597-02c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8f1a-ad88-1acf-bf2e" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d43-3b72-ef24-3f5c" name="Plague Swarm Specimen" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9312-6581-5297-4c95" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="597a-ef6a-500d-03d4" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="fcd0-cd1f-87a0-3113" name="Plague Swarm" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Agile, Beast, Rampage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9852-1dbb-a59f-2d1f" name="Acidic Bite" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Dismantle</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cc7a-26f0-3e76-326e" name="Agile" hidden="false" targetId="904a-6711-43cf-1f83" type="rule"/>
+        <infoLink id="ad03-1f28-3ad2-8f7d" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="17f5-5f7f-bff5-db74" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
+        <infoLink id="c1ae-b215-523d-e190" name="Rampage" hidden="false" targetId="d5f6-f0d3-1597-02c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="16e4-e5b5-7693-8ac0" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c098-0a5d-bed2-0c34" name="Murderbird Specimen" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a53-2e0d-8037-6738" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d8-6a55-eac6-db3e" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="4fe5-98f6-06b7-28bf" name="Murderbird Specimen" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Flight, Evade, Rampage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4934-bf7d-47df-5bf8" name="Beak and Talons" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="70cc-a1ac-e431-6480" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="daed-7526-bf17-41f3" name="Flight" hidden="false" targetId="eee1-3e1f-8b8b-8e38" type="rule"/>
+        <infoLink id="2265-002a-35bd-b010" name="Evade" hidden="false" targetId="b1bd-a2c4-cd75-d623" type="rule"/>
+        <infoLink id="4ec2-25b4-8da6-119f" name="Rampage" hidden="false" targetId="d5f6-f0d3-1597-02c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2898-6213-2e48-5668" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b28-1d24-2e77-db7f" name="Subject 901" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4df-a76f-7104-c955" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="548e-5d96-b006-9433" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8a9a-9351-a78c-3b77" name="Subject 901, Sentient Specimen" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Frenzy (2), Tactician (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="20fe-be66-0804-7d94" name="Teeth and Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9cd7-3801-4436-c355" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="0de0-964e-948c-9357" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="44d6-3f03-5854-71a5" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e72-cb63-ec00-e05a" name="Aberration Specimen" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7266-0bcb-4538-239a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="497f-3ad3-90f7-5157" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="fd18-f9fb-a423-cc1a" name="Aberration Specimen" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">4</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Frenzy (1), Rampage, Tough</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="36db-fe76-630e-0bad" name="Teeth and Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0077-e270-0dbe-4efa" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
+        <infoLink id="4e8a-97b2-ea76-afe7" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="0223-fb39-92ff-fd86" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="216a-2965-9e64-5c62" name="Rampage" hidden="false" targetId="d5f6-f0d3-1597-02c3" type="rule"/>
+        <infoLink id="42e5-0700-7105-5f33" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
+        <infoLink id="8179-e98a-6f2f-8e3b" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f920-3071-6371-7d37" name="New CategoryLink" hidden="false" targetId="1364-5634-04d6-8af7" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f84-c62e-e737-388d" name="Marcus, Containment Guard" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab8f-e650-7789-6659" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e312-128b-222b-e788" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="d88e-dee3-3dea-c456" name="Marcus" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Hacker, Under Control</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e4eb-9a94-dd54-76fa" name="SMG" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec01-ea84-e1fe-329f" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="e726-20f7-21bb-1516" name="Under Control" hidden="false" targetId="0353-6cbf-4038-61ba" type="rule"/>
+        <infoLink id="e15e-9786-9bb5-8a4e" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b4a8-09da-8a3d-d28f" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

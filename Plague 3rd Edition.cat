@@ -1,322 +1,400 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a1e5-e343-cebd-f619" name="Plague" revision="2" battleScribeVersion="2.03" authorName="James Moyon" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="a1e5-e343-cebd-f619" name="Plague" revision="3" battleScribeVersion="2.03" authorName="Panner" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
-Please consider supporting Mantic by purchasing a subscription to the EasyArmy army builder at https://mantic.easyarmy.com/</readme>
+Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/</readme>
   <selectionEntries>
     <selectionEntry id="73ce-5597-5095-2a7d" name="Stage 1A &apos;Plaguelord&apos;" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d5e0-5eb0-91d2-0b18" name="Stage 1A &apos;Plaguelord&apos;" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-1</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">2</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 5+, Tactician (2), Tough
+Special Order: Mutation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e25c-e349-85d0-ec8c" name="Teeth and Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5e41-baed-0961-4383" name="Special Order: Mutation" page="" hidden="false">
+          <description>The active model manifests a mutation for the rest of the Round. On each activation of this model, choose from: Resilient (1); Frenzy (+1); Increase AP of one CC weapon by 1; Increase Armour of model by 1.</description>
+        </rule>
+      </rules>
       <infoLinks>
-        <infoLink id="5b9b-d9c1-dd5e-c76e" name="Stage 1A &apos;Plaguelord&apos;" hidden="false" targetId="0615-9703-3510-56ef" type="profile"/>
         <infoLink id="e28a-6436-b906-5eaf" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
         <infoLink id="fb83-ac1a-8360-f9b6" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
         <infoLink id="88ac-456e-bda3-f2e8" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
-        <infoLink id="f6eb-31ea-9043-142a" name="Special Order: Mutation" hidden="false" targetId="1417-894f-f014-85a1" type="rule"/>
+        <infoLink id="525c-e286-a5a1-bf9c" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3130-80b1-06c7-f945" name="Leader" hidden="false" targetId="93f0-5c07-b9f5-ed97" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9e36-b08d-c831-0ae5" name="Teeth and Claws" hidden="false" collective="false" import="true" targetId="8e56-1896-cca4-feae" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efdd-c520-def0-e98b" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38ac-fc1b-bb49-f484" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="7358-e098-9f65-460a" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="36"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="36.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cae7-bd78-ea48-0a40" name="Stage 3A &apos;General&apos;" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f507-c36a-3628-dc1a" name="Stage 3A &apos;General&apos;" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 4+, Tactician (1)
+Special Order: Infection</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8943-9d71-644f-97e7" name="Combat Knife" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bb47-b5de-e9e5-1277" name="Pistol" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8b22-8860-3e4f-2903" name="Special Order: Infection" page="" hidden="false">
+          <description>When an enemy model is killed, place a new friendly Stage 3Z ‘Zombie’ in the same cube and mark it as activated.</description>
+        </rule>
+      </rules>
       <infoLinks>
-        <infoLink id="1efc-b365-5cb9-7a65" name="Stage 3A &apos;General&apos;" hidden="false" targetId="a898-a771-73ab-c54e" type="profile"/>
         <infoLink id="d6a5-116c-5a8f-2148" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
         <infoLink id="40d0-1fdd-39e2-6692" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
-        <infoLink id="a968-3820-80c9-9c54" name="Special Order: Infection" hidden="false" targetId="636e-38e9-fe13-ff51" type="rule"/>
+        <infoLink id="0fc3-9cb9-5988-940c" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d2b2-025b-9dff-442d" name="Leader" hidden="false" targetId="93f0-5c07-b9f5-ed97" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cac3-08df-c717-06eb" name="Pistol" hidden="false" collective="false" import="true" targetId="c650-a3cb-6a61-4736" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a3d-94e3-5639-fc16" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af4a-e25b-6c13-1b61" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="9ca4-384d-35b5-bd38" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
-        <entryLink id="c32f-df6b-31a3-5d7d" name="Combat Knife" hidden="false" collective="false" import="true" targetId="e6b8-61b0-e119-4ae3" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="171b-0660-d934-6bf5" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21df-aa49-7320-d902" type="min"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="18"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="96a3-95f4-d937-95ab" name="Stage 2A &apos;Sentient&apos;" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c54e-c6dd-2b4b-d173" name="Stage 2A &apos;Sentient&apos;" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Agile, Recon 6+, Tactician (1)
+Special Order: Thirst for Blood</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="14bf-ba96-892c-0730" name="Teeth and Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1), Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a2d7-261f-efaf-fa86" name="Special Order: Thirst for Blood" page="" hidden="false">
+          <description>Stage 2A, 2B or Aberration model gains +1 Speed for Sprint actions for the rest of the Round. In addition the model will not need to test for Rampage at the start of its activation this Round.</description>
+        </rule>
+      </rules>
       <infoLinks>
-        <infoLink id="6361-c5af-3cb2-0690" name="Stage 2A &apos;Sentient&apos;" hidden="false" targetId="b2bc-8b71-3bd2-610e" type="profile"/>
         <infoLink id="7c4c-9c73-d17b-85ad" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
         <infoLink id="d34c-090d-0f9b-b52d" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
         <infoLink id="8353-9fa8-c4d1-ff72" name="Agile" hidden="false" targetId="904a-6711-43cf-1f83" type="rule"/>
-        <infoLink id="f74e-eeb5-83e6-200b" name="Special Order: Thirst for Blood" hidden="false" targetId="6822-80d5-5c7a-90bd" type="rule"/>
+        <infoLink id="6368-c3f8-fb18-5ac5" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
+        <infoLink id="720c-94f4-36d1-f008" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a1b4-f012-ae4b-1a2e" name="Leader" hidden="false" targetId="93f0-5c07-b9f5-ed97" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2e3a-c6d4-e7e3-0e0f" name="Teeth and Claws" hidden="false" collective="false" import="true" targetId="4762-b9e0-07f0-757a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed27-0594-7ce0-09d3" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="102f-6c7c-e913-fd1c" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="9a5f-487c-67d5-0757" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="26"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="30.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca81-4129-9985-7994" name="Stage 3A &apos;Ghoul&apos;" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="8e3d-d7eb-842a-9e00" name="Stage 3A &apos;Ghoul&apos;" hidden="false" targetId="f660-474f-c60d-53ca" type="profile"/>
-        <infoLink id="8772-46e1-cf86-4156" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="a0ad-5aa1-a445-8776" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3bac-4785-ca93-574a" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="01b5-145b-1b3c-b8c6">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d0-ea8e-fc68-5973" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b021-f1a4-ed9c-04b8" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="01b5-145b-1b3c-b8c6" name="Rifle" hidden="false" collective="false" import="true" targetId="87b3-96a5-3e35-5725" type="selectionEntry">
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="8"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
-              </costs>
-            </entryLink>
-            <entryLink id="6319-36a0-1f89-43f8" name="Flamethrower" hidden="false" collective="false" import="true" targetId="2732-7f8f-9b7f-260d" type="selectionEntry">
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Metal Bar &amp; Pistol" hidden="false" id="f830-db02-1d9c-2c83">
-              <infoLinks>
-                <infoLink name="Metal Bar" id="b232-6c09-105e-cc50" hidden="false" type="profile" targetId="497c-0e9c-56d0-4997"/>
-                <infoLink name="Knockback" id="6de3-9045-7da0-32f3" hidden="false" type="rule" targetId="bddf-77c1-55be-e183"/>
-                <infoLink name="Pistol" id="197d-a449-c430-95f5" hidden="false" type="profile" targetId="e454-b5bf-2ed6-53a3"/>
-              </infoLinks>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="9"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Vicious Two-Hander" hidden="false" id="39ec-8b0c-0701-863c">
-              <infoLinks>
-                <infoLink name="Vicious Two-Hander" id="1d7d-09ab-9f8a-7715" hidden="false" type="profile" targetId="3376-b52d-9054-4152"/>
-                <infoLink name="Smash (n)" id="a62e-17fb-82a8-8fb7" hidden="false" type="rule" targetId="3948-3af5-4928-3965"/>
-              </infoLinks>
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="12"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="5ed8-81d4-40f3-ab33" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
-      </entryLinks>
-    </selectionEntry>
-    <selectionEntry id="30b8-4965-fb38-b803" name="Stage 3A &apos;Ghoul&apos;" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="2f60-354b-aa44-af95" name="Stage 3A &apos;Ghoul&apos;" hidden="false" targetId="f660-474f-c60d-53ca" type="profile"/>
-        <infoLink id="2710-727c-98a9-7808" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="853b-b2f9-c9b7-e55b" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="1cb8-3103-558d-3a7d" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="72f4-31de-e974-697a">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c50b-3d71-ff4e-52cd" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0372-7fb8-a23e-7261" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="c589-9ca9-f79b-712f" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="471c-55ed-c6b7-592e" type="selectionEntry">
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="15"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2"/>
-              </costs>
-            </entryLink>
-            <entryLink id="72f4-31de-e974-697a" name="HMG" hidden="false" collective="false" import="true" targetId="6315-4778-ce1d-0f1f" type="selectionEntry">
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="12"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Pox Bomb" hidden="false" id="5d07-66c8-994d-bb24" type="selectionEntry" targetId="faec-30a9-7073-2dda">
-              <costs>
-                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="13"/>
-                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Tools" id="1de4-3f29-14cf-9065" hidden="false" type="profile" targetId="7147-9f95-5fb4-c5a0"/>
-              </infoLinks>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6019-769e-3071-52bb" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
-      </entryLinks>
-    </selectionEntry>
     <selectionEntry id="3435-143e-ee58-f3fe" name="Stage 3D &apos;Hellhound&apos;" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5a71-b1c9-4f6a-01bb" name="Stage 3D &apos;Hellhound&apos;" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d062-94c7-41b3-b815" name="Teeth and Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="7e6a-b22f-1d6a-c89d" name="Stage 3D &apos;Hellhound&apos;" hidden="false" targetId="1e6b-cfe0-0998-f1de" type="profile"/>
         <infoLink id="d76e-9642-2eef-849a" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="0a67-81eb-2f45-e413" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="67bd-8c4f-eee0-401e" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="e8bf-68a0-0aba-edd4" name="Teeth and Claws" hidden="false" collective="false" import="true" targetId="4762-b9e0-07f0-757a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a544-d772-c528-d760" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3771-440e-a149-8590" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="7"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="9.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e40-0bb4-ea17-6cd8" name="Stage 3Z &apos;Zombie&apos;" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4f74-e3b2-618a-9031" name="Stage 3Z &apos;Zombie&apos;" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">7+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Horde</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="db1d-e003-a75d-597f" name="Teeth and Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="30b9-8d73-afd3-8351" name="Stage 3Z &apos;Zombie&apos;" hidden="false" targetId="ae90-5ee1-ba09-9257" type="profile"/>
         <infoLink id="4618-0609-5903-30c7" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
         <infoLink id="1996-7160-e933-0bbc" name="Horde" hidden="false" targetId="9b72-c451-cddf-4b0f" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6ff1-2d08-2ce0-7913" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+        <categoryLink id="ade6-7abc-8e75-708e" name="New CategoryLink" hidden="false" targetId="43a3-377e-2d53-337b" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="7540-18be-4ba8-f4ba" name="Teeth and Claws" hidden="false" collective="false" import="true" targetId="85dd-b635-7f06-ca89" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bccd-ab89-3a47-81cf" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dc7-3e69-72c9-7f81" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f5a-7468-d0b1-68f1" name="Stage 2A &apos;Leaper&apos;" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c3c8-c83f-e4eb-3050" name="Stage 2A &apos;Leaper&apos;" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Agile, Rampage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2b09-3a43-86bf-5fa9" name="Teeth and Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="025f-41f2-8209-8f1d" name="Stage 2A &apos;Leaper&apos;" hidden="false" targetId="3a5f-fb06-2a6e-79e3" type="profile"/>
         <infoLink id="2dfc-e768-4bb3-86de" name="Agile" hidden="false" targetId="904a-6711-43cf-1f83" type="rule"/>
         <infoLink id="8451-19ca-6325-52a6" name="Rampage" hidden="false" targetId="d5f6-f0d3-1597-02c3" type="rule"/>
+        <infoLink id="6148-b4b5-af83-1081" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5560-27d3-a713-9655" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="14b4-8acb-246a-0166" name="Teeth and Claws" hidden="false" collective="false" import="true" targetId="4762-b9e0-07f0-757a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c63-89f0-a4ea-6b11" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b025-6425-93a4-06c2" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="7171-6efa-6ab7-9250" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="41b1-62da-ab61-9ab6" name="Stage 3A &apos;Weapons Team&apos;" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="41b1-62da-ab61-9ab6" name="Stage 3A Weapons Team" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9bcf-211a-3065-b722" name="Stage 3A Weapons Team" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="69e6-eb2c-e7e1-8042" name="Mortar" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Heavy, Indirect - Frag (4)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="9082-590b-2f7f-2fd1" name="Stage 3A &apos;Weapons Team&apos;" hidden="false" targetId="4def-0d03-e035-1212" type="profile"/>
+        <infoLink id="35cb-d1a7-e167-84a5" name="Heavy" hidden="false" targetId="dfe5-1629-84e5-f3f5" type="rule"/>
+        <infoLink id="1855-ebe9-e184-49b8" name="Indirect (n)" hidden="false" targetId="316b-2af6-278b-e591" type="rule"/>
+        <infoLink id="505e-9a71-aaf6-79f5" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4173-55a0-3e69-d017" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cf94-f56b-6b34-9b6e" name="Mortar" hidden="false" collective="false" import="true" targetId="b7bf-564c-0e17-250a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7226-3e73-d3b5-1ee7" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="541e-5568-772e-fc96" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="b5ea-f310-b4bb-b75c" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb9c-d97a-1f6e-aaf3" name="Murderbirds" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="541a-2fbe-1412-0e6c" name="Murderbirds" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Flight, Evade</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b186-560b-836e-aa94" name="Beak and Talons" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="ac1a-9567-ae60-9f1b" name="Murderbirds" hidden="false" targetId="c303-7199-89c6-65aa" type="profile"/>
         <infoLink id="08a6-dd9f-02f5-1184" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
         <infoLink id="659c-2586-e646-e69f" name="Flight" hidden="false" targetId="eee1-3e1f-8b8b-8e38" type="rule"/>
+        <infoLink id="3f0d-2d68-fc71-710e" name="Evade" hidden="false" targetId="b1bd-a2c4-cd75-d623" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="38ae-abd7-421a-e8bb" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="d2a3-757f-b066-fade" name="Beak and Talons" hidden="false" collective="false" import="true" targetId="c534-28bb-576f-b9bd" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="269e-add9-f235-63ef" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e4c-cd91-3361-d4fa" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="18"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="15.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="403a-eda5-5e0f-c3ea" name="Stage 2B &apos;Burster&apos;" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="91f7-8268-d300-e2c6" name="Stage 2B &apos;Burster&apos;" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">BOOM! (4)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f2dd-a6f1-f559-808f" name="Pusburst" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns! (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="7887-6df1-41b6-52bc" name="Stage 2B &apos;Burster&apos;" hidden="false" targetId="337f-89e1-eb05-b561" type="profile"/>
         <infoLink id="dd73-5405-a852-d807" name="BOOM! (n)" hidden="false" targetId="14f3-b8e4-aa43-c969" type="rule"/>
+        <infoLink id="ed05-468a-317e-c412" name="It Burns! (n)" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d867-695e-e2e0-00e0" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="13d2-9ec1-a0ce-e5b5" name="Pusburst" hidden="false" collective="false" import="true" targetId="27d2-37f8-2161-c27a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b72f-46f0-d26c-a6f5" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09c8-8eea-3fae-daa2" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="5bfd-0ab6-d9ad-3824" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0200-6bf2-ac88-9ba8" name="Plague Teraton" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7b9b-5e9d-e3de-01c6" name="Plague Teraton" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Teleport, Tough</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5b77-5ed3-716b-e40c" name="Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="f10e-c2c9-987d-ab81" name="Plague Teraton" hidden="false" targetId="48c0-18e2-59c9-19f4" type="profile"/>
         <infoLink id="8063-8aac-d167-22be" name="Teleport" hidden="false" targetId="605c-e354-0ffd-fd9f" type="rule"/>
         <infoLink id="8cac-36ed-8e0e-6411" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
       </infoLinks>
@@ -324,232 +402,228 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <categoryLink id="902d-0fc4-5157-43a7" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0f10-5b8b-675f-fca5" name="Claws" hidden="false" collective="false" import="true" targetId="02ed-4a7f-a2df-f6e2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa6f-0434-eff4-9a5f" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c13d-4dfa-7e29-ff04" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="4445-c546-4d38-c8a5" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="24"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="28.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d12b-f74c-f5b5-0e64" name="Plague Swarm" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="797e-5cba-b680-6989" name="Plague Swarm" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Agile, Beast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bf07-8bc6-b246-de0e" name="Acidic Bite" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Dismantle</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="6f93-2b5d-150f-5225" name="Plague Swarm" hidden="false" targetId="2606-ee3d-df9a-41dd" type="profile"/>
         <infoLink id="d977-0ec7-496e-b57e" name="Agile" hidden="false" targetId="904a-6711-43cf-1f83" type="rule"/>
-        <infoLink id="6c27-7186-2594-7202" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
         <infoLink id="9252-0c72-9c86-f612" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="33c3-eb7b-3f50-6699" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9c18-34ff-44aa-0be4" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="9e35-e60f-1a10-1aaf" name="Acidic Bite" hidden="false" collective="false" import="true" targetId="4da9-0bf7-f7fd-6801" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d53-8d70-a2f6-38e1" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="126d-f477-d650-c61e" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="20.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bfe-567b-809d-0b33" name="Urban Assault Strider" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="4aeb-5013-812a-6cf9" name="Plague Strider" hidden="false" targetId="a606-3b84-a164-ddee" type="profile"/>
-        <infoLink id="3f3b-7f20-2cba-e1e1" name="Walker" hidden="false" targetId="f27b-373b-8a43-f98c" type="rule"/>
-        <infoLink id="8f0e-6a43-19c9-2338" name="Vehicle" hidden="false" targetId="bd02-8a7f-60ba-dbb5" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="92c1-50e8-213e-ffd5" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="4774-ffb4-bb90-a7c2" name="Chainsaw" hidden="false" collective="false" import="true" targetId="0309-0e31-547e-5418" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7379-81ec-c04f-498f" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e2a-5d06-780b-2f09" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="2a52-b0e1-d97f-ea06" name="Assault Flamer" hidden="false" collective="false" import="true" targetId="75f3-f4a1-6de8-904a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2233-02f1-8a00-9a12" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c651-e23e-1090-6a45" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="18d4-7edd-a2bc-b555" name="Shoulder Rockets" hidden="false" collective="false" import="true" targetId="354e-b1e3-6938-c041" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e54-c8fc-aaab-0c1e" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0e8a-e622-1ff4-fe5d" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="f915-7f79-ace2-c18c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cdc-2ba4-d263-aa89" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="44"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="5"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ad09-5335-47c8-1cf3" name="Heavy Support Strider" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ad09-5335-47c8-1cf3" name="Strider - Heavy Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="21e4-f8d0-9917-d13d" name="Heavy Burst Laser" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R10</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Suppression, Weight of Fire (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="8e46-ac48-c895-eb61" name="Plague Strider" hidden="false" targetId="a606-3b84-a164-ddee" type="profile"/>
         <infoLink id="5d46-88e5-6f69-73bd" name="Walker" hidden="false" targetId="f27b-373b-8a43-f98c" type="rule"/>
-        <infoLink id="a333-4cd7-867c-bb2f" name="Vehicle" hidden="false" targetId="bd02-8a7f-60ba-dbb5" type="rule"/>
+        <infoLink id="36b3-5cd9-05cf-5a1b" name="Fire Control" hidden="false" targetId="8bbb-091d-a481-381c" type="rule"/>
+        <infoLink id="0847-c6d4-0140-9d98" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
+        <infoLink id="02f5-11e0-0dd2-8992" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b013-3d1d-0876-6ab5" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="bc87-8fbd-b018-ecb2" name="Heavy Burst Laser" hidden="false" collective="false" import="true" targetId="e0c7-535a-a191-3495" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a81-1b5a-cffa-2976" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be48-7dec-d772-73fe" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="4452-0cfb-d06d-a101" name="Shoulder Rockets" hidden="false" collective="false" import="true" targetId="354e-b1e3-6938-c041" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e6e-98f6-f501-d60a" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="e74b-f419-5dbb-c3f6" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="f915-7f79-ace2-c18c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99af-f814-c067-cfdb" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="77d9-d3c6-267d-8a1d" name="Optional Equipment" hidden="false" collective="false" import="true" targetId="0ea8-41eb-edd2-1b68" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="40"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1d60-9274-183f-1ce6" name="Tank Buster Strider" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="d1cd-2603-324c-0468" name="Plague Strider" hidden="false" targetId="a606-3b84-a164-ddee" type="profile"/>
-        <infoLink id="6ded-6d5e-3f24-d84d" name="Walker" hidden="false" targetId="f27b-373b-8a43-f98c" type="rule"/>
-        <infoLink id="5008-1b20-627d-1409" name="Vehicle" hidden="false" targetId="bd02-8a7f-60ba-dbb5" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="9f1b-3492-0347-a8f5" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="d55f-cf95-5b67-698e" name="Polaris Cannon" hidden="false" collective="false" import="true" targetId="ad7b-e0c2-26f5-fb2b" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca7-e263-abce-fe52" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f509-9d1c-951c-0187" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="df6c-9fea-de1f-e622" name="Shoulder Rockets" hidden="false" collective="false" import="true" targetId="354e-b1e3-6938-c041" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9517-10fc-9353-17ca" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="5411-a92c-7f85-72bb" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="f915-7f79-ace2-c18c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf28-35d7-c5d8-30df" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="42"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="36.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2029-1c44-f22c-b8d4" name="Aberration" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d648-9e4b-e5a8-af6d" name="Aberration" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">4</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Frenzy (1), Rampage, Tough</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="014b-fc6c-c4b2-7b9b" name="Teeth and Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="20d5-57a7-8f73-4417" name="Aberration" hidden="false" targetId="97fb-2b1b-fabc-b921" type="profile"/>
         <infoLink id="1a84-bd39-acc8-f285" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
         <infoLink id="14eb-4022-4b98-5a6d" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
         <infoLink id="fc4b-deab-74c6-c6ec" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
         <infoLink id="7009-f14c-a826-0991" name="Rampage" hidden="false" targetId="d5f6-f0d3-1597-02c3" type="rule"/>
+        <infoLink id="2d57-f5d1-f33f-e47a" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
+        <infoLink id="703f-27a8-d42e-ba18" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4d24-d360-67d7-7ac8" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="7632-209b-a895-b014" name="Teeth and Claws" hidden="false" collective="false" import="true" targetId="408e-ccb2-5ed2-e91a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="570f-fa4a-2074-b8bf" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f1d-7bf7-43a4-43f4" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="40"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="40.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f6c-b2c6-d317-b1ec" name="Corruption" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0cd6-4a60-ac33-1696" name="Corruption" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">7</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">4</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Tactician(1), Tough</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c514-b4a6-1d58-0fd5" name="Club" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R1</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ab30-42a3-0cd0-3bf9" name="Vicious Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1), Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a4a7-561c-c4e3-7107" name="Wicked Blade" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="5ebf-5b6c-8901-2a5f" name="Corruption" hidden="false" targetId="4aa7-b668-ce50-812c" type="profile"/>
         <infoLink id="0c83-a1bf-cc29-92b9" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="9463-ca28-3d7e-6860" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
+        <infoLink id="23bc-2721-1072-4d93" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+        <infoLink id="1ab8-3b25-a5f6-b510" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="112c-d24a-9933-a55f" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="a009-32d2-b808-d9f2" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="de17-0066-3e6e-8b1d" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="6a2f-67ef-728e-f977" name="Club" hidden="false" collective="false" import="true" targetId="067b-4a43-6747-8f9f" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f30d-563d-214a-e1aa" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d541-6180-cbb8-57b0" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="3b91-2b04-814c-8d46" name="Vicious Claws" hidden="false" collective="false" import="true" targetId="d3be-5cd5-ebf5-5644" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8434-d7a5-38bb-bd95" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b3-f5ce-bec6-8543" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="80ef-0265-1889-9273" name="Wicked Blade" hidden="false" collective="false" import="true" targetId="1bb5-c866-f616-c93b" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a82-9900-1468-3bc2" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf7a-f0e9-d71f-8bca" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="44"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="40.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="284c-5a22-ae37-d467" name="Subject 901" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="93e5-130c-bf8f-af4a" type="max"/>
-      </constraints>
+      <profiles>
+        <profile id="0191-b308-e550-c7d9" name="Subject 901" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Frenzy (2), Tactician (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2c25-89c5-8bad-1737" name="Teeth and Claws" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="0f74-a28b-a079-9a40" name="Subject 901" hidden="false" targetId="2a90-83cb-00e5-2f4f" type="profile"/>
         <infoLink id="f707-6cf5-b445-1219" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
         <infoLink id="0649-dbd6-2c5a-b975" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ed11-5936-e3ca-aa4d" name="Living Legend" hidden="false" targetId="c049-07ca-32fa-da63" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="a51d-47a0-465c-e983" name="Teeth and Claws" hidden="false" collective="false" import="true" targetId="65d7-28fb-8c50-b378" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d32-6f7f-0447-249f" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55f2-1022-1321-ea46" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="24"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="26.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2ed-4101-dcd2-0256" name="Doctor Gayle Simmonds" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a972-5cdc-9fca-85a0" type="max"/>
-      </constraints>
+      <profiles>
+        <profile id="dabb-ec4d-0f66-2829" name="Doctor Gayle Simmonds" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">3+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Medic, Tactician (1), Tough</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a0b9-9b92-36e7-3d6f" name="Pistol" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="290f-2e20-51f9-263a" name="Doctor Gayle Simmonds" hidden="false" targetId="dfff-9ddd-5586-cf52" type="profile"/>
         <infoLink id="b699-abfa-07f3-15dd" name="Medic" hidden="false" targetId="acc7-4fab-9dcd-fb81" type="rule"/>
         <infoLink id="ce8f-9d1d-fb37-0f18" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
         <infoLink id="e6c8-ce6e-9646-8403" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
@@ -557,529 +631,452 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
       <categoryLinks>
         <categoryLink id="b65f-61b3-6f25-93d6" name="Living Legend" hidden="false" targetId="c049-07ca-32fa-da63" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="97d9-5e72-561b-0f9c" name="Pistol" hidden="false" collective="false" import="true" targetId="c650-a3cb-6a61-4736" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbbd-3757-6d63-9b23" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a4c-2a35-0462-1748" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="18"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="18.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Stage 3A &apos;Crusher&apos;" hidden="false" id="252b-d8d9-f88a-a263">
-      <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
-      </costs>
-      <entryLinks>
-        <entryLink import="true" name="Equipment" hidden="false" id="0493-da9d-e531-029b" type="selectionEntryGroup" targetId="7ff8-5aa1-f173-1e4b"/>
-        <entryLink import="true" name="Energy Flail" hidden="false" id="c13e-b6e4-3d67-cf63" type="selectionEntry" targetId="4032-3b1d-1dff-3414">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7347-c1cd-e1a4-7638-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7347-c1cd-e1a4-7638-max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
+    <selectionEntry id="252b-d8d9-f88a-a263" name="Stage 3A &apos;Crusher&apos;" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3fef-94dd-af4d-d014" name="Stage 3A &apos;Crusher&apos;" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Defender Shield</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eacb-0a70-98e1-1ca8" name="Energy Flail" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink name="Defender Shield" id="577e-bb16-5d03-c367" hidden="false" type="rule" targetId="db2d-083d-54bb-2def"/>
-        <infoLink name="Stage 3A &apos;Crusher&apos;" id="88ef-e08f-ea6b-f0b2" hidden="false" type="profile" targetId="3535-4f23-00f9-097e"/>
+        <infoLink id="577e-bb16-5d03-c367" name="Defender Shield" hidden="false" targetId="db2d-083d-54bb-2def" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink targetId="e0b7-1823-fa7a-dfa6" id="0ad1-2e65-18b9-7cc7" primary="true" name="Specialist"/>
+        <categoryLink id="0ad1-2e65-18b9-7cc7" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="0493-da9d-e531-029b" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Stage 3A Monocycle &apos;Blitzer&apos;" hidden="false" id="8105-3041-e8cb-2402">
-      <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14"/>
-        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1"/>
-      </costs>
+    <selectionEntry id="8105-3041-e8cb-2402" name="Stage 3A Monocycle &apos;Blitzer&apos;" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="46c9-8789-fc16-0e71" name="Pox Bomb" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade - Frag (2), Toxic Smoke (1), One-Use</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="653b-a29f-2c87-5afb" name="Stage 3A Monocycle &apos;Blitzer&apos;" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-5</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Bike</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e52c-66c9-3603-0218" name="Combat Chains" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink name="Stage 3A Monocycle &apos;Blitzer&apos;" id="ee0c-769c-82b9-127c" hidden="false" type="profile" targetId="d90a-cc65-6c94-f143"/>
+        <infoLink id="1e39-1610-21a1-d6c5" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+        <infoLink id="845d-65e2-2536-d417" name="Grenade" hidden="false" targetId="34c6-c132-53f6-00a9" type="rule"/>
+        <infoLink id="e8fe-61c0-c7bd-b24b" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
+        <infoLink id="bbaa-276e-9046-7668" name="Toxic (n)" hidden="false" targetId="38f2-a52a-27bf-26d1" type="rule"/>
+        <infoLink id="858f-ca23-92e3-ef3a" name="Toxic Smoke (n)" hidden="false" targetId="a6da-e037-6e48-133e" type="rule"/>
+        <infoLink id="92a3-bc97-ae0b-1164" name="Bike" hidden="false" targetId="dc27-fead-d459-b185" type="rule"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Equipment" hidden="false" id="99af-4c6e-3430-e595" type="selectionEntryGroup" targetId="7ff8-5aa1-f173-1e4b"/>
-        <entryLink import="true" name="Combat Chains" hidden="false" id="084d-7363-c7fd-ccdb" type="selectionEntry" targetId="a6c9-9c4e-749b-6e75">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e0b6-783a-61f5-93c6-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0b6-783a-61f5-93c6-max"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Pox Bomb" hidden="false" id="7ec4-49da-8f5f-d3bd" type="selectionEntry" targetId="faec-30a9-7073-2dda">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="287d-bc44-88a2-4127-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="287d-bc44-88a2-4127-max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <categoryLinks>
-        <categoryLink targetId="e0b7-1823-fa7a-dfa6" id="e343-0249-c336-40cd" primary="true" name="Specialist"/>
+        <categoryLink id="e343-0249-c336-40cd" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54ae-48fe-4acb-91b2" name="Stage 3A &apos;Ghoul&apos; - Rifle" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="cbb8-9a37-0f93-eaad" name="Rifle" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2bea-8a32-3060-1268" name="Stage 3A &apos;Ghoul&apos;" hidden="false" targetId="f660-474f-c60d-53ca" type="profile"/>
+        <infoLink id="7564-5434-891a-6e96" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="7978-9560-8646-b674" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="237b-d8ec-0cdf-f857" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4afe-c160-d04c-9979" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="8.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b965-e48b-3831-8a15" name="Stage 3A &apos;Ghoul&apos; - Metal Bar" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b6e7-4444-88b4-fd03" name="Metal Bar" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="75ec-a5e9-1703-25d0" name="Pistol" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9d7e-e7ae-cbaf-7b71" name="Stage 3A &apos;Ghoul&apos;" hidden="false" targetId="f660-474f-c60d-53ca" type="profile"/>
+        <infoLink id="9207-a15d-922a-f16b" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="0e8f-1056-5138-6431" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0b74-3644-1977-6b56" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b2eb-0bbb-765f-ab52" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="9.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ec5-9918-8d2a-7922" name="Stage 3A &apos;Ghoul&apos; - Flamethrower" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7c8d-cac6-69ea-747c" name="Flamethrower" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns! (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8e27-c2d2-d16f-0165" name="Stage 3A &apos;Ghoul&apos;" hidden="false" targetId="f660-474f-c60d-53ca" type="profile"/>
+        <infoLink id="17ce-54df-8c79-617f" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="94de-c33a-78a2-be75" name="It Burns! (n)" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4d8e-9802-8dd7-eefb" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3d15-2cd0-0083-ca94" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="10.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b46-5d4e-277e-070e" name="Stage 3A &apos;Ghoul&apos; - Vicious Two-Hander" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7daf-474f-a154-ff94" name="Vicious Two-Hander" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1f6b-a51a-8110-5ea8" name="Stage 3A &apos;Ghoul&apos;" hidden="false" targetId="f660-474f-c60d-53ca" type="profile"/>
+        <infoLink id="f964-65d2-7de3-70ee" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="45af-7479-9abb-f4d0" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="90d2-ec83-97af-2ce0" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d82b-4182-77ae-067c" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="12.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd92-b0ed-83c3-7113" name="Stage 3A &apos;Ghoul&apos; - HMG" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1ae6-eb92-27dd-de38" name="HMG" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Suppression, Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a7ee-1a01-6b20-2536" name="Stage 3A &apos;Ghoul&apos;" hidden="false" targetId="f660-474f-c60d-53ca" type="profile"/>
+        <infoLink id="96f0-bedc-88fe-59ae" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="319d-a191-3d15-6a82" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
+        <infoLink id="c7ea-2eba-3da0-36ba" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="47a3-9c89-4b0a-ab67" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+        <categoryLink id="0ff2-0417-b042-48b8" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7f53-a5cd-597a-d396" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="12.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="61e5-e80d-208b-b072" name="Stage 3A &apos;Ghoul&apos; - Pox Bomb Engineer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8d85-cccd-cb34-0b95" name="Pox Bomb" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade - Frag (2), Toxic Smoke (1), One-Use</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7339-f595-e454-2995" name="Stage 3A &apos;Ghoul&apos;" hidden="false" targetId="f660-474f-c60d-53ca" type="profile">
+          <modifiers>
+            <modifier type="append" field="df9b-440a-5556-92eb" value=", Engineer"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="10c5-a537-e273-fd60" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="1a4a-3418-bd97-8a79" name="Engineer" hidden="false" targetId="2c6c-0b74-ce9d-4e45" type="rule"/>
+        <infoLink id="8506-f961-f1c5-5c04" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+        <infoLink id="19f0-bfbe-40d5-f7bf" name="Grenade" hidden="false" targetId="34c6-c132-53f6-00a9" type="rule"/>
+        <infoLink id="d2b2-3d88-2b30-24dd" name="Toxic Smoke (n)" hidden="false" targetId="a6da-e037-6e48-133e" type="rule"/>
+        <infoLink id="e333-6e25-3726-d31b" name="Toxic (n)" hidden="false" targetId="38f2-a52a-27bf-26d1" type="rule"/>
+        <infoLink id="22f8-4d63-1c6b-62d7" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="66f6-aff5-2a24-cd94" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+        <categoryLink id="812b-a032-dabb-4d80" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="90cb-6a1d-e0c5-1469" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="13.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f800-3ebc-d908-312e" name="Stage 3A &apos;Ghoul&apos; - Grenade Launcher" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e4a4-8abc-4dbc-999a" name="Grenade Launcher" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Heavy, Indirect - Frag (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2ca2-1384-50b4-9f7b" name="Stage 3A &apos;Ghoul&apos;" hidden="false" targetId="f660-474f-c60d-53ca" type="profile"/>
+        <infoLink id="cdfa-de5e-9285-0401" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="ce4d-c9fa-1d27-21a2" name="Heavy" hidden="false" targetId="dfe5-1629-84e5-f3f5" type="rule"/>
+        <infoLink id="2137-c44e-45ce-2306" name="Indirect (n)" hidden="false" targetId="316b-2af6-278b-e591" type="rule"/>
+        <infoLink id="4754-7ad2-0e9e-25f7" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7e82-3954-5539-22b7" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+        <categoryLink id="17cb-a8ee-6752-f2ab" name="New CategoryLink" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="898c-fe45-0760-e1d3" name="Equipment" hidden="false" collective="false" import="true" targetId="7ff8-5aa1-f173-1e4b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e806-41a0-203b-9379" name="Strider - Tank Buster" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="aad9-759c-b842-895f" name="Polaris Cannon" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R10</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP4</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Firing Platform (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1ce4-22c2-bccd-a7f2" name="Plague Strider" hidden="false" targetId="a606-3b84-a164-ddee" type="profile"/>
+        <infoLink id="2d27-e6fe-0e41-7a6c" name="Walker" hidden="false" targetId="f27b-373b-8a43-f98c" type="rule"/>
+        <infoLink id="acf2-3f5c-1843-72a6" name="Fire Control" hidden="false" targetId="8bbb-091d-a481-381c" type="rule"/>
+        <infoLink id="b5f2-e424-d6dc-06c9" name="Firing Platform (n)" hidden="false" targetId="43e1-1a23-ca38-b7f2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5e72-dd8d-c3b6-37d6" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9f9a-f5e9-557c-e080" name="Optional Equipment" hidden="false" collective="false" import="true" targetId="0ea8-41eb-edd2-1b68" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="38.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ea3-bd53-1d7e-3377" name="Strider - Urban Assault" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="02ad-5063-72fb-c62f" name="Assault Flamer" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns! (4)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f7d7-f00f-2eef-1d13" name="Chainsaw" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0142-4d46-4822-2883" name="Plague Strider" hidden="false" targetId="a606-3b84-a164-ddee" type="profile"/>
+        <infoLink id="e371-7e57-00e7-b6cb" name="Walker" hidden="false" targetId="f27b-373b-8a43-f98c" type="rule"/>
+        <infoLink id="ba2d-aa0b-f159-205f" name="Fire Control" hidden="false" targetId="8bbb-091d-a481-381c" type="rule"/>
+        <infoLink id="8449-d3ed-9314-077b" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="5172-d7c2-517c-92ea" name="It Burns! (n)" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="93c2-54bc-177d-1a70" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cd8c-0888-c002-b758" name="Optional Equipment" hidden="false" collective="false" import="true" targetId="0ea8-41eb-edd2-1b68" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="41.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
-  <sharedSelectionEntries>
-    <selectionEntry id="4da9-0bf7-f7fd-6801" name="Acidic Bite" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="ed95-dd65-f2f9-a3c4" name="Acidic Bite" hidden="false" targetId="68b6-6ed3-a850-fa3d" type="profile"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="75f3-f4a1-6de8-904a" name="Assault Flamer" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="fc97-9da7-2489-5442" name="Assault Flamer" hidden="false" targetId="b222-3766-dae1-457e" type="profile"/>
-        <infoLink id="a2e8-c00d-de77-ec6d" name="It Burns!" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="c534-28bb-576f-b9bd" name="Beak and Talons" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="304c-46fa-c145-fe7f" name="Beak and Talons" hidden="false" targetId="1deb-bac7-195f-4520" type="profile"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="0309-0e31-547e-5418" name="Chainsaw" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="d80a-8b70-348d-18fa" name="Chainsaw" hidden="false" targetId="3502-f67d-f5ae-8add" type="profile"/>
-        <infoLink id="5133-53d0-fb1d-336a" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="d3be-5cd5-ebf5-5644" name="Vicious Claws" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="718f-af80-596e-6b5c" name="Vicious Claws" hidden="false" targetId="40ed-8e4e-cab1-8c68" type="profile"/>
-        <infoLink id="d8b0-6d8d-7c0c-e348" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
-        <infoLink id="c9ef-871e-79f2-a568" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="1bb5-c866-f616-c93b" name="Wicked Blade" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="6a06-999e-215f-fec1" name="Wicked Blade" hidden="false" targetId="877a-bf82-d4c0-1102" type="profile"/>
-        <infoLink id="bd3d-5e07-f30a-9b12" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="408e-ccb2-5ed2-e91a" name="Teeth and Claws" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="eba6-a36c-a740-d1ca" name="Teeth and Claws" hidden="false" targetId="09b2-b5b5-f233-eaf8" type="profile"/>
-        <infoLink id="8ad4-f20a-fb09-1629" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
-        <infoLink id="e1cf-a5f2-701a-7f79" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="85dd-b635-7f06-ca89" name="Teeth and Claws" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="e505-e98c-60e1-41f8" name="Teeth and Claws" hidden="false" targetId="a674-dacf-8af8-e9db" type="profile"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="4762-b9e0-07f0-757a" name="Teeth and Claws" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="8b84-96af-ad1c-0093" name="Teeth and Claws" hidden="false" targetId="9bb2-7757-f0b4-2ac1" type="profile"/>
-        <infoLink id="a670-a486-c9e1-dbfc" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="8e56-1896-cca4-feae" name="Teeth and Claws" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="8e90-121e-fc92-bbd5" name="Teeth and Claws" hidden="false" targetId="9a2a-439d-2a1c-6bd7" type="profile"/>
-        <infoLink id="8c42-5f89-6eb8-8c83" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="354e-b1e3-6938-c041" name="Shoulder Rockets" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="005c-3b0c-3771-9812" name="Shoulder Rockets" hidden="false" targetId="f42d-8da3-2034-66a8" type="profile"/>
-        <infoLink id="9230-fcfa-c3db-7094" name="Grenade" hidden="false" targetId="34c6-c132-53f6-00a9" type="rule"/>
-        <infoLink id="9c1d-0d1b-fe76-f06f" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
-        <infoLink id="54d0-c277-f26d-7446" name="Frag Grenade" hidden="false" targetId="d59a-9caf-b99a-b1b0" type="rule"/>
-        <infoLink id="598c-6ea5-16f2-6ffc" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="87b3-96a5-3e35-5725" name="Rifle" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="ec9a-90ed-b7c2-8454" name="Rifle" hidden="false" targetId="9406-ef6e-616d-1738" type="profile"/>
-        <infoLink id="95d5-48d1-c940-bed8" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="27d2-37f8-2161-c27a" name="Pusburst" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="a194-e60d-e461-45c6" name="Pusburst" hidden="false" targetId="b147-0624-d90c-a9cb" type="profile"/>
-        <infoLink id="77e9-0546-09a6-4ef8" name="It Burns!" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="ad7b-e0c2-26f5-fb2b" name="Polaris Cannon" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="e8f3-3667-2faf-f6a3" name="Polaris Cannon" hidden="false" targetId="995e-047f-ba25-4a25" type="profile"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="c650-a3cb-6a61-4736" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="06f4-1a09-de5f-5c6d" name="Pistol" hidden="false" targetId="e454-b5bf-2ed6-53a3" type="profile"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="b7bf-564c-0e17-250a" name="Mortar" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="612c-98c2-4028-9cfe" name="Mortar" hidden="false" targetId="89b1-79e1-ed23-c921" type="profile"/>
-        <infoLink id="cde7-56ec-7732-1759" name="Heavy" hidden="false" targetId="dfe5-1629-84e5-f3f5" type="rule"/>
-        <infoLink id="7276-6fed-7a74-8532" name="Indirect (n)" hidden="false" targetId="316b-2af6-278b-e591" type="rule"/>
-        <infoLink id="2586-72b5-251c-a94b" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="6315-4778-ce1d-0f1f" name="HMG" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="47b4-b28b-a534-8667" name="HMG" hidden="false" targetId="74ef-a618-b889-d247" type="profile"/>
-        <infoLink id="498e-1868-4e0d-5f45" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
-        <infoLink id="3f81-1bab-8d61-ebcb" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="e0c7-535a-a191-3495" name="Heavy Burst Laser" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="1cdf-ced2-3bdb-d185" name="Heavy Burst Laser" hidden="false" targetId="a569-f647-8759-cafd" type="profile"/>
-        <infoLink id="8147-47b2-8ba7-11eb" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
-        <infoLink id="eefd-2bd7-ac87-1589" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="471c-55ed-c6b7-592e" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="ac5e-3c25-6a7b-3276" name="Grenade Launcher" hidden="false" targetId="a962-d967-f2ae-370a" type="profile"/>
-        <infoLink id="32b4-4934-4e4e-9edb" name="Heavy" hidden="false" targetId="dfe5-1629-84e5-f3f5" type="rule"/>
-        <infoLink id="2d44-f9a9-c5dd-142d" name="Indirect (n)" hidden="false" targetId="316b-2af6-278b-e591" type="rule"/>
-        <infoLink id="e312-674d-ec4e-2ab6" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="2732-7f8f-9b7f-260d" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="ed62-61c5-bcaf-bf2d" name="Flamethrower" hidden="false" targetId="8c7d-b05c-4da0-247b" type="profile"/>
-        <infoLink id="3100-3fdb-92ff-f314" name="It Burns!" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="e6b8-61b0-e119-4ae3" name="Combat Knife" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="6c0b-048b-dc18-d5f9" name="Combat Knife" hidden="false" targetId="ec1b-dbfb-752f-7847" type="profile"/>
-        <infoLink id="dc9c-906a-7d3d-b534" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="067b-4a43-6747-8f9f" name="Club" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="2b78-5dae-ab95-49a8" name="Club" hidden="false" targetId="67e3-7930-8181-ddc8" type="profile"/>
-        <infoLink id="c96a-88d1-3ff3-7ce5" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="02ed-4a7f-a2df-f6e2" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="73b4-db80-b280-e9f7" name="Claws" hidden="false" targetId="6fce-4fa2-3507-b452" type="profile"/>
-        <infoLink id="7346-ca24-9ff0-b806" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry id="f915-7f79-ace2-c18c" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="9d0f-3ab5-3b01-85d2" name="Smoke Launchers" hidden="false" targetId="d4d9-d69d-5c95-a3ea" type="profile"/>
-        <infoLink id="b953-733e-2c40-b46d" name="Grenade" hidden="false" targetId="34c6-c132-53f6-00a9" type="rule"/>
-        <infoLink id="76b6-40c7-3a5b-1f9f" name="Smoke" hidden="false" targetId="2e53-612f-9e49-b895" type="rule"/>
-        <infoLink id="07ec-66ea-6a06-c2fb" name="Smoke Grenade" hidden="false" targetId="1c93-6402-dbaa-a7a0" type="rule"/>
-        <infoLink id="4a6d-095f-67a4-1298" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="65d7-28fb-8c50-b378" name="Teeth and Claws" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="dc7a-01a6-9c01-9ed7" name="Teeth and Claws" hidden="false" targetId="49e1-130b-7d15-a8a9" type="profile"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Metal Bar" hidden="false" id="26ac-9f96-f3bd-8cac">
-      <infoLinks>
-        <infoLink name="Knockback" id="9f67-2c5b-53ce-db30" hidden="false" type="rule" targetId="bddf-77c1-55be-e183"/>
-        <infoLink name="Metal Bar" id="d954-a6ec-8607-03b2" hidden="false" type="profile" targetId="497c-0e9c-56d0-4997"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Vicious Two-Hander" hidden="false" id="6fb2-9f96-0dfd-4b73">
-      <infoLinks>
-        <infoLink name="Vicious Two-Hander" id="d8e6-2c68-9902-a2b5" hidden="false" type="profile" targetId="3376-b52d-9054-4152"/>
-        <infoLink name="Smash (n)" id="06b6-d6c4-2a87-4b0f" hidden="false" type="rule" targetId="3948-3af5-4928-3965"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pox Bomb" hidden="false" id="faec-30a9-7073-2dda">
-      <infoLinks>
-        <infoLink name="Pox Bomb" id="9ded-50e1-6e87-89f5" hidden="false" type="profile" targetId="e398-b951-62ca-f46c"/>
-        <infoLink name="Frag (n)" id="e515-b0d5-06c5-71c9" hidden="false" type="rule" targetId="af4a-32a8-dd1e-ee74"/>
-        <infoLink name="Gas Cloud (Toxic (n))" id="d8b8-ad61-e7b0-53b8" hidden="false" type="rule" targetId="b195-5d2d-f3da-1a4d"/>
-        <infoLink name="Grenade" id="da17-7e2d-19c7-2a2e" hidden="false" type="rule" targetId="34c6-c132-53f6-00a9"/>
-        <infoLink name="One-Use" id="809f-cf37-e6eb-7609" hidden="false" type="rule" targetId="401b-9df8-8946-4135"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Energy Flail" hidden="false" id="4032-3b1d-1dff-3414">
-      <infoLinks>
-        <infoLink name="Energy Flail" id="6f45-b3b8-b68d-a4e1" hidden="false" type="profile" targetId="951b-eddd-25d5-6bee"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Defender Shield" hidden="false" id="0fb3-8c66-8643-5557">
-      <infoLinks>
-        <infoLink name="Defender Shield" id="b473-c753-f483-2f1a" hidden="false" type="rule" targetId="db2d-083d-54bb-2def"/>
-      </infoLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Combat Chains" hidden="false" id="a6c9-9c4e-749b-6e75">
-      <infoLinks>
-        <infoLink name="Combat Chains" id="d450-0227-60cf-fa4b" hidden="false" type="profile" targetId="24e7-9af2-85ff-2d84"/>
-        <infoLink name="Frenzy (n)" id="aaa6-29e2-ec8e-946d" hidden="false" type="rule" targetId="a027-b66a-6884-847b"/>
-      </infoLinks>
-    </selectionEntry>
-  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7ff8-5aa1-f173-1e4b" name="Equipment" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c82-ad67-81db-6fa2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c82-ad67-81db-6fa2" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="a421-26dc-3e51-4519" name="Ammo" hidden="false" collective="false" import="true" targetId="c275-654b-b7c4-f92d" type="selectionEntry">
           <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2"/>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
           </costs>
         </entryLink>
         <entryLink id="88a3-fec9-0dc9-a2e3" name="AP Ammo" hidden="false" collective="false" import="true" targetId="ae96-884e-4c50-fd84" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="roster" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3274-f86d-bac3-fad6" type="max"/>
+            <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3274-f86d-bac3-fad6" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4"/>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
           </costs>
         </entryLink>
-        <entryLink id="4a43-b736-0a8b-6e4d" name="Grenade (Frag (3))" hidden="false" collective="false" import="true" targetId="ffd5-4d16-3edf-5df5" type="selectionEntry">
+        <entryLink id="4a43-b736-0a8b-6e4d" name="Frag Grenade" hidden="false" collective="false" import="true" targetId="ffd5-4d16-3edf-5df5" type="selectionEntry">
           <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6"/>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="5.0"/>
           </costs>
         </entryLink>
-        <entryLink id="e661-04be-6d1f-7d34" name="Grenade (Smoke)" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry">
+        <entryLink id="e661-04be-6d1f-7d34" name="Smoke Grenade" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry">
           <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3"/>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
           </costs>
         </entryLink>
         <entryLink id="4702-93cb-e41d-266f" name="Combat Blades" hidden="false" collective="false" import="true" targetId="73b1-24e3-20e7-5287" type="selectionEntry">
           <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2"/>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c706-6536-11b3-14a4" name="Toxic Smoke Grenade" hidden="false" collective="false" import="true" targetId="0a74-890c-d1cd-e71b" type="selectionEntry">
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
           </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="0ea8-41eb-edd2-1b68" name="Optional Upgrades" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e77-2967-007f-455d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8467-1f21-1e8a-2f8c" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="bf35-6d06-8f19-f44d" name="Smoke Launchers" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+                <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade - Smoke , One-Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8030-e0fe-c7cc-bd7b" name="Grenade" hidden="false" targetId="34c6-c132-53f6-00a9" type="rule"/>
+            <infoLink id="88ec-4010-c9c6-a79d" name="Smoke" hidden="false" targetId="2e53-612f-9e49-b895" type="rule"/>
+            <infoLink id="7384-9126-c06b-a88a" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8a57-de47-e706-0138" name="Shoulder Rockets" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="e45d-8a81-c111-2401" name="Shoulder Rockets" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+                <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade - Frag (3), One-Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c0ea-5fa6-2114-ad8f" name="Grenade" hidden="false" targetId="34c6-c132-53f6-00a9" type="rule"/>
+            <infoLink id="bb26-4b64-c4eb-3456" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+            <infoLink id="c9ad-93a3-ebd8-8063" name="One-Use" hidden="false" targetId="401b-9df8-8946-4135" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="1417-894f-f014-85a1" name="Special Order: Mutation" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false">
-      <description>The active model manifests a mutation for the rest of the Round. On each activation of this model, choose from: Resilient (1); Frenzy (+1); Increase AP of one CC weapon by 1; Increase Armour of model by 1.</description>
-    </rule>
-    <rule id="636e-38e9-fe13-ff51" name="Special Order: Infection" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false">
-      <description>When an enemy model is killed, raise it again as a Stage 3Z. Swap the Dead enemy model for a Pinned and Activated Stage 3Z in the same cube. The Stage 3Z is counted as part of your Strike Team.</description>
-    </rule>
-    <rule id="6822-80d5-5c7a-90bd" name="Special Order: Thirst for Blood" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false">
-      <description>A Stage 1A, 2B or Aberration model gains +1 Speed for Sprint actions for the rest of the Round. In addition the model will not need to test for Rampage at the start of its activation this Round.</description>
-    </rule>
-  </sharedRules>
   <sharedProfiles>
-    <profile id="9a2a-439d-2a1c-6bd7" name="Teeth and Claws" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9bb2-7757-f0b4-2ac1" name="Teeth and Claws" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e454-b5bf-2ed6-53a3" name="Pistol" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ec1b-dbfb-752f-7847" name="Combat Knife" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9406-ef6e-616d-1738" name="Rifle" publicationId="2fce-908e-d96c-e6cc" page="93" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8c7d-b05c-4da0-247b" name="Flamethrower" publicationId="2fce-908e-d96c-e6cc" page="93" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns!</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="74ef-a618-b889-d247" name="HMG" publicationId="2fce-908e-d96c-e6cc" page="93" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Suppression, Weight of Fire (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a962-d967-f2ae-370a" name="Grenade Launcher" publicationId="2fce-908e-d96c-e6cc" page="93" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Heavy, Indirect - Frag (3)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a674-dacf-8af8-e9db" name="Teeth and Claws" publicationId="2fce-908e-d96c-e6cc" page="93" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="89b1-79e1-ed23-c921" name="Mortar" publicationId="2fce-908e-d96c-e6cc" page="94" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R8</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Heavy, Indirect - Frag (4)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="1deb-bac7-195f-4520" name="Beak and Talons" publicationId="2fce-908e-d96c-e6cc" page="94" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b147-0624-d90c-a9cb" name="Pusburst" publicationId="2fce-908e-d96c-e6cc" page="94" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns!</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6fce-4fa2-3507-b452" name="Claws" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="68b6-6ed3-a850-fa3d" name="Acidic Bite" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b222-3766-dae1-457e" name="Assault Flamer" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns!</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3502-f67d-f5ae-8add" name="Chainsaw" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a569-f647-8759-cafd" name="Heavy Burst Laser" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R10</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Suppression, Weight of Fire (2)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="995e-047f-ba25-4a25" name="Polaris Cannon" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R10</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP4</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="d4d9-d69d-5c95-a3ea" name="Smoke Launchers" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade (Smoke (One-Use))</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f42d-8da3-2034-66a8" name="Shoulder Rockets" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Grenade (Frag (3) (One-Use))</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="09b2-b5b5-f233-eaf8" name="Teeth and Claws" publicationId="2fce-908e-d96c-e6cc" page="96" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Smash (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="67e3-7930-8181-ddc8" name="Club" publicationId="2fce-908e-d96c-e6cc" page="96" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R1</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="40ed-8e4e-cab1-8c68" name="Vicious Claws" publicationId="2fce-908e-d96c-e6cc" page="96" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1), Smash (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="877a-bf82-d4c0-1102" name="Wicked Blade" publicationId="2fce-908e-d96c-e6cc" page="96" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R1</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (3)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0615-9703-3510-56ef" name="Stage 1A &apos;Plaguelord&apos;" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-1</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">2</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 5+, Tactician (2), Tough</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a898-a771-73ab-c54e" name="Stage 3A &apos;General&apos;" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Recon 4+, Tactician (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b2bc-8b71-3bd2-610e" name="Stage 2A &apos;Sentient&apos;" publicationId="2fce-908e-d96c-e6cc" page="92" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Agile, Recon 6+, Tactician (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f660-474f-c60d-53ca" name="Stage 3A &apos;Ghoul&apos;" publicationId="2fce-908e-d96c-e6cc" page="93" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+    <profile id="f660-474f-c60d-53ca" name="Stage 3A &apos;Ghoul&apos;" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
       <characteristics>
         <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
         <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
@@ -1092,111 +1089,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Hacker</characteristic>
       </characteristics>
     </profile>
-    <profile id="1e6b-cfe0-0998-f1de" name="Stage 3D &apos;Hellhound&apos;" publicationId="2fce-908e-d96c-e6cc" page="93" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ae90-5ee1-ba09-9257" name="Stage 3Z &apos;Zombie&apos;" publicationId="2fce-908e-d96c-e6cc" page="93" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">6+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">1</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Horde</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3a5f-fb06-2a6e-79e3" name="Stage 2A &apos;Leaper&apos;" publicationId="2fce-908e-d96c-e6cc" page="94" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Agile, Rampage</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4def-0d03-e035-1212" name="Stage 3A &apos;Weapons Team&apos;" publicationId="2fce-908e-d96c-e6cc" page="94" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c303-7199-89c6-65aa" name="Murderbirds" publicationId="2fce-908e-d96c-e6cc" page="94" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Flight</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="337f-89e1-eb05-b561" name="Stage 2B &apos;Burster&apos;" publicationId="2fce-908e-d96c-e6cc" page="94" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">BOOM! (4)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="48c0-18e2-59c9-19f4" name="Plague Teraton" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Teleport, Tough</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2606-ee3d-df9a-41dd" name="Plague Swarm" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Agile, Beast, Tough</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a606-3b84-a164-ddee" name="Plague Strider" publicationId="2fce-908e-d96c-e6cc" page="95" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+    <profile id="a606-3b84-a164-ddee" name="Plague Strider" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
       <characteristics>
         <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
         <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
@@ -1206,134 +1099,7 @@ Please consider supporting Mantic by purchasing a subscription to the EasyArmy a
         <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">5</characteristic>
         <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">4</characteristic>
         <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Walker</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="97fb-2b1b-fabc-b921" name="Aberration" publicationId="2fce-908e-d96c-e6cc" page="96" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">5</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">4</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Frenzy (1), Rampage, Tough</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4aa7-b668-ce50-812c" name="Corruption" publicationId="2fce-908e-d96c-e6cc" page="96" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">7</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">4</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2a90-83cb-00e5-2f4f" name="Subject 901" publicationId="2fce-908e-d96c-e6cc" page="96" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Frenzy (2), Tactician (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="dfff-9ddd-5586-cf52" name="Doctor Gayle Simmonds" publicationId="2fce-908e-d96c-e6cc" page="97" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">3+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Medic, Tactician (1), Tough</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="49e1-130b-7d15-a8a9" name="Teeth and Claws" publicationId="2fce-908e-d96c-e6cc" page="96" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Metal Bar" typeId="79ae-b2a0-6216-4a64" typeName="Weapon" hidden="false" id="497c-0e9c-56d0-4997">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc"/>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Vicious Two-Hander" typeId="79ae-b2a0-6216-4a64" typeName="Weapon" hidden="false" id="3376-b52d-9054-4152">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">1</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Smash (1)</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Pox Bomb" typeId="79ae-b2a0-6216-4a64" typeName="Weapon" hidden="false" id="e398-b951-62ca-f46c">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc"/>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frag (2), Gas Cloud - Toxic (1), Grenade, One-Use</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Tools" typeId="79ae-b2a0-6216-4a64" typeName="Weapon" hidden="false" id="7147-9f95-5fb4-c5a0">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc"/>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Engineer</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Energy Flail" typeId="79ae-b2a0-6216-4a64" typeName="Weapon" hidden="false" id="951b-eddd-25d5-6bee">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc">2</characteristic>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05"/>
-      </characteristics>
-    </profile>
-    <profile name="Stage 3A &apos;Crusher&apos;" typeId="69a2-9cae-5bf4-dc2d" typeName="Model" hidden="false" id="3535-4f23-00f9-097e">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Defender Shield</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Stage 3A Monocycle &apos;Blitzer&apos;" typeId="69a2-9cae-5bf4-dc2d" typeName="Model" hidden="false" id="d90a-cc65-6c94-f143">
-      <characteristics>
-        <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-5</characteristic>
-        <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
-        <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
-        <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
-        <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
-        <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
-        <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
-        <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
-        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Bike</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Combat Chains" typeId="79ae-b2a0-6216-4a64" typeName="Weapon" hidden="false" id="24e7-9af2-85ff-2d84">
-      <characteristics>
-        <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
-        <characteristic name="AP" typeId="b83c-4711-2641-5adc"/>
-        <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+        <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Walker, Fire Control</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

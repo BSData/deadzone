@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1030-1242-a0ad-5650" name="­ Surge and Destroy" revision="1" battleScribeVersion="2.03" authorName="Panner" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
+
+Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/</readme>
+  <selectionEntries>
+    <selectionEntry id="1c86-5819-53b3-e2b7" name="- Faction Special Rules" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="513d-39e9-3719-b982" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37d4-5518-fe2a-93b5" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="4388-e0d8-0c86-267b" name="Specialised Operations" hidden="false">
+          <description>After deciding which scenario to play, but before Recon rolls, choose one of the following army wide special rules.  If more players have this option, choose in secret and reveal it simultaneously. 
+
+- Toxic Waste:  When a model uses Charged, CC Weapons equipped by the model gain Toxic (1) or increases its Toxic by 1.  
+
+- Overcharged Tech: Models that are equipped with Ray weapons gain AP1.  If the active model uses Charged, the Ray weapon has an additional Weight of Fire (1)
+
+- A Nest Of Two Mothers: The Crone Sister is replaced with an additional Crone Mother
+
+- More Machine than Rat: Rake loses the keyword Medic, all strike team members gain the keyword Construct. 
+</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f67-ff34-c00b-6793" name="Crone Mother" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df66-88e7-878a-128c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a6-5a57-1387-bf43" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e316-ce58-488f-adbc" name="Crone Mother" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">2</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged, Recon 4+, Tactician (2), Tough
+Special Orders: Upgraded Bio-Engineering</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2630-bbd8-6240-2198" name="Chem Staff" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns! (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bffa-19f0-0327-5fd0" name="Poisonous Tail" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Companion, Toxic (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="abe1-b145-99e1-88ab" name="Special Orders: Upgraded Bio-Engineering" hidden="false">
+          <description>Use an Army Special Result on a Command Dice to allow the active model to use Charged, and automatically pass the following Survive test.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1cff-4e6c-d450-2614" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
+        <infoLink id="9b09-9732-640a-74b5" name="Toxic (n)" hidden="false" targetId="38f2-a52a-27bf-26d1" type="rule"/>
+        <infoLink id="c18f-2eb2-b8c2-799b" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+        <infoLink id="b576-3edd-60e2-a9be" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="10e2-94e1-f06f-3692" name="Companion" hidden="false" targetId="9df4-1505-932d-a135" type="rule"/>
+        <infoLink id="86dc-72ad-9826-e0b6" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
+        <infoLink id="5edc-787d-bf80-17c7" name="It Burns! (n)" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cceb-8b5e-6788-8acc" name="Leader" hidden="false" targetId="93f0-5c07-b9f5-ed97" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="200.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3829-f48c-6cf3-3cfe" name="Rake" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8452-0767-705e-aeb0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc92-8f25-1e8b-e037" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="2466-4f37-57e0-ce83" name="Rake" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged, Medic, Tactician (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="374e-20a4-f4fb-7fb6" name="Heavy Ray Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2e69-aa34-5ff1-ac2d" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+        <infoLink id="64d9-112d-7f5a-2f82" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="3f07-69a1-93ce-9d5e" name="Medic" hidden="false" targetId="acc7-4fab-9dcd-fb81" type="rule"/>
+        <infoLink id="90f0-5f74-31d4-5b77" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="52eb-616f-36ba-5676" name="Living Legend" hidden="false" targetId="c049-07ca-32fa-da63" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c565-e95f-84d7-c900" name="Volt Stalker" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fa2-60df-a35a-8df0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="badc-96ee-4c45-264d" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="ac41-8231-8ddb-385c" name="Volt Stalker" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="50f5-00ba-0b38-4873" name="Ray Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="27ad-8c62-fda0-3adb" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a822-6db2-b6c7-4bee" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0289-7c56-e434-5289" name="Volt Runner" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="174b-7a2f-1dcd-9a27" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5d9-422a-9ba8-4d08" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="182f-46f0-09d8-106b" name="Volt Runner" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9f5a-89d6-d426-4226" name="Ray Gun" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire, Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="be35-3a9c-cb5b-0786" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="0834-c4f0-12e8-88d2" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
+        <infoLink id="e4dd-a030-80b7-acda" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3dc5-6796-1f52-9644" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a62c-623d-646c-1834" name="Crone Sister" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5b4-4509-aa05-16f5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bef-066c-2cf4-b22e" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1c10-c644-2370-b33c" name="Crone Sister" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged, Tough</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="60c8-9794-cd69-442c" name="Poisonous Tail" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Companion, Toxic (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="956b-568d-7129-c95e" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="2ab7-6bb8-a53b-cbf8" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
+        <infoLink id="81ed-be6b-b347-f551" name="Companion" hidden="false" targetId="9df4-1505-932d-a135" type="rule"/>
+        <infoLink id="5f10-d641-00bc-5577" name="Toxic (n)" hidden="false" targetId="38f2-a52a-27bf-26d1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="94bb-9ea8-f9d6-0c48" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20f0-6a71-49e5-648f" name="Volt Runner " hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d7-f818-be66-5e70" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f76f-b863-ebb4-ba31" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="cffb-b5c4-af0f-7892" name="Volt Runner" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="89bf-a8d0-8041-73f0" name="Ray Gun" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire, Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8dfd-cbc9-f716-c904" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="82cb-901b-9b6e-715b" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
+        <infoLink id="3663-12aa-9cb6-0467" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="47ad-f197-47f3-1bd9" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1e03-13dc-ed93-b04d" name="Volt Stalker " hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="437b-4fc1-3819-a5d0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f903-23d7-b4ca-b9c8" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="065f-d683-dde0-b61e" name="Volt Stalker" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="81a7-ed08-54f2-adc5" name="Ray Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ff14-9be3-121b-9e40" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3a39-627e-23a1-fd37" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a3a-b29f-a03e-eaaf" name="Shocker" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aa3-4483-b665-3c4b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f4b-7178-42e2-b664" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="3a89-bc85-2b48-3917" name="Shocker" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6700-2148-5b49-ab86" name="Razor Claws" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d0f7-1902-d945-1b85" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="f27e-2ca6-7af8-8f54" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b2f1-5d58-3f57-7d78" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+        <categoryLink id="e67e-7ee6-6fa2-335a" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ea4-f288-923a-094e" name="Fuser" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff9-922e-0935-ea7a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2833-4855-8348-642e" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="17bf-4cd8-17c6-a860" name="Fuser" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="db0d-4332-b72e-637d" name="Thermal Blaster" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Explosive - Frag(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3689-8ec6-35b3-b242" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="c303-6e08-ae3c-22b2" name="Explosive" hidden="false" targetId="0e5c-2182-6e56-7595" type="rule"/>
+        <infoLink id="fb88-1796-2d11-bf7b" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1707-9524-c586-02b4" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+        <categoryLink id="9c44-e32c-e531-ca38" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="71e8-efdf-53c7-8b76" name="Trapper" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cec7-51ff-613b-a773" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18b8-972f-5bc5-c534" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="3733-566f-166d-4d7a" name="Trapper" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged, Hacker</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="94ac-56ac-1964-1ef6" name="Mine Launcher" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Trap - Frag(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="81a1-4646-6bc7-6ab3" name="Ray Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9032-6886-9089-fe98" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="23d5-96e0-9bfe-e334" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="3d48-5e93-c789-fee6" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+        <infoLink id="42e5-253f-8201-4002" name="Trap" hidden="false" targetId="c459-7da3-ba67-ef64" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8da0-e070-ac4f-4174" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+        <categoryLink id="b322-682f-581c-fdd7" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4562-744b-46b4-abab" name="Enhanced Overcharger" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c43-ab6e-47e0-0183" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acdd-7972-6941-c1d7" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="bb38-f3af-9edd-0183" name="Overcharger" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Charged, Construct, Rampage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5d9c-b324-258a-a94f" name="Enhanced Claws" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3e7b-2c4e-7e34-fc98" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="dbcc-b9fd-6008-426e" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="a09f-f1fe-02ed-ecca" name="Construct" hidden="false" targetId="1003-75e6-6b59-d8d9" type="rule"/>
+        <infoLink id="c6b2-3104-cc45-b14f" name="Rampage" hidden="false" targetId="d5f6-f0d3-1597-02c3" type="rule"/>
+        <infoLink id="ea57-d6dd-ab46-d3d7" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="73eb-978e-898e-18fb" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

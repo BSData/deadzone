@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ba1a-2660-b504-7fbe" name="­ Blaine&apos;s Entourage" revision="1" battleScribeVersion="2.03" authorName="Panner" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
+
+Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/</readme>
+  <selectionEntries>
+    <selectionEntry id="1c86-5819-53b3-e2b7" name="- Faction Special Rules" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="513d-39e9-3719-b982" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37d4-5518-fe2a-93b5" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="4388-e0d8-0c86-267b" name="Specialised Operations" hidden="false">
+          <description>After deciding which scenario to play, but before Recon rolls, choose one of the following army wide special rules.  If more players have this option, choose in secret and reveal simultaneously. 
+
+- Acting as a Team: &quot;His own Agenda&quot; Special Order may be used by any active model, not just Warmonger Blaine. 
+
+- Stable Portal: When Leesh&apos;Ma uses it&apos;s Portal Mastery, put down two tokens (clawing through the hole) in both the starting and target cube.  Friendly Size 1 Models may count these cubes as adjacent when using an Advance or Sprint action. 
+
+- Psychic Mist: Kizai Uru gains the Cloaking Device keyword 
+
+- Blaine never plays fair:  Add one &apos;Experimental Cybork&apos; to the Roster.  This profile is only part of this Roster when added by this Special Order. 
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a6dc-960b-2694-8456" name="Cloaking Device" hidden="false" targetId="be10-5951-b51f-1389" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f67-ff34-c00b-6793" name="Warmonger Blaine" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df66-88e7-878a-128c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a6-5a57-1387-bf43" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e316-ce58-488f-adbc" name="Warmonger Blaine" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Headstrong, Recon 4+, Tactician (2), Tough
+Special Orders: His Own Agenda</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2630-bbd8-6240-2198" name="Gauss Shock Gun" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d885-f493-364f-4413" name="Raskan Executioner Sword" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Toxic (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="abe1-b145-99e1-88ab" name="Special Orders: His Own Agenda" hidden="false">
+          <description>Spend a Special Order result on a friendly active Warmonger Blaine to treat it as either an Advance, Shoot or Assault dice result. This disregards the usual restriction of only one of these dice per model activation but this Special Order can still be only used once on the same model per round.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1cff-4e6c-d450-2614" name="Toxic (n)" hidden="false" targetId="38f2-a52a-27bf-26d1" type="rule"/>
+        <infoLink id="c18f-2eb2-b8c2-799b" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="b576-3edd-60e2-a9be" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
+        <infoLink id="10e2-94e1-f06f-3692" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+        <infoLink id="5edc-787d-bf80-17c7" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+        <infoLink id="d894-ca54-2a54-023c" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
+        <infoLink id="e864-855a-a811-1cb3" name="Headstrong" hidden="false" targetId="7109-f790-bebd-317f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cceb-8b5e-6788-8acc" name="Leader" hidden="false" targetId="93f0-5c07-b9f5-ed97" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="200.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="01c9-3e87-389a-05be" name="The Survivor" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b85-16c4-8678-84aa" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89bb-782f-f100-3494" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="831e-918a-1b1d-ede0" name="Survivor" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">3+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Hacker, Life Support, Tough</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1aff-8561-1e5b-52d5" name="Point Blank Shot" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1), Knockback</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8aaa-36f7-13f5-2a8c" name="Sawn-Off and Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6bbc-c52b-02b4-5fa8" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+        <infoLink id="22c0-7f53-12e6-db5d" name="Tough" hidden="false" targetId="e030-816f-762d-cc23" type="rule"/>
+        <infoLink id="9ac6-426c-1faa-46d9" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+        <infoLink id="2e73-77d6-e07b-7d7a" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="017f-9eef-2127-2d15" name="Life Support" hidden="false" targetId="ac14-bd52-c8cc-3e11" type="rule"/>
+        <infoLink id="7488-fdbf-f637-a99e" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="592c-0215-2342-4780" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="953f-493f-013e-c979" name="Leesh&apos;Ma" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b02-8785-7d99-d4e4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c04e-ba5f-bbe5-30ca" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="aa15-b9de-c091-24c3" name="Leesh&apos;Ma" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">6+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Companion, Teleport
+Special Orders: Portal Mastery</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="63da-e0ed-f31b-9149" name="Claws and Knife" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1), Tenacious</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0960-74bf-c624-71e0" name="Special Orders: Portal Mastery" hidden="false">
+          <description>Once per game, at the start of it&apos;s activation, Leesh&apos;Ma may use Teleport as a Short Action.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="643d-9ecd-a294-77a3" name="Teleport" hidden="false" targetId="605c-e354-0ffd-fd9f" type="rule"/>
+        <infoLink id="bd2f-dd93-b021-87c3" name="Tenacious" hidden="false" targetId="a3aa-4f8e-9ad9-108f" type="rule"/>
+        <infoLink id="109e-e233-6bf1-7e82" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="3487-d1c7-b202-4d88" name="Companion" hidden="false" targetId="9df4-1505-932d-a135" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="709e-8af6-e47d-e144" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a93-7282-e035-1e97" name="Kizai Uru" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1dd-fcd2-5b4c-7ce2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9f-f191-2a9c-db36" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="bd3f-bd99-be07-61c5" name="Kizai Uru" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">7+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Shield Generator (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8b9a-fb9d-e2df-6f40" name="Passion" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic, Invigorate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c96b-9274-1733-035d" name="Mind Wipe" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic, Stun</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1ad6-91ae-fe40-ee7f" name="Psychic Smash" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic, Firing Platform (1), Knockback</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c7bd-4073-ef2e-2d05" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="85a0-9202-b5c2-9572" name="Psychic" hidden="false" targetId="8631-8a95-36cb-5e6e" type="rule"/>
+        <infoLink id="3a69-99ef-e202-a660" name="Firing Platform (n)" hidden="false" targetId="43e1-1a23-ca38-b7f2" type="rule"/>
+        <infoLink id="6517-5671-e1fc-c748" name="Shield Generator (n)" hidden="false" targetId="18c6-f29b-f689-6ee2" type="rule"/>
+        <infoLink id="d6ce-d92a-0d66-168d" name="Stun" hidden="false" targetId="c3b4-0c3c-d63b-b757" type="rule"/>
+        <infoLink id="a44e-667b-c0e3-bb79" name="Invigorate" hidden="false" targetId="b49a-01ff-272b-16e4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="56b7-30a9-455c-a163" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d930-3b18-ab3e-c079" name="Skomm, Ogre Bodyguard" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdba-9fd2-5c60-4fc6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5757-a54f-48a8-1b2b" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="b68c-ab28-fae1-582f" name="Skomm" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">5</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Headstrong</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5f75-a44c-e547-40dc" name="Shank Bayonet" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b9e2-b9c4-518f-08cb" name="Mini-Gun" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Suppression, Weight of Fire (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4596-37c7-21c5-65bc" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
+        <infoLink id="cacd-b39e-4810-3fed" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="36fa-50bb-5b41-f431" name="Headstrong" hidden="false" targetId="7109-f790-bebd-317f" type="rule"/>
+        <infoLink id="aab7-c23d-0506-5d30" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bae0-d389-dd88-a916" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c07d-5e40-5033-f4b6" name="Hund, Bounty Hunter" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3835-fdda-36e0-ba9e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bebf-3bd1-9427-bc7f" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="a8c9-8c4b-7f35-0415" name="Hund" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Evade, Fire Control, Tactician (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="538b-1074-5e9b-da17" name="Twin Knives" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Companion, Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8336-0903-58b4-2999" name="Sniper Rifle" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R8</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Sniper Scope</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0403-5d2d-d4c0-a1bc" name="Twin Pistols" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9fcb-d3a8-f58e-a531" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+        <infoLink id="ac37-9e91-bacf-8302" name="Fire Control" hidden="false" targetId="8bbb-091d-a481-381c" type="rule"/>
+        <infoLink id="71ff-1988-6583-53b2" name="Evade" hidden="false" targetId="b1bd-a2c4-cd75-d623" type="rule"/>
+        <infoLink id="fdb9-9fe9-da66-b36d" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+        <infoLink id="dd8a-1d67-18ef-23af" name="Sniper Scope" hidden="false" targetId="4b50-9c03-3fe6-8ebd" type="rule"/>
+        <infoLink id="5db7-46a4-f379-8a68" name="Companion" hidden="false" targetId="9df4-1505-932d-a135" type="rule"/>
+        <infoLink id="4375-f141-6161-bde5" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="627b-60a1-e122-4ce3" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ed4-45e4-154f-b087" name="Sergeant Erriq Umunsar" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ee-8853-04f7-7770" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9874-e660-7532-2539" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a42b-89e3-64d5-e5bc" name="Sergeant Erriq Umunsar" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-1</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Fire Control, Headstrong, Resilient (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e6f7-12a9-20e3-3e17" name="Rocket Salvo" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Indirect - Frag (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dfd4-b122-81c8-0a14" name="Onslaught Cannon" page="" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Suppression, Weight of Fire (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="accd-7b19-9dc0-e0b4" name="Resilient (n)" hidden="false" targetId="d3bb-c0a0-a253-cd9d" type="rule"/>
+        <infoLink id="6ff1-4e06-a36c-8090" name="Headstrong" hidden="false" targetId="7109-f790-bebd-317f" type="rule"/>
+        <infoLink id="b0c7-6a7b-1f43-8b8e" name="Fire Control" hidden="false" targetId="8bbb-091d-a481-381c" type="rule"/>
+        <infoLink id="6ad7-fbe4-8c8c-dd68" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
+        <infoLink id="3fb6-c10d-ab20-879c" name="Weight of Fire (n)" hidden="false" targetId="e367-6c06-ebbf-e4b6" type="rule"/>
+        <infoLink id="1b07-d548-d77a-f96d" name="Frag (n)" hidden="false" targetId="af4a-32a8-dd1e-ee74" type="rule"/>
+        <infoLink id="82f2-8300-c497-8d68" name="Indirect (n)" hidden="false" targetId="316b-2af6-278b-e591" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="32ed-f5f7-329e-d916" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c4ab-0121-7b62-1c5b" name="Experimental Cyborc" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f34e-6bba-6b6d-1052" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1468-e993-1989-9a26" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="3fdc-e3f9-ba13-4f1e" name="Cyborc" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Construct, Rampage, Resilient (1)
+Special Orders: Bootlegged AI</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4536-e843-7cde-b73e" name="Bionic Claw" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a9d6-4256-64f0-95c7" name="Special Orders: Bootlegged AI" hidden="false">
+          <description>This model must always act as the last model in its Strike Team and must Fight an enemy model if in the same cube if possible, or reduce the distance to the nearest enemy with its actions. This model is ONLY used if you pick the &apos;Blaine never plays fair&apos; Specialised Operation.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7794-835d-8812-93fd" name="Rampage" hidden="false" targetId="d5f6-f0d3-1597-02c3" type="rule"/>
+        <infoLink id="c57e-911b-562e-1f66" name="Resilient (n)" hidden="false" targetId="d3bb-c0a0-a253-cd9d" type="rule"/>
+        <infoLink id="3133-acbf-96ee-869e" name="Construct" hidden="false" targetId="1003-75e6-6b59-d8d9" type="rule"/>
+        <infoLink id="8ff0-ac3f-09af-ddc4" name="Beast" hidden="false" targetId="9dfa-4b05-f18a-4b11" type="rule"/>
+        <infoLink id="99f2-1720-b83a-929b" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="459f-bbb6-ce00-7478" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="false"/>
+        <categoryLink id="1a80-51d0-4368-0b2f" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

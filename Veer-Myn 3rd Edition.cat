@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ea07-27ad-c089-1f24" name="Veer-Myn" revision="11" battleScribeVersion="2.03" authorName="Panner" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
+<catalogue id="ea07-27ad-c089-1f24" name="Veer-Myn" revision="12" battleScribeVersion="2.03" authorName="Panner" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>2026-05-20
+
+Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/
 
 The following weapons have errors in Companion and their intended stats have been guessed:
-- Progenitor, Toxic Grenade Launcher
 - Progenitor, Chemical Grenade Launcher</readme>
   <selectionEntries>
     <selectionEntry id="80a7-37e2-ab8d-fb03" name="Rat Swarm" hidden="false" collective="false" import="true" type="model">
@@ -273,7 +274,7 @@ Special Order: Bomb Expert</characteristic>
         </profile>
         <profile id="ef30-77e7-58fb-cdc0" name="Ray Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
             <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
             <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
           </characteristics>
@@ -1155,7 +1156,7 @@ Special Order: Inspiring Presence</characteristic>
     </selectionEntry>
     <selectionEntry id="a6d4-1cd5-549f-ac33" name="Overcharger" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="8cb0-460e-a6af-0e04" name="Overcharger" publicationId="2fce-908e-d96c-e6cc" page="122" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+        <profile id="8cb0-460e-a6af-0e04" name="Overcharger" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
           <characteristics>
             <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
             <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
@@ -1404,6 +1405,61 @@ Special Order: Inspiring Presence</characteristic>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="29.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db0f-6050-b672-7c82" name="Overcharger Shockgun Platform" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6e11-948c-d849-3793" name="Overcharger Shockgun Platform" page="" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">5</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">4</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Charged, Walker</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8d5f-88b2-8415-1327" name="Razor Claws " hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Frenzy (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ff95-67f2-0a37-4c2a" name="Shockgun" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Firing Platform (1), Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7617-6a4a-a6f5-3a2d" name="Shockgun " hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Augmented, Firing Platform (1), Heavy, Suppression</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f8f0-eae6-fbb4-ddc1" name="Walker" hidden="false" targetId="f27b-373b-8a43-f98c" type="rule"/>
+        <infoLink id="5d0d-434b-67dd-b5a2" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="29ff-a438-de7a-b395" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
+        <infoLink id="763a-8b64-136e-fe87" name="Charged" hidden="false" targetId="b15d-3c1a-de93-4318" type="rule"/>
+        <infoLink id="48f8-cc33-e31d-3bf8" name="Firing Platform (n)" hidden="false" targetId="43e1-1a23-ca38-b7f2" type="rule"/>
+        <infoLink id="553b-f704-0a6b-4407" name="Augmented" hidden="false" targetId="14a3-1138-83b9-98cf" type="rule"/>
+        <infoLink id="e62b-4bad-3809-e14b" name="Heavy" hidden="false" targetId="dfe5-1629-84e5-f3f5" type="rule"/>
+        <infoLink id="efa3-24ea-efb8-0987" name="Suppression" hidden="false" targetId="eb58-58da-1326-812a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2342-ee30-60d4-78c7" name="New CategoryLink" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="26.0"/>
         <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
       </costs>
     </selectionEntry>
